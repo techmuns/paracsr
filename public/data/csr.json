@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:51:44.938Z",
-  "count": 14,
+  "updated_at": "2026-09-17T12:52:01.411Z",
+  "count": 15,
   "companies": {
     "500570": {
       "rank": 3,
@@ -37,6 +37,37 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:48:05.645Z"
+    },
+    "532215": {
+      "rank": 15,
+      "name": "Axis Bank Limited",
+      "ticker": "532215",
+      "exchange": "BSE",
+      "sector": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 26384.85,
+      "pat_screener_cr": 26548,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 26548,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.62,
+      "fy_used": "FY26",
+      "csr_spent_cr": 421.66,
+      "csr_obligation_cr": 529.49,
+      "csr_required_2pct_cr": 529.49,
+      "csr_unspent_cr": 108.45,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "medium",
+      "notes": "From CSR notes to accounts (Section 135 disclosure), p.307. Note: total amount spent stated as ₹421.66 crore (a+b+c) but set-off table (f) shows 'Total amount spent for the financial year' as ₹530.11 crore vs 2% requirement of ₹529.49 crore, implying full/excess spend; the ₹421.66 crore figure appears to be only part of spend with ₹108.45 crore shown as 'Amount Unspent' transferred to Unspent CSR Account - figures are inconsistent/ambiguous in source text. No sector-wise (health/education) breakup or project examples provided in excerpt.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/854bc96b-9951-492e-ad95-d44fcc856195.pdf",
+        "page": 307
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:52:01.411Z"
     },
     "532454": {
       "rank": 11,
