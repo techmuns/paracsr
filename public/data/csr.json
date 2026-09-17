@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:50:20.328Z",
-  "count": 9,
+  "updated_at": "2026-09-17T12:50:36.380Z",
+  "count": 10,
   "companies": {
     "500570": {
       "rank": 3,
@@ -322,6 +322,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:50:19.162Z"
+    },
+    "IDEA": {
+      "rank": 10,
+      "name": "Vodafone Idea Limited",
+      "ticker": "IDEA",
+      "exchange": "NSEI",
+      "sector": "Telecom - Cellular & Fixed line services",
+      "is_psu": false,
+      "pat_client_cr": 34552,
+      "pat_screener_cr": 34552,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 34552,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Gurushala digital learning platform trained 20,000 teachers and reached over 10.6 lakh users (education)",
+        "e-Vidya for Brighter Futures benefitted over 1,08,000 beneficiaries across 240 schools with smart classes, libraries and science labs",
+        "Set up 10 new robotics labs (total 20) in government schools across 7 states, engaging ~10,000 students",
+        "VOIS for Tech University Engagement Programme registered 19,000 students on LMS with 2,500 completing AICTE-certified internships"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 6-10 to accounts: CSR obligation Nil (average net profit negative for last 3 FYs); amount spent Nil/Not applicable. However, Vodafone Foundation (subsidiary) voluntarily ran education-focused CSR-like projects (not counted as statutory CSR spend) as described in Directors' Report, p.70-72.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/516471f1-18a0-44e7-9726-f8366bebceb4.pdf",
+        "page": 84
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:50:36.380Z"
     }
   }
 }
