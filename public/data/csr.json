@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:48:22.285Z",
-  "count": 3,
+  "updated_at": "2026-09-17T12:48:39.797Z",
+  "count": 4,
   "companies": {
     "500570": {
       "rank": 3,
@@ -109,6 +109,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:48:21.125Z"
+    },
+    "HDFCBANK": {
+      "rank": 4,
+      "name": "HDFC Bank Limited",
+      "ticker": "HDFCBANK",
+      "exchange": "NSEI",
+      "sector": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 76025.97,
+      "pat_screener_cr": 79219,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 79219,
+      "pat_mismatch": false,
+      "pat_delta_pct": 4.2,
+      "fy_used": "FY26",
+      "csr_spent_cr": 1316.18,
+      "csr_obligation_cr": 1312.96,
+      "csr_required_2pct_cr": 1312.64,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Provided 4 Traveller ambulances to government hospitals in Kangra and Hamirpur districts, Himachal Pradesh",
+        "Education projects including school infrastructure improvements, scholarships for meritorious students, and teacher training programmes",
+        "Health and Hygiene projects assessing impact of health facility upgrades, drinking water systems, and sanitation infrastructure",
+        "Provided an Electric Vehicle garbage collection truck to Greater Chennai Municipal Corporation"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 2 to Directors' Report (Annual Report on CSR Activities), FY2025-26; amounts already in INR crore as stated in report (Total Amount Spent for FY = INR 1,316.18 Cr per item 6(d)/6(e); Total CSR obligation = INR 1,312.96 Cr per item 5(e); 2% requirement = INR 1,312.64 Cr per item 5(b)). Note 33 to standalone financials shows slightly different 'Amount of expenditure incurred' of INR 1,315.87 Cr (cash basis) vs Annexure's 1,316.18 Cr (accrual, incl. impact assessment).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+        "page": 325
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:48:39.797Z"
     }
   }
 }
