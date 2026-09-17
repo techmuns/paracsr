@@ -669,6 +669,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:35:06.986Z",
       "error": null
+    },
+    "J&KBANK": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:35:24.139Z",
+      "error": null
     }
   }
 }
