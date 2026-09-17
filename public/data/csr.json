@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:48:46.783Z",
-  "count": 173,
+  "updated_at": "2026-09-17T14:49:00.942Z",
+  "count": 174,
   "companies": {
     "500049": {
       "rank": 61,
@@ -328,7 +328,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 169,
+      "rank": 170,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -4725,7 +4725,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 173,
+      "rank": 174,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5594,7 +5594,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 172,
+      "rank": 173,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6132,7 +6132,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 168,
+      "rank": 169,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6169,7 +6169,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 170,
+      "rank": 171,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6204,7 +6204,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 171,
+      "rank": 172,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6238,6 +6238,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:48:45.461Z"
+    },
+    "SOLARINDS": {
+      "rank": 168,
+      "name": "Solar Industries India Limited",
+      "ticker": "SOLARINDS",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Explosives",
+      "is_psu": false,
+      "pat_client_cr": 1677.55,
+      "pat_screener_cr": 1737,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1737,
+      "pat_mismatch": false,
+      "pat_delta_pct": 3.54,
+      "fy_used": "FY26",
+      "csr_spent_cr": 23.25,
+      "csr_obligation_cr": 16.73,
+      "csr_required_2pct_cr": 16.73,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Spent ₹1.16 crore on Promotion of Education",
+        "Spent ₹5.20 crore on Promoting Health Care"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 'C' CSR report & Note 26(b) CSR expenditure, FY2025-26 (year ended March 31, 2026); Total amount spent ₹23.25 cr (₹23.24 cr projects + ₹0.01 cr admin overheads), exceeding 2% obligation of ₹16.73 cr; amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/83d2a209-44e0-4b21-8585-4905541a7832.pdf",
+        "page": 76
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:49:00.942Z"
     }
   }
 }
