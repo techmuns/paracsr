@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:55:56.783Z",
-  "count": 196,
+  "updated_at": "2026-09-17T14:56:14.455Z",
+  "count": 197,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500103": {
-      "rank": 182,
+      "rank": 183,
       "name": "Bharat Heavy Electricals Limited",
       "ticker": "500103",
       "exchange": "BSE",
@@ -221,7 +221,7 @@
       "generated_at": "2026-09-17T14:16:03.811Z"
     },
     "500163": {
-      "rank": 190,
+      "rank": 191,
       "name": "Godfrey Phillips India Limited",
       "ticker": "500163",
       "exchange": "BSE",
@@ -400,7 +400,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 174,
+      "rank": 175,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -724,7 +724,7 @@
       "generated_at": "2026-09-17T14:35:23.086Z"
     },
     "500488": {
-      "rank": 185,
+      "rank": 186,
       "name": "Abbott India Limited",
       "ticker": "500488",
       "exchange": "BSE",
@@ -1161,7 +1161,7 @@
       "generated_at": "2026-09-17T14:10:09.731Z"
     },
     "506480": {
-      "rank": 191,
+      "rank": 192,
       "name": "GOCL Corporation Limited",
       "ticker": "506480",
       "exchange": "BSE",
@@ -1631,7 +1631,7 @@
       "generated_at": "2026-09-17T14:47:04.928Z"
     },
     "532144": {
-      "rank": 178,
+      "rank": 179,
       "name": "Welspun Corp Limited",
       "ticker": "532144",
       "exchange": "BSE",
@@ -1976,7 +1976,7 @@
       "generated_at": "2026-09-17T14:41:03.909Z"
     },
     "539437": {
-      "rank": 180,
+      "rank": 181,
       "name": "IDFC First Bank Limited",
       "ticker": "539437",
       "exchange": "BSE",
@@ -4939,7 +4939,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 196,
+      "rank": 197,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5808,7 +5808,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 177,
+      "rank": 178,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6309,7 +6309,7 @@
       "generated_at": "2026-09-17T14:46:45.514Z"
     },
     "SHREECEM": {
-      "rank": 170,
+      "rank": 171,
       "name": "Shree Cement Limited",
       "ticker": "SHREECEM",
       "exchange": "NSEI",
@@ -6346,7 +6346,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 173,
+      "rank": 174,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6383,7 +6383,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 175,
+      "rank": 176,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6418,7 +6418,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 176,
+      "rank": 177,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6454,7 +6454,7 @@
       "generated_at": "2026-09-17T14:48:45.461Z"
     },
     "SOLARINDS": {
-      "rank": 172,
+      "rank": 173,
       "name": "Solar Industries India Limited",
       "ticker": "SOLARINDS",
       "exchange": "NSEI",
@@ -6561,7 +6561,7 @@
       "generated_at": "2026-09-17T14:49:42.029Z"
     },
     "ICICIPRULI": {
-      "rank": 181,
+      "rank": 182,
       "name": "ICICI Prudential Life Insurance Company Limited",
       "ticker": "ICICIPRULI",
       "exchange": "NSEI",
@@ -6634,7 +6634,7 @@
       "generated_at": "2026-09-17T14:51:15.033Z"
     },
     "JIOFIN": {
-      "rank": 183,
+      "rank": 184,
       "name": "Jio Financial Services Limited",
       "ticker": "JIOFIN",
       "exchange": "NSEI",
@@ -6669,7 +6669,7 @@
       "generated_at": "2026-09-17T14:51:30.547Z"
     },
     "COFORGE": {
-      "rank": 171,
+      "rank": 172,
       "name": "Coforge Limited",
       "ticker": "COFORGE",
       "exchange": "NSEI",
@@ -6706,7 +6706,7 @@
       "generated_at": "2026-09-17T14:51:53.119Z"
     },
     "SPARC": {
-      "rank": 184,
+      "rank": 185,
       "name": "Sun Pharma Advanced Research Company Limited",
       "ticker": "SPARC",
       "exchange": "NSEI",
@@ -6738,7 +6738,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 188,
+      "rank": 189,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6773,7 +6773,7 @@
       "generated_at": "2026-09-17T14:52:42.552Z"
     },
     "TATACONSUM": {
-      "rank": 186,
+      "rank": 187,
       "name": "Tata Consumer Products Limited",
       "ticker": "TATACONSUM",
       "exchange": "NSEI",
@@ -6810,7 +6810,7 @@
       "generated_at": "2026-09-17T14:53:01.452Z"
     },
     "CESC": {
-      "rank": 179,
+      "rank": 180,
       "name": "CESC Limited",
       "ticker": "CESC",
       "exchange": "NSEI",
@@ -6845,7 +6845,7 @@
       "generated_at": "2026-09-17T14:53:22.794Z"
     },
     "NAM-INDIA": {
-      "rank": 189,
+      "rank": 190,
       "name": "Nippon Life India Asset Management Limited",
       "ticker": "NAM-INDIA",
       "exchange": "NSEI",
@@ -6882,7 +6882,7 @@
       "generated_at": "2026-09-17T14:53:42.863Z"
     },
     "JSWINFRA": {
-      "rank": 187,
+      "rank": 188,
       "name": "JSW Infrastructure Limited",
       "ticker": "JSWINFRA",
       "exchange": "NSEI",
@@ -6918,7 +6918,7 @@
       "generated_at": "2026-09-17T14:54:21.961Z"
     },
     "PREMIERENE": {
-      "rank": 192,
+      "rank": 193,
       "name": "Premier Energies Limited",
       "ticker": "PREMIERENE",
       "exchange": "NSEI",
@@ -6954,7 +6954,7 @@
       "generated_at": "2026-09-17T14:54:58.491Z"
     },
     "PIRAMALFIN": {
-      "rank": 193,
+      "rank": 194,
       "name": "Piramal Finance Limited",
       "ticker": "PIRAMALFIN",
       "exchange": "NSEI",
@@ -6991,7 +6991,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 195,
+      "rank": 196,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
@@ -7025,7 +7025,7 @@
       "generated_at": "2026-09-17T14:55:37.151Z"
     },
     "SOUTHBANK": {
-      "rank": 194,
+      "rank": 195,
       "name": "The South Indian Bank Limited",
       "ticker": "SOUTHBANK",
       "exchange": "NSEI",
@@ -7060,6 +7060,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:55:55.534Z"
+    },
+    "NAUKRI": {
+      "rank": 170,
+      "name": "Info Edge (India) Limited",
+      "ticker": "NAUKRI",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "Internet & Catalogue Retail",
+      "is_psu": false,
+      "pat_client_cr": 1449.81,
+      "pat_screener_cr": 1763,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1763,
+      "pat_mismatch": true,
+      "pat_delta_pct": 21.6,
+      "fy_used": "FY26",
+      "csr_spent_cr": 17.27,
+      "csr_obligation_cr": 22.19,
+      "csr_required_2pct_cr": 20.83,
+      "csr_unspent_cr": 4.93,
+      "health_or_education": true,
+      "examples": [
+        "Supported promoting education via Khan Academy India, Creatnet Education, Language and Learning Foundation and others",
+        "Higher education support via Reimagining Higher Education Foundation (₹3.3 crore) and Foundation for Excellence India Trust",
+        "Promoting Healthcare - donation to The New Delhi Holy Family Hospital Foundation (₹0.5 crore)",
+        "Special education support via Sarthak Educational Trust and Foundation of Arts for Social Change in India"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financial statements, Note 42 (page 177-178), FY26 figures; amounts converted from ₹ Mn to ₹ crore (÷10). Spent ₹172.65 Mn = ₹17.27 cr; Gross required ₹208.34 Mn = ₹20.83 cr; Total required (incl. prior unspent) ₹221.94 Mn = ₹22.19 cr; Shortfall ₹49.29 Mn = ₹4.93 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a1e5af8e-9b28-475f-aca2-fbf49bd74bab.pdf",
+        "page": 177
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:56:14.455Z"
     }
   }
 }
