@@ -184,6 +184,11 @@
       "status": "done",
       "updated_at": "2026-09-17T13:59:28.189Z",
       "error": null
+    },
+    "ADANIPOWER": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:00:39.372Z",
+      "error": null
     }
   }
 }
