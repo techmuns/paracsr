@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:56:37.799Z",
-  "count": 198,
+  "updated_at": "2026-09-17T14:56:53.656Z",
+  "count": 199,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4976,7 +4976,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 198,
+      "rank": 199,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -7028,7 +7028,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 197,
+      "rank": 198,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
@@ -7134,6 +7134,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:56:14.455Z"
+    },
+    "SUNTV": {
+      "rank": 197,
+      "name": "Sun TV Network Limited",
+      "ticker": "SUNTV",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "TV Broadcasting & Software Production",
+      "is_psu": false,
+      "pat_client_cr": 1439.58,
+      "pat_screener_cr": 1441,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1441,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.1,
+      "fy_used": "FY26",
+      "csr_spent_cr": 42.67,
+      "csr_obligation_cr": 42.6,
+      "csr_required_2pct_cr": 42.6,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Primary & Preventive Health care initiatives",
+        "Promotion of Education programs",
+        "Contribution to charitable trusts (Rs. 41.87 crore) supporting healthcare/education",
+        "Contribution to public trust (Rs. 0.80 crore)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 24.2 (CSR Expenditure) and Annexure I (CSR Annual Report) to Directors' Report, standalone financials FY ended March 31, 2026; amounts already in INR crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=973f3ba0-1016-4b1d-aacf-cb7b7acd043d.pdf",
+        "page": 121
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:56:53.656Z"
     }
   }
 }
