@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:02:45.507Z",
-  "count": 43,
+  "updated_at": "2026-09-17T14:03:03.847Z",
+  "count": 44,
   "companies": {
     "500188": {
       "rank": 35,
@@ -1512,7 +1512,7 @@
       "generated_at": "2026-09-17T14:02:02.873Z"
     },
     "BAJAJ-AUTO": {
-      "rank": 43,
+      "rank": 44,
       "name": "Bajaj Auto Limited",
       "ticker": "BAJAJ-AUTO",
       "exchange": "NSEI",
@@ -1547,6 +1547,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:02:44.190Z"
+    },
+    "MUTHOOTFIN": {
+      "rank": 43,
+      "name": "Muthoot Finance Limited",
+      "ticker": "MUTHOOTFIN",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 10590.34,
+      "pat_screener_cr": 10607,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 10607,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.16,
+      "fy_used": "FY26",
+      "csr_spent_cr": 106.421,
+      "csr_obligation_cr": 114.306,
+      "csr_required_2pct_cr": 114.306,
+      "csr_unspent_cr": 7.885,
+      "health_or_education": true,
+      "examples": [
+        "Medical assistance to poor patients (health camps/support)",
+        "Promotion of education",
+        "Employment enhancing vocational skills"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 48, FY2025-26; amounts originally in ₹ millions, converted to crore (÷10). Gross required=Amount spent+unspent (1,064.21+78.85=1,143.06 million=114.306 cr; spent=1,064.21 million=106.421 cr; unspent=78.85 million=7.885 cr).\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/431b0dcc-54bc-4dbb-85d1-2c144520ecef.pdf",
+        "page": 167
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:03:03.847Z"
     }
   }
 }
