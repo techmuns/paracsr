@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:07:17.719Z",
-  "count": 56,
+  "updated_at": "2026-09-17T14:07:33.749Z",
+  "count": 57,
   "companies": {
     "500188": {
       "rank": 36,
@@ -2017,6 +2017,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:07:16.412Z"
+    },
+    "MAHABANK": {
+      "rank": 57,
+      "name": "Bank of Maharashtra",
+      "ticker": "MAHABANK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 7016.86,
+      "pat_screener_cr": 7017,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 7017,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Financial assistance for ambulances, dialysis machines, and eye checkup camps under healthcare focus area",
+        "Sponsored admissions, scholarships, and infrastructure upgrades in schools; financial support to Aurovindo Trust for library building expansion",
+        "Provided financial assistance for operational expenditure of a school & orphanage for girls"
+      ],
+      "found": true,
+      "confidence": "low",
+      "notes": "Directors' Report 'Corporate Social Responsibility (CSR)' section (p.62-63) is narrative only, describing focus areas and initiatives; no numeric 'Amount Spent'/obligation table found in provided excerpt.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/64e29deb-0cbb-40d4-8b6f-8faec063462e.pdf",
+        "page": 4
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:07:33.749Z"
     }
   }
 }
