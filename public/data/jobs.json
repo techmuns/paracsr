@@ -814,6 +814,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:44:50.167Z",
       "error": null
+    },
+    "MCDOWELL-N": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:44:51.312Z",
+      "error": null
     }
   }
 }
