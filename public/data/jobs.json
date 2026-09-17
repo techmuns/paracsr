@@ -579,6 +579,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:30:02.341Z",
       "error": null
+    },
+    "AUBANK": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:30:03.969Z",
+      "error": null
     }
   }
 }
