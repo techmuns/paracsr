@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:56:36.725Z",
-  "count": 25,
+  "updated_at": "2026-09-17T13:56:59.480Z",
+  "count": 26,
   "companies": {
     "500228": {
       "rank": 18,
@@ -40,7 +40,7 @@
       "sector_detail": "Iron & Steel"
     },
     "500247": {
-      "rank": 23,
+      "rank": 24,
       "name": "Kotak Mahindra Bank Limited",
       "ticker": "500247",
       "exchange": "BSE",
@@ -758,7 +758,7 @@
       "generated_at": "2026-09-17T13:54:15.758Z"
     },
     "UNIONBANK": {
-      "rank": 21,
+      "rank": 22,
       "name": "Union Bank of India",
       "ticker": "UNIONBANK",
       "exchange": "NSEI",
@@ -793,7 +793,7 @@
       "sector_detail": "Public Sector Bank"
     },
     "BAJFINANCE": {
-      "rank": 22,
+      "rank": 23,
       "name": "Bajaj Finance Limited",
       "ticker": "BAJFINANCE",
       "exchange": "NSEI",
@@ -827,7 +827,7 @@
       "sector_detail": "Non Banking Financial Company (NBFC)"
     },
     "PNB": {
-      "rank": 24,
+      "rank": 25,
       "name": "Punjab National Bank",
       "ticker": "PNB",
       "exchange": "NSEI",
@@ -864,7 +864,7 @@
       "generated_at": "2026-09-17T13:53:53.583Z"
     },
     "HINDPETRO": {
-      "rank": 25,
+      "rank": 26,
       "name": "Hindustan Petroleum Corporation Limited",
       "ticker": "HINDPETRO",
       "exchange": "NSEI",
@@ -894,6 +894,43 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:55:00.638Z",
       "sector_detail": "Refineries & Marketing"
+    },
+    "CANBK": {
+      "rank": 21,
+      "name": "Canara Bank",
+      "ticker": "CANBK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 17872.87,
+      "pat_screener_cr": 19712,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 19712,
+      "pat_mismatch": true,
+      "pat_delta_pct": 10.29,
+      "fy_used": "FY26",
+      "csr_spent_cr": 100,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Dr. Ambedkar Vidya Jyothi Scholarship Scheme: 45,670 meritorious SC/ST girl students provided scholarships worth ₹18.25 crore in FY26",
+        "Infrastructure development grant to Government Degree College, Mummidivaram, Andhra Pradesh",
+        "Construction of classrooms at Zilla Parishad High School, Yellur, Telangana",
+        "Purchase of school bus for Sainik School, Satara, Maharashtra; also supports primary health care initiatives"
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Directors' Report CSR section (BRSR/annexure), page 124: total CSR outlay stated as ₹10,000.00 lakh = ₹100 crore spent in FY 2025-26; no explicit 2% obligation or unspent figures given in excerpt.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/864b8993-7923-4f0d-b6b9-9c07c39dc5da.pdf",
+        "page": 198
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:56:59.479Z"
     }
   }
 }
