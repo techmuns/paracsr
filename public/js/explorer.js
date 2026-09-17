@@ -3,36 +3,78 @@
 import { el, $, icons, fmtCr, fmtNum, fmtPct, esc } from "./ui.js";
 import { isNum, requiredOf } from "./data.js";
 
+// align: 'left' text · 'right' numbers · 'center' badges/pills. Header alignment
+// matches the cell so nothing looks like it's "dancing". num → monospaced figures.
 const COLS = [
-  { key: "rank",    label: "#",             num: true,  get: (r) => r.rank ?? Infinity, cell: (r) => `<span class="rank-cell">${r.rank ?? "—"}</span>` },
-  { key: "name",    label: "Company",       num: false, get: (r) => (r.name || "").toLowerCase(),
+  { key: "rank",    label: "#",             num: true,  align: "center", get: (r) => r.rank ?? Infinity, cell: (r) => `<span class="rank-cell">${r.rank ?? "—"}</span>` },
+  { key: "name",    label: "Company",       num: false, align: "left",   get: (r) => (r.name || "").toLowerCase(),
     cell: (r) => `<div class="co-name">${esc(r.name)}</div><div class="co-tick">${esc(r.ticker)} · ${esc(r.exchange || "")}</div>` },
-  { key: "sector",  label: "Sector",        num: false, get: (r) => (r.sector || "").toLowerCase(), cell: (r) => esc(r.sector || "—") },
-  { key: "type",    label: "Type",          num: false, get: (r) => (r.is_psu ? 0 : 1),
+  { key: "sector",  label: "Sector",        num: false, align: "left",   get: (r) => (r.sector || "").toLowerCase(), cell: (r) => `<span class="sector-cell">${esc(r.sector || "—")}</span>` },
+  { key: "type",    label: "Type",          num: false, align: "center", get: (r) => (r.is_psu ? 0 : 1),
     cell: (r) => r.is_psu ? `<span class="chip gov"><span class="swatch"></span>Government</span>` : `<span class="chip pri"><span class="swatch"></span>Private</span>` },
-  { key: "pat",     label: "Profit ₹cr",    num: true,  get: (r) => (isNum(r.pat_cr) ? r.pat_cr : -1), cell: (r) => fmtNum(r.pat_cr) },
-  { key: "spent",   label: "CSR Spent ₹cr", num: true,  get: (r) => (isNum(r.csr_spent_cr) ? r.csr_spent_cr : -1),
+  { key: "pat",     label: "Profit ₹cr",    num: true,  align: "right",  get: (r) => (isNum(r.pat_cr) ? r.pat_cr : -1), cell: (r) => fmtNum(r.pat_cr) },
+  { key: "spent",   label: "CSR Spent ₹cr", num: true,  align: "right",  get: (r) => (isNum(r.csr_spent_cr) ? r.csr_spent_cr : -1),
     cell: (r) => isNum(r.csr_spent_cr)
       ? `${fmtNum(r.csr_spent_cr, r.csr_spent_cr >= 100 ? 0 : 2)}${r.confidence === "low" ? amberDot() : ""}`
       : `<span class="muted">Not disclosed</span>` },
-  { key: "fy",      label: "Year",          num: false, get: (r) => (r.fy_used === "FY26" ? 0 : r.fy_used === "FY25" ? 1 : 2),
+  { key: "fy",      label: "Year",          num: false, align: "center", get: (r) => (r.fy_used === "FY26" ? 0 : r.fy_used === "FY25" ? 1 : 2),
     cell: (r) => r.fy_used === "FY26" ? `<span class="badge fy26">FY26</span>` : r.fy_used === "FY25" ? `<span class="badge fy25">FY25</span>` : `<span class="muted">—</span>` },
-  { key: "pct",     label: "% of Profit",   num: true,  get: (r) => pctOf(r) ?? -1,
+  { key: "pct",     label: "% of Profit",   num: true,  align: "right",  get: (r) => pctOf(r) ?? -1,
     cell: (r) => { const v = pctOf(r); return v == null ? `<span class="muted">—</span>` : fmtPct(v, 2); } },
-  { key: "he",      label: "Health/Edu",    num: false, get: (r) => (r.health_or_education === true ? 0 : 1),
+  { key: "he",      label: "Health/Edu",    num: false, align: "center", get: (r) => (r.health_or_education === true ? 0 : 1),
     cell: (r) => r.health_or_education === true
       ? `<span class="badge yes"><i data-lucide="check"></i>Yes</span>`
       : `<span class="badge no">—</span>` },
-  { key: "example", label: "Example",       num: false, get: (r) => ((r.examples || [])[0] || "").toLowerCase(),
-    cell: (r) => { const e = (r.examples || [])[0]; return e ? `<span title="${esc((r.examples || []).join(" · "))}">${esc(e)}</span>` : `<span class="muted">—</span>`; } },
-  { key: "src",     label: "Source",        num: false, get: (r) => 0,
+  { key: "example", label: "Example",       num: false, align: "left",   get: (r) => ((r.examples || [])[0] || "").toLowerCase(), cell: (r) => exampleCell(r) },
+  { key: "src",     label: "Source",        num: false, align: "center", get: (r) => 0,
     cell: (r) => r.source && r.source.annual_report_url
-      ? `<a href="${esc(r.source.annual_report_url)}" target="_blank" rel="noopener"><i data-lucide="file-text"></i>AR${r.source.page ? " p." + r.source.page : ""}</a>`
+      ? `<a href="${esc(r.source.annual_report_url)}" target="_blank" rel="noopener" title="Open the annual report"><i data-lucide="file-text"></i><span>AR${r.source.page ? " p." + r.source.page : ""}</span></a>`
       : `<span class="muted">—</span>` },
 ];
 
 const pctOf = (r) => (isNum(r.csr_spent_cr) && isNum(r.pat_cr) && r.pat_cr > 0 ? (r.csr_spent_cr / r.pat_cr) * 100 : null);
 const amberDot = () => `<span class="amber-dot" title="Lower-confidence extraction"></span>`;
+
+// Example cell — one line, truncated, with a "+N" chip and an expand hint. The
+// whole cell is clickable (wired in renderExplorer) to read the full text.
+function exampleCell(r) {
+  const ex = (r.examples || []).filter(Boolean);
+  if (!ex.length) return `<span class="muted">—</span>`;
+  const more = ex.length > 1 ? `<span class="ex-more">+${ex.length - 1}</span>` : "";
+  return `<span class="ex-wrap"><span class="ex-text">${esc(ex[0])}</span>${more}<i data-lucide="maximize-2" class="ex-ico"></i></span>`;
+}
+
+/* A small modal to read a company's full Health/Education examples on click. */
+let modalEl = null;
+function ensureModal() {
+  if (modalEl) return modalEl;
+  modalEl = el("div", { class: "ex-modal", hidden: "" });
+  modalEl.innerHTML = `<div class="ex-dialog" role="dialog" aria-modal="true" aria-label="CSR project examples">
+      <button class="ex-close" aria-label="Close">&times;</button>
+      <div class="ex-co"></div>
+      <div class="ex-sub"></div>
+      <ul class="ex-list"></ul>
+      <a class="ex-srclink" target="_blank" rel="noopener"><i data-lucide="file-text"></i><span>Open the annual report</span></a>
+    </div>`;
+  document.body.append(modalEl);
+  const close = () => { modalEl.hidden = true; };
+  modalEl.addEventListener("click", (e) => { if (e.target === modalEl) close(); });
+  modalEl.querySelector(".ex-close").addEventListener("click", close);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !modalEl.hidden) close(); });
+  return modalEl;
+}
+function openExampleModal(r) {
+  const m = ensureModal();
+  m.querySelector(".ex-co").textContent = r.name;
+  m.querySelector(".ex-sub").textContent = [r.sector, r.fy_used, "Healthcare / Education projects"].filter(Boolean).join("  ·  ");
+  const ul = m.querySelector(".ex-list"); ul.innerHTML = "";
+  (r.examples || []).filter(Boolean).forEach((e) => ul.append(el("li", { text: e })));
+  const link = m.querySelector(".ex-srclink");
+  if (r.source && r.source.annual_report_url) { link.href = r.source.annual_report_url; link.style.display = ""; }
+  else link.style.display = "none";
+  m.hidden = false;
+  icons();
+}
 
 let sort = { key: "spent", dir: -1 };
 let current = [];
@@ -48,8 +90,10 @@ export function renderExplorer(list) {
   const tr = el("tr");
   COLS.forEach((c) => {
     const active = sort.key === c.key;
-    const th = el("th", { class: c.num ? "num" : "", ...(active ? { "aria-sort": sort.dir === 1 ? "ascending" : "descending" } : {}) });
-    th.innerHTML = `<span class="th-in">${esc(c.label)}<i data-lucide="${active ? (sort.dir === 1 ? "chevron-up" : "chevron-down") : "chevrons-up-down"}"></i></span>`;
+    const th = el("th", { class: `a-${c.align}${c.num ? " num" : ""}${active ? " sorted" : ""}`, ...(active ? { "aria-sort": sort.dir === 1 ? "ascending" : "descending" } : {}) });
+    // Only the active column carries an arrow — the rest stay clean (a faint hint appears on hover).
+    const arrow = active ? (sort.dir === 1 ? "arrow-up" : "arrow-down") : "chevrons-up-down";
+    th.innerHTML = `<span class="th-in">${esc(c.label)}<i data-lucide="${arrow}" class="sort-ico"></i></span>`;
     th.addEventListener("click", () => {
       if (sort.key === c.key) sort.dir *= -1; else sort = { key: c.key, dir: c.num ? -1 : 1 };
       renderExplorer(current);
@@ -64,7 +108,15 @@ export function renderExplorer(list) {
   } else {
     rows.forEach((r) => {
       const trr = el("tr");
-      COLS.forEach((c) => { const td = el("td", { class: (c.num ? "num" : "") + (c.key === "example" ? " example" : "") + (c.key === "src" ? " src" : "") }); td.innerHTML = c.cell(r); trr.append(td); });
+      COLS.forEach((c) => {
+        const td = el("td", { class: `a-${c.align}${c.num ? " num" : ""}${c.key === "example" ? " example" : ""}${c.key === "src" ? " src" : ""}` });
+        td.innerHTML = c.cell(r);
+        if (c.key === "example" && (r.examples || []).filter(Boolean).length) {
+          td.classList.add("clickable");
+          td.addEventListener("click", () => openExampleModal(r));
+        }
+        trr.append(td);
+      });
       tb.append(trr);
     });
   }
@@ -205,38 +257,4 @@ function exportCSV(rows) {
   const lines = [CLIENT_COLS.map((c) => esc2(c.h)).join(",")];
   data.forEach((r) => lines.push(CLIENT_COLS.map((c) => esc2(c.v(r))).join(",")));
   download(new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" }), "india-csr-200.csv");
-}
-
-export async function exportPDF() {
-  const wrap = $("#explorer-wrap");
-  const table = wrap && wrap.querySelector("table");
-  const jsPDFctor = window.jspdf && window.jspdf.jsPDF;
-  if (!table || typeof window.html2canvas === "undefined" || !jsPDFctor) {
-    return exportCSV(current.slice().sort(cmp)); // graceful fallback
-  }
-  try {
-    const canvas = await window.html2canvas(table, { scale: 2, backgroundColor: "#ffffff", windowWidth: table.scrollWidth });
-    const pdf = new jsPDFctor({ orientation: "landscape", unit: "pt", format: "a4" });
-    const pw = pdf.internal.pageSize.getWidth(), ph = pdf.internal.pageSize.getHeight();
-    const margin = 24, iw = pw - margin * 2;
-    const ih = (canvas.height * iw) / canvas.width;
-    pdf.setFontSize(14); pdf.setTextColor("#0f172a"); pdf.text("India CSR 200 — CSR spending, FY26", margin, 28);
-    const img = canvas.toDataURL("image/png");
-    let remaining = ih, y = 40, sy = 0;
-    const pageBody = ph - y - margin;
-    if (ih <= pageBody) { pdf.addImage(img, "PNG", margin, y, iw, ih); }
-    else { // slice tall tables across pages
-      const ratio = canvas.width / iw;
-      while (remaining > 0) {
-        const sliceH = Math.min(pageBody, remaining);
-        const sCanvas = el("canvas");
-        sCanvas.width = canvas.width; sCanvas.height = sliceH * ratio;
-        sCanvas.getContext("2d").drawImage(canvas, 0, sy * ratio, canvas.width, sliceH * ratio, 0, 0, canvas.width, sliceH * ratio);
-        pdf.addImage(sCanvas.toDataURL("image/png"), "PNG", margin, y, iw, sliceH);
-        remaining -= sliceH; sy += sliceH;
-        if (remaining > 0) { pdf.addPage(); y = margin; }
-      }
-    }
-    pdf.save("india-csr-200.pdf");
-  } catch (e) { console.warn("PDF export failed, using CSV:", e); exportCSV(current.slice().sort(cmp)); }
 }

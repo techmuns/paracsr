@@ -23,6 +23,8 @@ function empty(id, msg, icon) { const d = document.getElementById(id); if (d) em
 export function resizeAll() { charts.forEach((c) => { try { c.resize(); } catch {} }); }
 
 const grad = (a, b) => ({ type: "linear", x: 0, y: 0, x2: 1, y2: 0, colorStops: [{ offset: 0, color: a }, { offset: 1, color: b }] });
+// signed ₹ crore, e.g. +₹169 · −₹42 · ₹0 (Indian digit grouping)
+const signCr = (v) => (v > 0 ? "+₹" : v < 0 ? "−₹" : "₹") + fmtNum(Math.abs(Math.round(v)));
 const typeChip = (isPsu) => (isPsu ? "Government" : "Private");
 const heMark = (r) => (r.health_or_education === true ? "✓ Health/Education" : "—");
 const shortName = (n) => (n || "").replace(/\s+(Limited|Ltd\.?|Corporation|Company|of India)\b.*/i, "").trim() || n;
@@ -203,38 +205,47 @@ export function renderHeStack(list, mode = "type") {
 }
 
 /* -------------------------------------------------- ④ diverging 2% rule
-   Only the biggest over- and under-spenders (≤30 bars), no inline labels (they
-   overlapped) — exact numbers on hover; just the single largest each side is
-   labelled. Chips over the FULL set are computed in app.js. */
+   The biggest over- and under-spenders (≤30 bars). Diverging green/amber around a
+   neutral zero line, x-axis titled in ₹ crore, the top few each side directly
+   labelled and everything on hover. Chips over the FULL set are computed in app.js. */
 export function renderRule(list) {
   const all = ruleData(list); // sorted by gap ascending
   if (!all.length) return empty("chart-rule", "No companies with both a spend and a 2% figure for this filter yet.", "scale");
   const c = mount("chart-rule"); if (!c) return;
-  const perSide = (typeof window !== "undefined" && window.innerWidth < 720) ? 8 : 15;
+  const narrow = (typeof window !== "undefined" && window.innerWidth < 720);
+  const perSide = narrow ? 8 : 15;
   const under = all.filter((d) => d.gap < 0).slice(0, perSide);   // most-negative first
   const over = all.filter((d) => d.gap > 0).slice(-perSide);      // most-positive last
   const sel = [...under, ...over].sort((a, b) => a.gap - b.gap);  // plot ascending: under at bottom, over at top
-  // index of the single largest bar on each side (only these get a label)
-  let maxOverI = -1, maxOverV = 0, maxUnderI = -1, maxUnderV = 0;
-  sel.forEach((d, i) => { if (d.gap > maxOverV) { maxOverV = d.gap; maxOverI = i; } if (d.gap < maxUnderV) { maxUnderV = d.gap; maxUnderI = i; } });
+  // Direct-label the top few each side (the rest read on hover) — keeps it uncluttered.
+  const topOver = over.map((d) => d.gap).sort((a, b) => b - a)[Math.min(3, Math.max(0, over.length - 1))] ?? Infinity;
+  const topUnder = under.map((d) => Math.abs(d.gap)).sort((a, b) => b - a)[Math.min(3, Math.max(0, under.length - 1))] ?? Infinity;
   const cats = sel.map((d) => shortName(d.name));
   const pos = sel.map((d) => (d.gap > 0 ? +d.gap.toFixed(2) : null));
   const neg = sel.map((d) => (d.gap < 0 ? +d.gap.toFixed(2) : null));
   c.setOption({
-    grid: { left: 8, right: 64, top: 34, bottom: 6, containLabel: true },
-    legend: { ...LEGEND, top: 0, bottom: "auto", data: ["Spent more", "Spent less"] },
+    grid: { left: 8, right: 70, top: narrow ? 64 : 40, bottom: 48, containLabel: true },
+    legend: { ...LEGEND, top: 0, bottom: "auto", data: ["Spent more than required", "Spent less than required"] },
     tooltip: { ...TOOLTIP, trigger: "axis", axisPointer: { type: "shadow" },
-      formatter: (ps) => { const d = sel[ps[0].dataIndex]; return `<b>${esc(d.name)}</b><br/>Spent: <b>${fmtCr(d.spent)}</b><br/>Required (2%): ${fmtCr(d.required)}<br/>Difference: <b>${(d.gap >= 0 ? "+" : "") + fmtCr(d.gap)}</b>`; } },
-    xAxis: valueAxis({ axisLabel: { ...AXIS_LABEL, formatter: (v) => (v > 0 ? "+" : "") + fmtCrShort(v) } }),
+      formatter: (ps) => { const d = sel[ps[0].dataIndex]; return `<b>${esc(d.name)}</b><br/>CSR spent: <b>${fmtCr(d.spent)}</b><br/>Required by law (2%): ${fmtCr(d.required)}<br/>Difference: <b>${(d.gap >= 0 ? "+" : "−") + fmtCr(Math.abs(d.gap))}</b>`; } },
+    xAxis: valueAxis({
+      name: "Spent minus required by law  (₹ crore)", nameLocation: "middle", nameGap: 30,
+      nameTextStyle: { color: COLORS.ink2, fontFamily: FONT, fontSize: 12, fontWeight: 600 },
+      axisLabel: { ...AXIS_LABEL, formatter: (v) => signCr(v) },
+    }),
     yAxis: catAxis(cats, { axisLabel: { ...AXIS_LABEL, interval: 0, fontSize: 10, width: 116, overflow: "truncate" }, axisLine: { show: false } }),
     series: [
-      { name: "Spent more", type: "bar", stack: "gap", barCategoryGap: "42%", itemStyle: { color: COLORS.more, borderRadius: [0, 4, 4, 0] }, data: pos,
-        emphasis: { itemStyle: { color: "#0e9f6e" } },
-        label: { show: true, position: "right", color: "#047857", fontFamily: MONO, fontSize: 10, formatter: (p) => (p.dataIndex === maxOverI && p.value != null ? "+" + fmtCrShort(p.value) : "") } },
-      { name: "Spent less", type: "bar", stack: "gap", barCategoryGap: "42%", itemStyle: { color: COLORS.less, borderRadius: [4, 0, 0, 4] }, data: neg,
-        emphasis: { itemStyle: { color: "#e08a00" } },
-        label: { show: true, position: "left", color: "#b45309", fontFamily: MONO, fontSize: 10, formatter: (p) => (p.dataIndex === maxUnderI && p.value != null ? fmtCrShort(p.value) : "") },
-        markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(15,23,42,.3)", type: "dashed", width: 1.5 }, data: [{ xAxis: 0 }] } },
+      { name: "Spent more than required", type: "bar", stack: "gap", barCategoryGap: "42%",
+        itemStyle: { color: grad("#34d399", "#059669"), borderRadius: [0, 5, 5, 0] }, data: pos,
+        emphasis: { itemStyle: { color: grad("#10b981", "#047857") } },
+        label: { show: true, position: "right", color: "#047857", fontFamily: MONO, fontSize: 10, fontWeight: 600, formatter: (p) => (p.value != null && p.value >= topOver ? signCr(p.value) : "") } },
+      { name: "Spent less than required", type: "bar", stack: "gap", barCategoryGap: "42%",
+        itemStyle: { color: grad("#f59e0b", "#d97706"), borderRadius: [5, 0, 0, 5] }, data: neg,
+        emphasis: { itemStyle: { color: grad("#f59e0b", "#b45309") } },
+        label: { show: true, position: "left", color: "#b45309", fontFamily: MONO, fontSize: 10, fontWeight: 600, formatter: (p) => (p.value != null && Math.abs(p.value) >= topUnder ? signCr(p.value) : "") },
+        markLine: { silent: true, symbol: "none",
+          label: { show: true, position: "end", formatter: "← meets the 2% line →", color: COLORS.ink3, fontSize: 10.5, fontFamily: FONT, fontWeight: 600 },
+          lineStyle: { color: "rgba(15,23,42,.35)", type: "dashed", width: 1.5 }, data: [{ xAxis: 0 }] } },
     ],
   }, true);
 }
