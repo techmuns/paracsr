@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:16:29.007Z",
-  "count": 83,
+  "updated_at": "2026-09-17T14:16:50.216Z",
+  "count": 84,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2989,6 +2989,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:16:27.706Z"
+    },
+    "PETRONET": {
+      "rank": 84,
+      "name": "Petronet LNG Limited",
+      "ticker": "PETRONET",
+      "exchange": "NSEI",
+      "sector": "Oil & Gas",
+      "sector_detail": "LPG/CNG/PNG/LNG Supplier",
+      "is_psu": true,
+      "pat_client_cr": 3912.53,
+      "pat_screener_cr": 3913,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3913,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 95.13,
+      "csr_obligation_cr": 95.13,
+      "csr_required_2pct_cr": 95.13,
+      "csr_unspent_cr": 2,
+      "health_or_education": true,
+      "examples": [
+        "Installed a 128-slice CT Scan machine at Ernakulam Hospital, improving diagnostic capacity",
+        "Mobile Medical Units in Dahej, Kochi, Delhi providing free consultations and medicines",
+        "SMART Classroom & Tablet Distribution in nine schools in Dibrugarh benefiting ~2,700 students",
+        "Residential JEE coaching (Super 100 & Super 30) for meritorious students from underserved areas"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-I to Board's Report (Section 135 CSR Annual Report), FY 2025-26; Total Amount Spent (project + admin overhead + impact assessment) = INR 95.13 Cr matches 2% obligation; Amount Unspent (transferred to Unspent CSR A/c) = INR 2.00 Cr per section (e) table.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=800b4577-af9a-436e-b86d-911e6cea8ffe.pdf",
+        "page": 124
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:16:50.216Z"
     }
   }
 }
