@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:50:59.380Z",
-  "count": 180,
+  "updated_at": "2026-09-17T14:51:15.033Z",
+  "count": 181,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500103": {
-      "rank": 179,
+      "rank": 180,
       "name": "Bharat Heavy Electricals Limited",
       "ticker": "500103",
       "exchange": "BSE",
@@ -75,7 +75,7 @@
       "generated_at": "2026-09-17T14:50:58.078Z"
     },
     "500109": {
-      "rank": 154,
+      "rank": 155,
       "name": "Mangalore Refinery and Petrochemicals Limited",
       "ticker": "500109",
       "exchange": "BSE",
@@ -365,7 +365,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 172,
+      "rank": 173,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -506,7 +506,7 @@
       "generated_at": "2026-09-17T14:20:58.249Z"
     },
     "500420": {
-      "rank": 143,
+      "rank": 144,
       "name": "Torrent Pharmaceuticals Limited",
       "ticker": "500420",
       "exchange": "BSE",
@@ -652,7 +652,7 @@
       "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500480": {
-      "rank": 135,
+      "rank": 136,
       "name": "Cummins India Limited",
       "ticker": "500480",
       "exchange": "BSE",
@@ -906,7 +906,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500710": {
-      "rank": 150,
+      "rank": 151,
       "name": "Akzo Nobel India Limited",
       "ticker": "500710",
       "exchange": "BSE",
@@ -979,7 +979,7 @@
       "generated_at": "2026-09-17T14:22:53.883Z"
     },
     "500850": {
-      "rank": 139,
+      "rank": 140,
       "name": "The Indian Hotels Company Limited",
       "ticker": "500850",
       "exchange": "BSE",
@@ -1015,7 +1015,7 @@
       "generated_at": "2026-09-17T14:38:16.316Z"
     },
     "503806": {
-      "rank": 165,
+      "rank": 166,
       "name": "SRF Limited",
       "ticker": "503806",
       "exchange": "BSE",
@@ -1198,7 +1198,7 @@
       "generated_at": "2026-09-17T14:11:46.952Z"
     },
     "512070": {
-      "rank": 140,
+      "rank": 141,
       "name": "UPL Limited",
       "ticker": "512070",
       "exchange": "BSE",
@@ -1414,7 +1414,7 @@
       "generated_at": "2026-09-17T14:48:12.187Z"
     },
     "526299": {
-      "rank": 161,
+      "rank": 162,
       "name": "Mphasis Limited",
       "ticker": "526299",
       "exchange": "BSE",
@@ -1487,7 +1487,7 @@
       "generated_at": "2026-09-17T14:06:58.991Z"
     },
     "531642": {
-      "rank": 168,
+      "rank": 169,
       "name": "Marico Limited",
       "ticker": "531642",
       "exchange": "BSE",
@@ -1524,7 +1524,7 @@
       "generated_at": "2026-09-17T14:47:04.928Z"
     },
     "532144": {
-      "rank": 176,
+      "rank": 177,
       "name": "Welspun Corp Limited",
       "ticker": "532144",
       "exchange": "BSE",
@@ -1660,7 +1660,7 @@
       "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "532466": {
-      "rank": 119,
+      "rank": 120,
       "name": "Oracle Financial Services Software Limited",
       "ticker": "532466",
       "exchange": "BSE",
@@ -1727,7 +1727,7 @@
       "generated_at": "2026-09-17T14:24:13.170Z"
     },
     "532767": {
-      "rank": 147,
+      "rank": 148,
       "name": "Gayatri Projects Limited",
       "ticker": "532767",
       "exchange": "BSE",
@@ -1832,7 +1832,7 @@
       "generated_at": "2026-09-17T14:37:00.418Z"
     },
     "539177": {
-      "rank": 153,
+      "rank": 154,
       "name": "Authum Investment & Infrastructure Limited",
       "ticker": "539177",
       "exchange": "BSE",
@@ -1869,7 +1869,7 @@
       "generated_at": "2026-09-17T14:41:03.909Z"
     },
     "539437": {
-      "rank": 177,
+      "rank": 178,
       "name": "IDFC First Bank Limited",
       "ticker": "539437",
       "exchange": "BSE",
@@ -4430,7 +4430,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 118,
+      "rank": 119,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -4758,7 +4758,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 131,
+      "rank": 132,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4795,7 +4795,7 @@
       "generated_at": "2026-09-17T14:29:41.627Z"
     },
     "POLYCAB": {
-      "rank": 117,
+      "rank": 118,
       "name": "Polycab India Limited",
       "ticker": "POLYCAB",
       "exchange": "NSEI",
@@ -4832,7 +4832,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 180,
+      "rank": 181,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4869,7 +4869,7 @@
       "generated_at": "2026-09-17T14:30:26.092Z"
     },
     "MAZDOCK": {
-      "rank": 120,
+      "rank": 121,
       "name": "Mazagon Dock Shipbuilders Limited",
       "ticker": "MAZDOCK",
       "exchange": "NSEI",
@@ -4906,7 +4906,7 @@
       "generated_at": "2026-09-17T14:31:00.835Z"
     },
     "DIVISLAB": {
-      "rank": 122,
+      "rank": 123,
       "name": "Divi's Laboratories Limited",
       "ticker": "DIVISLAB",
       "exchange": "NSEI",
@@ -4943,7 +4943,7 @@
       "generated_at": "2026-09-17T14:31:16.795Z"
     },
     "BAJAJHFL": {
-      "rank": 123,
+      "rank": 124,
       "name": "Bajaj Housing Finance Limited",
       "ticker": "BAJAJHFL",
       "exchange": "NSEI",
@@ -4979,7 +4979,7 @@
       "generated_at": "2026-09-17T14:31:35.582Z"
     },
     "ASHOKA": {
-      "rank": 121,
+      "rank": 122,
       "name": "Ashoka Buildcon Limited",
       "ticker": "ASHOKA",
       "exchange": "NSEI",
@@ -5015,7 +5015,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 141,
+      "rank": 142,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -5051,7 +5051,7 @@
       "generated_at": "2026-09-17T14:32:11.701Z"
     },
     "BRITANNIA": {
-      "rank": 124,
+      "rank": 125,
       "name": "Britannia Industries Limited",
       "ticker": "BRITANNIA",
       "exchange": "NSEI",
@@ -5088,7 +5088,7 @@
       "generated_at": "2026-09-17T14:32:30.242Z"
     },
     "KARURVYSYA": {
-      "rank": 125,
+      "rank": 126,
       "name": "The Karur Vysya Bank Limited",
       "ticker": "KARURVYSYA",
       "exchange": "NSEI",
@@ -5125,7 +5125,7 @@
       "generated_at": "2026-09-17T14:32:50.260Z"
     },
     "OBEROIRLTY": {
-      "rank": 126,
+      "rank": 127,
       "name": "Oberoi Realty Limited",
       "ticker": "OBEROIRLTY",
       "exchange": "NSEI",
@@ -5160,7 +5160,7 @@
       "generated_at": "2026-09-17T14:33:06.228Z"
     },
     "BSE": {
-      "rank": 127,
+      "rank": 128,
       "name": "BSE Limited",
       "ticker": "BSE",
       "exchange": "NSEI",
@@ -5195,7 +5195,7 @@
       "generated_at": "2026-09-17T14:33:24.104Z"
     },
     "SBILIFE": {
-      "rank": 129,
+      "rank": 130,
       "name": "SBI Life Insurance Company Limited",
       "ticker": "SBILIFE",
       "exchange": "NSEI",
@@ -5232,7 +5232,7 @@
       "generated_at": "2026-09-17T14:33:41.384Z"
     },
     "PIDILITIND": {
-      "rank": 128,
+      "rank": 129,
       "name": "Pidilite Industries Limited",
       "ticker": "PIDILITIND",
       "exchange": "NSEI",
@@ -5303,7 +5303,7 @@
       "generated_at": "2026-09-17T14:34:15.089Z"
     },
     "MRF": {
-      "rank": 132,
+      "rank": 133,
       "name": "MRF Limited",
       "ticker": "MRF",
       "exchange": "NSEI",
@@ -5340,7 +5340,7 @@
       "generated_at": "2026-09-17T14:34:30.214Z"
     },
     "TORNTPOWER": {
-      "rank": 130,
+      "rank": 131,
       "name": "Torrent Power Limited",
       "ticker": "TORNTPOWER",
       "exchange": "NSEI",
@@ -5377,7 +5377,7 @@
       "generated_at": "2026-09-17T14:34:49.892Z"
     },
     "ESCORTS": {
-      "rank": 133,
+      "rank": 134,
       "name": "Escorts Kubota Limited",
       "ticker": "ESCORTS",
       "exchange": "NSEI",
@@ -5413,7 +5413,7 @@
       "generated_at": "2026-09-17T14:35:06.986Z"
     },
     "J&KBANK": {
-      "rank": 136,
+      "rank": 137,
       "name": "The Jammu and Kashmir Bank Limited",
       "ticker": "J&KBANK",
       "exchange": "NSEI",
@@ -5449,7 +5449,7 @@
       "generated_at": "2026-09-17T14:35:41.135Z"
     },
     "ALKEM": {
-      "rank": 137,
+      "rank": 138,
       "name": "Alkem Laboratories Limited",
       "ticker": "ALKEM",
       "exchange": "NSEI",
@@ -5486,7 +5486,7 @@
       "generated_at": "2026-09-17T14:36:02.351Z"
     },
     "PNBHOUSING": {
-      "rank": 138,
+      "rank": 139,
       "name": "PNB Housing Finance Limited",
       "ticker": "PNBHOUSING",
       "exchange": "NSEI",
@@ -5522,7 +5522,7 @@
       "generated_at": "2026-09-17T14:36:21.699Z"
     },
     "ADANIENSOL": {
-      "rank": 134,
+      "rank": 135,
       "name": "Adani Energy Solutions Limited",
       "ticker": "ADANIENSOL",
       "exchange": "NSEI",
@@ -5557,7 +5557,7 @@
       "generated_at": "2026-09-17T14:36:40.067Z"
     },
     "SBICARD": {
-      "rank": 142,
+      "rank": 143,
       "name": "SBI Cards and Payment Services Limited",
       "ticker": "SBICARD",
       "exchange": "NSEI",
@@ -5594,7 +5594,7 @@
       "generated_at": "2026-09-17T14:37:20.837Z"
     },
     "ACC": {
-      "rank": 144,
+      "rank": 145,
       "name": "ACC Limited",
       "ticker": "ACC",
       "exchange": "NSEI",
@@ -5631,7 +5631,7 @@
       "generated_at": "2026-09-17T14:37:58.058Z"
     },
     "GROWW": {
-      "rank": 145,
+      "rank": 146,
       "name": "Billionbrains Garage Ventures Limited",
       "ticker": "GROWW",
       "exchange": "NSEI",
@@ -5666,7 +5666,7 @@
       "generated_at": "2026-09-17T14:38:34.448Z"
     },
     "SUNDARMFIN": {
-      "rank": 146,
+      "rank": 147,
       "name": "Sundaram Finance Limited",
       "ticker": "SUNDARMFIN",
       "exchange": "NSEI",
@@ -5701,7 +5701,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 175,
+      "rank": 176,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5738,7 +5738,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 156,
+      "rank": 157,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5775,7 +5775,7 @@
       "generated_at": "2026-09-17T14:40:10.598Z"
     },
     "CHAMBLFERT": {
-      "rank": 151,
+      "rank": 152,
       "name": "Chambal Fertilisers and Chemicals Limited",
       "ticker": "CHAMBLFERT",
       "exchange": "NSEI",
@@ -5811,7 +5811,7 @@
       "generated_at": "2026-09-17T14:40:26.796Z"
     },
     "APOLLOHOSP": {
-      "rank": 148,
+      "rank": 149,
       "name": "Apollo Hospitals Enterprise Limited",
       "ticker": "APOLLOHOSP",
       "exchange": "NSEI",
@@ -5848,7 +5848,7 @@
       "generated_at": "2026-09-17T14:40:46.154Z"
     },
     "MANKIND": {
-      "rank": 152,
+      "rank": 153,
       "name": "Mankind Pharma Limited",
       "ticker": "MANKIND",
       "exchange": "NSEI",
@@ -5880,7 +5880,7 @@
       "generated_at": "2026-09-17T14:42:01.033Z"
     },
     "HDFCLIFE": {
-      "rank": 155,
+      "rank": 156,
       "name": "HDFC Life Insurance Company Limited",
       "ticker": "HDFCLIFE",
       "exchange": "NSEI",
@@ -5917,7 +5917,7 @@
       "generated_at": "2026-09-17T14:42:21.150Z"
     },
     "DABUR": {
-      "rank": 159,
+      "rank": 160,
       "name": "Dabur India Limited",
       "ticker": "DABUR",
       "exchange": "NSEI",
@@ -5954,7 +5954,7 @@
       "generated_at": "2026-09-17T14:42:43.629Z"
     },
     "IREDA": {
-      "rank": 157,
+      "rank": 158,
       "name": "Indian Renewable Energy Development Agency Limited",
       "ticker": "IREDA",
       "exchange": "NSEI",
@@ -5991,7 +5991,7 @@
       "generated_at": "2026-09-17T14:43:12.616Z"
     },
     "MOTILALOFS": {
-      "rank": 158,
+      "rank": 159,
       "name": "Motilal Oswal Financial Services Limited",
       "ticker": "MOTILALOFS",
       "exchange": "NSEI",
@@ -6028,7 +6028,7 @@
       "generated_at": "2026-09-17T14:43:34.106Z"
     },
     "PERSISTENT": {
-      "rank": 160,
+      "rank": 161,
       "name": "Persistent Systems Limited",
       "ticker": "PERSISTENT",
       "exchange": "NSEI",
@@ -6064,7 +6064,7 @@
       "generated_at": "2026-09-17T14:43:51.074Z"
     },
     "GODREJCP": {
-      "rank": 162,
+      "rank": 163,
       "name": "Godrej Consumer Products Limited",
       "ticker": "GODREJCP",
       "exchange": "NSEI",
@@ -6101,7 +6101,7 @@
       "generated_at": "2026-09-17T14:44:32.982Z"
     },
     "GODREJPROP": {
-      "rank": 163,
+      "rank": 164,
       "name": "Godrej Properties Limited",
       "ticker": "GODREJPROP",
       "exchange": "NSEI",
@@ -6133,7 +6133,7 @@
       "generated_at": "2026-09-17T14:44:50.166Z"
     },
     "MCDOWELL-N": {
-      "rank": 164,
+      "rank": 165,
       "name": "United Spirits Limited",
       "ticker": "MCDOWELL-N",
       "exchange": "NSEI",
@@ -6165,7 +6165,7 @@
       "generated_at": "2026-09-17T14:44:56.934Z"
     },
     "PATANJALI": {
-      "rank": 167,
+      "rank": 168,
       "name": "Patanjali Foods Limited",
       "ticker": "PATANJALI",
       "exchange": "NSEI",
@@ -6202,7 +6202,7 @@
       "generated_at": "2026-09-17T14:46:45.514Z"
     },
     "SHREECEM": {
-      "rank": 169,
+      "rank": 170,
       "name": "Shree Cement Limited",
       "ticker": "SHREECEM",
       "exchange": "NSEI",
@@ -6239,7 +6239,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 171,
+      "rank": 172,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6276,7 +6276,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 173,
+      "rank": 174,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6311,7 +6311,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 174,
+      "rank": 175,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6347,7 +6347,7 @@
       "generated_at": "2026-09-17T14:48:45.461Z"
     },
     "SOLARINDS": {
-      "rank": 170,
+      "rank": 171,
       "name": "Solar Industries India Limited",
       "ticker": "SOLARINDS",
       "exchange": "NSEI",
@@ -6382,7 +6382,7 @@
       "generated_at": "2026-09-17T14:49:00.942Z"
     },
     "IIFL": {
-      "rank": 166,
+      "rank": 167,
       "name": "IIFL Finance Limited",
       "ticker": "IIFL",
       "exchange": "NSEI",
@@ -6419,7 +6419,7 @@
       "generated_at": "2026-09-17T14:49:23.800Z"
     },
     "ADANIGREEN": {
-      "rank": 149,
+      "rank": 150,
       "name": "Adani Green Energy Limited",
       "ticker": "ADANIGREEN",
       "exchange": "NSEI",
@@ -6454,7 +6454,7 @@
       "generated_at": "2026-09-17T14:49:42.029Z"
     },
     "ICICIPRULI": {
-      "rank": 178,
+      "rank": 179,
       "name": "ICICI Prudential Life Insurance Company Limited",
       "ticker": "ICICIPRULI",
       "exchange": "NSEI",
@@ -6489,6 +6489,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:50:37.116Z"
+    },
+    "SIEMENS": {
+      "rank": 117,
+      "name": "Siemens Limited",
+      "ticker": "SIEMENS",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Heavy Electrical Equipment",
+      "is_psu": false,
+      "pat_client_cr": 1587.6,
+      "pat_screener_cr": 2754,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2754,
+      "pat_mismatch": true,
+      "pat_delta_pct": 73.47,
+      "fy_used": "FY26",
+      "csr_spent_cr": 68.3,
+      "csr_obligation_cr": 48.1,
+      "csr_required_2pct_cr": 48.1,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Upgrading public healthcare infrastructure",
+        "Strengthening the skilling ecosystem / apprenticeship training under NAPS Scheme",
+        "Promotion of innovations that sustain the environment and enhance living conditions"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financials, Note 40, for eighteen-months period ended 31 Mar 2026; figures in ₹ million converted to crore (÷10): Gross amount required ₹481mn=₹48.1cr; Amount spent (approved+incurred) ₹683mn=₹68.3cr; excess/shortfall ₹202mn=₹20.2cr carried forward (i.e., no unspent shortfall, spent exceeded requirement).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/af1c888d-9e71-4ee9-b4eb-8aaf715a20e3.pdf",
+        "page": 175
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:51:15.033Z"
     }
   }
 }
