@@ -569,6 +569,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:29:24.615Z",
       "error": null
+    },
+    "UCOBANK": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:29:26.241Z",
+      "error": null
     }
   }
 }
