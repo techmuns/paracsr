@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:30:27.234Z",
-  "count": 117,
+  "updated_at": "2026-09-17T14:30:42.410Z",
+  "count": 118,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1188,6 +1188,41 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:51:43.738Z",
       "sector_detail": "Telecom - Cellular & Fixed line services"
+    },
+    "532466": {
+      "rank": 116,
+      "name": "Oracle Financial Services Software Limited",
+      "ticker": "532466",
+      "exchange": "BSE",
+      "sector": "IT Services",
+      "sector_detail": "Software Products",
+      "is_psu": false,
+      "pat_client_cr": 2639.3,
+      "pat_screener_cr": 2639,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2639,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 65.5,
+      "csr_obligation_cr": 62.4,
+      "csr_required_2pct_cr": 65.4,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR policy focuses on advancing education, environment protection, and healthcare support",
+        "Grants awarded to non-profits/NGOs for education, livelihood, and healthcare initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 37 (page 180) and Annexure 3/Note 35 (pages 22-23, 103); amounts converted from ₹ million to ₹ crore (₹655mn=₹65.5cr spent; ₹654mn=₹65.4cr required 2%; ₹624mn=₹62.4cr net obligation after set-off); fully spent, no unspent amount.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a8ab95f4-4634-4a2d-bdeb-2865412027b5.pdf",
+        "page": 22
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:30:42.410Z"
     },
     "532629": {
       "rank": 98,
@@ -4111,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 116,
+      "rank": 117,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4185,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 117,
+      "rank": 118,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
