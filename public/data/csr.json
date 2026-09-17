@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:52:08.953Z",
-  "count": 184,
+  "updated_at": "2026-09-17T14:52:26.470Z",
+  "count": 185,
   "companies": {
     "500049": {
       "rank": 61,
@@ -687,6 +687,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:35:23.086Z"
+    },
+    "500488": {
+      "rank": 184,
+      "name": "Abbott India Limited",
+      "ticker": "500488",
+      "exchange": "BSE",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 1552.02,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 1552.02,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 29.77,
+      "csr_obligation_cr": 29.75,
+      "csr_required_2pct_cr": 31.85,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Upgraded Primary Health Centres (PHCs) with infrastructure, equipment and ASHA capacity building in partnership with Americares India Foundation",
+        "Deployed portable FibroScan devices and free Liver Function Tests at 48-50 locations/month, screening 3,46,415 patients",
+        "Donated two 128-slice CT scan machines to Institute of Medical Sciences, BHU to strengthen diagnostic capacity",
+        "Promoting STEM Education and Healthy Living Among Children with Smile Foundation; NCD screening for 1 lakh+ patients with SEWA"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Per Annexure I (Board's Report) and Note 31(b) to financial statements, FY ended March 31, 2026; amounts already in INR crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3c9b421d-7c7d-4d5b-b706-804fec5dd31e.pdf",
+        "page": 87
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:52:26.469Z"
     },
     "500490": {
       "rank": 50,
@@ -4832,7 +4869,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 184,
+      "rank": 185,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
