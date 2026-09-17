@@ -656,8 +656,8 @@
       "error": null
     },
     "TORNTPOWER": {
-      "status": "running",
-      "updated_at": "2026-09-17T14:34:31.437Z",
+      "status": "done",
+      "updated_at": "2026-09-17T14:34:49.892Z",
       "error": null
     }
   }

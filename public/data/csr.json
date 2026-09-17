@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:34:31.437Z",
-  "count": 131,
+  "updated_at": "2026-09-17T14:34:49.892Z",
+  "count": 132,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 128,
+      "rank": 129,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 131,
+      "rank": 132,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 130,
+      "rank": 131,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4691,7 +4691,7 @@
       "generated_at": "2026-09-17T14:34:15.089Z"
     },
     "MRF": {
-      "rank": 129,
+      "rank": 130,
       "name": "MRF Limited",
       "ticker": "MRF",
       "exchange": "NSEI",
@@ -4726,6 +4726,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:34:30.214Z"
+    },
+    "TORNTPOWER": {
+      "rank": 128,
+      "name": "Torrent Power Limited",
+      "ticker": "TORNTPOWER",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Integrated Power Utilities",
+      "is_psu": false,
+      "pat_client_cr": 2416.43,
+      "pat_screener_cr": 2469,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2469,
+      "pat_mismatch": false,
+      "pat_delta_pct": 2.18,
+      "fy_used": "FY26",
+      "csr_spent_cr": 52.82,
+      "csr_obligation_cr": 67.95,
+      "csr_required_2pct_cr": 54,
+      "csr_unspent_cr": 15.15,
+      "health_or_education": true,
+      "examples": [
+        "UNM Children Hospital: 150-bedded NABH-certified paediatric hospital with NICU, PICU, 4 operation theatres",
+        "REACH programme - baseline health screening & treatment for malnutrition/anaemia in 1,900+ villages in Gujarat",
+        "8 Paediatric Primary Health Centres (PHCs) providing free OPD, lab tests and medications in rural Gujarat",
+        "Education for urban and rural slum children (per Note 51 FY25 nature of CSR activities)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Board's Report Sec.15 states required ₹54.00 Cr (2% avg net profit) and spent ₹52.82 Cr; Note 51 (financial statements) shows total statutory obligation incl. shortfall carry-forward ₹67.95 Cr, spend split ₹5.21 Cr (assets) + ₹47.59 Cr (other) = ₹52.80~52.82 Cr, unspent/shortfall ₹15.15 Cr, all figures in ₹ Crore as reported.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/08e41424-8aab-4618-8453-8c31c9cbaacd.pdf",
+        "page": 167
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:34:49.892Z"
     }
   }
 }
