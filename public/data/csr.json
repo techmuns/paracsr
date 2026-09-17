@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:15:03.771Z",
-  "count": 79,
+  "updated_at": "2026-09-17T14:15:24.010Z",
+  "count": 80,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2809,7 +2809,7 @@
       "generated_at": "2026-09-17T14:14:40.239Z"
     },
     "DLF": {
-      "rank": 79,
+      "rank": 80,
       "name": "DLF Limited",
       "ticker": "DLF",
       "exchange": "NSEI",
@@ -2843,6 +2843,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:15:01.844Z"
+    },
+    "FEDERALBNK": {
+      "rank": 79,
+      "name": "The Federal Bank Limited",
+      "ticker": "FEDERALBNK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 4345.3,
+      "pat_screener_cr": 4491,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4491,
+      "pat_mismatch": false,
+      "pat_delta_pct": 3.35,
+      "fy_used": "FY26",
+      "csr_spent_cr": 93.49,
+      "csr_obligation_cr": 93.49,
+      "csr_required_2pct_cr": 93.49,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promoting Education initiatives",
+        "Promoting Healthcare initiatives",
+        "Livelihood Enhancement projects",
+        "CSR activities implemented via Federal Bank Hormis Memorial Foundation (₹89.49 crore in FY26)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Schedule 18, Note 3.9 CSR (Bank-level); FY26 gross amount required = amount spent = ₹93.49 crore (fully spent, incl. ₹18.16cr transferred to unspent account for ongoing projects); amounts already in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad830431-1737-419d-84ec-a40aa969637e.pdf",
+        "page": 213
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:15:24.009Z"
     }
   }
 }

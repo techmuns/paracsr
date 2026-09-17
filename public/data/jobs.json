@@ -396,8 +396,8 @@
       "error": null
     },
     "FEDERALBNK": {
-      "status": "running",
-      "updated_at": "2026-09-17T14:15:03.771Z",
+      "status": "done",
+      "updated_at": "2026-09-17T14:15:24.009Z",
       "error": null
     }
   }
