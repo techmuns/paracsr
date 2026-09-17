@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:09:33.476Z",
-  "count": 63,
+  "updated_at": "2026-09-17T14:09:48.837Z",
+  "count": 64,
   "companies": {
     "500049": {
       "rank": 60,
@@ -609,6 +609,42 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:51:43.738Z",
       "sector_detail": "Telecom - Cellular & Fixed line services"
+    },
+    "532967": {
+      "rank": 64,
+      "name": "Kiri Industries Limited",
+      "ticker": "532967",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Dyes And Pigments",
+      "is_psu": false,
+      "pat_client_cr": 5566.5,
+      "pat_screener_cr": 5567,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5567,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0.09,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend on Education",
+        "CSR spend on Healthcare",
+        "Rural development, hunger/poverty alleviation and safe drinking water initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure E (CSR Annual Report) and Note (Standalone/Consolidated) for FY2025-26; amount spent ₹9.96 Lakhs = ₹0.0996 crore (rounded to ₹0.09 crore per Annexure E); Section 135(5) obligation stated as Nil/Not Applicable; nature of CSR activities includes Education and Healthcare.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1d08920-ba83-4f11-b62d-fedbbe5d8905.pdf",
+        "page": 140
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:09:48.837Z"
     },
     "SBIN": {
       "rank": 2,
