@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:46:24.785Z",
-  "count": 165,
+  "updated_at": "2026-09-17T14:46:45.514Z",
+  "count": 166,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4616,7 +4616,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 165,
+      "rank": 166,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5485,7 +5485,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 164,
+      "rank": 165,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5947,6 +5947,43 @@
       },
       "model": null,
       "generated_at": "2026-09-17T14:44:56.934Z"
+    },
+    "PATANJALI": {
+      "rank": 164,
+      "name": "Patanjali Foods Limited",
+      "ticker": "PATANJALI",
+      "exchange": "NSEI",
+      "sector": "Oil & Gas",
+      "sector_detail": "Edible Oil",
+      "is_psu": false,
+      "pat_client_cr": 1814.47,
+      "pat_screener_cr": 1814,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1814,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.03,
+      "fy_used": "FY26",
+      "csr_spent_cr": 41.65,
+      "csr_obligation_cr": 26.45,
+      "csr_required_2pct_cr": 26.45,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Ayurvedic healthcare infrastructure development and preventive/curative healthcare services",
+        "Medical education and research support",
+        "Promotion of education including support for women's education",
+        "Development of sports infrastructure"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 28(II), Standalone Financial Statements FY26; amounts converted from ₹ in Lakh to crore (₹4,165.00 lakh = ₹41.65 crore spent; ₹2,644.61 lakh = ₹26.45 crore required/obligation; company spent more than required, surplus/shortfall of (1,520.39) lakh i.e. surplus of ₹15.20 crore, so unspent = 0).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89af6f75-6a1d-4099-ba43-630c4de2d6b8.pdf",
+        "page": 186
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:46:45.514Z"
     }
   }
 }
