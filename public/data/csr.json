@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:14:16.212Z",
-  "count": 77,
+  "updated_at": "2026-09-17T14:14:40.239Z",
+  "count": 78,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2770,6 +2770,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:13:51.592Z"
+    },
+    "CENTRALBK": {
+      "rank": 78,
+      "name": "Central Bank of India",
+      "ticker": "CENTRALBK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 4523.78,
+      "pat_screener_cr": 4531,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4531,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.16,
+      "fy_used": "FY26",
+      "csr_spent_cr": 1.13,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": 0.03,
+      "health_or_education": true,
+      "examples": [
+        "Provided medical equipment including cardiac colour doppler systems to healthcare institutions",
+        "Extended financial assistance to 45 children with intellectual disabilities and underprivileged students for education",
+        "Constructed public amenities (sanitation facilities, toilet blocks) for rural schools",
+        "Installed solar street lights and water coolers in unbanked areas"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Bank not covered under mandatory Section 135 in FY26 (voluntary CSR); figures from BRSR Sec VI (Directors'-report annexure) and MD&A: disbursed ₹1.13 cr out of sanctioned ₹1.16-1.17 cr (unspent ~0.03-0.04 cr, taken as 0.03 based on 1.16 sanctioned figure); a separate communications section cites ₹7.09 cr 'voluntary contribution' but the explicit 'Amount Spent'/disbursed figure of ₹1.13 cr is used as key figure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e0eae501-f358-41a6-8ccb-1fae98fc5270.pdf",
+        "page": 595
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:14:40.239Z"
     }
   }
 }
