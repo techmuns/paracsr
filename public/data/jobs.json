@@ -119,6 +119,11 @@
       "status": "done",
       "updated_at": "2026-09-17T12:54:43.269Z",
       "error": null
+    },
+    "HINDPETRO": {
+      "status": "running",
+      "updated_at": "2026-09-17T12:54:44.531Z",
+      "error": null
     }
   }
 }
