@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:28:43.695Z",
-  "count": 112,
+  "updated_at": "2026-09-17T14:29:03.380Z",
+  "count": 113,
   "companies": {
     "500049": {
       "rank": 61,
@@ -578,6 +578,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:58:35.339Z"
+    },
+    "500530": {
+      "rank": 112,
+      "name": "Bosch Limited",
+      "ticker": "500530",
+      "exchange": "BSE",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Auto Components & Equipments",
+      "is_psu": false,
+      "pat_client_cr": 2773.2,
+      "pat_screener_cr": 2773,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2773,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 35.6,
+      "csr_obligation_cr": 41.5,
+      "csr_required_2pct_cr": 41.49,
+      "csr_unspent_cr": 5.9,
+      "health_or_education": true,
+      "examples": [
+        "Construction of new classroom buildings and digital classroom setups (Smart TV, internet, power backup) across multiple government schools in Karnataka and Tamil Nadu",
+        "Setting up skill development centres for Home Appliances and Power Tools in Sikkim and Chennai (Dhaanish Ahmed College of Engineering)",
+        "Infrastructure support to government schools (₹5.47 crore project via Bosch India Foundation)",
+        "CSR focus areas include vocational training, health, hygiene and education, and access to quality education and healthcare for underprivileged children"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone/Consolidated Note 26(a), FY26 (year ended March 31, 2026); amounts in Mio INR converted to crore (1 crore=10 Mio INR): spent 356 Mio INR=35.6 cr, gross required 415 Mio INR=41.5 cr, shortfall 59 Mio INR=5.9 cr; Annexure D gives obligation as Mio INR 414.89=41.489 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/598294fb-7fe8-4147-84e7-f9e0e0bd4da6.pdf",
+        "page": 316
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:29:03.380Z"
     },
     "500570": {
       "rank": 3,
@@ -3746,7 +3783,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 112,
+      "rank": 113,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
