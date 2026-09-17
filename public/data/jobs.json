@@ -914,6 +914,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:51:53.119Z",
       "error": null
+    },
+    "SPARC": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:51:54.459Z",
+      "error": null
     }
   }
 }
