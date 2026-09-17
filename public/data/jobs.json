@@ -494,6 +494,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:24:49.989Z",
       "error": null
+    },
+    "JINDALSTEL": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:24:51.108Z",
+      "error": null
     }
   }
 }
