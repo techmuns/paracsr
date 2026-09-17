@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:13:52.936Z",
-  "count": 76,
+  "updated_at": "2026-09-17T14:14:14.989Z",
+  "count": 77,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500114": {
-      "rank": 73,
+      "rank": 74,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -219,7 +219,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500257": {
-      "rank": 70,
+      "rank": 71,
       "name": "Lupin Limited",
       "ticker": "500257",
       "exchange": "BSE",
@@ -254,6 +254,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:11:30.674Z"
+    },
+    "500425": {
+      "rank": 64,
+      "name": "Ambuja Cements Limited",
+      "ticker": "500425",
+      "exchange": "BSE",
+      "sector": "Cement & Construction",
+      "sector_detail": "Cement & Cement Products",
+      "is_psu": false,
+      "pat_client_cr": 4728.18,
+      "pat_screener_cr": 5637,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5637,
+      "pat_mismatch": true,
+      "pat_delta_pct": 19.22,
+      "fy_used": "FY26",
+      "csr_spent_cr": 54.93,
+      "csr_obligation_cr": 53.89,
+      "csr_required_2pct_cr": 60.98,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Integrated Community Development at Chandrapur, Maharashtra including health interventions (SROI 8.16x, ₹12.35 crore value created)",
+        "Skill and Entrepreneurial Development Initiatives (SEDI) at Amarwada, Chindwara, Bhatapara and Rawan for youth livelihood/employability training",
+        "Education quality interventions leading to 60% students showing improved reading ability",
+        "Rural infrastructure development including water resources and sanitation across Ambujanagar, Marwar, Rabriyawas and Bhatapara"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-A to Directors' Report, Annual Report on CSR Activities, FY2025-26 (year ended 31 Mar 2026). Total amount spent for FY = ₹54.93 crore (project spend ₹53.97 cr + admin overheads ₹0.96 cr); CSR obligation after set-off = ₹53.89 crore; 2% of avg net profit = ₹60.98 crore; unspent = Nil.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fac93d55-1b5c-4ea4-a782-24f51e17ffe4.pdf",
+        "page": 153
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:14:14.989Z"
     },
     "500440": {
       "rank": 37,
@@ -473,7 +510,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "505200": {
-      "rank": 66,
+      "rank": 67,
       "name": "Eicher Motors Limited",
       "ticker": "505200",
       "exchange": "BSE",
@@ -584,7 +621,7 @@
       "generated_at": "2026-09-17T14:03:45.749Z"
     },
     "511243": {
-      "rank": 71,
+      "rank": 72,
       "name": "Cholamandalam Investment and Finance Company Limited",
       "ticker": "511243",
       "exchange": "BSE",
@@ -757,7 +794,7 @@
       "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "532967": {
-      "rank": 65,
+      "rank": 66,
       "name": "Kiri Industries Limited",
       "ticker": "532967",
       "exchange": "BSE",
@@ -2412,7 +2449,7 @@
       "generated_at": "2026-09-17T14:08:53.448Z"
     },
     "LICHSGFIN": {
-      "rank": 64,
+      "rank": 65,
       "name": "LIC Housing Finance Limited",
       "ticker": "LICHSGFIN",
       "exchange": "NSEI",
@@ -2449,7 +2486,7 @@
       "generated_at": "2026-09-17T14:09:32.057Z"
     },
     "HYUNDAI": {
-      "rank": 67,
+      "rank": 68,
       "name": "Hyundai Motor India Limited",
       "ticker": "HYUNDAI",
       "exchange": "NSEI",
@@ -2483,7 +2520,7 @@
       "generated_at": "2026-09-17T14:10:30.112Z"
     },
     "IOB": {
-      "rank": 68,
+      "rank": 69,
       "name": "Indian Overseas Bank",
       "ticker": "IOB",
       "exchange": "NSEI",
@@ -2518,7 +2555,7 @@
       "generated_at": "2026-09-17T14:10:54.297Z"
     },
     "RAYMOND": {
-      "rank": 69,
+      "rank": 70,
       "name": "Raymond Limited",
       "ticker": "RAYMOND",
       "exchange": "NSEI",
@@ -2553,7 +2590,7 @@
       "generated_at": "2026-09-17T14:11:10.633Z"
     },
     "ZYDUSLIFE": {
-      "rank": 72,
+      "rank": 73,
       "name": "Zydus Lifesciences Limited",
       "ticker": "ZYDUSLIFE",
       "exchange": "NSEI",
@@ -2590,7 +2627,7 @@
       "generated_at": "2026-09-17T14:12:34.484Z"
     },
     "LTM": {
-      "rank": 74,
+      "rank": 75,
       "name": "LTM Limited",
       "ticker": "LTM",
       "exchange": "NSEI",
@@ -2662,7 +2699,7 @@
       "generated_at": "2026-09-17T14:13:11.426Z"
     },
     "TATACAP": {
-      "rank": 75,
+      "rank": 76,
       "name": "Tata Capital Limited",
       "ticker": "TATACAP",
       "exchange": "NSEI",
@@ -2698,7 +2735,7 @@
       "generated_at": "2026-09-17T14:13:29.897Z"
     },
     "TECHM": {
-      "rank": 76,
+      "rank": 77,
       "name": "Tech Mahindra Limited",
       "ticker": "TECHM",
       "exchange": "NSEI",
