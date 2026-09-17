@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-09-17T13:59:29.624Z",
-  "count": 34,
+  "updated_at": "2026-09-17T13:59:50.107Z",
+  "count": 35,
   "companies": {
+    "500188": {
+      "rank": 35,
+      "name": "Hindustan Zinc Limited",
+      "ticker": "500188",
+      "exchange": "BSE",
+      "sector": "Metals & Mining",
+      "sector_detail": "Zinc",
+      "is_psu": false,
+      "pat_client_cr": 13832,
+      "pat_screener_cr": 13832,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 13832,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 269.53,
+      "csr_obligation_cr": 251.96,
+      "csr_required_2pct_cr": 260.58,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Mobile Health Van and Cath Lab providing preventive and cardiac healthcare access in communities",
+        "Girls Scholarship program and Child Care Program supporting education with high satisfaction ratings",
+        "Community upliftment through Education, Sustainable Livelihoods, Women Empowerment, Health & Water, Sports & Culture initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "CSR Annexure-3 (Annual Report on CSR Activities, pg 346-347) for FY2025-26: Total CSR obligation ₹251.96 cr (5e), Total spent ₹269.53 cr (6d), fully spent with excess of ₹17.57 cr carried forward; 2% of average net profit = ₹260.58 cr. Corp Governance report (pg370) also cites ₹278.15 cr spent (includes ₹8.62 cr carry-forward from FY25) against 2% requirement ₹260.58 cr - used Annexure-3 table figures as primary per instructions.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cbc28329-b172-488c-9dcd-71d786cd9053.pdf",
+        "page": 346
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:59:50.107Z"
+    },
     "500228": {
       "rank": 18,
       "name": "JSW Steel Limited",
