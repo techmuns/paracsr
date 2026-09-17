@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:48:40.884Z",
-  "count": 4,
+  "updated_at": "2026-09-17T12:49:00.165Z",
+  "count": 5,
   "companies": {
     "500570": {
       "rank": 3,
@@ -145,6 +145,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:48:39.797Z"
+    },
+    "LICI": {
+      "rank": 5,
+      "name": "Life Insurance Corporation of India",
+      "ticker": "LICI",
+      "exchange": "NSEI",
+      "sector": "Life Insurance",
+      "is_psu": true,
+      "pat_client_cr": 64434.77,
+      "pat_screener_cr": 57453,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 57453,
+      "pat_mismatch": true,
+      "pat_delta_pct": -10.84,
+      "fy_used": "FY26",
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "LIC Golden Jubilee Foundation sanctioned 119 projects worth ₹77.74 crore in FY26, with health-related projects receiving the highest-ever allocation of ₹62.20 crore",
+        "Provided 10,660 new scholarships to meritorious students from underprivileged families in FY26",
+        "Since inception, 437 projects sanctioned for healthcare and 417 for education, out of 1045 total projects worth ₹303 crore (as on 31.03.2026)",
+        "Runs rural education programs, vocational and skill development initiatives, and healthcare/medical support activities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "CSR under Section 135 NOT applicable to LIC (statutory corporation under LIC Act 1956, outside Companies Act 2013 CSR purview). Voluntary social spend done via LIC Golden Jubilee Foundation (Charitable Trust); figures given are Foundation project sanctions, not a Section 135 CSR spend table, so csr_spent/obligation/2%/unspent are null (not applicable/not disclosed in that format).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bbfc5caf-c294-4e5a-b33d-7cc543f0479d.pdf",
+        "page": 340
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:49:00.165Z"
     }
   }
 }
