@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:48:30.539Z",
-  "count": 172,
+  "updated_at": "2026-09-17T14:48:45.462Z",
+  "count": 173,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4725,7 +4725,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 172,
+      "rank": 173,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5594,7 +5594,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 171,
+      "rank": 172,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6202,6 +6202,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:48:29.191Z"
+    },
+    "LGEINDIA": {
+      "rank": 171,
+      "name": "LG Electronics India Limited",
+      "ticker": "LGEINDIA",
+      "exchange": "NSEI",
+      "sector": "FMCG",
+      "sector_detail": "Household Appliances",
+      "is_psu": false,
+      "pat_client_cr": 1685.09,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 1685.09,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 1.018,
+      "csr_obligation_cr": 45.395,
+      "csr_required_2pct_cr": 45.395,
+      "csr_unspent_cr": 44.376,
+      "health_or_education": true,
+      "examples": [
+        "Promoting healthcare and awareness – ₹0.207 crore spent in FY26",
+        "Focus areas include Health & Nutrition and Education & Skilling programs",
+        "Prior year spend included ₹0.016 crore on promoting education"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 33 (Financial Statements) and Annexure III (Directors' Report CSR Annual Report), FY26; amounts converted from ₹ Millions to ₹ crore (÷10). Total spent for FY26 = ₹10.18 million = ₹1.018 crore; obligation/2% requirement = ₹453.95 million = ₹45.395 crore; unspent = ₹443.77 million = ₹44.377 crore (approx, per Note 33 balance).\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4540ff68-627b-4846-81b1-1688bf925178.pdf",
+        "page": 113
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:48:45.461Z"
     }
   }
 }
