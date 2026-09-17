@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:58:36.590Z",
-  "count": 31,
+  "updated_at": "2026-09-17T13:58:53.859Z",
+  "count": 32,
   "companies": {
     "500228": {
       "rank": 18,
@@ -1111,6 +1111,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:58:14.939Z"
+    },
+    "POWERGRID": {
+      "rank": 32,
+      "name": "Power Grid Corporation of India Limited",
+      "ticker": "POWERGRID",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Power - Transmission",
+      "is_psu": true,
+      "pat_client_cr": 15927.95,
+      "pat_screener_cr": 15928,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 15928,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 391.16,
+      "csr_obligation_cr": 340.07,
+      "csr_required_2pct_cr": 350.81,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Eradicating hunger and poverty and promoting health care and sanitation – ₹240.83 crore spent",
+        "Promoting education, employment and livelihood enhancement projects – ₹69.77 crore spent"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 53 to Standalone Financial Statements & Annexure-IX (CSR Annual Report) to Directors' Report, FY ended 31 March 2026; amounts in ₹ crore as stated (Total Amount Spent ₹391,16,25,207 = ₹391.16 crore; unspent = 0.00).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5bfc82cf-cf35-4f6d-9d47-c00b6583a3bc.pdf",
+        "page": 230
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:58:53.859Z"
     }
   }
 }

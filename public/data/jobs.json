@@ -156,8 +156,8 @@
       "error": null
     },
     "POWERGRID": {
-      "status": "running",
-      "updated_at": "2026-09-17T13:58:36.589Z",
+      "status": "done",
+      "updated_at": "2026-09-17T13:58:53.859Z",
       "error": null
     }
   }
