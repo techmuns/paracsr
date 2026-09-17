@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:23:39.802Z",
-  "count": 95,
+  "updated_at": "2026-09-17T14:23:57.742Z",
+  "count": 96,
   "companies": {
     "500049": {
       "rank": 61,
@@ -583,7 +583,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500790": {
-      "rank": 95,
+      "rank": 96,
       "name": "Nestlé India Limited",
       "ticker": "500790",
       "exchange": "BSE",
@@ -3360,7 +3360,7 @@
       "generated_at": "2026-09-17T14:21:16.938Z"
     },
     "YESBANK": {
-      "rank": 93,
+      "rank": 94,
       "name": "Yes Bank Limited",
       "ticker": "YESBANK",
       "exchange": "NSEI",
@@ -3392,7 +3392,7 @@
       "generated_at": "2026-09-17T14:22:15.432Z"
     },
     "AUROPHARMA": {
-      "rank": 94,
+      "rank": 95,
       "name": "Aurobindo Pharma Limited",
       "ticker": "AUROPHARMA",
       "exchange": "NSEI",
@@ -3427,6 +3427,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:22:36.645Z"
+    },
+    "ASHOKLEY": {
+      "rank": 93,
+      "name": "Ashok Leyland Limited",
+      "ticker": "ASHOKLEY",
+      "exchange": "NSEI",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Commercial Vehicles",
+      "is_psu": false,
+      "pat_client_cr": 3471.03,
+      "pat_screener_cr": 3721,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3721,
+      "pat_mismatch": true,
+      "pat_delta_pct": 7.2,
+      "fy_used": "FY26",
+      "csr_spent_cr": 46.55,
+      "csr_obligation_cr": 48.19,
+      "csr_required_2pct_cr": 66.45,
+      "csr_unspent_cr": 1.64,
+      "health_or_education": true,
+      "examples": [
+        "Education initiatives supported through CSR contributions to Ashok Leyland Foundation",
+        "Preventive healthcare and eradicating hunger/malnutrition programs",
+        "Environmental sustainability projects alongside education and healthcare focus areas"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Note 3.15 (Standalone Financials) & Annexure I to Board's Report, FY2025-26; amounts spent per CSR annexure (₹46.55 cr total incl. admin overheads) vs note 3.15 (₹48.19 cr total incl. provision for unspent ongoing project amount); figures already in ₹ crores, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f76e42f9-86c6-4fad-a880-8b9b12ed2dd6.pdf",
+        "page": 210
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:23:57.742Z"
     }
   }
 }
