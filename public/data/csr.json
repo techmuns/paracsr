@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:44:51.312Z",
-  "count": 163,
+  "updated_at": "2026-09-17T14:44:56.934Z",
+  "count": 164,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4579,7 +4579,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 163,
+      "rank": 164,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5448,7 +5448,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 162,
+      "rank": 163,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5878,6 +5878,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:44:50.166Z"
+    },
+    "MCDOWELL-N": {
+      "rank": 162,
+      "name": "United Spirits Limited",
+      "ticker": "MCDOWELL-N",
+      "exchange": "NSEI",
+      "sector": "FMCG",
+      "sector_detail": "Alcoholic Beverages",
+      "is_psu": false,
+      "pat_client_cr": 1838,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "standalone",
+      "pat_cr": 1838,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "unknown",
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": null,
+      "examples": [],
+      "found": false,
+      "confidence": "low",
+      "notes": "annual report not found on Screener",
+      "source": {
+        "annual_report_url": null,
+        "page": null
+      },
+      "model": null,
+      "generated_at": "2026-09-17T14:44:56.934Z"
     }
   }
 }
