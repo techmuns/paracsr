@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:37:21.888Z",
-  "count": 140,
+  "updated_at": "2026-09-17T14:37:39.886Z",
+  "count": 141,
   "companies": {
     "500049": {
       "rank": 61,
@@ -396,6 +396,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:20:58.249Z"
+    },
+    "500420": {
+      "rank": 140,
+      "name": "Torrent Pharmaceuticals Limited",
+      "ticker": "500420",
+      "exchange": "BSE",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 2163.37,
+      "pat_screener_cr": 2138,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2138,
+      "pat_mismatch": false,
+      "pat_delta_pct": -1.17,
+      "fy_used": "FY26",
+      "csr_spent_cr": 37.83,
+      "csr_obligation_cr": 41.38,
+      "csr_required_2pct_cr": 41.38,
+      "csr_unspent_cr": 4.17,
+      "health_or_education": true,
+      "examples": [
+        "Runs UNM Children Hospital, a 150-bed NABH-certified pediatric hospital with NICU/PICU, plus 12 Paediatric Health Centres (PHCs) across rural Gujarat",
+        "REACH programme: screens and treats malnourished/anemic children (6 months-6 years) across 1,900+ villages in Gujarat",
+        "Adolescent girls' healthcare and menstrual hygiene education/sanitary pad distribution across 1,750+ villages in Gujarat",
+        "Community Healthcare, Sanitation & Hygiene, Education and Knowledge Enhancement, Social Care and Concern activities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 45 CSR Expenditure (standalone FY26 vs FY25); amount spent = paid in cash 36.79 + yet to be paid 1.04 = 37.83 cr; Board report narrative cites total spent as 44.95 cr (likely consolidated/Group figure incl. UNMF Section 8 co. contributions); using note 45 table figure for standalone.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff8314b3-63f3-4741-871f-83b50a44e1d9.pdf",
+        "page": 164
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:37:39.885Z"
     },
     "500425": {
       "rank": 64,
@@ -4294,7 +4331,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 140,
+      "rank": 141,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
