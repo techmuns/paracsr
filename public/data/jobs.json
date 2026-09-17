@@ -334,6 +334,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:10:54.297Z",
       "error": null
+    },
+    "RAYMOND": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:10:55.621Z",
+      "error": null
     }
   }
 }
