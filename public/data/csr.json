@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:01:22.612Z",
-  "count": 39,
+  "updated_at": "2026-09-17T14:01:43.024Z",
+  "count": 40,
   "companies": {
     "500188": {
       "rank": 35,
@@ -1400,6 +1400,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:01:20.812Z"
+    },
+    "INDIANB": {
+      "rank": 40,
+      "name": "Indian Bank",
+      "ticker": "INDIANB",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 11704.28,
+      "pat_screener_cr": 11707,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 11707,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Supported King George's Medical University, Lucknow for heavily subsidised robotic surgeries for economically weaker patients",
+        "Provided bicycles to girl students of Zilla Parishad schools and supplied medical equipment in Kolhapur & Ratnagiri districts under National Health Mission, Maharashtra",
+        "Donated hearing aids and computer systems to Little Flower Convent Higher Secondary School for the Deaf, Chennai",
+        "Provided an ambulance to Government Medical College & Hospital, Omandurar, Chennai"
+      ],
+      "found": true,
+      "confidence": "low",
+      "notes": "CSR described narratively in Directors' Report (Corporate Communication section, pages 315-317) with project/photo examples; no table with 'Amount Spent during the Year', obligation, 2% requirement, or unspent amount was found in the excerpt, so all monetary figures are null.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1fb9961e-55dc-496e-9726-6e605ddde9f0.pdf",
+        "page": 22
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:01:43.024Z"
     }
   }
 }
