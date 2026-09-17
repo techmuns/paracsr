@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:59:51.486Z",
-  "count": 35,
+  "updated_at": "2026-09-17T14:00:14.500Z",
+  "count": 36,
   "companies": {
     "500188": {
       "rank": 35,
@@ -109,6 +109,42 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:54:10.399Z",
       "sector_detail": "Private Sector Bank"
+    },
+    "500440": {
+      "rank": 36,
+      "name": "Hindalco Industries Limited",
+      "ticker": "500440",
+      "exchange": "BSE",
+      "sector": "Metals & Mining",
+      "sector_detail": "Aluminium",
+      "is_psu": false,
+      "pat_client_cr": 13391,
+      "pat_screener_cr": 13391,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 13391,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 90.14,
+      "csr_obligation_cr": 121.18,
+      "csr_required_2pct_cr": 121.18,
+      "csr_unspent_cr": 32,
+      "health_or_education": true,
+      "examples": [
+        "Mobile health vans and health check-up camps to improve healthcare access",
+        "School infrastructure development, scholarships and midday meal programs",
+        "CSR focus areas include Healthcare and Education alongside Social Empowerment, Infrastructure Development and Sustainable Livelihood"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure IV (Board's Report CSR annexure) for FY26; amounts already in INR crore. Note 38(a) in standalone financial statements shows slightly different spend split (89+1=90 cr per note vs 90.14 cr total per CSR annexure, incl. admin overheads & impact assessment); used Annexure IV figures as primary CSR disclosure. Unspent amount transferred to Unspent CSR Account: ₹32.00 crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bb3b7080-855f-4cde-b688-d97575a72f3f.pdf",
+        "page": 452
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:00:14.499Z"
     },
     "500510": {
       "rank": 26,
