@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:03:05.327Z",
-  "count": 44,
+  "updated_at": "2026-09-17T14:03:25.068Z",
+  "count": 45,
   "companies": {
     "500188": {
       "rank": 35,
@@ -1583,6 +1583,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:03:03.847Z"
+    },
+    "BANKINDIA": {
+      "rank": 45,
+      "name": "Bank of India Limited",
+      "ticker": "BANKINDIA",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 10306.3,
+      "pat_screener_cr": 10309,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 10309,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.03,
+      "fy_used": "FY26",
+      "csr_spent_cr": 12.83,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Strengthened healthcare infrastructure by providing ambulances, ventilators, multipara infusion pumps, NICU equipment and other medical equipment to hospitals",
+        "Star Angel Scheme providing ₹1,200/year financial assistance to girl students from Std I up to graduation under 'Beti Bachao, Beti Padhao'",
+        "Construction of classrooms, providing school kits & uniforms and developing basic school infrastructure",
+        "Supported therapy centres, autism care and cancer care treatment initiatives"
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Corporate Social Responsibility section (p.93-94), Directors' Report annexure; category-wise spend table gives Total ₹1282.65 lakh = ₹12.83 crore (converted from lakh); no explicit 2% obligation/unspent figures stated in excerpt.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/68b91cae-d3e5-4c79-9414-09dec50e6f77.pdf",
+        "page": 4
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:03:25.068Z"
     }
   }
 }
