@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:26:24.280Z",
-  "count": 104,
+  "updated_at": "2026-09-17T14:26:41.648Z",
+  "count": 105,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3645,7 +3645,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 104,
+      "rank": 105,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3752,6 +3752,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:26:03.816Z"
+    },
+    "TMCV": {
+      "rank": 104,
+      "name": "Tata Motors Limited",
+      "ticker": "TMCV",
+      "exchange": "NSEI",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Commercial Vehicles",
+      "is_psu": false,
+      "pat_client_cr": 3030,
+      "pat_screener_cr": 3030,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3030,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 1.57,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Aarogya (Health): child malnutrition programs, preventive/curative healthcare, health awareness, drinking water projects, strengthening health institutions",
+        "Vidyadhanam (Education): scholarships, remedial coaching, exam preparation support, school infrastructure development",
+        "Kaushalya (Employability): skill development programs with ITIs covering auto-mechanics, retail, hospitality, driver training"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-2 to Board's Report (Section 135 CSR disclosure), pages 134-137; 2% obligation stated as 'Not applicable' (company had no average net profit basis due to demerger/listing in Nov 2025), so csr_required_2pct_cr set null while total obligation for the year given as Nil; amount spent ₹1.57 crore fully spent, no unspent balance.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c733587d-fcc8-432d-89fe-1e37630d8896.pdf",
+        "page": 134
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:26:41.647Z"
     }
   }
 }
