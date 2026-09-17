@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:00:16.260Z",
-  "count": 36,
+  "updated_at": "2026-09-17T14:00:37.243Z",
+  "count": 37,
   "companies": {
     "500188": {
       "rank": 35,
@@ -254,6 +254,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:59:10.933Z"
+    },
+    "507685": {
+      "rank": 37,
+      "name": "Wipro Limited",
+      "ticker": "507685",
+      "exchange": "BSE",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 13197.4,
+      "pat_screener_cr": 13266,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 13266,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.52,
+      "fy_used": "FY26",
+      "csr_spent_cr": 227.4,
+      "csr_obligation_cr": 130.4,
+      "csr_required_2pct_cr": 204.2,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Runs education programs including systemic reforms in education, access to education for underprivileged children and children with disabilities",
+        "Higher Education for Skills Building program bridging academic-industry gap for students",
+        "Engineering Education program building industry-ready engineering talent",
+        "Primary Healthcare project benefiting 700,000 persons"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 35 (Standalone Financial Statements) and Annexure IV of Board's Report, FY ended March 31, 2026; amounts converted from I in millions to INR crore (÷100). Total CSR obligation for FY26 (after set-off) was Rs.1,304 million (~130.4 cr); gross 2% requirement Rs.2,042 million (~204.2 cr); total amount spent Rs.2,274 million (~227.4 cr, inclusive of admin overheads & impact assessment); no unspent amount, fully spent with excess set-off for future years.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d4ffaa08-a47a-487b-b136-eb4f26c1bace.pdf",
+        "page": 284
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:00:37.242Z"
     },
     "532215": {
       "rank": 16,
