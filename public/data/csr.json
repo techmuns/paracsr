@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-17T12:48:06.828Z",
-  "count": 2,
+  "updated_at": "2026-09-17T12:48:21.125Z",
+  "count": 3,
   "companies": {
     "500570": {
-      "rank": 2,
+      "rank": 3,
       "name": "Tata Motors Limited",
       "ticker": "500570",
       "exchange": "BSE",
@@ -39,7 +39,7 @@
       "generated_at": "2026-09-17T12:48:05.645Z"
     },
     "SBIN": {
-      "rank": 1,
+      "rank": 2,
       "name": "State Bank of India",
       "ticker": "SBIN",
       "exchange": "NSEI",
@@ -73,6 +73,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:47:46.303Z"
+    },
+    "RELIANCE": {
+      "rank": 1,
+      "name": "Reliance Industries Limited",
+      "ticker": "RELIANCE",
+      "exchange": "NSEI",
+      "sector": "Refineries & Marketing",
+      "is_psu": false,
+      "pat_client_cr": 80775,
+      "pat_screener_cr": 95754,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 95754,
+      "pat_mismatch": true,
+      "pat_delta_pct": 18.54,
+      "fy_used": "FY26",
+      "csr_spent_cr": 1223,
+      "csr_obligation_cr": 1032,
+      "csr_required_2pct_cr": 1032,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Reliance Foundation Scholarships supporting 5,100 students annually, mostly meritorious undergraduates from underprivileged backgrounds",
+        "Rural Transformation Program promoting climate-resilient agriculture, dairy, goatery, fisheries and non-farm livelihoods for rural communities",
+        "Digital Farm School (DFS) providing farmer-centric agricultural extension via digital and on-ground support",
+        "Women's empowerment initiative on digital literacy and financial inclusion"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure III, Annual Report on CSR Activities FY2025-26 (Board's Report); amounts as stated in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+        "page": 85
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:48:21.125Z"
     }
   }
 }
