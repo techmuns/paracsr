@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:06:37.530Z",
-  "count": 54,
+  "updated_at": "2026-09-17T14:06:58.991Z",
+  "count": 55,
   "companies": {
     "500188": {
       "rank": 36,
@@ -434,6 +434,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:05:07.075Z"
+    },
+    "526371": {
+      "rank": 55,
+      "name": "NMDC Limited",
+      "ticker": "526371",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Industrial Minerals",
+      "is_psu": true,
+      "pat_client_cr": 7450.42,
+      "pat_screener_cr": 7450,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 7450,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 100.44,
+      "csr_obligation_cr": 166.3,
+      "csr_required_2pct_cr": 166.3,
+      "csr_unspent_cr": 65.86,
+      "health_or_education": true,
+      "examples": [
+        "CSR projects in Education, Health & Hygiene, and Nutrition as per Schedule VII focus areas",
+        "CSR spend includes Skill Development and Income Generation programs",
+        "Drinking Water and Rural Development projects undertaken alongside health/education initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 2.51.10 (Standalone/Consolidated) and Annexure-VIII (Directors' Report CSR Annexure); Amount Spent during the Year = ₹100.44 crore (actual CSR expenditure), with ₹65.86 crore deposited in Unspent CSR Account (UCSRA), totaling gross CSR obligation of ₹166.30 crore for FY2025-26.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ba2efa9-af6e-4f79-ba34-fa96bf07e0aa.pdf",
+        "page": 405
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:06:58.991Z"
     },
     "532215": {
       "rank": 16,
