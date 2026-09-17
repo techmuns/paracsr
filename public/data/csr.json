@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:31:01.982Z",
-  "count": 119,
+  "updated_at": "2026-09-17T14:31:16.795Z",
+  "count": 120,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 118,
+      "rank": 119,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 119,
+      "rank": 120,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4292,6 +4292,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:31:00.835Z"
+    },
+    "DIVISLAB": {
+      "rank": 118,
+      "name": "Divi's Laboratories Limited",
+      "ticker": "DIVISLAB",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 2568,
+      "pat_screener_cr": 2568,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2568,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 37,
+      "csr_obligation_cr": 49,
+      "csr_required_2pct_cr": 49,
+      "csr_unspent_cr": 12,
+      "health_or_education": true,
+      "examples": [
+        "Promoting healthcare initiatives",
+        "Promoting education",
+        "Rural development and empowering women",
+        "Safe drinking water and environmental sustainability projects"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 23(b) (standalone)/23(a) (consolidated), Expenditure on CSR activities, FY26 (year ended March 31, 2026); amounts already in INR crore as stated in accounts.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a68beb9a-758d-439e-b787-ae8dd268c4f2.pdf",
+        "page": 94
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:31:16.795Z"
     }
   }
 }
