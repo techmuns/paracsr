@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:00:39.372Z",
-  "count": 37,
+  "updated_at": "2026-09-17T14:00:58.979Z",
+  "count": 38,
   "companies": {
     "500188": {
       "rank": 35,
@@ -1327,6 +1327,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:59:28.189Z"
+    },
+    "ADANIPOWER": {
+      "rank": 38,
+      "name": "Adani Power Limited",
+      "ticker": "ADANIPOWER",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Integrated Power Utilities",
+      "is_psu": false,
+      "pat_client_cr": 12834.3,
+      "pat_screener_cr": 12971,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 12971,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.07,
+      "fy_used": "FY26",
+      "csr_spent_cr": 279.86,
+      "csr_obligation_cr": 274.12,
+      "csr_required_2pct_cr": 274.12,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Contributed ₹271.86 crore to Adani Foundation for various CSR activities",
+        "Funded Adani Skill Development Centre (₹8.00 crore) for skilling/education initiatives",
+        "Prior year contributions to Adani Medicity and Research Center (healthcare) and Adani Institute For Education and Research (education)",
+        "CSR focus areas include Education and Community Health per Annexure-E to Directors' Report"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 60 to Standalone Financial Statements (FY26) and Annexure-E to Directors' Report; amounts already in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f2a8b8cf-200b-4319-b6f9-5cf247f06010.pdf",
+        "page": 278
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:00:58.979Z"
     }
   }
 }
