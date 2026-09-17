@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:50:17.241Z",
-  "count": 178,
+  "updated_at": "2026-09-17T14:50:37.117Z",
+  "count": 179,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4795,7 +4795,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 178,
+      "rank": 179,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6415,6 +6415,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:49:42.029Z"
+    },
+    "ICICIPRULI": {
+      "rank": 178,
+      "name": "ICICI Prudential Life Insurance Company Limited",
+      "ticker": "ICICIPRULI",
+      "exchange": "NSEI",
+      "sector": "Insurance",
+      "sector_detail": "Life Insurance",
+      "is_psu": false,
+      "pat_client_cr": 1607.89,
+      "pat_screener_cr": 1608,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1608,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 2.64,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0.158,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Donated OCT machine and ophthalmic/vitrectomy equipment to eye hospitals (e.g. Simadri Surya Eye Hospital, Odisha)",
+        "Set up computer/innovation labs at institutions like BVM Institute, Gujarat and University of Kota, Rajasthan",
+        "Provided an ambulance to Rural Police, Howrah, West Bengal",
+        "Supported Shrimad Rajchandra Hospital and Research Centre, Gujarat"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 3.47 & Annexure C (Board's Report CSR annexure); amounts converted from ₹ lakhs to crore (₹264 lakh spent, ₹15.8 million/158 lakh = ₹0.158 cr required under 2% rule; company voluntarily spent more; total CSR obligation for FY26 shown as Nil due to set-off of prior year's excess spend).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df72b9e1-64fc-44cc-b70a-859d96626e25.pdf",
+        "page": 363
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:50:37.116Z"
     }
   }
 }
