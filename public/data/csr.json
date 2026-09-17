@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:32:51.419Z",
-  "count": 125,
+  "updated_at": "2026-09-17T14:33:06.228Z",
+  "count": 126,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 123,
+      "rank": 124,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 125,
+      "rank": 126,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 124,
+      "rank": 125,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4511,6 +4511,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:32:50.260Z"
+    },
+    "OBEROIRLTY": {
+      "rank": 123,
+      "name": "Oberoi Realty Limited",
+      "ticker": "OBEROIRLTY",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Residential, Commercial Projects",
+      "is_psu": false,
+      "pat_client_cr": 2507.43,
+      "pat_screener_cr": 2507,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2507,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 9.1736,
+      "csr_obligation_cr": 42.928,
+      "csr_required_2pct_cr": 42.928,
+      "csr_unspent_cr": 33.7544,
+      "health_or_education": true,
+      "examples": [
+        "Promoting health care including preventive health care and sanitation (₹132.00 lakh)",
+        "Promoting education (₹392.15 lakh)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 46 (Standalone Ind AS Financial Statements) and Annexure I to Directors' Report, FY2025-26; amounts converted from ₹ lakh to ₹ crore (÷100). Total amount spent for FY26 = ₹917.36 lakh = ₹9.1736 crore; unspent = ₹3,375.44 lakh = ₹33.7544 crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/12cbd249-56df-4bb6-a3f1-1a71901e768f.pdf",
+        "page": 269
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:33:06.228Z"
     }
   }
 }
