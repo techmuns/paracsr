@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:29:42.680Z",
-  "count": 115,
+  "updated_at": "2026-09-17T14:30:02.341Z",
+  "count": 116,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3783,7 +3783,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 114,
+      "rank": 115,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -4111,7 +4111,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 115,
+      "rank": 116,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4146,6 +4146,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:29:41.627Z"
+    },
+    "POLYCAB": {
+      "rank": 114,
+      "name": "Polycab India Limited",
+      "ticker": "POLYCAB",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Cables - Electricals",
+      "is_psu": false,
+      "pat_client_cr": 2672.03,
+      "pat_screener_cr": 2708,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2708,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.35,
+      "fy_used": "FY26",
+      "csr_spent_cr": 44.442,
+      "csr_obligation_cr": 44.031,
+      "csr_required_2pct_cr": 44.031,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Health Care spend of ₹21.37 crore on medical/health initiatives",
+        "Education spend of ₹17.99 crore on education programs",
+        "Rural Development initiatives (₹1.18 crore)",
+        "Environment-focused CSR projects (₹2.51 crore)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 33(b) & Board's Report Annexure C (Section 135); amounts in ₹ million converted to crore (÷100). Total CSR spent (C) = ₹444.42 million = ₹44.442 crore; obligation (A) = ₹440.31 million = ₹44.031 crore; excess spent ₹4.11 million, no unspent amount for FY26 (prior year FY25 unspent ₹167.53 million was carried and utilized).\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+        "page": 382
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:30:02.341Z"
     }
   }
 }
