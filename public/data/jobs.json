@@ -234,6 +234,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:04:07.567Z",
       "error": null
+    },
+    "GICRE": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:04:09.977Z",
+      "error": null
     }
   }
 }
