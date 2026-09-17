@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:36:22.773Z",
-  "count": 137,
+  "updated_at": "2026-09-17T14:36:40.067Z",
+  "count": 138,
   "companies": {
     "500049": {
       "rank": 61,
@@ -507,7 +507,7 @@
       "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500480": {
-      "rank": 132,
+      "rank": 133,
       "name": "Cummins India Limited",
       "ticker": "500480",
       "exchange": "BSE",
@@ -4257,7 +4257,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 137,
+      "rank": 138,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4440,7 +4440,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 136,
+      "rank": 137,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4838,7 +4838,7 @@
       "generated_at": "2026-09-17T14:35:06.986Z"
     },
     "J&KBANK": {
-      "rank": 133,
+      "rank": 134,
       "name": "The Jammu and Kashmir Bank Limited",
       "ticker": "J&KBANK",
       "exchange": "NSEI",
@@ -4874,7 +4874,7 @@
       "generated_at": "2026-09-17T14:35:41.135Z"
     },
     "ALKEM": {
-      "rank": 134,
+      "rank": 135,
       "name": "Alkem Laboratories Limited",
       "ticker": "ALKEM",
       "exchange": "NSEI",
@@ -4911,7 +4911,7 @@
       "generated_at": "2026-09-17T14:36:02.351Z"
     },
     "PNBHOUSING": {
-      "rank": 135,
+      "rank": 136,
       "name": "PNB Housing Finance Limited",
       "ticker": "PNBHOUSING",
       "exchange": "NSEI",
@@ -4945,6 +4945,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:36:21.699Z"
+    },
+    "ADANIENSOL": {
+      "rank": 132,
+      "name": "Adani Energy Solutions Limited",
+      "ticker": "ADANIENSOL",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Power Distribution",
+      "is_psu": false,
+      "pat_client_cr": 2282.54,
+      "pat_screener_cr": 2393,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2393,
+      "pat_mismatch": false,
+      "pat_delta_pct": 4.84,
+      "fy_used": "FY26",
+      "csr_spent_cr": 6.34,
+      "csr_obligation_cr": 6.32,
+      "csr_required_2pct_cr": 6.32,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR activities focused on Education, Community Health, Sustainable Livelihood and Community Infrastructure implemented via Adani Foundation",
+        "Activities related to sustainable livelihood, education and rural infrastructure development in various places of Rajasthan & Maharashtra states"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 45 (Standalone Financial Statements) and CSR Annexure to Board's Report, FY2025-26 (year ended March 31, 2026); amounts already in INR crore; excess spent of ₹0.02 crore over 2% obligation.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6bd769e5-13a6-46fd-8e87-b80b232d03d3.pdf",
+        "page": 375
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:36:40.067Z"
     }
   }
 }
