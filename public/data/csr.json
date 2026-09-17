@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:10:11.340Z",
-  "count": 65,
+  "updated_at": "2026-09-17T14:10:30.112Z",
+  "count": 66,
   "companies": {
     "500049": {
       "rank": 60,
@@ -2338,6 +2338,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:09:32.057Z"
+    },
+    "HYUNDAI": {
+      "rank": 66,
+      "name": "Hyundai Motor India Limited",
+      "ticker": "HYUNDAI",
+      "exchange": "NSEI",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Passenger Cars & Utility Vehicles",
+      "is_psu": false,
+      "pat_client_cr": 5431.52,
+      "pat_screener_cr": 5432,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5432,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 118.56,
+      "csr_obligation_cr": 145.038,
+      "csr_required_2pct_cr": 145.038,
+      "csr_unspent_cr": 55.358,
+      "health_or_education": true,
+      "examples": [
+        "Nature of CSR activities: Education, skilling, health, environmental sustainability, rural development etc."
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Note 48 (Standalone FS, FY ended Mar 31, 2026). Amounts originally in ₹ Million converted to crore (÷100). Amount required to be spent FY26: ₹1,450.38 million = 145.038 crore; Shortfall at end of year: ₹553.58 million = 55.358 crore. Total spend during year computed as sum of ongoing project spend (₹1,161.61 million) and Section 135(5) other-than-ongoing spend (₹288.77 million)... actually recalculated below.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/92a51726-0e33-4b20-89cb-a218491d22fd.pdf",
+        "page": 169
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:10:30.112Z"
     }
   }
 }
