@@ -769,6 +769,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:40:46.154Z",
       "error": null
+    },
+    "MANKIND": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:41:42.770Z",
+      "error": null
     }
   }
 }
