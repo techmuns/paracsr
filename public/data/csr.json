@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:26:04.899Z",
-  "count": 103,
+  "updated_at": "2026-09-17T14:26:23.220Z",
+  "count": 104,
   "companies": {
     "500049": {
       "rank": 61,
@@ -36,6 +36,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:36.819Z"
+    },
+    "500110": {
+      "rank": 103,
+      "name": "Chennai Petroleum Corporation Limited",
+      "ticker": "500110",
+      "exchange": "BSE",
+      "sector": "Oil & Gas",
+      "sector_detail": "Refineries & Marketing",
+      "is_psu": true,
+      "pat_client_cr": 3102.7,
+      "pat_screener_cr": 3103,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3103,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 55.23,
+      "csr_obligation_cr": 54,
+      "csr_required_2pct_cr": 56.12,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Health and Sanitation initiatives (₹21.44 crore) including health camps around refinery communities",
+        "Education/employment vocational skills programs (₹5.21 crore)",
+        "Contribution to CPCL Educational Trust (related party transaction)",
+        "Namakku Naame Thittam Scheme funding civic infrastructure via Tamil Nadu Government partnership (₹12.03 crore)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 39, FY26 (31-Mar-26) figures; amounts already in ₹ crore as stated in notes to accounts; Board's Report Annexure III confirms Total Amount Spent ₹5523.50 lakh = ₹55.235 crore, with ₹10.08 crore unspent transferred to separate CSR Unspent A/c for ongoing multi-year projects (Amount Unspent during the year shown as '-' in main table since fully accounted via set-off/transfer).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/532db3c4-7b08-4355-933e-fd82b893347c.pdf",
+        "page": 330
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:26:23.219Z"
     },
     "500114": {
       "rank": 75,
@@ -3608,7 +3645,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 103,
+      "rank": 104,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
