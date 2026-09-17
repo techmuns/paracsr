@@ -109,6 +109,11 @@
       "status": "done",
       "updated_at": "2026-09-17T12:53:54.344Z",
       "error": null
+    },
+    "BAJFINANCE": {
+      "status": "running",
+      "updated_at": "2026-09-17T12:54:11.573Z",
+      "error": null
     }
   }
 }
