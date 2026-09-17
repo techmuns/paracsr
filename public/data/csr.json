@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:33:07.662Z",
-  "count": 126,
+  "updated_at": "2026-09-17T14:33:24.104Z",
+  "count": 127,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 124,
+      "rank": 125,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 126,
+      "rank": 127,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 125,
+      "rank": 126,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4546,6 +4546,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:33:06.228Z"
+    },
+    "BSE": {
+      "rank": 124,
+      "name": "BSE Limited",
+      "ticker": "BSE",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Exchange and Data Platform",
+      "is_psu": false,
+      "pat_client_cr": 2496.98,
+      "pat_screener_cr": 2487,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2487,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.4,
+      "fy_used": "FY26",
+      "csr_spent_cr": 13.5728,
+      "csr_obligation_cr": 13.5728,
+      "csr_required_2pct_cr": 13.5728,
+      "csr_unspent_cr": 4.5459,
+      "health_or_education": true,
+      "examples": [
+        "CSR policy focus areas include promoting health care including preventive health care and sanitation",
+        "Promoting education including special education and employment-enhancing vocational skills"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone: Board's Report Annexure 'C' (CSR Annual Report), pg 45-46. Amounts in ₹ Lakhs converted to crore (1 crore=100 lakh). Total spent ₹1,357.28 lakh = ₹13.5728 cr (₹867.53 lakh spent directly + ₹429.84 lakh transferred to Unspent CSR A/c + ₹24.75 lakh + ₹35.16 lakh to PMNRF); unspent portion = ₹454.59 lakh = ₹4.5459 cr.",
+      "source": {
+        "annual_report_url": "https://archives.nseindia.com/annual_reports/AR_29957_BSE_2025_2026_A_15352240_23072026103201.pdf",
+        "page": 289
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:33:24.104Z"
     }
   }
 }
