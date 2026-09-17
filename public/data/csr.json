@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:56:15.823Z",
-  "count": 197,
+  "updated_at": "2026-09-17T14:56:36.465Z",
+  "count": 198,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2010,6 +2010,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:50:15.840Z"
+    },
+    "543220": {
+      "rank": 196,
+      "name": "Max Healthcare Institute Limited",
+      "ticker": "543220",
+      "exchange": "BSE",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Hospital",
+      "is_psu": false,
+      "pat_client_cr": 1442.41,
+      "pat_screener_cr": 1442,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1442,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.03,
+      "fy_used": "FY26",
+      "csr_spent_cr": 14.8,
+      "csr_obligation_cr": 14.75,
+      "csr_required_2pct_cr": 14.78,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Awarded Max Medical Scholarships to 101 new students from underprivileged backgrounds admitted to government medical colleges for MBBS, with laptops, tuition fees, stipend and books",
+        "Supported Dr. Aabaji Thatte Seva aur Anusandhan Sanstha for treatment of underprivileged cancer patients at National Cancer Institute, Nagpur",
+        "Support to SNEHA and Apnalaya for empowering urban poor communities through access to healthcare, education and livelihood opportunities",
+        "Sashakt and Vidyarthee apprenticeship/skill training programmes in nursing, pharmacy and other healthcare support roles"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 35.15 (standalone financials, ₹ in lakhs, converted to crore) and Annexure-II CSR Annual Report (Directors' Report). Amount spent ₹14,80,18,426 = 14.80 cr; total CSR obligation ₹14,74,65,717 = 14.75 cr; 2% required ₹14,78,04,791 = 14.78 cr; fully spent with ₹2,13,635 excess (set off), so unspent = 0.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff687278-4b63-403b-ab82-e9ae0259eead.pdf",
+        "page": 257
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:56:36.464Z"
     },
     "SBIN": {
       "rank": 2,
@@ -4939,7 +4976,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 197,
+      "rank": 198,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6991,7 +7028,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 196,
+      "rank": 197,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
