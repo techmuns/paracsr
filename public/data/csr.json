@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:47:25.432Z",
-  "count": 168,
+  "updated_at": "2026-09-17T14:47:40.832Z",
+  "count": 169,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4653,7 +4653,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 168,
+      "rank": 169,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5522,7 +5522,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 167,
+      "rank": 168,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6058,6 +6058,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:47:24.066Z"
+    },
+    "BHARTIHEXA": {
+      "rank": 167,
+      "name": "Bharti Hexacom Limited",
+      "ticker": "BHARTIHEXA",
+      "exchange": "NSEI",
+      "sector": "Telecom",
+      "sector_detail": "Telecom - Cellular & Fixed line services",
+      "is_psu": false,
+      "pat_client_cr": 1733.2,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 1733.2,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 15.7,
+      "csr_obligation_cr": 23.9,
+      "csr_required_2pct_cr": 23.9,
+      "csr_unspent_cr": 8.2,
+      "health_or_education": true,
+      "examples": [
+        "Satya Bharti School Program supports free education for 37,000+ students across 155 rural schools",
+        "Quality Support Program reaches 4.5 lakh+ students across 1150+ schools in 12 States/UTs",
+        "TheTeacherApp digital platform for teacher professional development with 2 lakh+ registered users",
+        "1400+ Bharti Scholars supported via need-based scholarships partnering with IIT Delhi, IIT Bombay, ISB, etc."
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure E (Board's Report) & Note 25 (CSR sub-note); amounts converted from INR million to crore (÷10). Amount spent on projects (a) = ₹157mn (cash spent excl. unspent transfer of ₹82mn); Total CSR obligation/2% required = ₹239mn; Unspent transferred = ₹82mn.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1c3c780a-30e2-429b-8214-92c8f16f8175.pdf",
+        "page": 110
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:47:40.831Z"
     }
   }
 }
