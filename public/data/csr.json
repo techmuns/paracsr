@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T12:55:00.638Z",
+  "updated_at": "2026-09-17T13:53:26.847Z",
   "count": 25,
   "companies": {
     "500228": {
@@ -7,7 +7,7 @@
       "name": "JSW Steel Limited",
       "ticker": "500228",
       "exchange": "BSE",
-      "sector": "Iron & Steel",
+      "sector": "Metals & Mining",
       "is_psu": false,
       "pat_client_cr": 22316,
       "pat_screener_cr": 25508,
@@ -36,14 +36,15 @@
         "page": 199
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:53:01.108Z"
+      "generated_at": "2026-09-17T12:53:01.108Z",
+      "sector_detail": "Iron & Steel"
     },
     "500247": {
       "rank": 23,
       "name": "Kotak Mahindra Bank Limited",
       "ticker": "500247",
       "exchange": "BSE",
-      "sector": "Private Sector Bank",
+      "sector": "Banking",
       "is_psu": false,
       "pat_client_cr": 19287.89,
       "pat_screener_cr": 19288,
@@ -70,14 +71,15 @@
         "page": 218
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:54:10.399Z"
+      "generated_at": "2026-09-17T12:54:10.399Z",
+      "sector_detail": "Private Sector Bank"
     },
     "500570": {
       "rank": 3,
       "name": "Tata Motors Limited",
       "ticker": "500570",
       "exchange": "BSE",
-      "sector": "Passenger Cars & Utility Vehicles",
+      "sector": "Auto & Ancillaries",
       "is_psu": false,
       "pat_client_cr": 82390,
       "pat_screener_cr": 82645,
@@ -106,14 +108,15 @@
         "page": 173
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:48:05.645Z"
+      "generated_at": "2026-09-17T12:48:05.645Z",
+      "sector_detail": "Passenger Cars & Utility Vehicles"
     },
     "532215": {
       "rank": 16,
       "name": "Axis Bank Limited",
       "ticker": "532215",
       "exchange": "BSE",
-      "sector": "Private Sector Bank",
+      "sector": "Banking",
       "is_psu": false,
       "pat_client_cr": 26384.85,
       "pat_screener_cr": 26548,
@@ -137,14 +140,15 @@
         "page": 307
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:52:01.411Z"
+      "generated_at": "2026-09-17T12:52:01.411Z",
+      "sector_detail": "Private Sector Bank"
     },
     "532454": {
       "rank": 11,
       "name": "Bharti Airtel Limited",
       "ticker": "532454",
       "exchange": "BSE",
-      "sector": "Telecom - Cellular & Fixed line services",
+      "sector": "Telecom",
       "is_psu": false,
       "pat_client_cr": 26695.2,
       "pat_screener_cr": 33823,
@@ -172,14 +176,15 @@
         "page": 197
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:51:43.738Z"
+      "generated_at": "2026-09-17T12:51:43.738Z",
+      "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "SBIN": {
       "rank": 2,
       "name": "State Bank of India",
       "ticker": "SBIN",
       "exchange": "NSEI",
-      "sector": "Public Sector Bank",
+      "sector": "Banking",
       "is_psu": true,
       "pat_client_cr": 83298.78,
       "pat_screener_cr": 86666,
@@ -208,14 +213,15 @@
         "page": 140
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:47:46.303Z"
+      "generated_at": "2026-09-17T12:47:46.303Z",
+      "sector_detail": "Public Sector Bank"
     },
     "RELIANCE": {
       "rank": 1,
       "name": "Reliance Industries Limited",
       "ticker": "RELIANCE",
       "exchange": "NSEI",
-      "sector": "Refineries & Marketing",
+      "sector": "Oil & Gas",
       "is_psu": false,
       "pat_client_cr": 80775,
       "pat_screener_cr": 95754,
@@ -244,14 +250,15 @@
         "page": 85
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:48:21.125Z"
+      "generated_at": "2026-09-17T12:48:21.125Z",
+      "sector_detail": "Refineries & Marketing"
     },
     "HDFCBANK": {
       "rank": 4,
       "name": "HDFC Bank Limited",
       "ticker": "HDFCBANK",
       "exchange": "NSEI",
-      "sector": "Private Sector Bank",
+      "sector": "Banking",
       "is_psu": false,
       "pat_client_cr": 76025.97,
       "pat_screener_cr": 79219,
@@ -280,14 +287,15 @@
         "page": 325
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:48:39.797Z"
+      "generated_at": "2026-09-17T12:48:39.797Z",
+      "sector_detail": "Private Sector Bank"
     },
     "LICI": {
       "rank": 6,
       "name": "Life Insurance Corporation of India",
       "ticker": "LICI",
       "exchange": "NSEI",
-      "sector": "Life Insurance",
+      "sector": "Insurance",
       "is_psu": true,
       "pat_client_cr": 64434.77,
       "pat_screener_cr": 57453,
@@ -316,14 +324,15 @@
         "page": 340
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:49:00.165Z"
+      "generated_at": "2026-09-17T12:49:00.165Z",
+      "sector_detail": "Life Insurance"
     },
     "ICICIBANK": {
       "rank": 5,
       "name": "ICICI Bank Limited",
       "ticker": "ICICIBANK",
       "exchange": "NSEI",
-      "sector": "Private Sector Bank",
+      "sector": "Banking",
       "is_psu": false,
       "pat_client_cr": 54207.7,
       "pat_screener_cr": 57936,
@@ -352,14 +361,15 @@
         "page": 347
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:49:20.515Z"
+      "generated_at": "2026-09-17T12:49:20.515Z",
+      "sector_detail": "Private Sector Bank"
     },
     "TCS": {
       "rank": 8,
       "name": "Tata Consultancy Services Limited",
       "ticker": "TCS",
       "exchange": "NSEI",
-      "sector": "Computers - Software & Consulting",
+      "sector": "IT Services",
       "is_psu": false,
       "pat_client_cr": 49210,
       "pat_screener_cr": 49454,
@@ -385,14 +395,15 @@
         "page": 258
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:49:37.906Z"
+      "generated_at": "2026-09-17T12:49:37.906Z",
+      "sector_detail": "Computers - Software & Consulting"
     },
     "IOC": {
       "rank": 9,
       "name": "Indian Oil Corporation Limited",
       "ticker": "IOC",
       "exchange": "NSEI",
-      "sector": "Refineries & Marketing",
+      "sector": "Oil & Gas",
       "is_psu": true,
       "pat_client_cr": 42096.26,
       "pat_screener_cr": 43677,
@@ -421,14 +432,15 @@
         "page": 294
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:49:57.481Z"
+      "generated_at": "2026-09-17T12:49:57.481Z",
+      "sector_detail": "Refineries & Marketing"
     },
     "ONGC": {
       "rank": 7,
       "name": "Oil and Natural Gas Corporation Limited",
       "ticker": "ONGC",
       "exchange": "NSEI",
-      "sector": "Oil Exploration & Production",
+      "sector": "Oil & Gas",
       "is_psu": true,
       "pat_client_cr": 41424.38,
       "pat_screener_cr": 49793,
@@ -457,14 +469,15 @@
         "page": 368
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:50:19.162Z"
+      "generated_at": "2026-09-17T12:50:19.162Z",
+      "sector_detail": "Oil Exploration & Production"
     },
     "IDEA": {
       "rank": 10,
       "name": "Vodafone Idea Limited",
       "ticker": "IDEA",
       "exchange": "NSEI",
-      "sector": "Telecom - Cellular & Fixed line services",
+      "sector": "Telecom",
       "is_psu": false,
       "pat_client_cr": 34552,
       "pat_screener_cr": 34552,
@@ -493,14 +506,15 @@
         "page": 84
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:50:36.380Z"
+      "generated_at": "2026-09-17T12:50:36.380Z",
+      "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "COALINDIA": {
       "rank": 13,
       "name": "Coal India Limited",
       "ticker": "COALINDIA",
       "exchange": "NSEI",
-      "sector": "Coal",
+      "sector": "Metals & Mining",
       "is_psu": true,
       "pat_client_cr": 31094.29,
       "pat_screener_cr": 31071,
@@ -524,14 +538,15 @@
         "page": 256
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:50:51.314Z"
+      "generated_at": "2026-09-17T12:50:51.314Z",
+      "sector_detail": "Coal"
     },
     "INFY": {
       "rank": 14,
       "name": "Infosys Limited",
       "ticker": "INFY",
       "exchange": "NSEI",
-      "sector": "Computers - Software & Consulting",
+      "sector": "IT Services",
       "is_psu": false,
       "pat_client_cr": 31064.85,
       "pat_screener_cr": 29474,
@@ -560,14 +575,15 @@
         "page": 106
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:51:10.015Z"
+      "generated_at": "2026-09-17T12:51:10.015Z",
+      "sector_detail": "Computers - Software & Consulting"
     },
     "NTPC": {
       "rank": 15,
       "name": "NTPC Limited",
       "ticker": "NTPC",
       "exchange": "NSEI",
-      "sector": "Power Generation",
+      "sector": "Power & Utilities",
       "is_psu": true,
       "pat_client_cr": 27052.52,
       "pat_screener_cr": 27546,
@@ -595,14 +611,15 @@
         "page": 172
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:51:26.219Z"
+      "generated_at": "2026-09-17T12:51:26.219Z",
+      "sector_detail": "Power Generation"
     },
     "PFC": {
       "rank": 12,
       "name": "Power Finance Corporation Limited",
       "ticker": "PFC",
       "exchange": "NSEI",
-      "sector": "Financial Institution",
+      "sector": "Financial Services",
       "is_psu": true,
       "pat_client_cr": 25900.95,
       "pat_screener_cr": 33625,
@@ -629,14 +646,15 @@
         "page": 374
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:52:22.736Z"
+      "generated_at": "2026-09-17T12:52:22.736Z",
+      "sector_detail": "Financial Institution"
     },
     "BPCL": {
       "rank": 17,
       "name": "Bharat Petroleum Corporation Limited",
       "ticker": "BPCL",
       "exchange": "NSEI",
-      "sector": "Refineries & Marketing",
+      "sector": "Oil & Gas",
       "is_psu": true,
       "pat_client_cr": 25843.45,
       "pat_screener_cr": 25843,
@@ -664,14 +682,15 @@
         "page": 194
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:52:41.138Z"
+      "generated_at": "2026-09-17T12:52:41.138Z",
+      "sector_detail": "Refineries & Marketing"
     },
     "ITC": {
       "rank": 19,
       "name": "ITC Limited",
       "ticker": "ITC",
       "exchange": "NSEI",
-      "sector": "Diversified FMCG",
+      "sector": "FMCG",
       "is_psu": false,
       "pat_client_cr": 20689.47,
       "pat_screener_cr": 21018,
@@ -698,14 +717,15 @@
         "page": 325
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:53:18.546Z"
+      "generated_at": "2026-09-17T12:53:18.546Z",
+      "sector_detail": "Diversified FMCG"
     },
     "BANKBARODA": {
       "rank": 20,
       "name": "Bank of Baroda Limited",
       "ticker": "BANKBARODA",
       "exchange": "NSEI",
-      "sector": "Public Sector Bank",
+      "sector": "Banking",
       "is_psu": true,
       "pat_client_cr": 19846.43,
       "pat_screener_cr": 20070,
@@ -734,14 +754,15 @@
         "page": 112
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:53:37.146Z"
+      "generated_at": "2026-09-17T12:53:37.146Z",
+      "sector_detail": "Public Sector Bank"
     },
     "UNIONBANK": {
       "rank": 21,
       "name": "Union Bank of India",
       "ticker": "UNIONBANK",
       "exchange": "NSEI",
-      "sector": "Public Sector Bank",
+      "sector": "Banking",
       "is_psu": true,
       "pat_client_cr": 19430.21,
       "pat_screener_cr": 19430,
@@ -768,14 +789,15 @@
         "page": 112
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:53:54.344Z"
+      "generated_at": "2026-09-17T12:53:54.344Z",
+      "sector_detail": "Public Sector Bank"
     },
     "BAJFINANCE": {
       "rank": 22,
       "name": "Bajaj Finance Limited",
       "ticker": "BAJFINANCE",
       "exchange": "NSEI",
-      "sector": "Non Banking Financial Company (NBFC)",
+      "sector": "Financial Services",
       "is_psu": false,
       "pat_client_cr": 19017.39,
       "pat_screener_cr": 19332,
@@ -801,14 +823,15 @@
         "page": 324
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:54:28.541Z"
+      "generated_at": "2026-09-17T12:54:28.541Z",
+      "sector_detail": "Non Banking Financial Company (NBFC)"
     },
     "PNB": {
       "rank": 24,
       "name": "Punjab National Bank",
       "ticker": "PNB",
       "exchange": "NSEI",
-      "sector": "Public Sector Bank",
+      "sector": "Banking",
       "is_psu": true,
       "pat_client_cr": 18392.69,
       "pat_screener_cr": 18467,
@@ -832,14 +855,15 @@
         "page": 16
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:54:43.269Z"
+      "generated_at": "2026-09-17T12:54:43.269Z",
+      "sector_detail": "Public Sector Bank"
     },
     "HINDPETRO": {
       "rank": 25,
       "name": "Hindustan Petroleum Corporation Limited",
       "ticker": "HINDPETRO",
       "exchange": "NSEI",
-      "sector": "Refineries & Marketing",
+      "sector": "Oil & Gas",
       "is_psu": true,
       "pat_client_cr": 18046.89,
       "pat_screener_cr": 18047,
@@ -863,7 +887,8 @@
         "page": 343
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:55:00.638Z"
+      "generated_at": "2026-09-17T12:55:00.638Z",
+      "sector_detail": "Refineries & Marketing"
     }
   }
 }
