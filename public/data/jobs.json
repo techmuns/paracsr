@@ -99,6 +99,11 @@
       "status": "done",
       "updated_at": "2026-09-17T12:53:37.146Z",
       "error": null
+    },
+    "UNIONBANK": {
+      "status": "running",
+      "updated_at": "2026-09-17T12:53:38.438Z",
+      "error": null
     }
   }
 }
