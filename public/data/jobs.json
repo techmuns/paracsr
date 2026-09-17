@@ -534,6 +534,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:27:17.385Z",
       "error": null
+    },
+    "DMART": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:27:18.543Z",
+      "error": null
     }
   }
 }
