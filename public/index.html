@@ -16,8 +16,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
 </head>
 <body data-palette="#7c3aed,#06b6d4,#ec4899,#f59e0b,#10b981,#3b82f6,#14b8a6,#f43f5e,#6366f1,#0ea5e9">
@@ -37,8 +35,7 @@
       </div>
       <div class="header-right">
         <div class="live-pill"><span class="dot"></span><span id="live-count">— of 200 companies</span> · <span id="fy-label">FY26</span></div>
-        <button class="btn pdf" id="btn-pdf" title="Export current table to PDF"><i data-lucide="file-text"></i><span>PDF</span></button>
-        <button class="btn excel" id="btn-excel" title="Export current table to Excel"><i data-lucide="sheet"></i><span>Excel</span></button>
+        <button class="btn excel" id="btn-excel" title="Download all companies as an Excel workbook"><i data-lucide="sheet"></i><span>Download Excel</span></button>
       </div>
     </header>
 

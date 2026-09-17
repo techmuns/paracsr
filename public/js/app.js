@@ -7,7 +7,7 @@ import {
   groupStats, healthSplit, ruleData, withSpend, heYes, isNum, typeOf, fyBreakdown,
 } from "./data.js";
 import * as charts from "./charts.js";
-import { renderExplorer, exportExcel, exportPDF } from "./explorer.js";
+import { renderExplorer, exportExcel } from "./explorer.js";
 
 const ui = { tab: "big", govpriMode: "amount", heMode: "type", ruleType: "all" };
 
@@ -101,7 +101,6 @@ function bindToggle(sel, cb, attr = "mode") {
 function wireExports() {
   // Export the active filtered set (all 200 when nothing is filtered), PAT-desc.
   $("#btn-excel").addEventListener("click", () => exportExcel(getFiltered({ search: true })));
-  $("#btn-pdf").addEventListener("click", () => { if (ui.tab !== "explorer") switchTab("explorer"); requestAnimationFrame(() => setTimeout(exportPDF, 60)); });
 }
 
 /* --------------------------------------------------------------- render */

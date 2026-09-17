@@ -115,7 +115,7 @@ a:hover { text-decoration:underline; }
 }
 .btn:hover { transform:translateY(-1px); box-shadow:var(--shadow-lg); color:var(--text-1); }
 .btn i { width:15px; height:15px; }
-.btn.pdf i { color:var(--brand-rose); } .btn.excel i { color:var(--brand-emerald); }
+.btn.excel i { color:var(--brand-emerald); }
 
 /* -------------------------------------------------------------- filter bar */
 .filterbar {
@@ -259,25 +259,69 @@ input.control::placeholder { color:var(--text-4); }
 /* --------------------------------------------------------------- explorer table */
 .table-wrap { overflow:auto; border-radius:var(--r-md); }
 table.explorer { width:100%; border-collapse:separate; border-spacing:0; font-size:12.5px; }
+
+/* header — bold, a touch bigger, sticky; alignment matches the body cell */
 table.explorer thead th {
   position:sticky; top:0; z-index:2; background:var(--surface-solid); backdrop-filter:blur(8px);
-  text-align:left; font-family:var(--font-body); font-weight:600; color:var(--text-2); font-size:11.5px;
-  padding:11px 12px; border-bottom:1px solid var(--hairline); white-space:nowrap; cursor:pointer; user-select:none;
+  font-family:var(--font-body); font-weight:700; color:var(--text-1); font-size:13px; letter-spacing:-.01em;
+  padding:13px 12px; border-bottom:2px solid var(--hairline); white-space:nowrap; cursor:pointer; user-select:none;
+  transition:color .15s, background .15s;
 }
-table.explorer thead th .th-in { display:inline-flex; align-items:center; gap:5px; }
-table.explorer thead th .th-in i { width:12px; height:12px; opacity:.5; }
-table.explorer thead th[aria-sort] i { opacity:1; color:var(--brand-indigo); }
-table.explorer thead th.num, table.explorer td.num { text-align:right; font-family:var(--font-mono); }
-table.explorer tbody td { padding:10px 12px; border-bottom:1px solid rgba(15,23,42,.05); color:var(--text-1); vertical-align:middle; }
+table.explorer thead th:hover { color:var(--brand-indigo); background:rgba(99,102,241,.05); }
+table.explorer thead th .th-in { display:inline-flex; align-items:center; gap:6px; }
+/* lucide swaps <i> for <svg> but keeps the .sort-ico class — target the class, not the tag */
+table.explorer thead th .th-in .sort-ico { width:13px; height:13px; opacity:.3; transition:opacity .15s, color .15s; }
+table.explorer thead th:hover .th-in .sort-ico { opacity:.6; }                 /* brighter hint on hover */
+table.explorer thead th.sorted, table.explorer thead th.sorted:hover { color:var(--brand-indigo); }
+table.explorer thead th.sorted .th-in .sort-ico { opacity:1; color:var(--brand-indigo); }
+
+/* alignment: text left · numbers right · badges centre — header follows its cell */
+table.explorer th.a-left,   table.explorer td.a-left   { text-align:left; }
+table.explorer th.a-center, table.explorer td.a-center { text-align:center; }
+table.explorer th.a-right,  table.explorer td.a-right  { text-align:right; }
+table.explorer td.num { font-family:var(--font-mono); font-variant-numeric:tabular-nums; }
+
+/* body */
+table.explorer tbody td { padding:12px 12px; border-bottom:1px solid rgba(15,23,42,.05); color:var(--text-1); vertical-align:middle; }
 table.explorer tbody tr:nth-child(even) { background:rgba(148,163,184,.05); }
 table.explorer tbody tr:hover { background:rgba(99,102,241,.07); }
-table.explorer .co-name { font-weight:600; color:var(--text-1); }
-table.explorer .co-tick { font-family:var(--font-mono); font-size:10.5px; color:var(--text-3); }
+table.explorer .co-name { font-weight:600; color:var(--text-1); line-height:1.3; }
+table.explorer .co-tick { font-family:var(--font-mono); font-size:10.5px; color:var(--text-3); margin-top:2px; }
+table.explorer .sector-cell { color:var(--text-2); }
 table.explorer .muted { color:var(--text-4); font-style:italic; }
 table.explorer .rank-cell { font-family:var(--font-mono); color:var(--text-3); }
-table.explorer td.example { max-width:240px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:var(--text-2); }
-table.explorer td.src a { display:inline-flex; align-items:center; gap:4px; }
-table.explorer td.src i { width:13px; height:13px; }
+/* centre the pills inside their centered cells */
+table.explorer td.a-center .chip, table.explorer td.a-center .badge { margin:0 auto; }
+
+/* example — one truncated line + "+N" chip + expand icon inline; whole cell clickable */
+table.explorer td.example { max-width:260px; }
+table.explorer td.example .ex-wrap { display:flex; align-items:center; gap:6px; }
+table.explorer td.example .ex-text { flex:1 1 auto; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text-2); }
+table.explorer td.example .ex-more { flex:none; padding:1px 6px; border-radius:var(--r-pill); background:var(--gov-soft); color:#4338ca; font-size:10px; font-weight:700; font-family:var(--font-mono); }
+table.explorer td.example .ex-ico { flex:none; width:13px; height:13px; color:var(--text-4); opacity:.32; transition:opacity .15s, color .15s; }
+table.explorer td.example.clickable { cursor:pointer; }
+table.explorer td.example.clickable:hover .ex-text { color:var(--brand-indigo); text-decoration:underline; text-decoration-color:rgba(99,102,241,.4); text-underline-offset:3px; }
+table.explorer td.example.clickable:hover .ex-ico { opacity:1; color:var(--brand-indigo); }
+
+/* source — always one line */
+table.explorer td.src a { display:inline-flex; align-items:center; gap:5px; white-space:nowrap; font-family:var(--font-mono); font-size:11.5px; }
+table.explorer td.src i { width:13px; height:13px; flex:none; }
+
+/* -------------------------------------------------------- read-the-example modal */
+.ex-modal { position:fixed; inset:0; z-index:60; display:grid; place-items:center; padding:20px;
+  background:rgba(15,23,42,.42); backdrop-filter:blur(3px); animation:fade .2s ease; }
+.ex-modal[hidden] { display:none; }
+.ex-dialog { position:relative; width:min(560px,94vw); max-height:82vh; overflow:auto;
+  background:var(--surface-solid); border:1px solid var(--glass-border); border-radius:var(--r-md); box-shadow:var(--shadow-lg); padding:22px 24px; }
+.ex-dialog .ex-close { position:absolute; top:12px; right:14px; width:30px; height:30px; border-radius:9px; font-size:20px; line-height:1; color:var(--text-3); display:grid; place-items:center; }
+.ex-dialog .ex-close:hover { background:rgba(15,23,42,.06); color:var(--text-1); }
+.ex-dialog .ex-co { font-family:var(--font-display); font-weight:700; font-size:18px; color:var(--text-1); padding-right:30px; letter-spacing:-.01em; }
+.ex-dialog .ex-sub { font-size:12px; color:var(--text-3); margin-top:3px; }
+.ex-dialog .ex-list { list-style:none; margin:16px 0 6px; padding:0; display:flex; flex-direction:column; gap:10px; }
+.ex-dialog .ex-list li { position:relative; padding:12px 14px 12px 38px; border-radius:var(--r-sm); background:rgba(16,185,129,.07); border:1px solid rgba(16,185,129,.16); color:var(--text-1); font-size:13.5px; line-height:1.5; }
+.ex-dialog .ex-list li::before { content:""; position:absolute; left:15px; top:17px; width:9px; height:9px; border-radius:3px; background:var(--brand-emerald); }
+.ex-dialog .ex-srclink { display:inline-flex; align-items:center; gap:6px; margin-top:12px; font-size:12.5px; font-weight:600; }
+.ex-dialog .ex-srclink i { width:14px; height:14px; }
 
 /* ------------------------------------------------------------------ footer */
 .footer { padding:10px 24px; font-size:11.5px; color:var(--text-3); border-top:1px solid var(--hairline); display:flex; gap:8px; align-items:center; justify-content:center; text-align:center; }
