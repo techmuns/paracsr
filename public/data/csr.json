@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:44:14.167Z",
-  "count": 161,
+  "updated_at": "2026-09-17T14:44:32.983Z",
+  "count": 162,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4579,7 +4579,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 161,
+      "rank": 162,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5448,7 +5448,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 160,
+      "rank": 161,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5809,6 +5809,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:43:51.074Z"
+    },
+    "GODREJCP": {
+      "rank": 160,
+      "name": "Godrej Consumer Products Limited",
+      "ticker": "GODREJCP",
+      "exchange": "NSEI",
+      "sector": "FMCG",
+      "sector_detail": "Personal Care",
+      "is_psu": false,
+      "pat_client_cr": 1861.47,
+      "pat_screener_cr": 1861,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1861,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.03,
+      "fy_used": "FY26",
+      "csr_spent_cr": 39.89,
+      "csr_obligation_cr": 39.29,
+      "csr_required_2pct_cr": 39.29,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "EMBED Rural/Urban preventive healthcare programs across Madhya Pradesh, Uttar Pradesh, Maharashtra, Tamil Nadu etc. implemented via Family Health India and Centre for Health Research & Innovation",
+        "Promoting Education community projects in Maharashtra (Mumbai) via Maharashtra State Women's Council - INR 1 crore",
+        "Education and healthcare community projects across Himachal Pradesh, Madhya Pradesh, Puducherry, Assam, Sikkim",
+        "Education project in Bhind, MP via Women's Organisation for Socio-Cultural Awareness"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annexure E - Annual Report on CSR Activities (Board's Report), Section 135 disclosure, FY2025-26; amounts converted from INR to crore (1 crore = 1,00,00,000)",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44575d54-1aad-467f-b360-4098a29f22d2.pdf",
+        "page": 254
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:44:32.982Z"
     }
   }
 }
