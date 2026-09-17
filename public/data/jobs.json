@@ -794,6 +794,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:43:34.106Z",
       "error": null
+    },
+    "PERSISTENT": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:43:35.388Z",
+      "error": null
     }
   }
 }
