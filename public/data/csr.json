@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:07:00.544Z",
-  "count": 55,
+  "updated_at": "2026-09-17T14:07:16.412Z",
+  "count": 56,
   "companies": {
     "500188": {
       "rank": 36,
@@ -1981,6 +1981,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:06:36.206Z"
+    },
+    "INDUSTOWER": {
+      "rank": 56,
+      "name": "Indus Towers Limited",
+      "ticker": "INDUSTOWER",
+      "exchange": "NSEI",
+      "sector": "Telecom",
+      "sector_detail": "Telecom - Infrastructure",
+      "is_psu": false,
+      "pat_client_cr": 7144.9,
+      "pat_screener_cr": 7145,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 7145,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 126.8,
+      "csr_obligation_cr": 207.4,
+      "csr_required_2pct_cr": 207.4,
+      "csr_unspent_cr": 80.6,
+      "health_or_education": true,
+      "examples": [
+        "Thematic focus on education and skill development",
+        "Digital and creative literacy programs",
+        "Health and hygiene initiatives (nari samman)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 45 (Consolidated)/Note 48 (Standalone) 'Charity and donation - CSR', FY26 figures in ₹ Million converted to crore (÷10): required 2,074mn=207.4cr, spent 1,268mn=126.8cr, shortfall 806mn=80.6cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b19645a0-96d6-4104-a89e-c5d03d3ab076.pdf",
+        "page": 179
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:07:16.412Z"
     }
   }
 }
