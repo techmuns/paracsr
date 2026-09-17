@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:49:21.585Z",
-  "count": 6,
+  "updated_at": "2026-09-17T12:49:37.907Z",
+  "count": 7,
   "companies": {
     "500570": {
       "rank": 3,
@@ -217,6 +217,39 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:49:20.515Z"
+    },
+    "TCS": {
+      "rank": 7,
+      "name": "Tata Consultancy Services Limited",
+      "ticker": "TCS",
+      "exchange": "NSEI",
+      "sector": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 49210,
+      "pat_screener_cr": 49454,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 49454,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.5,
+      "fy_used": "FY26",
+      "csr_spent_cr": 1017,
+      "csr_obligation_cr": 1013,
+      "csr_required_2pct_cr": 1013,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Digital and entrepreneurship training programme promoting women-led digital service enterprises with digital skilling and stipend support"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Board's Report Annexure - CSR disclosure item 5 & 6 (FY26, year ended March 31, 2026); figures already in INR crore, no conversion needed.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+        "page": 258
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:49:37.906Z"
     }
   }
 }
