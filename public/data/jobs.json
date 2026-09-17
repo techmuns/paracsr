@@ -59,6 +59,11 @@
       "status": "done",
       "updated_at": "2026-09-17T12:51:10.015Z",
       "error": null
+    },
+    "NTPC": {
+      "status": "running",
+      "updated_at": "2026-09-17T12:51:11.108Z",
+      "error": null
     }
   }
 }
