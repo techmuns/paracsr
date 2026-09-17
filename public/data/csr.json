@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:47:06.516Z",
-  "count": 167,
+  "updated_at": "2026-09-17T14:47:24.066Z",
+  "count": 168,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4653,7 +4653,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 167,
+      "rank": 168,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5522,7 +5522,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 166,
+      "rank": 167,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6021,6 +6021,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:46:45.514Z"
+    },
+    "SHREECEM": {
+      "rank": 166,
+      "name": "Shree Cement Limited",
+      "ticker": "SHREECEM",
+      "exchange": "NSEI",
+      "sector": "Cement & Construction",
+      "sector_detail": "Cement & Cement Products",
+      "is_psu": false,
+      "pat_client_cr": 1743.56,
+      "pat_screener_cr": 1749,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1749,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.31,
+      "fy_used": "FY26",
+      "csr_spent_cr": 55.76,
+      "csr_obligation_cr": 50.4,
+      "csr_required_2pct_cr": 55.42,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend on promotion of education",
+        "CSR spend on healthcare initiatives",
+        "Setting up old age homes, day care centres and other facilities for senior citizens",
+        "Construction of community assets and promotion of art & culture"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annexure-1 to Board's Report (CSR Annual Report) for FY2025-26, pages 101-102; figures already in ₹ Crore; total amount spent (a)+(b)+(c)=55.76 Cr against total CSR obligation of 50.40 Cr (2% average net profit basis 55.42 Cr less carried-forward surplus adjustments).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9c746d5f-1a46-4dc7-9d58-18d9123155dc.pdf",
+        "page": 100
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:47:24.066Z"
     }
   }
 }
