@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:13:12.760Z",
-  "count": 74,
+  "updated_at": "2026-09-17T14:13:29.897Z",
+  "count": 75,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2660,6 +2660,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:13:11.426Z"
+    },
+    "TATACAP": {
+      "rank": 75,
+      "name": "Tata Capital Limited",
+      "ticker": "TATACAP",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 4890.91,
+      "pat_screener_cr": 4891,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4891,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 91.95,
+      "csr_obligation_cr": 91.95,
+      "csr_required_2pct_cr": 91.95,
+      "csr_unspent_cr": 19.81,
+      "health_or_education": true,
+      "examples": [
+        "Education, JalAadhar and Pankh Scholarship projects with Buddy4Study",
+        "Ongoing Healthcare Projects (erstwhile Tata Motors Finance Limited unspent accounts, ₹0.57 crore utilised in FY26)",
+        "CSR mission focused on Climate Action, Health and Skill Development"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 32(c), FY26 (year ended 31 Mar 2026); Amount spent = Paid 11.00 (asset) + Paid 61.14 (others) + Yet to be paid 19.81 = 91.95 cr, matching gross amount required (91.95 cr); shortfall/unspent 19.81 cr for ongoing Education/Jal Aadhar/Pankh projects.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b9533944-5af5-418c-9bf3-25382b51e711.pdf",
+        "page": 237
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:13:29.897Z"
     }
   }
 }
