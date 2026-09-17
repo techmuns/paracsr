@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:52:27.821Z",
-  "count": 185,
+  "updated_at": "2026-09-17T14:52:42.552Z",
+  "count": 186,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4869,7 +4869,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 185,
+      "rank": 186,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6666,6 +6666,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:52:07.534Z"
+    },
+    "IGL": {
+      "rank": 185,
+      "name": "Indraprastha Gas Limited",
+      "ticker": "IGL",
+      "exchange": "NSEI",
+      "sector": "Oil & Gas",
+      "sector_detail": "LPG/CNG/PNG/LNG Supplier",
+      "is_psu": true,
+      "pat_client_cr": 1549.62,
+      "pat_screener_cr": 1544,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1544,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.36,
+      "fy_used": "FY26",
+      "csr_spent_cr": 40.36,
+      "csr_obligation_cr": 39.49,
+      "csr_required_2pct_cr": 39.49,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promotion of healthcare and sanitation - ₹0.57 crore spent in FY26",
+        "Promotion of education - ₹0.33 crore spent in FY26"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 39 (standalone, p.152) and matching consolidated note (p.219); FY26 gross required 39.49 cr vs spent 40.36 cr, resulting in excess of 0.87 cr (fully spent, no shortfall); figures already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a0b4f92-33ab-42a9-9835-9d056332e300.pdf",
+        "page": 152
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:52:42.552Z"
     }
   }
 }
