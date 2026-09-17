@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:28:24.083Z",
-  "count": 111,
+  "updated_at": "2026-09-17T14:28:42.412Z",
+  "count": 112,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3746,7 +3746,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 111,
+      "rank": 112,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3963,7 +3963,7 @@
       "generated_at": "2026-09-17T14:27:34.175Z"
     },
     "HDFCAMC": {
-      "rank": 110,
+      "rank": 111,
       "name": "HDFC Asset Management Company Limited",
       "ticker": "HDFCAMC",
       "exchange": "NSEI",
@@ -3998,6 +3998,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:28:22.992Z"
+    },
+    "M&MFIN": {
+      "rank": 110,
+      "name": "Mahindra & Mahindra Financial Services Limited",
+      "ticker": "M&MFIN",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 2854.53,
+      "pat_screener_cr": 2861,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2861,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.23,
+      "fy_used": "FY26",
+      "csr_spent_cr": 47.78,
+      "csr_obligation_cr": 47.75,
+      "csr_required_2pct_cr": 47.75,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promoting healthcare and sanitation initiatives including preventive healthcare and safe drinking water access",
+        "Promoting education among children, youth, adults, women and the elderly",
+        "Financial and digital literacy programs for marginalized communities, gig workers and small business owners",
+        "Skill training and livelihood enhancement programs for youth and women from disadvantaged backgrounds"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 45 (Standalone FS) and Annexure I (Board's Report CSR Annual Report) for FY ended March 31, 2026; amounts in INR crore as stated.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e39313f9-c084-4672-8a6f-5c7651d5fe24.pdf",
+        "page": 213
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:28:42.412Z"
     }
   }
 }
