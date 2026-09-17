@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:42:22.282Z",
-  "count": 156,
+  "updated_at": "2026-09-17T14:42:43.630Z",
+  "count": 157,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4542,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 156,
+      "rank": 157,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 155,
+      "rank": 156,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5625,6 +5625,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:42:21.150Z"
+    },
+    "DABUR": {
+      "rank": 155,
+      "name": "Dabur India Limited",
+      "ticker": "DABUR",
+      "exchange": "NSEI",
+      "sector": "FMCG",
+      "sector_detail": "Personal Care",
+      "is_psu": false,
+      "pat_client_cr": 1895.03,
+      "pat_screener_cr": 1869,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1869,
+      "pat_mismatch": false,
+      "pat_delta_pct": -1.37,
+      "fy_used": "FY26",
+      "csr_spent_cr": 36.89,
+      "csr_obligation_cr": 34.65,
+      "csr_required_2pct_cr": 36.41,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Project Poshan and Mission Aahaar - eradicating malnutrition across multiple states (Delhi, UP, Haryana, Punjab, Bihar etc.)",
+        "Social Endeavour for Health (SEHAT) - healthcare initiative in Delhi",
+        "Dabur Sahaay Endeavour (Dil-Se) and Madaari Mission for Total Rehabilitation - health/nutrition focused programs",
+        "Promoting education, vocational skilling and livelihood enhancement projects (₹4.45 crore spent in FY26)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 50 (Standalone financial statements) 'Corporate Social Responsibility (CSR) Expenditure' plus Board's Report Annexure (CSR Annual Report, pages 284-286). Total amount spent per Note 50 = ₹36.89 cr; Board's Report CSR annexure shows ₹36.86 cr spent (8f: ₹36,86,48,547) with total incl. set-off carry-forward of ₹38.62 cr against required ₹36.41 cr, giving excess spend of ₹2.21 cr (unspent = 0). Gross amount required per Note 50 (after set-off) = ₹34.65 cr; pure 2% average net profit (pre set-off) = ₹36.41 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/81d939d7-ea85-443b-98c5-934c71afa68c.pdf",
+        "page": 376
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:42:43.629Z"
     }
   }
 }
