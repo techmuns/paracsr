@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:04:09.977Z",
-  "count": 47,
+  "updated_at": "2026-09-17T14:04:29.802Z",
+  "count": 48,
   "companies": {
     "500188": {
       "rank": 36,
@@ -1693,6 +1693,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:04:07.567Z"
+    },
+    "GICRE": {
+      "rank": 48,
+      "name": "General Insurance Corporation of India",
+      "ticker": "GICRE",
+      "exchange": "NSEI",
+      "sector": "Insurance",
+      "sector_detail": "General Insurance",
+      "is_psu": true,
+      "pat_client_cr": 9662.38,
+      "pat_screener_cr": 9662,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 9662,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 69.28,
+      "csr_obligation_cr": 135.78,
+      "csr_required_2pct_cr": 135.78,
+      "csr_unspent_cr": 66.5,
+      "health_or_education": true,
+      "examples": [
+        "Partnered with Karuna Medical Society, Mumbai for acquisition of MRI, Mammography and Bone Mineral Densitometer machines for a hospital serving underprivileged patients",
+        "Constructed new school building for 2000 HIV-positive underprivileged children with Mahesh Foundation, Belagavi (plus school buses and BPO center)",
+        "Supported TATA Memorial Centre-ACTREC (cancer research/treatment) with ₹6.08 crore",
+        "Funded IIT Mandi (education) with ₹2.50 crore and National Skill Development Corporation for skilling"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 48 (SFS)/Note 17 (CFS) and CSR Annexure I (Directors' Report), FY26; amounts converted from ₹ Lakhs (₹6,928 Lakhs spent = ₹69.28 cr; ₹13,578 Lakhs required = ₹135.78 cr); unspent ₹6,650 Lakhs = ₹66.50 cr transferred to separate CSR unspent A/c for ongoing projects.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13d885c9-424c-4fd9-9e2a-6db03756c349.pdf",
+        "page": 219
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:04:29.802Z"
     }
   }
 }
