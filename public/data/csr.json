@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:32:31.511Z",
-  "count": 124,
+  "updated_at": "2026-09-17T14:32:50.261Z",
+  "count": 125,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 122,
+      "rank": 123,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 124,
+      "rank": 125,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 123,
+      "rank": 124,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4474,6 +4474,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:32:30.242Z"
+    },
+    "KARURVYSYA": {
+      "rank": 122,
+      "name": "The Karur Vysya Bank Limited",
+      "ticker": "KARURVYSYA",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 2510.33,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 2510.33,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY25",
+      "csr_spent_cr": 29.59,
+      "csr_obligation_cr": 29.44,
+      "csr_required_2pct_cr": 29.73,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Provided battery/electric-operated vehicles worth ₹70 lakh to Tirumala Tirupati Devasthanams and Sri Venkateswara Institute of Medical Sciences (SVIMS), Tirupati for sustainable mobility",
+        "Installed 3 RO-purified drinking water plants and 9 water dispenser units at SVIMS hospital (₹30 lakh)",
+        "Supported treatment and rehabilitation for chronic spine and limb deformities via Ganga Spine Injury Foundation, Coimbatore",
+        "Bank's CSR spend directed to Healthcare & Sanitation and Education & Skill Development among other priority areas (Schedule VII)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-III to Directors' Report (Section 135 CSR annexure), FY2024-25; amounts converted from ₹ to crore (e.g., ₹29,58,67,716.13 = ₹29.59 cr total spent [6(d)]; 2% obligation ₹29,73,42,919.67 = ₹29.73 cr; total CSR obligation after set-off ₹29,43,82,069.66 = ₹29.44 cr); fully spent, no unspent CSR account addition beyond ongoing project transfers.",
+      "source": {
+        "annual_report_url": "https://archives.nseindia.com/annual_reports/AR_27187_KARURVYSYA_2024_2025_A_30072025192827.pdf",
+        "page": 100
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:32:50.260Z"
     }
   }
 }
