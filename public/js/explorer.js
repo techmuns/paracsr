@@ -117,20 +117,83 @@ export async function exportExcel(rows) {
   if (typeof window.ExcelJS === "undefined") return exportCSV(data);
   try {
     const wb = new window.ExcelJS.Workbook();
-    const ws = wb.addWorksheet("India CSR 200");
-    ws.columns = CLIENT_COLS.map((c) => ({ header: c.h, key: c.h, width: COL_WIDTH[c.h] || Math.max(13, c.h.length + 3) }));
-    const hr = ws.getRow(1);
-    hr.font = { bold: true, color: { argb: "FFFFFFFF" } };
-    hr.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
-    hr.alignment = { vertical: "middle" };
-    data.forEach((r) => {
-      const row = ws.addRow(CLIENT_COLS.map((c) => c.v(r)));
+    wb.creator = "India CSR 200";
+    const ws = wb.addWorksheet("India CSR 200", {
+      views: [{ showGridLines: false, state: "frozen", ySplit: 2 }],   // gridlines off + frozen title+header
+      properties: { tabColor: { argb: "FF6366F1" } },
+    });
+    const nCols = CLIENT_COLS.length;
+    const first = 3, last = 2 + data.length;                            // data rows (title=1, header=2)
+    const colLetter = (i) => String.fromCharCode(64 + i);              // 1 -> A
+    const wrapCols = new Set(["Company Name", "Relevant eg.", "Source"]);
+    const solid = (argb) => ({ type: "pattern", pattern: "solid", bgColor: { argb } }); // dxf fill (CF uses bgColor)
+
+    CLIENT_COLS.forEach((c, i) => { ws.getColumn(i + 1).width = COL_WIDTH[c.h] || Math.max(13, c.h.length + 3); });
+
+    // Title banner (row 1)
+    ws.mergeCells(1, 1, 1, nCols);
+    const title = ws.getCell(1, 1);
+    title.value = "India CSR 200   ·   FY26 CSR spending of India's top 200 listed companies";
+    title.font = { bold: true, size: 14, color: { argb: "FFFFFFFF" } };
+    title.alignment = { vertical: "middle", horizontal: "left", indent: 1 };
+    title.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF4F46E5" } };
+    ws.getRow(1).height = 30;
+
+    // Header (row 2) — bold, brand fill, wrapped, filterable
+    const hdr = ws.getRow(2);
+    CLIENT_COLS.forEach((c, i) => {
+      const cell = hdr.getCell(i + 1);
+      cell.value = c.h;
+      cell.font = { bold: true, size: 11, color: { argb: "FFFFFFFF" } };
+      cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
+      cell.alignment = { vertical: "middle", horizontal: (c.t === "num" || c.t === "money") ? "right" : "left", wrapText: true };
+      cell.border = { bottom: { style: "medium", color: { argb: "FF4338CA" } } };
+    });
+    hdr.height = 26;
+
+    // Data rows — number formats, wrap on long text, banded rows
+    data.forEach((r, ri) => {
+      const row = ws.getRow(first + ri);
       CLIENT_COLS.forEach((c, i) => {
         const cell = row.getCell(i + 1);
-        if ((c.t === "num" || c.t === "money") && typeof cell.value === "number") { cell.numFmt = "#,##0.00"; cell.alignment = { horizontal: "right" }; }
+        cell.value = c.v(r);
+        const isNumCell = (c.t === "num" || c.t === "money") && typeof cell.value === "number";
+        cell.alignment = { vertical: "top", horizontal: isNumCell ? "right" : "left", wrapText: wrapCols.has(c.h) };
+        if (isNumCell) cell.numFmt = "#,##0.00";
+        cell.font = { size: 10, color: { argb: "FF0F172A" } };
       });
+      if (ri % 2 === 1) row.eachCell({ includeEmpty: true }, (cell) => { cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF4F5FB" } }; });
     });
-    ws.views = [{ state: "frozen", ySplit: 1 }];
+
+    // Filter dropdowns on every column
+    ws.autoFilter = { from: { row: 2, column: 1 }, to: { row: 2, column: nCols } };
+
+    // ---- highlighting rules (conditional formatting) ----
+    let pr = 1;
+    const rng = (i) => `${colLetter(i)}${first}:${colLetter(i)}${last}`;
+    const eq = (col, value, style) => ({ ref: rng(col), rules: [{ type: "cellIs", operator: "equal", formulae: [`"${value}"`], priority: pr++, style }] });
+
+    // magnitude data bars: PAT (B/2) and CSR spend (D/4)
+    ws.addConditionalFormatting({ ref: rng(2), rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FF6366F1" }, priority: pr++ }] });
+    ws.addConditionalFormatting({ ref: rng(4), rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FF14B8A6" }, priority: pr++ }] });
+    // CSR spend: "Not disclosed" flagged; number coloured green (met/over 2%) or amber (under)
+    ws.addConditionalFormatting({ ref: rng(4), rules: [
+      { type: "cellIs", operator: "equal", formulae: ['"Not disclosed"'], priority: pr++, style: { font: { italic: true, color: { argb: "FFB45309" } }, fill: solid("FFFEF3C7") } },
+      { type: "expression", formulae: [`AND(ISNUMBER($D${first}),$D${first}>=$I${first})`], priority: pr++, style: { font: { bold: true, color: { argb: "FF047857" } } } },
+      { type: "expression", formulae: [`AND(ISNUMBER($D${first}),$D${first}<$I${first})`], priority: pr++, style: { font: { bold: true, color: { argb: "FFB45309" } } } },
+    ] });
+    // categorical highlights (exact-match so "PSU" never catches "Non-PSU")
+    ws.addConditionalFormatting(eq(3, "PSU", { font: { color: { argb: "FF4338CA" } }, fill: solid("FFEEF2FF") }));
+    ws.addConditionalFormatting(eq(3, "Non-PSU", { font: { color: { argb: "FF0E7490" } }, fill: solid("FFECFEFF") }));
+    ws.addConditionalFormatting(eq(5, "Yes", { font: { bold: true, color: { argb: "FF166534" } }, fill: solid("FFDCFCE7") }));
+    ws.addConditionalFormatting(eq(5, "No", { font: { color: { argb: "FF991B1B" } }, fill: solid("FFFEE2E2") }));
+    ws.addConditionalFormatting(eq(5, "N/A", { font: { color: { argb: "FF64748B" } }, fill: solid("FFF1F5F9") }));
+    ws.addConditionalFormatting(eq(7, "FY25", { font: { bold: true, color: { argb: "FF92400E" } }, fill: solid("FFFEF3C7") }));
+    ws.addConditionalFormatting(eq(7, "FY26", { font: { color: { argb: "FF047857" } }, fill: solid("FFECFDF5") }));
+    ws.addConditionalFormatting(eq(8, "high", { font: { color: { argb: "FF166534" } }, fill: solid("FFDCFCE7") }));
+    ws.addConditionalFormatting(eq(8, "medium", { font: { color: { argb: "FF92400E" } }, fill: solid("FFFEF3C7") }));
+    ws.addConditionalFormatting(eq(8, "low", { font: { color: { argb: "FF991B1B" } }, fill: solid("FFFEE2E2") }));
+
     const buf = await wb.xlsx.writeBuffer();
     download(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), "india-csr-200.xlsx");
   } catch (e) { console.warn("Excel export failed, using CSV:", e); exportCSV(exportRows(rows)); }
