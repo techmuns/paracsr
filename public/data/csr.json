@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:54:44.531Z",
-  "count": 24,
+  "updated_at": "2026-09-17T12:55:00.638Z",
+  "count": 25,
   "companies": {
     "500228": {
       "rank": 18,
@@ -833,6 +833,37 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:54:43.269Z"
+    },
+    "HINDPETRO": {
+      "rank": 25,
+      "name": "Hindustan Petroleum Corporation Limited",
+      "ticker": "HINDPETRO",
+      "exchange": "NSEI",
+      "sector": "Refineries & Marketing",
+      "is_psu": true,
+      "pat_client_cr": 18046.89,
+      "pat_screener_cr": 18047,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 18047,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 92.37,
+      "csr_obligation_cr": 104.04,
+      "csr_required_2pct_cr": 97.05,
+      "csr_unspent_cr": 11.67,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "medium",
+      "notes": "From Note 51/Section 135(5)&(6) disclosure (standalone & consolidated, page 343/449), FY2025-26 column; amounts already in ₹ Crore. Shortfall of ₹11.67 Cr transferred to UCSRA. No project-level sector descriptions (e.g., healthcare/education) provided in excerpt.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f1214176-9f1e-4788-b748-fa356cd72b25.pdf",
+        "page": 343
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:55:00.638Z"
     }
   }
 }
