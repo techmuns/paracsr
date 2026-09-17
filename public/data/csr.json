@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-17T14:03:48.815Z",
-  "count": 46,
+  "updated_at": "2026-09-17T14:04:07.567Z",
+  "count": 47,
   "companies": {
     "500188": {
-      "rank": 35,
+      "rank": 36,
       "name": "Hindustan Zinc Limited",
       "ticker": "500188",
       "exchange": "BSE",
@@ -76,7 +76,7 @@
       "sector_detail": "Iron & Steel"
     },
     "500247": {
-      "rank": 25,
+      "rank": 26,
       "name": "Kotak Mahindra Bank Limited",
       "ticker": "500247",
       "exchange": "BSE",
@@ -111,7 +111,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500440": {
-      "rank": 36,
+      "rank": 37,
       "name": "Hindalco Industries Limited",
       "ticker": "500440",
       "exchange": "BSE",
@@ -147,7 +147,7 @@
       "generated_at": "2026-09-17T14:00:14.499Z"
     },
     "500470": {
-      "rank": 42,
+      "rank": 43,
       "name": "Tata Steel Limited",
       "ticker": "500470",
       "exchange": "BSE",
@@ -183,7 +183,7 @@
       "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500510": {
-      "rank": 26,
+      "rank": 27,
       "name": "Larsen & Toubro Limited",
       "ticker": "500510",
       "exchange": "BSE",
@@ -257,7 +257,7 @@
       "sector_detail": "Passenger Cars & Utility Vehicles"
     },
     "500696": {
-      "rank": 33,
+      "rank": 34,
       "name": "Hindustan Unilever Limited",
       "ticker": "500696",
       "exchange": "BSE",
@@ -292,7 +292,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "507685": {
-      "rank": 37,
+      "rank": 38,
       "name": "Wipro Limited",
       "ticker": "507685",
       "exchange": "BSE",
@@ -329,7 +329,7 @@
       "generated_at": "2026-09-17T14:00:37.242Z"
     },
     "511218": {
-      "rank": 46,
+      "rank": 47,
       "name": "Shriram Finance Limited",
       "ticker": "511218",
       "exchange": "BSE",
@@ -1012,7 +1012,7 @@
       "generated_at": "2026-09-17T13:54:15.758Z"
     },
     "UNIONBANK": {
-      "rank": 23,
+      "rank": 24,
       "name": "Union Bank of India",
       "ticker": "UNIONBANK",
       "exchange": "NSEI",
@@ -1047,7 +1047,7 @@
       "sector_detail": "Public Sector Bank"
     },
     "BAJFINANCE": {
-      "rank": 24,
+      "rank": 25,
       "name": "Bajaj Finance Limited",
       "ticker": "BAJFINANCE",
       "exchange": "NSEI",
@@ -1081,7 +1081,7 @@
       "sector_detail": "Non Banking Financial Company (NBFC)"
     },
     "PNB": {
-      "rank": 28,
+      "rank": 29,
       "name": "Punjab National Bank",
       "ticker": "PNB",
       "exchange": "NSEI",
@@ -1118,7 +1118,7 @@
       "generated_at": "2026-09-17T13:53:53.583Z"
     },
     "HINDPETRO": {
-      "rank": 29,
+      "rank": 30,
       "name": "Hindustan Petroleum Corporation Limited",
       "ticker": "HINDPETRO",
       "exchange": "NSEI",
@@ -1187,7 +1187,7 @@
       "generated_at": "2026-09-17T13:56:59.479Z"
     },
     "HCLTECH": {
-      "rank": 30,
+      "rank": 31,
       "name": "HCL Technologies Limited",
       "ticker": "HCLTECH",
       "exchange": "NSEI",
@@ -1259,7 +1259,7 @@
       "generated_at": "2026-09-17T13:57:36.738Z"
     },
     "M&M": {
-      "rank": 27,
+      "rank": 28,
       "name": "Mahindra & Mahindra Limited",
       "ticker": "M&M",
       "exchange": "NSEI",
@@ -1295,7 +1295,7 @@
       "generated_at": "2026-09-17T13:57:55.034Z"
     },
     "RECLTD": {
-      "rank": 31,
+      "rank": 32,
       "name": "REC Limited",
       "ticker": "RECLTD",
       "exchange": "NSEI",
@@ -1330,7 +1330,7 @@
       "generated_at": "2026-09-17T13:58:14.939Z"
     },
     "POWERGRID": {
-      "rank": 32,
+      "rank": 33,
       "name": "Power Grid Corporation of India Limited",
       "ticker": "POWERGRID",
       "exchange": "NSEI",
@@ -1365,7 +1365,7 @@
       "generated_at": "2026-09-17T13:58:53.859Z"
     },
     "MARUTI": {
-      "rank": 34,
+      "rank": 35,
       "name": "Maruti Suzuki India Limited",
       "ticker": "MARUTI",
       "exchange": "NSEI",
@@ -1402,7 +1402,7 @@
       "generated_at": "2026-09-17T13:59:28.189Z"
     },
     "ADANIPOWER": {
-      "rank": 38,
+      "rank": 39,
       "name": "Adani Power Limited",
       "ticker": "ADANIPOWER",
       "exchange": "NSEI",
@@ -1439,7 +1439,7 @@
       "generated_at": "2026-09-17T14:00:58.979Z"
     },
     "ADANIPORTS": {
-      "rank": 39,
+      "rank": 40,
       "name": "Adani Ports and Special Economic Zone Limited",
       "ticker": "ADANIPORTS",
       "exchange": "NSEI",
@@ -1475,7 +1475,7 @@
       "generated_at": "2026-09-17T14:01:20.812Z"
     },
     "INDIANB": {
-      "rank": 40,
+      "rank": 41,
       "name": "Indian Bank",
       "ticker": "INDIANB",
       "exchange": "NSEI",
@@ -1512,7 +1512,7 @@
       "generated_at": "2026-09-17T14:01:43.024Z"
     },
     "SUNPHARMA": {
-      "rank": 41,
+      "rank": 42,
       "name": "Sun Pharmaceutical Industries Limited",
       "ticker": "SUNPHARMA",
       "exchange": "NSEI",
@@ -1549,7 +1549,7 @@
       "generated_at": "2026-09-17T14:02:02.873Z"
     },
     "BAJAJ-AUTO": {
-      "rank": 44,
+      "rank": 45,
       "name": "Bajaj Auto Limited",
       "ticker": "BAJAJ-AUTO",
       "exchange": "NSEI",
@@ -1586,7 +1586,7 @@
       "generated_at": "2026-09-17T14:02:44.190Z"
     },
     "MUTHOOTFIN": {
-      "rank": 43,
+      "rank": 44,
       "name": "Muthoot Finance Limited",
       "ticker": "MUTHOOTFIN",
       "exchange": "NSEI",
@@ -1622,7 +1622,7 @@
       "generated_at": "2026-09-17T14:03:03.847Z"
     },
     "BANKINDIA": {
-      "rank": 45,
+      "rank": 46,
       "name": "Bank of India Limited",
       "ticker": "BANKINDIA",
       "exchange": "NSEI",
@@ -1657,6 +1657,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:03:25.068Z"
+    },
+    "BAJAJFINSV": {
+      "rank": 23,
+      "name": "Bajaj Finserv Ltd.",
+      "ticker": "BAJAJFINSV",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Holding Company",
+      "is_psu": false,
+      "pat_client_cr": 9800.97,
+      "pat_screener_cr": 19669,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 19669,
+      "pat_mismatch": true,
+      "pat_delta_pct": 100.68,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0.8,
+      "csr_obligation_cr": 0.69,
+      "csr_required_2pct_cr": 0.69,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR focus on youth skilling and BFSI skilling initiative 'Skillserv'",
+        "Interventions in child education and child health",
+        "Inclusion initiatives for persons with disabilities (PwDs)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annual Report on CSR activities (Directors' Report annexure, pages 99-100) and Note 24 Other expenses (standalone financials, page 421); FY2026 figures used; amounts already in ₹ crore, no conversion needed.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/10f5cbe1-4794-4934-9219-da6586f3fe74.pdf",
+        "page": 98
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:04:07.567Z"
     }
   }
 }
