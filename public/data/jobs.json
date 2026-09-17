@@ -979,6 +979,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:55:55.534Z",
       "error": null
+    },
+    "NAUKRI": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:55:56.783Z",
+      "error": null
     }
   }
 }
