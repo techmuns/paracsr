@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:24:51.108Z",
-  "count": 99,
+  "updated_at": "2026-09-17T14:25:08.899Z",
+  "count": 100,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3569,6 +3569,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:24:49.989Z"
+    },
+    "JINDALSTEL": {
+      "rank": 100,
+      "name": "Jindal Steel & Power Limited",
+      "ticker": "JINDALSTEL",
+      "exchange": "NSEI",
+      "sector": "Metals & Mining",
+      "sector_detail": "Iron & Steel",
+      "is_psu": false,
+      "pat_client_cr": 3367.38,
+      "pat_screener_cr": 3361,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3361,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.19,
+      "fy_used": "FY26",
+      "csr_spent_cr": 175.84,
+      "csr_obligation_cr": 133.74,
+      "csr_required_2pct_cr": 133.74,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Health & Nutrition initiatives (₹67.21 cr) including eye care via LV Prasad Eye Institute and leprosy work via LEPRA across Chhattisgarh, Jharkhand, Odisha, Gujarat",
+        "Education programs (₹30.41 cr) through OPJU, Jindal Foundation and JEWS schools in Odisha, Chhattisgarh, Jharkhand",
+        "Skill Development initiatives (₹16.62 cr) via Lighthouse Communities Foundation and Jindal Foundation across multiple states",
+        "Supported SSNN Sarvajanik Hospital & Smt SG Maternity Home under health initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-C (Board's Report) CSR annual report and Note 42/Note 38 (Other Expenses) of Standalone Financial Statements for FY 2025-26; amounts already stated in INR crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ae30910d-b69d-4a4d-833a-dea9e56530d0.pdf",
+        "page": 107
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:25:08.899Z"
     }
   }
 }
