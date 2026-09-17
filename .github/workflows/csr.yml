@@ -2,10 +2,13 @@ name: CSR pipeline
 on:
   workflow_dispatch:
     inputs:
-      ticker: { description: "Single ticker (blank = batch)", required: false, type: string }
-      limit:  { description: "Max companies this run", required: false, type: string, default: "25" }
+      mode:   { description: "csr | universe", required: false, type: string, default: "csr" }
+      ticker: { description: "Ticker(s), comma-separated (blank = batch)", required: false, type: string }
+      limit:  { description: "Max companies this run", required: false, type: string, default: "70" }
       force:  { description: "Re-do companies already done", required: false, type: boolean, default: false }
-  # schedule: [{ cron: "0 22 * * 0" }]   # enable later, once all 200 are in
+  schedule:
+    - cron: "0 22 * * 0"          # Sundays ~03:30 IST — refresh stale + fill any gaps
+    # - cron: "0 2 1 8 *"         # ~Aug 1, refresh the universe (enable after validating mode=universe)
 permissions:
   contents: write
 concurrency: { group: csr, cancel-in-progress: false }
@@ -34,7 +37,7 @@ jobs:
           LLM_PROVIDER:    ${{ secrets.LLM_PROVIDER }}
           OPENAI_API_KEY:  ${{ secrets.OPENAI_API_KEY }}
         run: node csr-pipeline/check-llm.mjs
-      - name: Run pipeline
+      - name: Run pipeline (csr | universe)
         env:
           SCREENER_PREMIUM_EMAIL: ${{ secrets.SCREENER_PREMIUM_EMAIL }}
           SCREENER_PREMIUM_PASSWORD: ${{ secrets.SCREENER_PREMIUM_PASSWORD }}
@@ -46,11 +49,20 @@ jobs:
           LLM_PROVIDER:    ${{ secrets.LLM_PROVIDER }}
           OPENAI_API_KEY:  ${{ secrets.OPENAI_API_KEY }}
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          MODE:   ${{ github.event.inputs.mode || (github.event.schedule == '0 2 1 8 *' && 'universe' || 'csr') }}
           TICKER: ${{ github.event.inputs.ticker }}
           LIMIT:  ${{ github.event.inputs.limit }}
           FORCE:  ${{ github.event.inputs.force == 'true' && '1' || '' }}
+          REFRESH: ${{ github.event_name == 'schedule' && '1' || '' }}
+          REFRESH_DAYS: "90"
+          MAX_PER_RUN: "60"
           TARGET_BRANCH: ${{ github.ref_name }}
-        run: node csr-pipeline/run.mjs
+        run: |
+          if [ "$MODE" = "universe" ]; then
+            node csr-pipeline/universe.mjs
+          else
+            node csr-pipeline/run.mjs
+          fi
       - name: Upload debug artifacts
         if: always()
         uses: actions/upload-artifact@v4

@@ -88,8 +88,14 @@ const CSR_SYSTEM =
   "project descriptions / focus areas / sector-wise spend (healthcare, hospitals, " +
   "medical, health camps; OR education, schools, scholarships, skilling, colleges). " +
   'Give 1–4 concrete examples only if such spends exist (e.g. "Built a 200-bed ' +
-  'hospital", "Runs 12 schools", "Medical college at X"). If no CSR disclosure is ' +
-  "present, found:false and all numbers null.";
+  'hospital", "Runs 12 schools", "Medical college at X"). CSR may be disclosed ' +
+  "either as a numbered note in the accounts OR as a narrative annexure in the " +
+  "Directors'/Board's Report (common for banks and insurers). The 'Amount Spent " +
+  "during the Year' may appear as a table row OR in prose (e.g. '₹123.45 crore was " +
+  "spent on CSR during the year'). Read both forms. For banks/NBFCs/insurers the " +
+  "CSR figure is usually in the Directors'-report CSR annexure, not the " +
+  "financial-statement notes. If no CSR disclosure is present, found:false and all " +
+  "numbers null.";
 
 /**
  * Extract CSR figures for one company from the located CSR excerpt.
