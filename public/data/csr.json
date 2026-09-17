@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:21:18.313Z",
-  "count": 90,
+  "updated_at": "2026-09-17T14:21:36.572Z",
+  "count": 91,
   "companies": {
     "500049": {
       "rank": 61,
@@ -727,6 +727,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:11:46.952Z"
+    },
+    "512455": {
+      "rank": 91,
+      "name": "Lloyds Metals and Energy Limited",
+      "ticker": "512455",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Industrial Minerals",
+      "is_psu": false,
+      "pat_client_cr": 3680.85,
+      "pat_screener_cr": 3829,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3829,
+      "pat_mismatch": false,
+      "pat_delta_pct": 4.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 181.21,
+      "csr_obligation_cr": 22.13,
+      "csr_required_2pct_cr": 22.13,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Educational support, learning resources and scholarships for underprivileged students in Chandrapur and Gadchiroli, Maharashtra",
+        "Free medical camps providing basic healthcare services, health awareness and essential medicines",
+        "Livelihood enhancement and skill development programmes for women empowerment",
+        "Clean water access and sanitation initiatives including water purification systems in underserved villages"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 31(b) to Standalone Financial Statements and Directors' Report Annexure-III (CSR Annual Report), FY2025-26; amounts already in ₹ Crores, no conversion needed. Fully spent, no unspent amount; excess of ₹159.08 cr spent over 2% obligation.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c69649dc-d183-4420-881a-2af285df6e9f.pdf",
+        "page": 195
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:21:36.572Z"
     },
     "512599": {
       "rank": 49,
