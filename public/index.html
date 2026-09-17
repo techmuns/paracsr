@@ -2,102 +2,179 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>India CSR 200</title>
-  <meta name="description" content="Corporate Social Responsibility spending of the top 200 listed Indian companies by Profit After Tax." />
-  <style>
-    :root {
-      --bg-a: #0b1220;
-      --bg-b: #10233f;
-      --bg-c: #0a1a2f;
-      --ink: #eaf1fb;
-      --muted: #9fb2cd;
-      --accent: #48c6a8;
-      --accent-2: #6aa6ff;
-      --card: rgba(255, 255, 255, 0.05);
-      --border: rgba(255, 255, 255, 0.12);
-    }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--ink);
-      background:
-        radial-gradient(1200px 600px at 15% -10%, #16385f 0%, transparent 55%),
-        radial-gradient(1000px 700px at 110% 10%, #123a34 0%, transparent 50%),
-        linear-gradient(160deg, var(--bg-a), var(--bg-b) 55%, var(--bg-c));
-      background-attachment: fixed;
-      min-height: 100%;
-      display: grid;
-      place-items: center;
-      padding: 32px 16px;
-    }
-    .wrap { width: 100%; max-width: 720px; text-align: center; }
-    .badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
-      color: var(--muted); border: 1px solid var(--border);
-      padding: 6px 14px; border-radius: 999px; margin-bottom: 26px;
-      background: var(--card);
-    }
-    .badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
-    h1 {
-      font-size: clamp(28px, 5vw, 46px); line-height: 1.1; margin: 0 0 8px;
-      font-weight: 800; letter-spacing: -0.02em;
-    }
-    h1 .grad {
-      background: linear-gradient(92deg, var(--accent-2), var(--accent));
-      -webkit-background-clip: text; background-clip: text; color: transparent;
-    }
-    .sub { color: var(--muted); font-size: clamp(15px, 2.4vw, 18px); margin: 0 auto 30px; max-width: 560px; line-height: 1.5; }
-    .stat {
-      display: inline-flex; flex-direction: column; gap: 6px; align-items: center;
-      border: 1px solid var(--border); background: var(--card);
-      padding: 20px 34px; border-radius: 16px; backdrop-filter: blur(6px);
-    }
-    .stat .num { font-size: clamp(26px, 4.5vw, 38px); font-weight: 800; letter-spacing: -0.02em; }
-    .stat .num b { color: var(--accent); }
-    .stat .lbl { font-size: 13px; color: var(--muted); letter-spacing: .04em; }
-    .bar { width: min(360px, 78vw); height: 8px; border-radius: 999px; background: rgba(255,255,255,.08); overflow: hidden; margin-top: 4px; }
-    .bar > i { display: block; height: 100%; width: 0%; border-radius: 999px; background: linear-gradient(90deg, var(--accent-2), var(--accent)); transition: width .8s ease; }
-    .foot { margin-top: 30px; font-size: 12.5px; color: var(--muted); }
-    .foot span { opacity: .8; }
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <div class="badge"><span class="dot"></span> Corporate Social Responsibility</div>
-    <h1>India&nbsp;CSR&nbsp;<span class="grad">200</span></h1>
-    <p class="sub">Corporate Social Responsibility spending of the top 200 listed Indian companies, ranked by Profit After Tax.</p>
-    <div class="stat">
-      <div class="num" id="count">Data: <b>—</b> / 200</div>
-      <div class="lbl">companies processed</div>
-      <div class="bar"><i id="bar"></i></div>
-    </div>
-    <p class="foot">Data refreshed automatically from annual reports · <span id="updated">loading…</span></p>
-  </main>
+  <meta name="description" content="CSR spending of India's top 200 listed companies — FY26, from Section 135 annual-report disclosures." />
 
-  <script>
-    (async function () {
-      const countEl = document.getElementById("count");
-      const barEl = document.getElementById("bar");
-      const updEl = document.getElementById("updated");
-      try {
-        const res = await fetch("data/metadata.json", { cache: "no-store" });
-        if (!res.ok) throw new Error("no data yet");
-        const m = await res.json();
-        const done = Number(m.done || 0);
-        const total = Number(m.total || 200);
-        countEl.innerHTML = `Data: <b>${done}</b> / ${total}`;
-        barEl.style.width = Math.max(2, Math.min(100, (done / total) * 100)) + "%";
-        updEl.textContent = m.updated_at
-          ? "updated " + new Date(m.updated_at).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })
-          : "awaiting first run";
-      } catch (e) {
-        countEl.innerHTML = `Data: <b>0</b> / 200`;
-        updEl.textContent = "awaiting first run";
-      }
-    })();
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%237c3aed'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+
+  <!-- CDN libs (classic scripts; every use is typeof-guarded and degrades gracefully) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
+</head>
+<body data-palette="#7c3aed,#06b6d4,#ec4899,#f59e0b,#10b981,#3b82f6,#14b8a6,#f43f5e,#6366f1,#0ea5e9">
+  <div id="mesh"></div>
+
+  <div class="loader" id="loader"><div class="spinner"></div></div>
+
+  <div class="app">
+    <!-- ============================================================ HEADER -->
+    <header class="header">
+      <div class="brand">
+        <div class="logo">CSR</div>
+        <div>
+          <h1>India CSR 200</h1>
+          <div class="subtitle">CSR spending of India's top 200 listed companies</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="live-pill"><span class="dot"></span><span id="live-count">— of 200 companies</span> · FY26</div>
+        <button class="btn pdf" id="btn-pdf" title="Export current table to PDF"><i data-lucide="file-text"></i><span>PDF</span></button>
+        <button class="btn excel" id="btn-excel" title="Export current table to Excel"><i data-lucide="sheet"></i><span>Excel</span></button>
+      </div>
+    </header>
+
+    <!-- ======================================================= FILTER BAR -->
+    <div class="filterbar">
+      <div class="segmented" id="type-toggle" role="tablist" aria-label="Company type">
+        <button data-type="all" aria-selected="true">All</button>
+        <button data-type="gov"><span class="swatch" style="background:var(--gov)"></span>Government (PSU)</button>
+        <button data-type="private"><span class="swatch" style="background:var(--pri)"></span>Private</button>
+      </div>
+      <div class="field select">
+        <i data-lucide="layers"></i>
+        <select class="control" id="sector-select" aria-label="Sector"><option value="__all">All sectors</option></select>
+      </div>
+      <div class="field">
+        <i data-lucide="search"></i>
+        <input class="control search" id="search-input" type="search" placeholder="Search company or ticker…" aria-label="Search" />
+      </div>
+      <div class="filter-spacer"></div>
+      <div class="filter-count" id="filter-count"></div>
+    </div>
+
+    <!-- ========================================================== TAB BAR -->
+    <nav class="tabbar" id="tabbar" role="tablist">
+      <button class="tab" data-tab="big"     aria-selected="true"><i data-lucide="layout-dashboard"></i><span>Big Picture</span></button>
+      <button class="tab" data-tab="govpri"  aria-selected="false"><i data-lucide="landmark"></i><span>Government vs Private</span></button>
+      <button class="tab" data-tab="health"  aria-selected="false"><i data-lucide="stethoscope"></i><span>Healthcare &amp; Education</span></button>
+      <button class="tab" data-tab="rule"    aria-selected="false"><i data-lucide="scale"></i><span>Meeting the 2% Rule</span></button>
+      <button class="tab" data-tab="explorer" aria-selected="false"><i data-lucide="table"></i><span>Company Explorer</span></button>
+    </nav>
+
+    <!-- ======================================================= TAB PANELS -->
+    <main class="tabpanels" id="tabpanels">
+
+      <!-- ① BIG PICTURE -->
+      <section class="panel active" data-panel="big">
+        <div class="grid stat-row" id="stat-tiles"></div>
+        <div class="grid big-picture" style="margin-top:16px">
+          <div class="card chart-card">
+            <div class="card-title"><i data-lucide="bar-chart-3"></i>Top 15 CSR Spenders <span class="sub">₹ crore · FY26</span></div>
+            <div class="chart" id="chart-top" style="height:322px"></div>
+          </div>
+        </div>
+        <div class="grid bp-lower" style="margin-top:16px">
+          <div class="card chart-card">
+            <div class="card-title"><i data-lucide="landmark"></i>CSR by Government vs Private</div>
+            <div class="chart" id="chart-govpri" style="height:248px"></div>
+          </div>
+          <div class="card chart-card">
+            <div class="card-title"><i data-lucide="layers"></i>CSR by Sector <span class="sub">top spenders</span></div>
+            <div class="chart" id="chart-sector" style="height:248px"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ② GOVERNMENT vs PRIVATE -->
+      <section class="panel" data-panel="govpri">
+        <div class="grid cmp-row" id="cmp-cards"></div>
+        <div class="grid two-col" style="margin-top:16px">
+          <div class="card chart-card">
+            <div class="card-title" style="justify-content:space-between">
+              <span style="display:inline-flex;align-items:center;gap:8px"><i data-lucide="bar-chart-big"></i>Government vs Private</span>
+              <span class="toggle" id="govpri-toggle">
+                <button data-mode="amount" aria-selected="true">₹ amount</button>
+                <button data-mode="pct" aria-selected="false">% of profit</button>
+              </span>
+            </div>
+            <div class="chart" id="chart-grouped" style="height:300px"></div>
+          </div>
+          <div class="card chart-card">
+            <div class="card-title"><i data-lucide="stethoscope"></i>Health / Education focus</div>
+            <div class="chart" id="chart-hefocus" style="height:300px"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ③ HEALTHCARE & EDUCATION -->
+      <section class="panel" data-panel="health">
+        <div class="grid two-col">
+          <div class="card chart-card">
+            <div class="card-title"><i data-lucide="pie-chart"></i>Spends on Healthcare / Education</div>
+            <div class="chart" id="chart-he-donut" style="height:250px"></div>
+          </div>
+          <div class="card chart-card">
+            <div class="card-title" style="justify-content:space-between">
+              <span style="display:inline-flex;align-items:center;gap:8px"><i data-lucide="bar-chart-4"></i>Breakdown</span>
+              <span class="toggle" id="he-breakdown-toggle">
+                <button data-mode="type" aria-selected="true">By type</button>
+                <button data-mode="sector" aria-selected="false">By sector</button>
+              </span>
+            </div>
+            <div class="chart" id="chart-he-stack" style="height:250px"></div>
+          </div>
+        </div>
+        <div class="card chart-card" style="margin-top:16px">
+          <div class="card-title"><i data-lucide="sparkles"></i>What they actually fund <span class="sub" id="ex-count"></span></div>
+          <div class="scroll-area" id="ex-gallery" style="max-height:320px"></div>
+        </div>
+      </section>
+
+      <!-- ④ MEETING THE 2% RULE -->
+      <section class="panel" data-panel="rule">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px">
+          <div style="display:flex;gap:10px;flex-wrap:wrap" id="rule-chips"></div>
+          <span class="toggle" id="rule-toggle">
+            <button data-type="all" aria-selected="true">All</button>
+            <button data-type="gov" aria-selected="false">Government</button>
+            <button data-type="private" aria-selected="false">Private</button>
+          </span>
+        </div>
+        <div class="card chart-card">
+          <div class="card-title"><i data-lucide="scale"></i>Spent vs required by law (2%) <span class="sub">difference in ₹ crore · green = spent more, amber = spent less</span></div>
+          <div class="chart" id="chart-rule" style="height:420px"></div>
+        </div>
+      </section>
+
+      <!-- ⑤ COMPANY EXPLORER -->
+      <section class="panel" data-panel="explorer">
+        <div class="card chart-card" style="padding-top:14px">
+          <div class="card-title" style="justify-content:space-between">
+            <span style="display:inline-flex;align-items:center;gap:8px"><i data-lucide="table"></i>All companies <span class="sub" id="explorer-count"></span></span>
+            <span class="sub" style="font-size:11.5px">Click a column to sort · amber dot = lower-confidence</span>
+          </div>
+          <div class="table-wrap scroll-area" id="explorer-wrap" style="max-height:calc(100dvh - 320px)"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============================================================ FOOTER -->
+    <footer class="footer">
+      <i data-lucide="shield-check"></i>
+      <span id="footer-text">Data from company FY26 annual reports (Section 135 CSR disclosures) · verified against Screener</span>
+    </footer>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
