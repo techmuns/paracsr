@@ -100,26 +100,89 @@ function crossVerifyPat(seedPat, screenerPat) {
 }
 
 /* ----------------------------------------------------------------------------
-   Work list.
+   Sector buckets. Screener's industry labels get very granular at 200 companies,
+   so the dashboard groups by a broad bucket (`sector`) while the original label is
+   kept as `sector_detail` (add-only — the dashboard ignores it). Order matters;
+   the map is idempotent so a re-stamp of an already-broad value is a no-op.
+   -------------------------------------------------------------------------- */
+
+const SECTOR_RULES = [
+  [/insurance|reinsur/i, "Insurance"],
+  [/nbfc|non[- ]?banking|financial institution|financial\b|housing finance|asset management|\bamc\b|broking|capital market|stock exchange|mutual fund/i, "Financial Services"],
+  [/\bbank\b|banking/i, "Banking"],
+  [/finance|holding|investment|leasing/i, "Financial Services"],
+  [/oil|gas|petroleum|refiner|lng|exploration|drilling|\bfuel/i, "Oil & Gas"],
+  [/software|it services|computers|information technology|technology|consulting|internet|digital/i, "IT Services"],
+  [/pharma|healthcare|health care|hospital|medical|life science|drug|diagnostic|biotech/i, "Pharma & Healthcare"],
+  [/telecom|cellular|communication|tower/i, "Telecom"],
+  [/auto|automobile|vehicle|tyre|tire|two[- ]?wheeler|passenger car|commercial vehicle|motorcycle|ancillar|bearing/i, "Auto & Ancillaries"],
+  [/power|electric|utilit|renewable|solar|hydro|transmission|\bgeneration\b|\benergy\b/i, "Power & Utilities"],
+  [/steel|metal|mining|alumin|zinc|copper|\biron\b|\bcoal\b|\bore\b|ferro/i, "Metals & Mining"],
+  [/cement|construction|infrastructure|realty|real estate|building|engineering|\bepc\b|ports|logistics|capital goods/i, "Cement & Construction"],
+  [/chemical|fertiliser|fertilizer|\bpaint|petrochem|pesticide|agrochem/i, "Chemicals"],
+  [/fmcg|food|beverage|personal care|household|tobacco|cigarette|\btea\b|coffee|dairy|edible|\bagro\b|sugar/i, "FMCG"],
+  [/retail|consumer|apparel|footwear|jewell|watch|supermarket|\bstore\b|e-?commerce|durable|media|entertainment|hotel|hospitality|textile/i, "Consumer & Retail"],
+];
+
+function broadSector(detail) {
+  const s = (detail || "").trim();
+  if (!s) return "Other";
+  for (const [re, bucket] of SECTOR_RULES) if (re.test(s)) return bucket;
+  return "Other";
+}
+
+/** One-time (idempotent) re-stamp of existing records to broad sectors: keep the
+ *  original granular label as sector_detail, set sector to the broad bucket.
+ *  Returns true if anything changed. */
+function migrateSectors() {
+  let changed = false;
+  for (const r of Object.values(csr.companies)) {
+    const detail = r.sector_detail != null ? r.sector_detail : r.sector; // original granular label
+    const broad = broadSector(detail);
+    if (r.sector_detail !== (detail ?? null)) { r.sector_detail = detail ?? null; changed = true; }
+    if (r.sector !== broad) { r.sector = broad; changed = true; }
+  }
+  return changed;
+}
+
+/* ----------------------------------------------------------------------------
+   Work list — undone/failed first, then (on REFRESH or when nothing is undone)
+   stale records whose generated_at is older than REFRESH_DAYS, oldest first.
    -------------------------------------------------------------------------- */
 
 function buildWorklist() {
   const companies = seed.companies || [];
-  const one = (process.env.TICKER || "").trim();
-  if (one) {
-    const co = companies.find((c) => String(c.ticker) === one);
-    return co ? [co] : [];
+  const explicit = (process.env.TICKER || "").trim();
+  if (explicit) {
+    // One or more explicit tickers (comma-separated) — always processed, done or not.
+    const wanted = explicit.split(",").map((s) => s.trim()).filter(Boolean);
+    return wanted.map((t) => companies.find((c) => String(c.ticker) === t)).filter(Boolean);
   }
-  const limit = parseInt(process.env.LIMIT || "", 10) || 25;
   const force = process.env.FORCE === "1";
-  const list = [];
-  for (const co of companies) {
-    if (list.length >= limit) break;
-    const j = jobs.jobs[co.ticker];
-    if (j && j.status === "done" && !force) continue;
-    list.push(co);
+  const refresh = process.env.REFRESH === "1";
+  const refreshDays = parseInt(process.env.REFRESH_DAYS || "", 10) || 90;
+  const maxPerRun = parseInt(process.env.MAX_PER_RUN || "", 10) || 60;
+  const limitEnv = parseInt(process.env.LIMIT || "", 10);
+  const cap = Number.isFinite(limitEnv) && limitEnv > 0 ? limitEnv : maxPerRun;
+  const isDone = (t) => { const j = jobs.jobs[t]; return !!(j && j.status === "done"); };
+
+  // (a) undone / failed first, in seed (rank) order. FORCE re-does everything.
+  const undone = companies.filter((co) => force || !isDone(co.ticker));
+  const list = undone.slice(0, cap);
+
+  // (b) top up with stale, done companies (oldest first) when refreshing or when
+  // nothing is left undone.
+  if (list.length < cap && !force && (refresh || undone.length === 0)) {
+    const cutoff = Date.now() - refreshDays * 86400000;
+    const stale = companies
+      .filter((co) => isDone(co.ticker))
+      .map((co) => ({ co, gen: Date.parse((csr.companies[co.ticker] || {}).generated_at || "") || 0 }))
+      .filter((x) => x.gen && x.gen < cutoff)
+      .sort((a, b) => a.gen - b.gen)
+      .map((x) => x.co);
+    for (const co of stale) { if (list.length >= cap) break; if (!list.includes(co)) list.push(co); }
   }
-  return list;
+  return list.slice(0, cap);
 }
 
 /* ----------------------------------------------------------------------------
@@ -128,9 +191,18 @@ function buildWorklist() {
 
 async function main() {
   console.log(llmBanner());
+
+  // One-time (idempotent) re-stamp of existing records to broad sector buckets.
+  if (migrateSectors()) {
+    log("re-stamped sectors to broad buckets");
+    persistAndPush("csr: re-stamp sectors to broad buckets", writeAll);
+  }
+
   const worklist = buildWorklist();
-  log(`branch=${BRANCH} dry_run=${DRY_RUN} worklist=${worklist.length}` + (process.env.TICKER ? ` ticker=${process.env.TICKER}` : ` limit=${parseInt(process.env.LIMIT || "25", 10) || 25} force=${process.env.FORCE === "1"}`));
-  if (!worklist.length) { log("nothing to do — all requested companies already done (use FORCE=1 to redo)"); writeAll(); return; }
+  const refresh = process.env.REFRESH === "1";
+  log(`branch=${BRANCH} dry_run=${DRY_RUN} worklist=${worklist.length}` +
+    (process.env.TICKER ? ` tickers=${process.env.TICKER}` : ` cap=${process.env.LIMIT || process.env.MAX_PER_RUN || 60} refresh=${refresh} force=${process.env.FORCE === "1"}`));
+  if (!worklist.length) { log("nothing to do — all done and nothing stale (use FORCE=1 or REFRESH=1 to redo)"); writeAll(); return; }
 
   const { browser, context, page } = await launchAndLogin();
 
@@ -153,13 +225,14 @@ async function main() {
         }
 
         const { is_psu, sector_guess } = await classifyIsPsu(co.name);
-        const finalSector = sector || sector_guess || null;
+        const sectorDetail = sector || sector_guess || null;
 
         const base = {
           name: co.name,
           ticker,
           exchange: co.exchange,
-          sector: finalSector,
+          sector: broadSector(sectorDetail), // broad bucket the dashboard groups by
+          sector_detail: sectorDetail,        // original granular label (add-only)
           is_psu,
           pat_client_cr: pv.pat_client_cr,
           pat_screener_cr: pv.pat_screener_cr,

@@ -236,25 +236,90 @@ export async function findAnnualReportUrl(page) {
    3) Locate the CSR note WITHOUT reading the whole report.
    ========================================================================== */
 
-/** Score a chunk of text for CSR-note signals. >0 means "worth sending".
- *  The KEY row ("Amount spent during the year") is weighted far above the rest
- *  so windows containing it are prioritised. */
-function csrSignalScore(txt) {
-  if (!txt) return 0;
-  let score = 0;
-  if (/amount spent during the year/i.test(txt)) score += 100; // THE KEY row
-  if (/corporate social responsibility/i.test(txt)) score += 5;
-  if (/section\s*135/i.test(txt)) score += 5;
-  if (/csr\s*(committee|expenditure|obligation)/i.test(txt)) score += 4;
-  if (/2%\s*of\s*(the\s*)?average net profit/i.test(txt)) score += 4;
-  if (/(unspent|total).{0,25}csr/i.test(txt)) score += 3;
-  const notes = /notes?\s*to\s*(the\s*)?(financial\s*)?(standalone|consolidated)?\s*(statements|accounts)/i.test(txt);
-  const csrMention = /corporate social responsibility|\bcsr\b|section\s*135/i.test(txt);
-  if (notes && csrMention) score += 2;
-  return score;
+/* CSR lives in one of two places: a numbered note in the accounts (industrials)
+   OR a narrative "Annual Report on CSR Activities" annexure in the Directors'/
+   Board's Report (banks, NBFCs, insurers) — sometimes prose, not a table. These
+   signals catch BOTH, so a bank's annexure is never missed. */
+const CSR_SIGNALS = [
+  /amount spent during the year/i,
+  /amount spent (for|during) the financial year/i,
+  /total amount spent/i,
+  /amount required to be spent/i,
+  /corporate social responsibility/i,
+  /section\s*135/i,
+  /csr\s*(committee|expenditure|obligation|activit|policy|project)/i,
+  /composition of the csr committee/i,
+  /annual report on csr/i,
+  /report on csr\s*activit/i,
+  /annexure[^.]{0,40}csr/i,
+  /2%\s*of\s*(the\s*)?average net profit/i,
+  /(unspent|total).{0,25}csr/i,
+];
+const NOTES_RE = /notes?\s*to\s*(the\s*)?(financial\s*)?(standalone|consolidated)?\s*(statements|accounts)/i;
+const RUPEE_NUM = /(₹|rs\.?|inr)\s?[\d,]+/i;
+const AMOUNT_NUM = /[\d,]+\.\d+\s*(cr|crore|lakh|million)/i;
+
+/** Is this chunk worth pulling into a CSR window at all? */
+function isCsrCandidate(txt) {
+  if (!txt) return false;
+  if (CSR_SIGNALS.some((re) => re.test(txt))) return true;
+  if (NOTES_RE.test(txt) && /corporate social responsibility|\bcsr\b|section\s*135/i.test(txt)) return true;
+  return false;
 }
 
-const CSR_CAP = 18000; // hard ceiling on characters sent to the model
+/** Score a WINDOW (a candidate chunk + its neighbours) so the annexure/table that
+ *  actually carries the figure is concatenated first — even when it sits far from
+ *  a "Note NN". A window with an "amount spent" line AND a real rupee figure wins. */
+function windowScore(txt) {
+  if (!txt) return 0;
+  let s = 0;
+  const hasSpent = /amount spent/i.test(txt);
+  const hasNum = RUPEE_NUM.test(txt) || AMOUNT_NUM.test(txt);
+  if (hasSpent && hasNum) s += 3;                                   // the real figure, table OR prose
+  if (/amount required to be spent/i.test(txt)) s += 2;
+  if (/amount spent during the year/i.test(txt)) s += 3;           // the canonical row label
+  const generic = [
+    /corporate social responsibility/i, /section\s*135/i, /csr\s*committee/i,
+    /annual report on csr/i, /report on csr/i, /2%\s*of\s*(the\s*)?average net profit/i,
+    /composition of the csr committee/i, /\bunspent\b/i,
+  ];
+  s += Math.min(4, generic.reduce((a, re) => a + (re.test(txt) ? 1 : 0), 0)); // +1 each, capped
+  if (hasNum) s += 1;
+  return s;
+}
+
+const CSR_CAP = 25000; // hard ceiling on characters sent to the model (wider for banks)
+const WIN = 3;         // window = a candidate chunk plus the next 2
+
+/** Take scored windows, richest first, and concatenate their (deduped) chunks up
+ *  to CSR_CAP. `chunkText(i)` returns the text for index i; `label(i)` prefixes it. */
+function assembleWindows(candidates, scoreOf, chunkText, label) {
+  if (!candidates.length) return { text: "", firstPage: null };
+  const windows = candidates.map((start) => {
+    const idxs = [];
+    for (let d = 0; d < WIN; d++) idxs.push(start + d);
+    const joined = idxs.map(chunkText).filter(Boolean).join(" ");
+    return { start, idxs, score: scoreOf(joined) };
+  });
+  windows.sort((a, b) => (b.score - a.score) || (a.start - b.start));
+  const used = new Set();
+  let out = "";
+  let firstPage = null;
+  for (const w of windows) {
+    if (out.length >= CSR_CAP) break;
+    let seg = "";
+    for (const i of w.idxs) {
+      if (used.has(i)) continue;
+      used.add(i);
+      const t = chunkText(i);
+      if (t) seg += (seg ? "\n" : "") + label(i) + t;
+    }
+    if (!seg) continue;
+    if (firstPage == null) firstPage = w.start;
+    out += (out ? "\n\n" : "") + seg;
+  }
+  return { text: out.slice(0, CSR_CAP + 2000), firstPage };
+}
 
 async function extractCsrTextFromBuffer(buffer) {
   const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
@@ -262,66 +327,27 @@ async function extractCsrTextFromBuffer(buffer) {
   const doc = await pdfjs.getDocument({ data, useSystemFonts: true, isEvalSupported: false }).promise;
   const total = Math.min(doc.numPages, 600);
   const cache = new Array(total + 1).fill(null);
-  const textOf = async (p) => {
-    if (p < 1 || p > total) return "";
-    if (cache[p] != null) return cache[p];
+  const textOf = (p) => (p >= 1 && p <= total ? cache[p] || "" : "");
+  for (let p = 1; p <= total; p++) {
     try {
       const pg = await doc.getPage(p);
       const content = await pg.getTextContent();
       cache[p] = content.items.map((it) => it.str).join(" ").replace(/\s+/g, " ").trim();
     } catch { cache[p] = ""; }
-    return cache[p];
-  };
-
-  // Pass 1: find every page that shows a CSR signal.
-  const matches = [];
-  for (let p = 1; p <= total; p++) {
-    const s = csrSignalScore(await textOf(p));
-    if (s > 0) matches.push({ page: p, score: s });
   }
-  if (!matches.length) return { text: "", firstPage: null };
-
-  // Pass 2: build windows [p, p+1, p+2], KEY windows first, then by score, then
-  // by page order. Concatenate until the char cap.
-  matches.sort((a, b) => (b.score - a.score) || (a.page - b.page));
-  const used = new Set();
-  let out = "";
-  let firstPage = null;
-  for (const m of matches) {
-    if (out.length >= CSR_CAP) break;
-    for (let d = 0; d < 3; d++) {
-      const p = m.page + d;
-      if (p > total || used.has(p)) continue;
-      used.add(p);
-      const t = await textOf(p);
-      if (!t) continue;
-      if (firstPage == null) firstPage = m.page;
-      out += (out ? "\n\n" : "") + `[page ${p}] ${t}`;
-      if (out.length >= CSR_CAP) break;
-    }
-  }
-  return { text: out.slice(0, CSR_CAP + 1500), firstPage };
+  // Every page that shows ANY CSR signal is a window anchor (not just the first).
+  const candidates = [];
+  for (let p = 1; p <= total; p++) if (isCsrCandidate(cache[p])) candidates.push(p);
+  return assembleWindows(candidates, windowScore, (i) => (i <= total ? textOf(i) : ""), (i) => `[page ${i}] `);
 }
 
 function extractCsrTextFromText(fullText) {
   if (!fullText || !fullText.trim()) return { text: "", firstPage: null };
   const blocks = fullText.split(/\f|\n{2,}/).map((b) => b.replace(/\s+/g, " ").trim()).filter(Boolean);
-  const scored = blocks.map((b, i) => ({ i, b, score: csrSignalScore(b) })).filter((x) => x.score > 0);
-  if (!scored.length) return { text: "", firstPage: null };
-  scored.sort((a, b) => (b.score - a.score) || (a.i - b.i));
-  const used = new Set();
-  let out = "";
-  for (const s of scored) {
-    if (out.length >= CSR_CAP) break;
-    for (let d = 0; d < 3; d++) {
-      const idx = s.i + d;
-      if (idx >= blocks.length || used.has(idx)) continue;
-      used.add(idx);
-      out += (out ? "\n\n" : "") + blocks[idx];
-      if (out.length >= CSR_CAP) break;
-    }
-  }
-  return { text: out.slice(0, CSR_CAP + 1500), firstPage: null };
+  const candidates = [];
+  blocks.forEach((b, i) => { if (isCsrCandidate(b)) candidates.push(i); });
+  const res = assembleWindows(candidates, windowScore, (i) => blocks[i] || "", () => "");
+  return { text: res.text, firstPage: null };
 }
 
 /**
