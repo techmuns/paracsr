@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:34:01.475Z",
-  "count": 129,
+  "updated_at": "2026-09-17T14:34:15.089Z",
+  "count": 130,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500110": {
-      "rank": 105,
+      "rank": 106,
       "name": "Chennai Petroleum Corporation Limited",
       "ticker": "500110",
       "exchange": "BSE",
@@ -75,7 +75,7 @@
       "generated_at": "2026-09-17T14:26:23.219Z"
     },
     "500114": {
-      "rank": 75,
+      "rank": 76,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -112,7 +112,7 @@
       "generated_at": "2026-09-17T14:12:07.261Z"
     },
     "500124": {
-      "rank": 85,
+      "rank": 86,
       "name": "Dr. Reddy's Laboratories Limited",
       "ticker": "500124",
       "exchange": "BSE",
@@ -293,7 +293,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500257": {
-      "rank": 71,
+      "rank": 72,
       "name": "Lupin Limited",
       "ticker": "500257",
       "exchange": "BSE",
@@ -330,7 +330,7 @@
       "generated_at": "2026-09-17T14:11:30.674Z"
     },
     "500390": {
-      "rank": 78,
+      "rank": 79,
       "name": "Reliance Infrastructure Limited",
       "ticker": "500390",
       "exchange": "BSE",
@@ -362,7 +362,7 @@
       "generated_at": "2026-09-17T14:28:06.375Z"
     },
     "500400": {
-      "rank": 74,
+      "rank": 75,
       "name": "The Tata Power Company Limited",
       "ticker": "500400",
       "exchange": "BSE",
@@ -580,7 +580,7 @@
       "generated_at": "2026-09-17T13:58:35.339Z"
     },
     "500530": {
-      "rank": 112,
+      "rank": 113,
       "name": "Bosch Limited",
       "ticker": "500530",
       "exchange": "BSE",
@@ -654,7 +654,7 @@
       "sector_detail": "Passenger Cars & Utility Vehicles"
     },
     "500620": {
-      "rank": 109,
+      "rank": 110,
       "name": "The Great Eastern Shipping Company Limited",
       "ticker": "500620",
       "exchange": "BSE",
@@ -724,7 +724,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500790": {
-      "rank": 97,
+      "rank": 98,
       "name": "Nestlé India Limited",
       "ticker": "500790",
       "exchange": "BSE",
@@ -872,7 +872,7 @@
       "generated_at": "2026-09-17T14:03:45.749Z"
     },
     "511243": {
-      "rank": 72,
+      "rank": 73,
       "name": "Cholamandalam Investment and Finance Company Limited",
       "ticker": "511243",
       "exchange": "BSE",
@@ -907,7 +907,7 @@
       "generated_at": "2026-09-17T14:11:46.952Z"
     },
     "512455": {
-      "rank": 92,
+      "rank": 93,
       "name": "Lloyds Metals and Energy Limited",
       "ticker": "512455",
       "exchange": "BSE",
@@ -978,7 +978,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "513683": {
-      "rank": 93,
+      "rank": 94,
       "name": "NLC India Limited",
       "ticker": "513683",
       "exchange": "BSE",
@@ -1015,7 +1015,7 @@
       "generated_at": "2026-09-17T14:21:57.201Z"
     },
     "517334": {
-      "rank": 86,
+      "rank": 87,
       "name": "Samvardhana Motherson International Limited",
       "ticker": "517334",
       "exchange": "BSE",
@@ -1120,7 +1120,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "532343": {
-      "rank": 102,
+      "rank": 103,
       "name": "TVS Motor Company Limited",
       "ticker": "532343",
       "exchange": "BSE",
@@ -1190,7 +1190,7 @@
       "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "532466": {
-      "rank": 116,
+      "rank": 117,
       "name": "Oracle Financial Services Software Limited",
       "ticker": "532466",
       "exchange": "BSE",
@@ -1225,7 +1225,7 @@
       "generated_at": "2026-09-17T14:30:42.410Z"
     },
     "532629": {
-      "rank": 98,
+      "rank": 99,
       "name": "McNally Bharat Engineering Company Limited",
       "ticker": "532629",
       "exchange": "BSE",
@@ -2949,7 +2949,7 @@
       "generated_at": "2026-09-17T14:09:32.057Z"
     },
     "HYUNDAI": {
-      "rank": 68,
+      "rank": 69,
       "name": "Hyundai Motor India Limited",
       "ticker": "HYUNDAI",
       "exchange": "NSEI",
@@ -2983,7 +2983,7 @@
       "generated_at": "2026-09-17T14:10:30.112Z"
     },
     "IOB": {
-      "rank": 69,
+      "rank": 70,
       "name": "Indian Overseas Bank",
       "ticker": "IOB",
       "exchange": "NSEI",
@@ -3018,7 +3018,7 @@
       "generated_at": "2026-09-17T14:10:54.297Z"
     },
     "RAYMOND": {
-      "rank": 70,
+      "rank": 71,
       "name": "Raymond Limited",
       "ticker": "RAYMOND",
       "exchange": "NSEI",
@@ -3053,7 +3053,7 @@
       "generated_at": "2026-09-17T14:11:10.633Z"
     },
     "ZYDUSLIFE": {
-      "rank": 73,
+      "rank": 74,
       "name": "Zydus Lifesciences Limited",
       "ticker": "ZYDUSLIFE",
       "exchange": "NSEI",
@@ -3090,7 +3090,7 @@
       "generated_at": "2026-09-17T14:12:34.484Z"
     },
     "LTM": {
-      "rank": 76,
+      "rank": 77,
       "name": "LTM Limited",
       "ticker": "LTM",
       "exchange": "NSEI",
@@ -3162,7 +3162,7 @@
       "generated_at": "2026-09-17T14:13:11.426Z"
     },
     "TATACAP": {
-      "rank": 77,
+      "rank": 78,
       "name": "Tata Capital Limited",
       "ticker": "TATACAP",
       "exchange": "NSEI",
@@ -3198,7 +3198,7 @@
       "generated_at": "2026-09-17T14:13:29.897Z"
     },
     "TECHM": {
-      "rank": 79,
+      "rank": 80,
       "name": "Tech Mahindra Limited",
       "ticker": "TECHM",
       "exchange": "NSEI",
@@ -3235,7 +3235,7 @@
       "generated_at": "2026-09-17T14:13:51.592Z"
     },
     "CENTRALBK": {
-      "rank": 80,
+      "rank": 81,
       "name": "Central Bank of India",
       "ticker": "CENTRALBK",
       "exchange": "NSEI",
@@ -3272,7 +3272,7 @@
       "generated_at": "2026-09-17T14:14:40.239Z"
     },
     "DLF": {
-      "rank": 82,
+      "rank": 83,
       "name": "DLF Limited",
       "ticker": "DLF",
       "exchange": "NSEI",
@@ -3308,7 +3308,7 @@
       "generated_at": "2026-09-17T14:15:01.844Z"
     },
     "FEDERALBNK": {
-      "rank": 81,
+      "rank": 82,
       "name": "The Federal Bank Limited",
       "ticker": "FEDERALBNK",
       "exchange": "NSEI",
@@ -3345,7 +3345,7 @@
       "generated_at": "2026-09-17T14:15:24.009Z"
     },
     "ASIANPAINT": {
-      "rank": 83,
+      "rank": 84,
       "name": "Asian Paints Limited",
       "ticker": "ASIANPAINT",
       "exchange": "NSEI",
@@ -3380,7 +3380,7 @@
       "generated_at": "2026-09-17T14:15:42.411Z"
     },
     "HUDCO": {
-      "rank": 87,
+      "rank": 88,
       "name": "Housing and Urban Development Corporation Limited",
       "ticker": "HUDCO",
       "exchange": "NSEI",
@@ -3417,7 +3417,7 @@
       "generated_at": "2026-09-17T14:16:27.706Z"
     },
     "PETRONET": {
-      "rank": 88,
+      "rank": 89,
       "name": "Petronet LNG Limited",
       "ticker": "PETRONET",
       "exchange": "NSEI",
@@ -3454,7 +3454,7 @@
       "generated_at": "2026-09-17T14:16:50.216Z"
     },
     "CIPLA": {
-      "rank": 91,
+      "rank": 92,
       "name": "Cipla Limited",
       "ticker": "CIPLA",
       "exchange": "NSEI",
@@ -3491,7 +3491,7 @@
       "generated_at": "2026-09-17T14:17:10.763Z"
     },
     "NHPC": {
-      "rank": 84,
+      "rank": 85,
       "name": "NHPC Limited",
       "ticker": "NHPC",
       "exchange": "NSEI",
@@ -3528,7 +3528,7 @@
       "generated_at": "2026-09-17T14:20:12.886Z"
     },
     "ABCAPITAL": {
-      "rank": 90,
+      "rank": 91,
       "name": "Aditya Birla Capital Limited",
       "ticker": "ABCAPITAL",
       "exchange": "NSEI",
@@ -3565,7 +3565,7 @@
       "generated_at": "2026-09-17T14:20:37.026Z"
     },
     "WAAREEENER": {
-      "rank": 89,
+      "rank": 90,
       "name": "Waaree Energies Limited",
       "ticker": "WAAREEENER",
       "exchange": "NSEI",
@@ -3602,7 +3602,7 @@
       "generated_at": "2026-09-17T14:21:16.938Z"
     },
     "YESBANK": {
-      "rank": 95,
+      "rank": 96,
       "name": "Yes Bank Limited",
       "ticker": "YESBANK",
       "exchange": "NSEI",
@@ -3634,7 +3634,7 @@
       "generated_at": "2026-09-17T14:22:15.432Z"
     },
     "AUROPHARMA": {
-      "rank": 96,
+      "rank": 97,
       "name": "Aurobindo Pharma Limited",
       "ticker": "AUROPHARMA",
       "exchange": "NSEI",
@@ -3671,7 +3671,7 @@
       "generated_at": "2026-09-17T14:22:36.645Z"
     },
     "ASHOKLEY": {
-      "rank": 94,
+      "rank": 95,
       "name": "Ashok Leyland Limited",
       "ticker": "ASHOKLEY",
       "exchange": "NSEI",
@@ -3707,7 +3707,7 @@
       "generated_at": "2026-09-17T14:23:57.742Z"
     },
     "LODHA": {
-      "rank": 99,
+      "rank": 100,
       "name": "Macrotech Developers Limited",
       "ticker": "LODHA",
       "exchange": "NSEI",
@@ -3744,7 +3744,7 @@
       "generated_at": "2026-09-17T14:24:30.234Z"
     },
     "SAIL": {
-      "rank": 100,
+      "rank": 101,
       "name": "Steel Authority of India Limited",
       "ticker": "SAIL",
       "exchange": "NSEI",
@@ -3781,7 +3781,7 @@
       "generated_at": "2026-09-17T14:24:49.989Z"
     },
     "JINDALSTEL": {
-      "rank": 101,
+      "rank": 102,
       "name": "Jindal Steel & Power Limited",
       "ticker": "JINDALSTEL",
       "exchange": "NSEI",
@@ -3818,7 +3818,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 115,
+      "rank": 116,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3855,7 +3855,7 @@
       "generated_at": "2026-09-17T14:25:26.479Z"
     },
     "JSL": {
-      "rank": 103,
+      "rank": 104,
       "name": "Jindal Stainless Limited",
       "ticker": "JSL",
       "exchange": "NSEI",
@@ -3891,7 +3891,7 @@
       "generated_at": "2026-09-17T14:25:46.033Z"
     },
     "SUZLON": {
-      "rank": 104,
+      "rank": 105,
       "name": "Suzlon Energy Limited",
       "ticker": "SUZLON",
       "exchange": "NSEI",
@@ -3927,7 +3927,7 @@
       "generated_at": "2026-09-17T14:26:03.816Z"
     },
     "TMCV": {
-      "rank": 106,
+      "rank": 107,
       "name": "Tata Motors Limited",
       "ticker": "TMCV",
       "exchange": "NSEI",
@@ -3963,7 +3963,7 @@
       "generated_at": "2026-09-17T14:26:41.647Z"
     },
     "LTF": {
-      "rank": 107,
+      "rank": 108,
       "name": "L&T Finance Limited",
       "ticker": "LTF",
       "exchange": "NSEI",
@@ -3999,7 +3999,7 @@
       "generated_at": "2026-09-17T14:27:17.384Z"
     },
     "DMART": {
-      "rank": 108,
+      "rank": 109,
       "name": "Avenue Supermarts Limited",
       "ticker": "DMART",
       "exchange": "NSEI",
@@ -4035,7 +4035,7 @@
       "generated_at": "2026-09-17T14:27:34.175Z"
     },
     "HDFCAMC": {
-      "rank": 111,
+      "rank": 112,
       "name": "HDFC Asset Management Company Limited",
       "ticker": "HDFCAMC",
       "exchange": "NSEI",
@@ -4072,7 +4072,7 @@
       "generated_at": "2026-09-17T14:28:22.992Z"
     },
     "M&MFIN": {
-      "rank": 110,
+      "rank": 111,
       "name": "Mahindra & Mahindra Financial Services Limited",
       "ticker": "M&MFIN",
       "exchange": "NSEI",
@@ -4109,7 +4109,7 @@
       "generated_at": "2026-09-17T14:28:42.412Z"
     },
     "ICICIGI": {
-      "rank": 113,
+      "rank": 114,
       "name": "ICICI Lombard General Insurance Company Limited",
       "ticker": "ICICIGI",
       "exchange": "NSEI",
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 127,
+      "rank": 128,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4183,7 +4183,7 @@
       "generated_at": "2026-09-17T14:29:41.627Z"
     },
     "POLYCAB": {
-      "rank": 114,
+      "rank": 115,
       "name": "Polycab India Limited",
       "ticker": "POLYCAB",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 129,
+      "rank": 130,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4257,7 +4257,7 @@
       "generated_at": "2026-09-17T14:30:26.092Z"
     },
     "MAZDOCK": {
-      "rank": 117,
+      "rank": 118,
       "name": "Mazagon Dock Shipbuilders Limited",
       "ticker": "MAZDOCK",
       "exchange": "NSEI",
@@ -4294,7 +4294,7 @@
       "generated_at": "2026-09-17T14:31:00.835Z"
     },
     "DIVISLAB": {
-      "rank": 119,
+      "rank": 120,
       "name": "Divi's Laboratories Limited",
       "ticker": "DIVISLAB",
       "exchange": "NSEI",
@@ -4331,7 +4331,7 @@
       "generated_at": "2026-09-17T14:31:16.795Z"
     },
     "BAJAJHFL": {
-      "rank": 120,
+      "rank": 121,
       "name": "Bajaj Housing Finance Limited",
       "ticker": "BAJAJHFL",
       "exchange": "NSEI",
@@ -4367,7 +4367,7 @@
       "generated_at": "2026-09-17T14:31:35.582Z"
     },
     "ASHOKA": {
-      "rank": 118,
+      "rank": 119,
       "name": "Ashoka Buildcon Limited",
       "ticker": "ASHOKA",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 128,
+      "rank": 129,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4439,7 +4439,7 @@
       "generated_at": "2026-09-17T14:32:11.701Z"
     },
     "BRITANNIA": {
-      "rank": 121,
+      "rank": 122,
       "name": "Britannia Industries Limited",
       "ticker": "BRITANNIA",
       "exchange": "NSEI",
@@ -4476,7 +4476,7 @@
       "generated_at": "2026-09-17T14:32:30.242Z"
     },
     "KARURVYSYA": {
-      "rank": 122,
+      "rank": 123,
       "name": "The Karur Vysya Bank Limited",
       "ticker": "KARURVYSYA",
       "exchange": "NSEI",
@@ -4513,7 +4513,7 @@
       "generated_at": "2026-09-17T14:32:50.260Z"
     },
     "OBEROIRLTY": {
-      "rank": 123,
+      "rank": 124,
       "name": "Oberoi Realty Limited",
       "ticker": "OBEROIRLTY",
       "exchange": "NSEI",
@@ -4548,7 +4548,7 @@
       "generated_at": "2026-09-17T14:33:06.228Z"
     },
     "BSE": {
-      "rank": 124,
+      "rank": 125,
       "name": "BSE Limited",
       "ticker": "BSE",
       "exchange": "NSEI",
@@ -4583,7 +4583,7 @@
       "generated_at": "2026-09-17T14:33:24.104Z"
     },
     "SBILIFE": {
-      "rank": 126,
+      "rank": 127,
       "name": "SBI Life Insurance Company Limited",
       "ticker": "SBILIFE",
       "exchange": "NSEI",
@@ -4620,7 +4620,7 @@
       "generated_at": "2026-09-17T14:33:41.384Z"
     },
     "PIDILITIND": {
-      "rank": 125,
+      "rank": 126,
       "name": "Pidilite Industries Limited",
       "ticker": "PIDILITIND",
       "exchange": "NSEI",
@@ -4654,6 +4654,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:33:59.987Z"
+    },
+    "CHOLAHLDNG": {
+      "rank": 68,
+      "name": "Cholamandalam Financial Holdings Limited",
+      "ticker": "CHOLAHLDNG",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Investment Company",
+      "is_psu": false,
+      "pat_client_cr": 2441.29,
+      "pat_screener_cr": 5485,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5485,
+      "pat_mismatch": true,
+      "pat_delta_pct": 124.68,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0.073,
+      "csr_obligation_cr": 0.0729,
+      "csr_required_2pct_cr": 0.0729,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend classified under Education & Health category (₹7.30 lakh)",
+        "Key focus area for the year was promotion of education"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure III (CSR Annual Report) & Note 16.2 to standalone accounts, FY26; figures converted from ₹ Lakh to crore (7.29-7.30 lakh = 0.0729-0.073 crore)",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/426fceb6-2ffe-4c12-bd56-2d5ac713af89.pdf",
+        "page": 143
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:34:15.089Z"
     }
   }
 }
