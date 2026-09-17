@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:33:42.787Z",
-  "count": 128,
+  "updated_at": "2026-09-17T14:33:59.987Z",
+  "count": 129,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 126,
+      "rank": 127,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 128,
+      "rank": 129,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 127,
+      "rank": 128,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4583,7 +4583,7 @@
       "generated_at": "2026-09-17T14:33:24.104Z"
     },
     "SBILIFE": {
-      "rank": 125,
+      "rank": 126,
       "name": "SBI Life Insurance Company Limited",
       "ticker": "SBILIFE",
       "exchange": "NSEI",
@@ -4618,6 +4618,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:33:41.384Z"
+    },
+    "PIDILITIND": {
+      "rank": 125,
+      "name": "Pidilite Industries Limited",
+      "ticker": "PIDILITIND",
+      "exchange": "NSEI",
+      "sector": "Chemicals",
+      "sector_detail": "Specialty Chemicals",
+      "is_psu": false,
+      "pat_client_cr": 2448.92,
+      "pat_screener_cr": 2471,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2471,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.9,
+      "fy_used": "FY26",
+      "csr_spent_cr": 67.41,
+      "csr_obligation_cr": 28.81,
+      "csr_required_2pct_cr": 44.32,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR activities include promotion of education & training and healthcare initiatives",
+        "Construction of check dam in Zanzmer and Ankolali villages, Bhavnagar (Gujarat) improving water access for 46 farming households",
+        "Support to rural development, water conservation, sanitation and disaster relief programs"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 52 (standalone financial statements): 'amount of expenditure incurred' FY26 = 67.41 cr (item b); Board's Report CSR Annexure 1 shows total CSR obligation for FY (5e)=28.81 cr and total amount spent (6d)=51.90 cr, differing from note 52 due to excess set-off treatment; used note 52 figures as primary financial-statement disclosure; unspent = 0 (fully spent, per note table).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+        "page": 234
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:33:59.987Z"
     }
   }
 }
