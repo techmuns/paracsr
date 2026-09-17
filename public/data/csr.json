@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:15:25.686Z",
-  "count": 80,
+  "updated_at": "2026-09-17T14:15:42.412Z",
+  "count": 81,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2880,6 +2880,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:15:24.009Z"
+    },
+    "ASIANPAINT": {
+      "rank": 81,
+      "name": "Asian Paints Limited",
+      "ticker": "ASIANPAINT",
+      "exchange": "NSEI",
+      "sector": "Chemicals",
+      "sector_detail": "Paints",
+      "is_psu": false,
+      "pat_client_cr": 4325.35,
+      "pat_screener_cr": 4395,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4395,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.61,
+      "fy_used": "FY26",
+      "csr_spent_cr": 114.63,
+      "csr_obligation_cr": 114.65,
+      "csr_required_2pct_cr": 114.65,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Enabling access to quality primary health care services (health camps/healthcare initiatives)",
+        "CSR spend with Piramal Swasthya Management and Research Institute (health-related implementing agency), ₹2.59 crore"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 39 (Standalone Financial Statements FY2025-26): Gross amount required ₹114.65 cr; Amount spent (total, cash+yet to be paid) ₹114.63 cr; excess spent carried forward closing balance ₹0.49 cr; no unspent amount to deposit under Sec 135(5).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf",
+        "page": 226
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:15:42.411Z"
     }
   }
 }
