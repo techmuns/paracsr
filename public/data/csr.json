@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:35:08.206Z",
-  "count": 133,
+  "updated_at": "2026-09-17T14:35:23.086Z",
+  "count": 134,
   "companies": {
     "500049": {
       "rank": 61,
@@ -505,6 +505,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:02:22.609Z"
+    },
+    "500480": {
+      "rank": 132,
+      "name": "Cummins India Limited",
+      "ticker": "500480",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Compressors, Pumps & Diesel Engines",
+      "is_psu": false,
+      "pat_client_cr": 2361.75,
+      "pat_screener_cr": 2362,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2362,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 36.79,
+      "csr_obligation_cr": 37.1,
+      "csr_required_2pct_cr": 37.1,
+      "csr_unspent_cr": 0.31,
+      "health_or_education": true,
+      "examples": [
+        "Nurturing Brilliance Scholarship Program supported 473 meritorious engineering/diploma students from disadvantaged backgrounds (Pune, Phaltan)",
+        "Cummins College of Engineering for Women (Pune & Nagpur) benefited 2,480+ women students, achieving NAAC 'A'/'A+' accreditation",
+        "Technical Education for Communities (TEC) program trained 385 students across Phaltan, Kolhapur, Dharashiv ITIs for employable skills",
+        "Launched Nurturing Brilliance Wings to support aspiring engineers with disabilities (PWD)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Directors' Report Annexure '11' (CSR Annual Report), Section 135(5)/(6) disclosure; figures given in ₹ (rupees), converted to crore (1 crore = 1,00,00,000).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a3fd8d45-4e43-45a3-95c3-99c80f16e4a2.pdf",
+        "page": 42
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:35:23.086Z"
     },
     "500490": {
       "rank": 50,
@@ -4220,7 +4257,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 133,
+      "rank": 134,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4440,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 132,
+      "rank": 133,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
