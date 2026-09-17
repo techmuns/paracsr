@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:34:16.263Z",
-  "count": 130,
+  "updated_at": "2026-09-17T14:34:30.214Z",
+  "count": 131,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 130,
+      "rank": 131,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 129,
+      "rank": 130,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4689,6 +4689,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:34:15.089Z"
+    },
+    "MRF": {
+      "rank": 129,
+      "name": "MRF Limited",
+      "ticker": "MRF",
+      "exchange": "NSEI",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Tyres & Rubber Products",
+      "is_psu": false,
+      "pat_client_cr": 2426.1,
+      "pat_screener_cr": 2426,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2426,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 21,
+      "csr_obligation_cr": 39.41,
+      "csr_required_2pct_cr": 39.41,
+      "csr_unspent_cr": 18.41,
+      "health_or_education": true,
+      "examples": [
+        "Construction of 4-classroom school building at Government Higher Secondary School, Kolakkanatham, Perambalur District, TN",
+        "Supplied ECG machines and computers to four Primary Health Centres in Alathur, Perambalur District",
+        "Advanced Molecular Diagnostic System (CBNAAT) provided to Government Hospital for Chest Clinic, Puducherry",
+        "Palliative care medical equipment and blood transport vehicle donated to Government Medical College Hospital, Kottayam, Kerala"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note (l) to financial statements + CSR Annexure to Board's Report, FY26; amounts already in INR crore/converted from rupee figures given.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38efc5e4-44e5-475a-8dcf-f426cc3ade0d.pdf",
+        "page": 146
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:34:30.214Z"
     }
   }
 }
