@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>India CSR 200</title>
+  <meta name="description" content="Corporate Social Responsibility spending of the top 200 listed Indian companies by Profit After Tax." />
+  <style>
+    :root {
+      --bg-a: #0b1220;
+      --bg-b: #10233f;
+      --bg-c: #0a1a2f;
+      --ink: #eaf1fb;
+      --muted: #9fb2cd;
+      --accent: #48c6a8;
+      --accent-2: #6aa6ff;
+      --card: rgba(255, 255, 255, 0.05);
+      --border: rgba(255, 255, 255, 0.12);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 15% -10%, #16385f 0%, transparent 55%),
+        radial-gradient(1000px 700px at 110% 10%, #123a34 0%, transparent 50%),
+        linear-gradient(160deg, var(--bg-a), var(--bg-b) 55%, var(--bg-c));
+      background-attachment: fixed;
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 32px 16px;
+    }
+    .wrap { width: 100%; max-width: 720px; text-align: center; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--muted); border: 1px solid var(--border);
+      padding: 6px 14px; border-radius: 999px; margin-bottom: 26px;
+      background: var(--card);
+    }
+    .badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+    h1 {
+      font-size: clamp(28px, 5vw, 46px); line-height: 1.1; margin: 0 0 8px;
+      font-weight: 800; letter-spacing: -0.02em;
+    }
+    h1 .grad {
+      background: linear-gradient(92deg, var(--accent-2), var(--accent));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .sub { color: var(--muted); font-size: clamp(15px, 2.4vw, 18px); margin: 0 auto 30px; max-width: 560px; line-height: 1.5; }
+    .stat {
+      display: inline-flex; flex-direction: column; gap: 6px; align-items: center;
+      border: 1px solid var(--border); background: var(--card);
+      padding: 20px 34px; border-radius: 16px; backdrop-filter: blur(6px);
+    }
+    .stat .num { font-size: clamp(26px, 4.5vw, 38px); font-weight: 800; letter-spacing: -0.02em; }
+    .stat .num b { color: var(--accent); }
+    .stat .lbl { font-size: 13px; color: var(--muted); letter-spacing: .04em; }
+    .bar { width: min(360px, 78vw); height: 8px; border-radius: 999px; background: rgba(255,255,255,.08); overflow: hidden; margin-top: 4px; }
+    .bar > i { display: block; height: 100%; width: 0%; border-radius: 999px; background: linear-gradient(90deg, var(--accent-2), var(--accent)); transition: width .8s ease; }
+    .foot { margin-top: 30px; font-size: 12.5px; color: var(--muted); }
+    .foot span { opacity: .8; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="badge"><span class="dot"></span> Corporate Social Responsibility</div>
+    <h1>India&nbsp;CSR&nbsp;<span class="grad">200</span></h1>
+    <p class="sub">Corporate Social Responsibility spending of the top 200 listed Indian companies, ranked by Profit After Tax.</p>
+    <div class="stat">
+      <div class="num" id="count">Data: <b>—</b> / 200</div>
+      <div class="lbl">companies processed</div>
+      <div class="bar"><i id="bar"></i></div>
+    </div>
+    <p class="foot">Data refreshed automatically from annual reports · <span id="updated">loading…</span></p>
+  </main>
+
+  <script>
+    (async function () {
+      const countEl = document.getElementById("count");
+      const barEl = document.getElementById("bar");
+      const updEl = document.getElementById("updated");
+      try {
+        const res = await fetch("data/metadata.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("no data yet");
+        const m = await res.json();
+        const done = Number(m.done || 0);
+        const total = Number(m.total || 200);
+        countEl.innerHTML = `Data: <b>${done}</b> / ${total}`;
+        barEl.style.width = Math.max(2, Math.min(100, (done / total) * 100)) + "%";
+        updEl.textContent = m.updated_at
+          ? "updated " + new Date(m.updated_at).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })
+          : "awaiting first run";
+      } catch (e) {
+        countEl.innerHTML = `Data: <b>0</b> / 200`;
+        updEl.textContent = "awaiting first run";
+      }
+    })();
+  </script>
+</body>
+</html>

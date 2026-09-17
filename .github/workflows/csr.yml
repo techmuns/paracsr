@@ -1,0 +1,57 @@
+name: CSR pipeline
+on:
+  workflow_dispatch:
+    inputs:
+      ticker: { description: "Single ticker (blank = batch)", required: false, type: string }
+      limit:  { description: "Max companies this run", required: false, type: string, default: "25" }
+      force:  { description: "Re-do companies already done", required: false, type: boolean, default: false }
+  # schedule: [{ cron: "0 22 * * 0" }]   # enable later, once all 200 are in
+permissions:
+  contents: write
+concurrency: { group: csr, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Install deps + Chromium
+        run: |
+          npm install --no-save playwright pdfjs-dist
+          npx playwright install --with-deps chromium
+      - name: Git identity
+        run: |
+          git config user.name "paracsr-bot"
+          git config user.email "actions@github.com"
+      - name: Preflight — LLM key
+        env:
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_REGION:  ${{ secrets.BEDROCK_REGION }}
+          BEDROCK_MODEL:   ${{ secrets.BEDROCK_MODEL }}
+          LLM_PROVIDER:    ${{ secrets.LLM_PROVIDER }}
+          OPENAI_API_KEY:  ${{ secrets.OPENAI_API_KEY }}
+        run: node csr-pipeline/check-llm.mjs
+      - name: Run pipeline
+        env:
+          SCREENER_PREMIUM_EMAIL: ${{ secrets.SCREENER_PREMIUM_EMAIL }}
+          SCREENER_PREMIUM_PASSWORD: ${{ secrets.SCREENER_PREMIUM_PASSWORD }}
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_REGION:  ${{ secrets.BEDROCK_REGION }}
+          BEDROCK_MODEL:   ${{ secrets.BEDROCK_MODEL }}
+          LLM_PROVIDER:    ${{ secrets.LLM_PROVIDER }}
+          OPENAI_API_KEY:  ${{ secrets.OPENAI_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          TICKER: ${{ github.event.inputs.ticker }}
+          LIMIT:  ${{ github.event.inputs.limit }}
+          FORCE:  ${{ github.event.inputs.force == 'true' && '1' || '' }}
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: node csr-pipeline/run.mjs
+      - name: Upload debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: csr-artifacts, path: csr-pipeline/output, if-no-files-found: ignore, retention-days: 7 }
