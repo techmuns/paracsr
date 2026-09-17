@@ -324,6 +324,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:09:32.057Z",
       "error": null
+    },
+    "HYUNDAI": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:10:11.339Z",
+      "error": null
     }
   }
 }
