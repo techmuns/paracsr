@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:35:42.439Z",
-  "count": 135,
+  "updated_at": "2026-09-17T14:36:02.352Z",
+  "count": 136,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4257,7 +4257,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 135,
+      "rank": 136,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4440,7 +4440,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 134,
+      "rank": 135,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4872,6 +4872,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:35:41.135Z"
+    },
+    "ALKEM": {
+      "rank": 134,
+      "name": "Alkem Laboratories Limited",
+      "ticker": "ALKEM",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 2301.8,
+      "pat_screener_cr": 2351,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2351,
+      "pat_mismatch": false,
+      "pat_delta_pct": 2.14,
+      "fy_used": "FY26",
+      "csr_spent_cr": 28.14,
+      "csr_obligation_cr": 34.084,
+      "csr_required_2pct_cr": 38.5,
+      "csr_unspent_cr": 5.985,
+      "health_or_education": true,
+      "examples": [
+        "Support for establishment of smart classes in 240 government schools",
+        "Transfer of funds to Alkem Foundation for healthcare, education, sanitation and rural development initiatives",
+        "Mass plantation drive supporting farmers",
+        "Promotion of Sports and Games for training athletes towards Olympic Games (via OGQ)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 3.40 (standalone financials) and Annexure C (CSR Annual Report). Figures converted from ₹ Million to ₹ crore (÷10). Total amount spent for FY26 = ₹281.4 Million = ₹28.14 crore; CSR obligation ₹340.84 Million = ₹34.084 crore; gross 2% requirement ₹385 Million = ₹38.5 crore; unspent transferred ₹59.85 Million = ₹5.985 crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/17dc6456-8643-49d4-a860-eb0cd3796e43.pdf",
+        "page": 271
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:36:02.351Z"
     }
   }
 }
