@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T13:53:32.875Z",
+  "updated_at": "2026-09-17T13:53:53.583Z",
   "count": 25,
   "companies": {
     "500228": {
@@ -832,6 +832,7 @@
       "ticker": "PNB",
       "exchange": "NSEI",
       "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
       "is_psu": true,
       "pat_client_cr": 18392.69,
       "pat_screener_cr": 18467,
@@ -845,18 +846,22 @@
       "csr_obligation_cr": null,
       "csr_required_2pct_cr": null,
       "csr_unspent_cr": null,
-      "health_or_education": null,
-      "examples": [],
-      "found": false,
+      "health_or_education": true,
+      "examples": [
+        "Funded procurement of medical machines for Sri Sathya Sai Sanjeevani International Centre for Child Heart Care & Research",
+        "Purchased medical equipment for Vivekanand Polyclinic and Institute of Medical Sciences, Lucknow",
+        "Supported cancer awareness/prevention (CAPED) women's cervical & breast cancer screening project",
+        "Scholarship programme 'PNB Rising Stars' for 100 students via Yuva Unstoppable; early education support to economically weaker sections via Ramakrishan Sarada Mission"
+      ],
+      "found": true,
       "confidence": "low",
-      "notes": "Excerpt contains only Notice/Corporate Governance/Board Committee sections; no CSR/Section 135 figures (Amount Spent, 2% obligation, unspent) found in the provided text, though a \"Corporate Social Responsibility Report\" is referenced in the table of contents (pages 268-296) but not included in this excerpt.",
+      "notes": "BRSR Section A (VI. CSR Details) explicitly states Section 135 CSR provisions are NOT applicable to PNB (banking company, not registered under Companies Act 2013); Bank instead follows a voluntary Board-approved CSR Policy. No 'Amount Spent during the Year' table or aggregate spend figure found in provided excerpt—only individual project beneficiary counts (no rupee spend column) for FY2025-26; hence spend/obligation figures set to null.",
       "source": {
         "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2be9c223-c5bb-46ad-a57d-975eb6c28902.pdf",
-        "page": 16
+        "page": 128
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:54:43.269Z",
-      "sector_detail": "Public Sector Bank"
+      "generated_at": "2026-09-17T13:53:53.583Z"
     },
     "HINDPETRO": {
       "rank": 25,
