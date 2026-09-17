@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:07:35.061Z",
-  "count": 57,
+  "updated_at": "2026-09-17T14:07:52.135Z",
+  "count": 58,
   "companies": {
     "500188": {
       "rank": 36,
@@ -2053,6 +2053,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:07:33.749Z"
+    },
+    "IRFC": {
+      "rank": 58,
+      "name": "Indian Railway Finance Corporation Limited",
+      "ticker": "IRFC",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Financial Institution",
+      "is_psu": true,
+      "pat_client_cr": 7009.17,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 7009.17,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 128.33,
+      "csr_obligation_cr": 128.33,
+      "csr_required_2pct_cr": 128.33,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Healthcare spend of ₹82.23 crore under Item (i) of Schedule VII covering health care projects",
+        "Promoting Education spend of ₹49.32 crore under Item (ii) of Schedule VII including skill development",
+        "Organized health camps for employees (Hepatitis, Stroke, Diabetes, Cancer, TB awareness days) in FY26"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 48, Notes to Financial Statements FY26; amount required to be spent = amount of expenditure incurred = ₹128.33 cr (Schedule III additional disclosure table), so shortfall/unspent = Nil; gross cash spend during year (excluding transfer to provision for ongoing projects) was ₹78.92 cr per para (i), but Schedule III table confirms ₹128.33 cr as amount required and incurred, treated as the key spent figure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/16fd1408-46ca-4822-ba70-07264552f85b.pdf",
+        "page": 263
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:07:52.134Z"
     }
   }
 }
