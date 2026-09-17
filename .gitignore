@@ -1,0 +1,5 @@
+node_modules/
+csr-pipeline/output/
+.dev.vars
+*.log
+.DS_Store

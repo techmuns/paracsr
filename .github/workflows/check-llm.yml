@@ -1,0 +1,21 @@
+name: Check LLM key
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Preflight — LLM key
+        env:
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_REGION:  ${{ secrets.BEDROCK_REGION }}
+          BEDROCK_MODEL:   ${{ secrets.BEDROCK_MODEL }}
+          LLM_PROVIDER:    ${{ secrets.LLM_PROVIDER }}
+          OPENAI_API_KEY:  ${{ secrets.OPENAI_API_KEY }}
+        run: node csr-pipeline/check-llm.mjs
