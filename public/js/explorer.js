@@ -15,6 +15,8 @@ const COLS = [
     cell: (r) => isNum(r.csr_spent_cr)
       ? `${fmtNum(r.csr_spent_cr, r.csr_spent_cr >= 100 ? 0 : 2)}${r.confidence === "low" ? amberDot() : ""}`
       : `<span class="muted">Not disclosed</span>` },
+  { key: "fy",      label: "Year",          num: false, get: (r) => (r.fy_used === "FY26" ? 0 : r.fy_used === "FY25" ? 1 : 2),
+    cell: (r) => r.fy_used === "FY26" ? `<span class="badge fy26">FY26</span>` : r.fy_used === "FY25" ? `<span class="badge fy25">FY25</span>` : `<span class="muted">—</span>` },
   { key: "pct",     label: "% of Profit",   num: true,  get: (r) => pctOf(r) ?? -1,
     cell: (r) => { const v = pctOf(r); return v == null ? `<span class="muted">—</span>` : fmtPct(v, 2); } },
   { key: "he",      label: "Health/Edu",    num: false, get: (r) => (r.health_or_education === true ? 0 : 1),
@@ -81,16 +83,28 @@ function cmp(a, b) {
 }
 
 /* ------------------------------------------------------------- exports */
-const EXPORT_COLS = [
-  ["Rank", (r) => r.rank ?? ""], ["Company", (r) => r.name], ["Ticker", (r) => r.ticker], ["Exchange", (r) => r.exchange || ""],
-  ["Sector", (r) => r.sector || ""], ["Type", (r) => (r.is_psu ? "Government (PSU)" : "Private")],
-  ["Profit (cr)", (r) => (isNum(r.pat_cr) ? r.pat_cr : "")], ["CSR Spent (cr)", (r) => (isNum(r.csr_spent_cr) ? r.csr_spent_cr : "Not disclosed")],
-  ["CSR % of Profit", (r) => { const v = pctOf(r); return v == null ? "" : +v.toFixed(2); }],
-  ["Required 2% (cr)", (r) => { const v = requiredOf(r); return isNum(v) ? v : ""; }],
-  ["Health/Education", (r) => (r.health_or_education === true ? "Yes" : r.health_or_education === false ? "No" : "Not disclosed")],
-  ["Confidence", (r) => r.confidence || ""], ["Example", (r) => (r.examples || [])[0] || ""],
-  ["Annual report", (r) => (r.source && r.source.annual_report_url) || ""],
+// The CLIENT's original template first (headers verbatim), then 4 provenance
+// columns. t: "num" → real number in the .xlsx; "money" → number OR "Not disclosed".
+const round2 = (n) => Math.round(n * 100) / 100;
+const CLIENT_COLS = [
+  { h: "Company Name",         t: "text",  v: (r) => `${r.name} (${r.exchange || ""}:${r.ticker})` },
+  { h: "PAT (FY26)",           t: "num",   v: (r) => (isNum(r.pat_cr) ? round2(r.pat_cr) : null) },
+  { h: "Type of Institution",  t: "text",  v: (r) => (r.is_psu ? "PSU" : "Non-PSU") },
+  { h: "CSR spend (INR cr)",   t: "money", v: (r) => (isNum(r.csr_spent_cr) ? round2(r.csr_spent_cr) : "Not disclosed") },
+  { h: "Nature of spend",      t: "text",  v: (r) => (r.health_or_education === true ? "Yes" : r.health_or_education === false ? "No" : "N/A") },
+  { h: "Relevant eg.",         t: "text",  v: (r) => ((r.examples || []).length ? r.examples.join("; ") : "—") },
+  // provenance the client can trust the source with
+  { h: "Data Year",            t: "text",  v: (r) => r.fy_used || "" },
+  { h: "Confidence",           t: "text",  v: (r) => r.confidence || "" },
+  { h: "2% Required (INR cr)", t: "num",   v: (r) => { const x = requiredOf(r); return isNum(x) ? round2(x) : null; } },
+  { h: "Source",               t: "text",  v: (r) => (r.source && r.source.annual_report_url) || "" },
 ];
+const COL_WIDTH = { "Company Name": 46, "Relevant eg.": 60, "Source": 52 };
+
+// Always export in the client's order: PAT descending. Uses the passed set
+// (the active filtered set) or the current table set, defaulting to all 200.
+const exportRows = (rows) => (rows && rows.length != null ? rows : current).slice()
+  .sort((a, b) => (isNum(b.pat_cr) ? b.pat_cr : -1) - (isNum(a.pat_cr) ? a.pat_cr : -1));
 
 function download(blob, name) {
   const url = URL.createObjectURL(blob);
@@ -98,26 +112,36 @@ function download(blob, name) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-export async function exportExcel() {
-  const rows = current.slice().sort(cmp);
-  if (typeof window.ExcelJS === "undefined") return exportCSV(rows);
+export async function exportExcel(rows) {
+  const data = exportRows(rows);
+  if (typeof window.ExcelJS === "undefined") return exportCSV(data);
   try {
     const wb = new window.ExcelJS.Workbook();
     const ws = wb.addWorksheet("India CSR 200");
-    ws.columns = EXPORT_COLS.map(([h]) => ({ header: h, key: h, width: Math.max(12, h.length + 4) }));
-    ws.getRow(1).font = { bold: true, color: { argb: "FFFFFFFF" } };
-    ws.getRow(1).fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
-    rows.forEach((r) => ws.addRow(EXPORT_COLS.map(([, f]) => f(r))));
+    ws.columns = CLIENT_COLS.map((c) => ({ header: c.h, key: c.h, width: COL_WIDTH[c.h] || Math.max(13, c.h.length + 3) }));
+    const hr = ws.getRow(1);
+    hr.font = { bold: true, color: { argb: "FFFFFFFF" } };
+    hr.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
+    hr.alignment = { vertical: "middle" };
+    data.forEach((r) => {
+      const row = ws.addRow(CLIENT_COLS.map((c) => c.v(r)));
+      CLIENT_COLS.forEach((c, i) => {
+        const cell = row.getCell(i + 1);
+        if ((c.t === "num" || c.t === "money") && typeof cell.value === "number") { cell.numFmt = "#,##0.00"; cell.alignment = { horizontal: "right" }; }
+      });
+    });
+    ws.views = [{ state: "frozen", ySplit: 1 }];
     const buf = await wb.xlsx.writeBuffer();
     download(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), "india-csr-200.xlsx");
-  } catch (e) { console.warn("Excel export failed, using CSV:", e); exportCSV(rows); }
+  } catch (e) { console.warn("Excel export failed, using CSV:", e); exportCSV(exportRows(rows)); }
 }
 
 function exportCSV(rows) {
-  const esc2 = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
-  const lines = [EXPORT_COLS.map(([h]) => esc2(h)).join(",")];
-  rows.forEach((r) => lines.push(EXPORT_COLS.map(([, f]) => esc2(f(r))).join(",")));
-  download(new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" }), "india-csr-200.csv");
+  const data = exportRows(rows);
+  const esc2 = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
+  const lines = [CLIENT_COLS.map((c) => esc2(c.h)).join(",")];
+  data.forEach((r) => lines.push(CLIENT_COLS.map((c) => esc2(c.v(r))).join(",")));
+  download(new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" }), "india-csr-200.csv");
 }
 
 export async function exportPDF() {

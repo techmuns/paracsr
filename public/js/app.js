@@ -4,7 +4,7 @@
 import { $, $$, el, icons, fmtCr, fmtCrShort, fmtNum, fmtPct, esc, COLORS } from "./ui.js";
 import {
   state, loadData, getFiltered, distinctSectors, coverage, totalSpend, splitByType,
-  groupStats, healthSplit, ruleData, withSpend, heYes, isNum, typeOf,
+  groupStats, healthSplit, ruleData, withSpend, heYes, isNum, typeOf, fyBreakdown,
 } from "./data.js";
 import * as charts from "./charts.js";
 import { renderExplorer, exportExcel, exportPDF } from "./explorer.js";
@@ -45,6 +45,7 @@ function populateSectors() {
 function updateChrome() {
   const { done, total, updated_at } = state.meta;
   $("#live-count").textContent = `${fmtNum(done)} of ${fmtNum(total)} companies`;
+  const fyl = $("#fy-label"); if (fyl) { const fb = fyBreakdown(state.records); fyl.textContent = fb.FY25 > 0 ? "FY26 (some FY25)" : "FY26"; }
   const f = getFiltered();
   $("#filter-count").textContent = `Showing ${f.length} of ${state.records.length} loaded`;
   if (updated_at) {
@@ -98,7 +99,8 @@ function bindToggle(sel, cb, attr = "mode") {
 }
 
 function wireExports() {
-  $("#btn-excel").addEventListener("click", exportExcel);
+  // Export the active filtered set (all 200 when nothing is filtered), PAT-desc.
+  $("#btn-excel").addEventListener("click", () => exportExcel(getFiltered({ search: true })));
   $("#btn-pdf").addEventListener("click", () => { if (ui.tab !== "explorer") switchTab("explorer"); requestAnimationFrame(() => setTimeout(exportPDF, 60)); });
 }
 
@@ -113,9 +115,21 @@ function renderActive() {
 function renderBig() {
   const list = getFiltered();
   renderTiles(list);
+  renderFySummary(list);
   charts.renderTop(list);
   charts.renderGovPriDonut(list);
   charts.renderSector(list);
+}
+function renderFySummary(list) {
+  const host = $("#fy-summary"); if (!host) return;
+  const fb = fyBreakdown(list);
+  const chip = (sw, label, n) => `<span class="chip summary"><span class="swatch" style="background:${sw}"></span><b>${n}</b> ${label}</span>`;
+  let html = `<span style="font-size:12px;color:var(--text-3);margin-right:2px;align-self:center">Source year:</span> `
+    + chip("var(--brand-emerald)", "FY26", fb.FY26) + " " + chip("var(--brand-amber)", "FY25", fb.FY25);
+  if (fb.unknown) html += " " + chip("var(--text-4)", "unknown", fb.unknown);
+  host.style.cssText = "margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center";
+  host.innerHTML = html;
+  icons();
 }
 function renderTiles(list) {
   const cov = coverage(list);

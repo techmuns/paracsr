@@ -122,9 +122,9 @@ a:hover { text-decoration:underline; }
   display:flex; align-items:center; gap:12px; flex-wrap:wrap;
   padding:0 24px 12px; position:sticky; top:0;
 }
-.segmented { display:inline-flex; padding:4px; gap:2px; background:var(--surface-solid); border:1px solid var(--hairline); border-radius:var(--r-pill); box-shadow:var(--shadow-md); }
+.segmented { display:inline-flex; align-items:center; height:40px; padding:4px; gap:2px; background:var(--surface-solid); border:1px solid var(--hairline); border-radius:var(--r-pill); box-shadow:var(--shadow-md); box-sizing:border-box; }
 .segmented button {
-  padding:7px 15px; border-radius:var(--r-pill); font-size:12.5px; font-weight:600; color:var(--text-3);
+  height:32px; padding:0 15px; border-radius:var(--r-pill); font-size:12.5px; font-weight:600; color:var(--text-3);
   display:inline-flex; align-items:center; gap:6px; transition:color .15s, background .15s;
 }
 .segmented button .swatch { width:9px; height:9px; border-radius:3px; }
@@ -133,17 +133,21 @@ a:hover { text-decoration:underline; }
 .segmented button[data-type="gov"][aria-selected="true"]   { background:var(--gov); }
 .segmented button[data-type="private"][aria-selected="true"]{ background:var(--pri); }
 .field { position:relative; display:inline-flex; align-items:center; }
-.field > i { position:absolute; left:12px; width:15px; height:15px; color:var(--text-4); pointer-events:none; }
+.field > i { position:absolute; left:13px; top:50%; transform:translateY(-50%); width:15px; height:15px; color:var(--text-4); pointer-events:none; }
 select.control, input.control {
-  font-family:var(--font-body); font-size:13px; color:var(--text-1); appearance:none;
-  background:var(--surface-solid); border:1px solid var(--hairline); border-radius:12px;
-  padding:9px 32px 9px 34px; box-shadow:var(--shadow-md); min-height:38px; transition:border-color .15s;
+  font-family:var(--font-body); font-size:13px; color:var(--text-1); appearance:none; -webkit-appearance:none;
+  height:40px; box-sizing:border-box;
+  background:var(--surface-solid); border:1px solid var(--hairline); border-radius:var(--r-pill);
+  padding:0 16px 0 37px; box-shadow:var(--shadow-md); transition:border-color .15s;
 }
-select.control:focus, input.control:focus { outline:none; border-color:var(--brand-indigo); }
-.field.select::after { content:""; position:absolute; right:13px; width:8px; height:8px; border-right:2px solid var(--text-4); border-bottom:2px solid var(--text-4); transform:rotate(45deg) translateY(-2px); pointer-events:none; }
+select.control { padding-right:34px; cursor:pointer; }
+select.control:focus, input.control:focus { outline:none; border-color:var(--brand-indigo); box-shadow:var(--shadow-md),0 0 0 3px rgba(99,102,241,.14); }
+.field.select::after { content:""; position:absolute; right:15px; top:calc(50% - 5px); width:7px; height:7px; border-right:2px solid var(--text-4); border-bottom:2px solid var(--text-4); transform:rotate(45deg); pointer-events:none; }
 input.control::placeholder { color:var(--text-4); }
-.search { min-width:210px; }
-.filter-spacer { flex:1 1 auto; }
+/* the search field grows to fill the row, capped so it never sprawls */
+.filterbar .field:not(.select) { flex:1 1 200px; min-width:180px; max-width:320px; }
+.filterbar .field:not(.select) .control { width:100%; }
+.filter-spacer { flex:1 1 12px; }
 .filter-count { font-size:12px; color:var(--text-3); font-family:var(--font-mono); white-space:nowrap; }
 
 /* ---------------------------------------------------------------- tab bar */
@@ -242,6 +246,15 @@ input.control::placeholder { color:var(--text-4); }
 .badge i { width:12px; height:12px; }
 
 .amber-dot { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--brand-amber); margin-left:5px; vertical-align:middle; box-shadow:0 0 0 3px rgba(245,158,11,.18); cursor:help; }
+
+/* source-year badges: FY26 calm/neutral, FY25 amber (a fallback stands out) */
+.badge.fy26 { background:rgba(16,185,129,.12); color:#047857; font-family:var(--font-mono); }
+.badge.fy25 { background:rgba(245,158,11,.18); color:#b45309; font-family:var(--font-mono); }
+
+/* FY summary line on Big Picture */
+.fy-summary { margin-top:12px; }
+.fy-summary .chip.summary { padding:7px 13px; }
+.fy-summary .chip.summary .swatch { width:9px; height:9px; }
 
 /* --------------------------------------------------------------- explorer table */
 .table-wrap { overflow:auto; border-radius:var(--r-md); }
