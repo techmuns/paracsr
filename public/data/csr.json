@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:58:55.195Z",
-  "count": 32,
+  "updated_at": "2026-09-17T13:59:10.933Z",
+  "count": 33,
   "companies": {
     "500228": {
       "rank": 18,
@@ -147,6 +147,41 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:48:05.645Z",
       "sector_detail": "Passenger Cars & Utility Vehicles"
+    },
+    "500696": {
+      "rank": 33,
+      "name": "Hindustan Unilever Limited",
+      "ticker": "500696",
+      "exchange": "BSE",
+      "sector": "FMCG",
+      "sector_detail": "Diversified FMCG",
+      "is_psu": false,
+      "pat_client_cr": 15040,
+      "pat_screener_cr": 15059,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 15059,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.13,
+      "fy_used": "FY26",
+      "csr_spent_cr": 266,
+      "csr_obligation_cr": 264,
+      "csr_required_2pct_cr": 264,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promotes education, including special education and employment-enhancing vocational skills",
+        "Contribution of ₹43 crore to Hindustan Unilever Foundation (water-secure communities, sustainable water use programs)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financials, Note 33 (Other Expenses) note (a) CSR disclosure, FY ended 31 March 2026; amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/881493e4-75af-4a7f-8c64-9d0886e63f1d.pdf",
+        "page": 162
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "532215": {
       "rank": 16,
