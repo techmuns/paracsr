@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:52:23.874Z",
-  "count": 16,
+  "updated_at": "2026-09-17T12:52:41.138Z",
+  "count": 17,
   "companies": {
     "500570": {
       "rank": 3,
@@ -560,6 +560,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:52:22.736Z"
+    },
+    "BPCL": {
+      "rank": 17,
+      "name": "Bharat Petroleum Corporation Limited",
+      "ticker": "BPCL",
+      "exchange": "NSEI",
+      "sector": "Refineries & Marketing",
+      "is_psu": true,
+      "pat_client_cr": 25843.45,
+      "pat_screener_cr": 25843,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 25843,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 276.88,
+      "csr_obligation_cr": 396.72,
+      "csr_required_2pct_cr": 396.72,
+      "csr_unspent_cr": 470.88,
+      "health_or_education": true,
+      "examples": [
+        "Health & Sanitation initiatives under CSR thrust areas",
+        "Education programs as a core CSR thrust area",
+        "Skill Development programs under CSR"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 58 - Disclosure in respect of Expenditure on CSR Activities, FY2025-26 (amount spent row d); five thrust areas include Health & Sanitation and Education but no specific project examples with figures given.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bc601ffe-f7af-421d-a32e-d6c2ea3f4454.pdf",
+        "page": 194
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:52:41.138Z"
     }
   }
 }
