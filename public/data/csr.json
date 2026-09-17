@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:53:44.223Z",
-  "count": 189,
+  "updated_at": "2026-09-17T14:54:02.347Z",
+  "count": 190,
   "companies": {
     "500049": {
       "rank": 61,
@@ -219,6 +219,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:16:03.811Z"
+    },
+    "500163": {
+      "rank": 189,
+      "name": "Godfrey Phillips India Limited",
+      "ticker": "500163",
+      "exchange": "BSE",
+      "sector": "FMCG",
+      "sector_detail": "Cigarettes & Tobacco Products",
+      "is_psu": false,
+      "pat_client_cr": 1526.06,
+      "pat_screener_cr": 1526,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1526,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 11.52,
+      "csr_obligation_cr": 17.66,
+      "csr_required_2pct_cr": 17.66,
+      "csr_unspent_cr": 6.14,
+      "health_or_education": true,
+      "examples": [
+        "Preventive healthcare screening initiative 'Swasth Pehal 2.0' using mobile medical units covering over 6,000 beneficiaries across ~200 locations, screening 100+ health parameters (blood diagnostics, eye testing)",
+        "CSR activities aimed at promoting education and healthcare per Note 34"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 34 (Standalone Financials) FY26; amounts converted from Rs. lakhs to crore (1,152 lakh=11.52 cr spent; 1,766 lakh=17.66 cr required; 614 lakh=6.14 cr unspent-ongoing project). Directors' Report CSR section (Annexure-2) describes water conservation & preventive healthcare focus, no education-specific spend detailed in narrative but Note 34 explicitly states education & healthcare as CSR focus areas.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6bf81ef7-d72b-45ac-805b-b272ec4f620e.pdf",
+        "page": 156
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:54:02.347Z"
     },
     "500182": {
       "rank": 63,
@@ -4869,7 +4904,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 189,
+      "rank": 190,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
