@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:05:53.536Z",
-  "count": 52,
+  "updated_at": "2026-09-17T14:06:11.326Z",
+  "count": 53,
   "companies": {
     "500188": {
       "rank": 36,
@@ -1871,6 +1871,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:05:52.038Z"
+    },
+    "ULTRACEMCO": {
+      "rank": 53,
+      "name": "UltraTech Cement Limited",
+      "ticker": "ULTRACEMCO",
+      "exchange": "NSEI",
+      "sector": "Cement & Construction",
+      "sector_detail": "Cement & Cement Products",
+      "is_psu": false,
+      "pat_client_cr": 8165.64,
+      "pat_screener_cr": 8188,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 8188,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.27,
+      "fy_used": "FY26",
+      "csr_spent_cr": 168.7,
+      "csr_obligation_cr": 156.59,
+      "csr_required_2pct_cr": 156.59,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Operates 14 Company hospitals and a fleet of 23 ambulances providing primary healthcare, plus mobile health camps reaching 1.61 lakh patients",
+        "Runs 31 company schools and supports 295 model Anganwadis benefiting 12,314 children",
+        "Immunisation drives covering 1.22 lakh children and maternal & child health services for 8,732 women",
+        "Project Ojaswani improved health outcomes for 120+ tribal girls near Maihar Cement; Navodaya coaching centres helped 608 students prepare for entrance exams"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 51 (Standalone Financial Statements) and Annexure III (Directors' Report CSR Annual Report), FY26 (year ended March 31, 2026); amounts already in INR crore, no conversion needed. Unspent = 0 (excess of 12.11 cr spent over obligation carried forward as set-off, not shortfall).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1551898a-ebd8-40be-960b-1b16f0a1af60.pdf",
+        "page": 250
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:06:11.326Z"
     }
   }
 }
