@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:40:11.796Z",
-  "count": 149,
+  "updated_at": "2026-09-17T14:40:26.797Z",
+  "count": 150,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4435,7 +4435,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 149,
+      "rank": 150,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5304,7 +5304,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 148,
+      "rank": 149,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5341,7 +5341,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 147,
+      "rank": 148,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5376,6 +5376,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:40:10.598Z"
+    },
+    "CHAMBLFERT": {
+      "rank": 147,
+      "name": "Chambal Fertilisers and Chemicals Limited",
+      "ticker": "CHAMBLFERT",
+      "exchange": "NSEI",
+      "sector": "Chemicals",
+      "sector_detail": "Fertilizers",
+      "is_psu": false,
+      "pat_client_cr": 1953.39,
+      "pat_screener_cr": 1953,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1953,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 29.92,
+      "csr_obligation_cr": 36.42,
+      "csr_required_2pct_cr": 36.42,
+      "csr_unspent_cr": 6.58,
+      "health_or_education": true,
+      "examples": [
+        "Project Akshar: adopted 57 government schools and 47 Anganwadi centers, supporting ~10,000 rural students; setting up a CBSE-based English medium school in Gadepan village",
+        "Project Saksham: skill training via 5 ITIs and 1 Government Polytechnic College, ~650 students placed; Chambal Fertilisers Skill Institute with 664 youth placed",
+        "Project Arogya: healthcare support through 4 Primary Health Centers in Kota, Baran and Bundi districts; TB screening of over 10,000 rural people"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 34 to standalone accounts (FY26) and Annexure 'F' to Board's Report; amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e43e96ca-7158-4bd0-be08-c2bb9b198f6c.pdf",
+        "page": 188
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:40:26.796Z"
     }
   }
 }
