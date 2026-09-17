@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:39:49.783Z",
-  "count": 148,
+  "updated_at": "2026-09-17T14:40:10.599Z",
+  "count": 149,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4435,7 +4435,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 148,
+      "rank": 149,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5304,7 +5304,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 147,
+      "rank": 148,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5339,6 +5339,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:39:30.089Z"
+    },
+    "COROMANDEL": {
+      "rank": 147,
+      "name": "Coromandel International Limited",
+      "ticker": "COROMANDEL",
+      "exchange": "NSEI",
+      "sector": "Chemicals",
+      "sector_detail": "Fertilizers",
+      "is_psu": false,
+      "pat_client_cr": 1956.15,
+      "pat_screener_cr": 1898,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1898,
+      "pat_mismatch": false,
+      "pat_delta_pct": -2.97,
+      "fy_used": "FY26",
+      "csr_spent_cr": 48.83,
+      "csr_obligation_cr": 49.62,
+      "csr_required_2pct_cr": 49.62,
+      "csr_unspent_cr": 0.79,
+      "health_or_education": true,
+      "examples": [
+        "Providing basic health care facilities to economically backward societies via health camps and medical services",
+        "Improving access to education (rural education initiatives)",
+        "Rural development projects",
+        "Environmental sustainability and women empowerment programs"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 38 (standalone)/Note 39 (consolidated), FY26; amounts in ₹ lakhs converted to crore (÷100). Spent ₹4,883 lakh = ₹48.83 cr vs required ₹4,962 lakh = ₹49.62 cr; unspent (ongoing projects transferred) ₹327 lakh = ₹3.27 cr, but net closing unspent shown as ₹79 lakh difference between required and spent (4962-4883=79 lakh=0.79 cr).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/da337c82-7920-4c4b-98df-1a70ee674c72.pdf",
+        "page": 217
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:40:10.598Z"
     }
   }
 }
