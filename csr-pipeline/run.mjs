@@ -19,9 +19,10 @@ import fs from "node:fs";
 
 import { llmBanner, activeModel } from "./llm.mjs";
 import {
-  launchAndLogin, resolveCompanyUrl, extractPatAndSector, getCsrSourceForCompany,
+  launchAndLogin, resolveCompanyUrl, extractPatAndSector, findAnnualReportUrl, getCsrSourceForCompany,
 } from "./scrape.mjs";
 import { classifyIsPsu, extractCsr } from "./extract.mjs";
+import { decideReuse } from "./refresh-decision.mjs";
 
 const DIR = "public/data";
 const FILES = { companies: `${DIR}/companies.json`, csr: `${DIR}/csr.json`, jobs: `${DIR}/jobs.json`, metadata: `${DIR}/metadata.json` };
@@ -147,7 +148,10 @@ function migrateSectors() {
 
 /* ----------------------------------------------------------------------------
    Work list — undone/failed first, then (on REFRESH or when nothing is undone)
-   stale records whose generated_at is older than REFRESH_DAYS, oldest first.
+   already-done companies ordered by least-recently-CHECKED (jobs.updated_at asc).
+   Checking is credit-free: each company is scanned for a NEW annual report, and
+   the model only re-reads (spends credits) when the report URL has changed. So a
+   refresh sweeps everyone — MAX_PER_RUN just bounds one run's page loads.
    -------------------------------------------------------------------------- */
 
 function buildWorklist() {
@@ -160,27 +164,26 @@ function buildWorklist() {
   }
   const force = process.env.FORCE === "1";
   const refresh = process.env.REFRESH === "1";
-  const refreshDays = parseInt(process.env.REFRESH_DAYS || "", 10) || 90;
   const maxPerRun = parseInt(process.env.MAX_PER_RUN || "", 10) || 60;
   const limitEnv = parseInt(process.env.LIMIT || "", 10);
   const cap = Number.isFinite(limitEnv) && limitEnv > 0 ? limitEnv : maxPerRun;
   const isDone = (t) => { const j = jobs.jobs[t]; return !!(j && j.status === "done"); };
+  const lastChecked = (t) => Date.parse((jobs.jobs[t] || {}).updated_at || "") || 0;
 
   // (a) undone / failed first, in seed (rank) order. FORCE re-does everything.
   const undone = companies.filter((co) => force || !isDone(co.ticker));
   const list = undone.slice(0, cap);
 
-  // (b) top up with stale, done companies (oldest first) when refreshing or when
-  // nothing is left undone.
+  // (b) top up with already-done companies, least-recently-checked first, when
+  // refreshing or when nothing is left undone. A check costs no credits.
   if (list.length < cap && !force && (refresh || undone.length === 0)) {
-    const cutoff = Date.now() - refreshDays * 86400000;
-    const stale = companies
-      .filter((co) => isDone(co.ticker))
-      .map((co) => ({ co, gen: Date.parse((csr.companies[co.ticker] || {}).generated_at || "") || 0 }))
-      .filter((x) => x.gen && x.gen < cutoff)
-      .sort((a, b) => a.gen - b.gen)
+    const seen = new Set(list);
+    const due = companies
+      .filter((co) => isDone(co.ticker) && !seen.has(co))
+      .map((co) => ({ co, checked: lastChecked(co.ticker) }))
+      .sort((a, b) => a.checked - b.checked)
       .map((x) => x.co);
-    for (const co of stale) { if (list.length >= cap) break; if (!list.includes(co)) list.push(co); }
+    for (const co of due) { if (list.length >= cap) break; list.push(co); }
   }
   return list.slice(0, cap);
 }
@@ -205,27 +208,53 @@ async function main() {
   if (!worklist.length) { log("nothing to do — all done and nothing stale (use FORCE=1 or REFRESH=1 to redo)"); writeAll(); return; }
 
   const { browser, context, page } = await launchAndLogin();
+  const force = process.env.FORCE === "1";
+
+  // Commit cadence: a real read (credits spent) is committed immediately so a crash
+  // never wastes the spend. A credit-free check only bumps a timestamp, so those are
+  // batched into a checkpoint — one Cloudflare deploy per 25 checks, not per company.
+  const CHECKPOINT = 25;
+  let pending = 0;
 
   try {
     for (const co of worklist) {
       const ticker = co.ticker;
       try {
         jobs.jobs[ticker] = { status: "running", updated_at: now(), error: null };
-        persistAndPush(`csr: ${ticker} running`, writeAll);
 
         const url = await resolveCompanyUrl(context, ticker);
         log(`${ticker} → ${url}`);
         await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
         await page.waitForTimeout(600);
 
+        // Cheap, credit-free: PAT + sector from the P&L — always refreshed.
         const { pat_cr: screenerPat, pat_fy, pat_basis, sector } = await extractPatAndSector(page);
         const pv = crossVerifyPat(co.pat_fy26_cr, screenerPat);
         if (pv.pat_mismatch) {
           warn(`PAT mismatch ${ticker}: client ${co.pat_fy26_cr} vs screener ${screenerPat} (${pv.pat_delta_pct}%)`);
         }
 
-        const { is_psu, sector_guess } = await classifyIsPsu(co.name);
-        const sectorDetail = sector || sector_guess || null;
+        const prev = csr.companies[ticker] || null;
+
+        // Cheap, credit-free: find the newest annual-report link (DOM scan — no LLM,
+        // no PDF download). This is what decides whether anything needs re-reading.
+        const ar = await findAnnualReportUrl(page);
+        const newUrl = ar && ar.url ? ar.url : null;
+
+        // Have we ALREADY read this exact report? Then there is nothing new to read —
+        // reuse every stored CSR figure and spend no credits. A transient link miss
+        // (newUrl null while we had one before) must likewise never nuke good data.
+        const { reuse, linkMiss, prevRead } = decideReuse(prev, newUrl, force);
+
+        // is_psu is effectively static — classify once (first read or FORCE), reuse
+        // the stored value thereafter (another credit saved on every refresh).
+        let is_psu, sector_guess = null;
+        if (prev && typeof prev.is_psu === "boolean" && !force) {
+          is_psu = prev.is_psu;
+        } else {
+          ({ is_psu, sector_guess } = await classifyIsPsu(co.name));
+        }
+        const sectorDetail = sector || sector_guess || (prev ? prev.sector_detail : null) || null;
 
         const base = {
           name: co.name,
@@ -243,58 +272,78 @@ async function main() {
           pat_delta_pct: pv.pat_delta_pct,
         };
 
-        const csrSrc = await getCsrSourceForCompany(page, context);
         let record;
-        if (!csrSrc.csrText) {
-          record = {
-            ...base,
-            fy_used: "unknown",
-            csr_spent_cr: null, csr_obligation_cr: null, csr_required_2pct_cr: null, csr_unspent_cr: null,
-            health_or_education: null, examples: [],
-            found: false, confidence: "low",
-            notes: csrSrc.sourceUrl ? "CSR note not located in the annual report" : "annual report not found on Screener",
-            source: { annual_report_url: csrSrc.sourceUrl || null, page: csrSrc.page ?? null },
-            model: null,
-            generated_at: now(),
-          };
-          log(`${ticker}: no CSR text (${record.notes})`);
+        let spent = false; // did this company cost any LLM credits this run?
+        if (reuse) {
+          // SAME report we already read → keep every CSR figure and generated_at,
+          // refresh only PAT/sector/is_psu. No PDF fetch, no model call = zero credits.
+          record = { ...prev, ...base };
+          log(`${ticker}: report unchanged — refreshed PAT/sector, kept CSR (no LLM)${linkMiss ? " [link-miss]" : ""}`);
         } else {
-          const ex = await extractCsr(co.name, csrSrc.csrText);
-          record = {
-            ...base,
-            fy_used: ex.fy_used,
-            csr_spent_cr: ex.csr_spent_cr,
-            csr_obligation_cr: ex.csr_obligation_cr,
-            csr_required_2pct_cr: ex.csr_required_2pct_cr,
-            csr_unspent_cr: ex.csr_unspent_cr,
-            health_or_education: ex.health_or_education,
-            examples: Array.isArray(ex.examples) ? ex.examples : [],
-            found: ex.found,
-            confidence: ex.confidence,
-            notes: ex.notes,
-            source: { annual_report_url: csrSrc.sourceUrl || null, page: csrSrc.page ?? null },
-            model: ex.model || activeModel(),
-            generated_at: now(),
-          };
-          log(`${ticker}: found=${record.found} spent=${record.csr_spent_cr} conf=${record.confidence}`);
+          // New report, first read, or FORCE → read it. The ONLY path that spends credits.
+          spent = true;
+          const csrSrc = await getCsrSourceForCompany(page, context, ar || undefined);
+          if (!csrSrc.csrText) {
+            record = {
+              ...base,
+              fy_used: "unknown",
+              csr_spent_cr: null, csr_obligation_cr: null, csr_required_2pct_cr: null, csr_unspent_cr: null,
+              health_or_education: null, examples: [],
+              found: false, confidence: "low",
+              notes: csrSrc.sourceUrl ? "CSR note not located in the annual report" : "annual report not found on Screener",
+              source: { annual_report_url: csrSrc.sourceUrl || null, report_year: csrSrc.reportYear ?? null, page: csrSrc.page ?? null },
+              model: null,
+              generated_at: now(),
+            };
+            log(`${ticker}: no CSR text (${record.notes})`);
+          } else {
+            const ex = await extractCsr(co.name, csrSrc.csrText);
+            record = {
+              ...base,
+              fy_used: ex.fy_used,
+              csr_spent_cr: ex.csr_spent_cr,
+              csr_obligation_cr: ex.csr_obligation_cr,
+              csr_required_2pct_cr: ex.csr_required_2pct_cr,
+              csr_unspent_cr: ex.csr_unspent_cr,
+              health_or_education: ex.health_or_education,
+              examples: Array.isArray(ex.examples) ? ex.examples : [],
+              found: ex.found,
+              confidence: ex.confidence,
+              notes: ex.notes,
+              source: { annual_report_url: csrSrc.sourceUrl || null, report_year: csrSrc.reportYear ?? null, page: csrSrc.page ?? null },
+              model: ex.model || activeModel(),
+              generated_at: now(),
+            };
+            log(`${ticker}: found=${record.found} spent=${record.csr_spent_cr} conf=${record.confidence}${prevRead ? " [new report]" : ""}`);
+          }
         }
 
         // Preserve rank across upsert; recompute() will overwrite it anyway.
         csr.companies[ticker] = { rank: (csr.companies[ticker] || {}).rank ?? null, ...record };
         jobs.jobs[ticker] = { status: "done", updated_at: now(), error: null };
-        persistAndPush(`csr: ${ticker} ${record.found ? "done" : "no-csr"} (pat ${record.pat_cr}${pv.pat_mismatch ? " ⚠pat" : ""})`, writeAll);
+
+        if (spent) {
+          // A real read — persist now so a crash never wastes the spend. This flushes
+          // any pending credit-free checks in the same commit.
+          persistAndPush(`csr: ${ticker} ${record.found ? "read" : "no-csr"} (pat ${record.pat_cr}${pv.pat_mismatch ? " ⚠pat" : ""})`, writeAll);
+          pending = 0;
+        } else if (++pending >= CHECKPOINT) {
+          persistAndPush(`csr: refresh checkpoint (+${pending} checked, no new reports)`, writeAll);
+          pending = 0;
+        }
       } catch (e) {
         const msg = String(e && e.message ? e.message : e).slice(0, 300);
         warn(`FAILED ${ticker}: ${msg}`);
         jobs.jobs[ticker] = { status: "failed", updated_at: now(), error: msg };
-        try { persistAndPush(`csr: ${ticker} failed`, writeAll); } catch (e2) { warn("commit-after-fail failed:", e2.message); }
+        try { persistAndPush(`csr: ${ticker} failed`, writeAll); pending = 0; } catch (e2) { warn("commit-after-fail failed:", e2.message); }
       }
     }
   } finally {
     await browser.close().catch(() => {});
   }
 
-  // Final stamp (covers the dry-run path and any last counter change).
+  // Flush any trailing credit-free checks, then a final counter re-stamp.
+  if (pending > 0) { try { persistAndPush(`csr: refresh checkpoint (+${pending} checked, no new reports)`, writeAll); } catch (e) { warn("final checkpoint failed:", e.message); } }
   writeAll();
   log(`done. present=${csr.count} done=${metadata.done} pat_mismatches=${metadata.pat_mismatches}`);
 }

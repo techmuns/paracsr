@@ -368,8 +368,10 @@ export async function extractCsrText(source) {
    4) Convenience entry: annual report → PDF/text → CSR excerpt.
    ========================================================================== */
 
-export async function getCsrSourceForCompany(page, context) {
-  const ar = await findAnnualReportUrl(page);
+export async function getCsrSourceForCompany(page, context, arOverride) {
+  // `arOverride` lets the caller reuse an annual-report link it already scanned
+  // (the refresh path scans once, cheaply, to decide whether a re-read is needed).
+  const ar = arOverride || await findAnnualReportUrl(page);
   if (!ar || !ar.url) { log("no annual report link found"); return { csrText: "" }; }
   log(`annual report ${ar.year || "?"}: ${ar.url.slice(0, 90)}`);
   const src = await fetchPdfBuffer(context, ar.url);
