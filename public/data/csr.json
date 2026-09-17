@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:54:11.574Z",
-  "count": 22,
+  "updated_at": "2026-09-17T12:54:28.541Z",
+  "count": 23,
   "companies": {
     "500228": {
       "rank": 18,
@@ -39,7 +39,7 @@
       "generated_at": "2026-09-17T12:53:01.108Z"
     },
     "500247": {
-      "rank": 22,
+      "rank": 23,
       "name": "Kotak Mahindra Bank Limited",
       "ticker": "500247",
       "exchange": "BSE",
@@ -769,6 +769,39 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:53:54.344Z"
+    },
+    "BAJFINANCE": {
+      "rank": 22,
+      "name": "Bajaj Finance Limited",
+      "ticker": "BAJFINANCE",
+      "exchange": "NSEI",
+      "sector": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 19017.39,
+      "pat_screener_cr": 19332,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 19332,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.65,
+      "fy_used": "FY26",
+      "csr_spent_cr": 318.81,
+      "csr_obligation_cr": 333.97,
+      "csr_required_2pct_cr": 333.97,
+      "csr_unspent_cr": 15.16,
+      "health_or_education": true,
+      "examples": [
+        "Related party CSR transaction with Pratham Education Foundation (₹3.05 crore, FY25) for implementation of education-focused CSR activities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 36 'Other expenses' - CSR expenditure sub-note (**), FY26 (year ended 31 March 2026); figures already in ₹ crore, no conversion needed.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+        "page": 324
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:54:28.541Z"
     }
   }
 }
