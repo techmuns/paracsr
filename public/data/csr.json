@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:41:42.770Z",
-  "count": 154,
+  "updated_at": "2026-09-17T14:42:01.033Z",
+  "count": 155,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500109": {
-      "rank": 151,
+      "rank": 152,
       "name": "Mangalore Refinery and Petrochemicals Limited",
       "ticker": "500109",
       "exchange": "BSE",
@@ -1578,7 +1578,7 @@
       "generated_at": "2026-09-17T14:37:00.418Z"
     },
     "539177": {
-      "rank": 150,
+      "rank": 151,
       "name": "Authum Investment & Infrastructure Limited",
       "ticker": "539177",
       "exchange": "BSE",
@@ -4542,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 154,
+      "rank": 155,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 153,
+      "rank": 154,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5448,7 +5448,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 152,
+      "rank": 153,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5556,6 +5556,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:40:46.154Z"
+    },
+    "MANKIND": {
+      "rank": 150,
+      "name": "Mankind Pharma Limited",
+      "ticker": "MANKIND",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 1912.93,
+      "pat_screener_cr": 1938,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1938,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.31,
+      "fy_used": "FY26",
+      "csr_spent_cr": 41.25,
+      "csr_obligation_cr": 39.45,
+      "csr_required_2pct_cr": 39.45,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Note 47 'Expenditure on corporate social responsibility' in Standalone FS; amounts already in INR crore. Total amount spent FY26 = 41.25 cr vs required 39.45 cr (excess spent, no unspent amount). No specific CSR project descriptions (health/education) disclosed in this excerpt, only aggregate contribution to charitable trusts.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8d06aceb-5f6d-4492-bac3-ad6b6d063172.pdf",
+        "page": 198
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:42:01.033Z"
     }
   }
 }
