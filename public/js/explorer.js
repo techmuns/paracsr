@@ -137,20 +137,26 @@ function cmp(a, b) {
 // The CLIENT's original template first (headers verbatim), then 4 provenance
 // columns. t: "num" → real number in the .xlsx; "money" → number OR "Not disclosed".
 const round2 = (n) => Math.round(n * 100) / 100;
+// a = column alignment: text left · numbers right · short categories centre.
+// The header takes the same alignment as its cells, so nothing looks misaligned.
 const CLIENT_COLS = [
-  { h: "Company Name",         t: "text",  v: (r) => `${r.name} (${r.exchange || ""}:${r.ticker})` },
-  { h: "PAT (FY26)",           t: "num",   v: (r) => (isNum(r.pat_cr) ? round2(r.pat_cr) : null) },
-  { h: "Type of Institution",  t: "text",  v: (r) => (r.is_psu ? "PSU" : "Non-PSU") },
-  { h: "CSR spend (INR cr)",   t: "money", v: (r) => (isNum(r.csr_spent_cr) ? round2(r.csr_spent_cr) : "Not disclosed") },
-  { h: "Spends on Health/Education?", t: "text", v: (r) => (r.health_or_education === true ? "Yes" : r.health_or_education === false ? "No" : "N/A") },
-  { h: "Example projects",     t: "text",  v: (r) => ((r.examples || []).length ? r.examples.join("; ") : "—") },
+  { h: "Company Name",         t: "text",  a: "left",   v: (r) => `${r.name} (${r.exchange || ""}:${r.ticker})` },
+  { h: "PAT (FY26)",           t: "num",   a: "right",  v: (r) => (isNum(r.pat_cr) ? round2(r.pat_cr) : null) },
+  { h: "Type of Institution",  t: "text",  a: "center", v: (r) => (r.is_psu ? "PSU" : "Non-PSU") },
+  { h: "CSR spend (INR cr)",   t: "money", a: "right",  v: (r) => (isNum(r.csr_spent_cr) ? round2(r.csr_spent_cr) : "Not disclosed") },
+  { h: "Spends on Health/Education?", t: "text", a: "center", v: (r) => (r.health_or_education === true ? "Yes" : r.health_or_education === false ? "No" : "N/A") },
+  { h: "Example projects",     t: "text",  a: "left",   v: (r) => ((r.examples || []).length ? r.examples.join("; ") : "—") },
   // provenance the client can trust the source with
-  { h: "Data Year",            t: "text",  v: (r) => r.fy_used || "" },
-  { h: "Confidence",           t: "text",  v: (r) => r.confidence || "" },
-  { h: "Required by law (2%, INR cr)", t: "num", v: (r) => { const x = requiredOf(r); return isNum(x) ? round2(x) : null; } },
-  { h: "Source",               t: "text",  v: (r) => (r.source && r.source.annual_report_url) || "" },
+  { h: "Data Year",            t: "text",  a: "center", v: (r) => r.fy_used || "" },
+  { h: "Confidence",           t: "text",  a: "center", v: (r) => r.confidence || "" },
+  { h: "Required by law (2%, INR cr)", t: "num", a: "right", v: (r) => { const x = requiredOf(r); return isNum(x) ? round2(x) : null; } },
+  { h: "Source",               t: "link",  a: "left",   v: (r) => (r.source && r.source.annual_report_url) || "" },
 ];
-const COL_WIDTH = { "Company Name": 46, "Example projects": 60, "Source": 52, "Spends on Health/Education?": 20, "Required by law (2%, INR cr)": 18 };
+const COL_WIDTH = {
+  "Company Name": 46, "PAT (FY26)": 14, "Type of Institution": 17, "CSR spend (INR cr)": 16,
+  "Spends on Health/Education?": 22, "Example projects": 62, "Data Year": 11, "Confidence": 13,
+  "Required by law (2%, INR cr)": 20, "Source": 22,
+};
 
 // Always export in the client's order: PAT descending. Uses the passed set
 // (the active filtered set) or the current table set, defaulting to all 200.
@@ -176,7 +182,7 @@ export async function exportExcel(rows) {
     const nCols = CLIENT_COLS.length;
     const first = 3, last = 2 + data.length;                            // data rows (title=1, header=2)
     const colLetter = (i) => String.fromCharCode(64 + i);              // 1 -> A
-    const wrapCols = new Set(["Company Name", "Example projects", "Source"]);
+    const wrapCols = new Set(["Company Name", "Example projects"]);
     const solid = (argb) => ({ type: "pattern", pattern: "solid", bgColor: { argb } }); // dxf fill (CF uses bgColor)
 
     CLIENT_COLS.forEach((c, i) => { ws.getColumn(i + 1).width = COL_WIDTH[c.h] || Math.max(13, c.h.length + 3); });
@@ -197,53 +203,50 @@ export async function exportExcel(rows) {
       cell.value = c.h;
       cell.font = { bold: true, size: 11, color: { argb: "FFFFFFFF" } };
       cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
-      cell.alignment = { vertical: "middle", horizontal: (c.t === "num" || c.t === "money") ? "right" : "left", wrapText: true };
+      cell.alignment = { vertical: "middle", horizontal: c.a, wrapText: true };
       cell.border = { bottom: { style: "medium", color: { argb: "FF4338CA" } } };
     });
     hdr.height = 34;
 
-    // Data rows — number formats, wrap on long text, banded rows
+    // Data rows — number formats, wrap only on the long-text columns, banded rows,
+    // vertical-centred so short cells never float at the top of a tall wrapped row.
     data.forEach((r, ri) => {
       const row = ws.getRow(first + ri);
       CLIENT_COLS.forEach((c, i) => {
         const cell = row.getCell(i + 1);
-        cell.value = c.v(r);
-        const isNumCell = (c.t === "num" || c.t === "money") && typeof cell.value === "number";
-        cell.alignment = { vertical: "top", horizontal: isNumCell ? "right" : "left", wrapText: wrapCols.has(c.h) };
-        if (isNumCell) cell.numFmt = "#,##0.00";
-        cell.font = { size: 10, color: { argb: "FF0F172A" } };
+        const raw = c.v(r);
+        if (c.t === "link") {
+          // Source → a friendly "View annual report" with the URL embedded.
+          if (raw) { cell.value = { text: "View annual report", hyperlink: raw, tooltip: raw }; cell.font = { size: 10, underline: true, color: { argb: "FF2563EB" } }; }
+          else { cell.value = "—"; cell.font = { size: 10, color: { argb: "FF94A3B8" } }; }
+        } else {
+          cell.value = raw;
+          if ((c.t === "num" || c.t === "money") && typeof raw === "number") cell.numFmt = "#,##0.00";
+          cell.font = { size: 10, color: { argb: "FF0F172A" } };
+        }
+        cell.alignment = { vertical: "middle", horizontal: c.a, wrapText: wrapCols.has(c.h) };
       });
-      if (ri % 2 === 1) row.eachCell({ includeEmpty: true }, (cell) => { cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF4F5FB" } }; });
+      if (ri % 2 === 1) row.eachCell({ includeEmpty: true }, (cell) => { cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF6F7FB" } }; });
     });
 
     // Filter dropdowns on every column
     ws.autoFilter = { from: { row: 2, column: 1 }, to: { row: 2, column: nCols } };
 
-    // ---- highlighting rules (conditional formatting) ----
+    // ---- highlighting (restrained: a few meaningful accents, no data bars / no rainbow) ----
     let pr = 1;
     const rng = (i) => `${colLetter(i)}${first}:${colLetter(i)}${last}`;
     const eq = (col, value, style) => ({ ref: rng(col), rules: [{ type: "cellIs", operator: "equal", formulae: [`"${value}"`], priority: pr++, style }] });
 
-    // magnitude data bars: PAT (B/2) and CSR spend (D/4)
-    ws.addConditionalFormatting({ ref: rng(2), rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FF6366F1" }, priority: pr++ }] });
-    ws.addConditionalFormatting({ ref: rng(4), rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FF14B8A6" }, priority: pr++ }] });
-    // CSR spend: "Not disclosed" flagged; number coloured green (met/over 2%) or amber (under)
+    // CSR spend "Not disclosed" → a soft amber flag so gaps stand out.
     ws.addConditionalFormatting({ ref: rng(4), rules: [
-      { type: "cellIs", operator: "equal", formulae: ['"Not disclosed"'], priority: pr++, style: { font: { italic: true, color: { argb: "FFB45309" } }, fill: solid("FFFEF3C7") } },
-      { type: "expression", formulae: [`AND(ISNUMBER($D${first}),$D${first}>=$I${first})`], priority: pr++, style: { font: { bold: true, color: { argb: "FF047857" } } } },
-      { type: "expression", formulae: [`AND(ISNUMBER($D${first}),$D${first}<$I${first})`], priority: pr++, style: { font: { bold: true, color: { argb: "FFB45309" } } } },
+      { type: "cellIs", operator: "equal", formulae: ['"Not disclosed"'], priority: pr++, style: { font: { italic: true, color: { argb: "FFB45309" } }, fill: solid("FFFEF7ED") } },
     ] });
-    // categorical highlights (exact-match so "PSU" never catches "Non-PSU")
-    ws.addConditionalFormatting(eq(3, "PSU", { font: { color: { argb: "FF4338CA" } }, fill: solid("FFEEF2FF") }));
-    ws.addConditionalFormatting(eq(3, "Non-PSU", { font: { color: { argb: "FF0E7490" } }, fill: solid("FFECFEFF") }));
-    ws.addConditionalFormatting(eq(5, "Yes", { font: { bold: true, color: { argb: "FF166534" } }, fill: solid("FFDCFCE7") }));
-    ws.addConditionalFormatting(eq(5, "No", { font: { color: { argb: "FF991B1B" } }, fill: solid("FFFEE2E2") }));
-    ws.addConditionalFormatting(eq(5, "N/A", { font: { color: { argb: "FF64748B" } }, fill: solid("FFF1F5F9") }));
-    ws.addConditionalFormatting(eq(7, "FY25", { font: { bold: true, color: { argb: "FF92400E" } }, fill: solid("FFFEF3C7") }));
-    ws.addConditionalFormatting(eq(7, "FY26", { font: { color: { argb: "FF047857" } }, fill: solid("FFECFDF5") }));
-    ws.addConditionalFormatting(eq(8, "high", { font: { color: { argb: "FF166534" } }, fill: solid("FFDCFCE7") }));
-    ws.addConditionalFormatting(eq(8, "medium", { font: { color: { argb: "FF92400E" } }, fill: solid("FFFEF3C7") }));
-    ws.addConditionalFormatting(eq(8, "low", { font: { color: { argb: "FF991B1B" } }, fill: solid("FFFEE2E2") }));
+    // Health/Education "Yes" → a soft green tint (the headline positive metric).
+    ws.addConditionalFormatting(eq(5, "Yes", { font: { bold: true, color: { argb: "FF047857" } }, fill: solid("FFF0FDF4") }));
+    // Confidence → coloured text only, no fill (keeps the sheet calm).
+    ws.addConditionalFormatting(eq(8, "high",   { font: { color: { argb: "FF047857" } } }));
+    ws.addConditionalFormatting(eq(8, "medium", { font: { color: { argb: "FFB45309" } } }));
+    ws.addConditionalFormatting(eq(8, "low",    { font: { color: { argb: "FFB91C1C" } } }));
 
     const buf = await wb.xlsx.writeBuffer();
     download(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), "csr-tracker.xlsx");
