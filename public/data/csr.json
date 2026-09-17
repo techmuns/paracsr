@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:08:54.769Z",
-  "count": 61,
+  "updated_at": "2026-09-17T14:09:12.676Z",
+  "count": 62,
   "companies": {
     "500049": {
       "rank": 60,
@@ -36,6 +36,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:36.819Z"
+    },
+    "500182": {
+      "rank": 62,
+      "name": "Hero MotoCorp Limited",
+      "ticker": "500182",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "2/3 Wheelers",
+      "is_psu": false,
+      "pat_client_cr": 5741.73,
+      "pat_screener_cr": 5776,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5776,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.6,
+      "fy_used": "FY26",
+      "csr_spent_cr": 97.3,
+      "csr_obligation_cr": 95.8,
+      "csr_required_2pct_cr": 95.8,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Project Shiksha: scholarships for 50 underprivileged students at BML Munjal University with tuition waivers/full coverage",
+        "HERO ASHA Education Centres: 280 centres supporting over 13,000 students (Grades 3-8) with remedial learning",
+        "CMGGA initiative supported flagship programmes in water conservation, education, health and welfare via district administrations"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure VI, Board's Report, FY 2025-26; figures stated directly in INR crore, no conversion needed. Total amount spent (a+b+c) = 97.30 cr against obligation of 95.80 cr; fully spent, no unspent amount, excess of 1.50 cr carried forward for set-off.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b80c703d-600d-472b-a18c-9565f6f780a7.pdf",
+        "page": 142
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:09:12.675Z"
     },
     "500188": {
       "rank": 36,
