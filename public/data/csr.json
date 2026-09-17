@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:49:25.006Z",
-  "count": 175,
+  "updated_at": "2026-09-17T14:49:42.029Z",
+  "count": 176,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500109": {
-      "rank": 153,
+      "rank": 154,
       "name": "Mangalore Refinery and Petrochemicals Limited",
       "ticker": "500109",
       "exchange": "BSE",
@@ -328,7 +328,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 171,
+      "rank": 172,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -869,7 +869,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500710": {
-      "rank": 149,
+      "rank": 150,
       "name": "Akzo Nobel India Limited",
       "ticker": "500710",
       "exchange": "BSE",
@@ -978,7 +978,7 @@
       "generated_at": "2026-09-17T14:38:16.316Z"
     },
     "503806": {
-      "rank": 164,
+      "rank": 165,
       "name": "SRF Limited",
       "ticker": "503806",
       "exchange": "BSE",
@@ -1377,7 +1377,7 @@
       "generated_at": "2026-09-17T14:48:12.187Z"
     },
     "526299": {
-      "rank": 160,
+      "rank": 161,
       "name": "Mphasis Limited",
       "ticker": "526299",
       "exchange": "BSE",
@@ -1450,7 +1450,7 @@
       "generated_at": "2026-09-17T14:06:58.991Z"
     },
     "531642": {
-      "rank": 167,
+      "rank": 168,
       "name": "Marico Limited",
       "ticker": "531642",
       "exchange": "BSE",
@@ -1761,7 +1761,7 @@
       "generated_at": "2026-09-17T14:37:00.418Z"
     },
     "539177": {
-      "rank": 152,
+      "rank": 153,
       "name": "Authum Investment & Infrastructure Limited",
       "ticker": "539177",
       "exchange": "BSE",
@@ -4725,7 +4725,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 175,
+      "rank": 176,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5594,7 +5594,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 174,
+      "rank": 175,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5631,7 +5631,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 155,
+      "rank": 156,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5668,7 +5668,7 @@
       "generated_at": "2026-09-17T14:40:10.598Z"
     },
     "CHAMBLFERT": {
-      "rank": 150,
+      "rank": 151,
       "name": "Chambal Fertilisers and Chemicals Limited",
       "ticker": "CHAMBLFERT",
       "exchange": "NSEI",
@@ -5741,7 +5741,7 @@
       "generated_at": "2026-09-17T14:40:46.154Z"
     },
     "MANKIND": {
-      "rank": 151,
+      "rank": 152,
       "name": "Mankind Pharma Limited",
       "ticker": "MANKIND",
       "exchange": "NSEI",
@@ -5773,7 +5773,7 @@
       "generated_at": "2026-09-17T14:42:01.033Z"
     },
     "HDFCLIFE": {
-      "rank": 154,
+      "rank": 155,
       "name": "HDFC Life Insurance Company Limited",
       "ticker": "HDFCLIFE",
       "exchange": "NSEI",
@@ -5810,7 +5810,7 @@
       "generated_at": "2026-09-17T14:42:21.150Z"
     },
     "DABUR": {
-      "rank": 158,
+      "rank": 159,
       "name": "Dabur India Limited",
       "ticker": "DABUR",
       "exchange": "NSEI",
@@ -5847,7 +5847,7 @@
       "generated_at": "2026-09-17T14:42:43.629Z"
     },
     "IREDA": {
-      "rank": 156,
+      "rank": 157,
       "name": "Indian Renewable Energy Development Agency Limited",
       "ticker": "IREDA",
       "exchange": "NSEI",
@@ -5884,7 +5884,7 @@
       "generated_at": "2026-09-17T14:43:12.616Z"
     },
     "MOTILALOFS": {
-      "rank": 157,
+      "rank": 158,
       "name": "Motilal Oswal Financial Services Limited",
       "ticker": "MOTILALOFS",
       "exchange": "NSEI",
@@ -5921,7 +5921,7 @@
       "generated_at": "2026-09-17T14:43:34.106Z"
     },
     "PERSISTENT": {
-      "rank": 159,
+      "rank": 160,
       "name": "Persistent Systems Limited",
       "ticker": "PERSISTENT",
       "exchange": "NSEI",
@@ -5957,7 +5957,7 @@
       "generated_at": "2026-09-17T14:43:51.074Z"
     },
     "GODREJCP": {
-      "rank": 161,
+      "rank": 162,
       "name": "Godrej Consumer Products Limited",
       "ticker": "GODREJCP",
       "exchange": "NSEI",
@@ -5994,7 +5994,7 @@
       "generated_at": "2026-09-17T14:44:32.982Z"
     },
     "GODREJPROP": {
-      "rank": 162,
+      "rank": 163,
       "name": "Godrej Properties Limited",
       "ticker": "GODREJPROP",
       "exchange": "NSEI",
@@ -6026,7 +6026,7 @@
       "generated_at": "2026-09-17T14:44:50.166Z"
     },
     "MCDOWELL-N": {
-      "rank": 163,
+      "rank": 164,
       "name": "United Spirits Limited",
       "ticker": "MCDOWELL-N",
       "exchange": "NSEI",
@@ -6058,7 +6058,7 @@
       "generated_at": "2026-09-17T14:44:56.934Z"
     },
     "PATANJALI": {
-      "rank": 166,
+      "rank": 167,
       "name": "Patanjali Foods Limited",
       "ticker": "PATANJALI",
       "exchange": "NSEI",
@@ -6095,7 +6095,7 @@
       "generated_at": "2026-09-17T14:46:45.514Z"
     },
     "SHREECEM": {
-      "rank": 168,
+      "rank": 169,
       "name": "Shree Cement Limited",
       "ticker": "SHREECEM",
       "exchange": "NSEI",
@@ -6132,7 +6132,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 170,
+      "rank": 171,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6169,7 +6169,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 172,
+      "rank": 173,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6204,7 +6204,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 173,
+      "rank": 174,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6240,7 +6240,7 @@
       "generated_at": "2026-09-17T14:48:45.461Z"
     },
     "SOLARINDS": {
-      "rank": 169,
+      "rank": 170,
       "name": "Solar Industries India Limited",
       "ticker": "SOLARINDS",
       "exchange": "NSEI",
@@ -6275,7 +6275,7 @@
       "generated_at": "2026-09-17T14:49:00.942Z"
     },
     "IIFL": {
-      "rank": 165,
+      "rank": 166,
       "name": "IIFL Finance Limited",
       "ticker": "IIFL",
       "exchange": "NSEI",
@@ -6310,6 +6310,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:49:23.800Z"
+    },
+    "ADANIGREEN": {
+      "rank": 149,
+      "name": "Adani Green Energy Limited",
+      "ticker": "ADANIGREEN",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Power Generation",
+      "is_psu": false,
+      "pat_client_cr": 1652,
+      "pat_screener_cr": 1987,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1987,
+      "pat_mismatch": true,
+      "pat_delta_pct": 20.28,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promoting student-led welfare program for construction and promoting educational support (FY25)",
+        "CSR core sectors include Education and Community Health (Adani Foundation as implementing agency)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 43 (Standalone FS) and Annexure-E to Directors' Report (Section 135) for FY26: average net profit was negative, so 2% obligation = Nil/(0.39) crore treated as Nil; amount spent during FY26 = Nil. Previous year (FY25) contribution was ₹0.12 crore for educational support. CSR core sectors per Annexure-E: Education, Community Health, Sustainable Livelihood, Community Infrastructure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/eaef9306-36d2-4437-9e41-f08d08b9d104.pdf",
+        "page": 241
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:49:42.029Z"
     }
   }
 }
