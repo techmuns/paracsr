@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:49:58.628Z",
-  "count": 8,
+  "updated_at": "2026-09-17T12:50:19.162Z",
+  "count": 9,
   "companies": {
     "500570": {
       "rank": 3,
@@ -219,7 +219,7 @@
       "generated_at": "2026-09-17T12:49:20.515Z"
     },
     "TCS": {
-      "rank": 7,
+      "rank": 8,
       "name": "Tata Consultancy Services Limited",
       "ticker": "TCS",
       "exchange": "NSEI",
@@ -252,7 +252,7 @@
       "generated_at": "2026-09-17T12:49:37.906Z"
     },
     "IOC": {
-      "rank": 8,
+      "rank": 9,
       "name": "Indian Oil Corporation Limited",
       "ticker": "IOC",
       "exchange": "NSEI",
@@ -286,6 +286,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:49:57.481Z"
+    },
+    "ONGC": {
+      "rank": 7,
+      "name": "Oil and Natural Gas Corporation Limited",
+      "ticker": "ONGC",
+      "exchange": "NSEI",
+      "sector": "Oil Exploration & Production",
+      "is_psu": true,
+      "pat_client_cr": 41424.38,
+      "pat_screener_cr": 49793,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 49793,
+      "pat_mismatch": true,
+      "pat_delta_pct": 20.2,
+      "fy_used": "FY26",
+      "csr_spent_cr": 942.883,
+      "csr_obligation_cr": 897.787,
+      "csr_required_2pct_cr": 948.919,
+      "csr_unspent_cr": 97.793,
+      "health_or_education": true,
+      "examples": [
+        "Support for procurement and installation of critical medical equipment at Lady Hardinge Medical College, New Delhi",
+        "Construction of 2nd & 3rd floor of Cancer Care Hospital, Indore",
+        "Construction of Cancer cum Multispecialty Hospital Building, Kota, Rajasthan",
+        "Construction of Annexe Building of Pranavananda International School, Gurugram"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 35.2 (Standalone Financials) & Annexure-D CSR Report FY2025-26; amounts converted from INR Million to Crore (÷100). Total CSR obligation per Annexure-D item 5(e) = ₹8,977.87 Million = ₹897.787 crore; total spent = ₹9,428.83 Million = ₹942.883 crore; unspent transferred to Unspent CSR A/c = ₹977.93 Million ≈ ₹97.793 crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a521f688-6bf3-465c-8f05-b20ed08b2f32.pdf",
+        "page": 368
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:50:19.162Z"
     }
   }
 }
