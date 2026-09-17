@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:40:27.988Z",
-  "count": 150,
+  "updated_at": "2026-09-17T14:40:46.154Z",
+  "count": 151,
   "companies": {
     "500049": {
       "rank": 61,
@@ -798,7 +798,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500710": {
-      "rank": 146,
+      "rank": 147,
       "name": "Akzo Nobel India Limited",
       "ticker": "500710",
       "exchange": "BSE",
@@ -4435,7 +4435,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 150,
+      "rank": 151,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5304,7 +5304,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 149,
+      "rank": 150,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5341,7 +5341,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 148,
+      "rank": 149,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5378,7 +5378,7 @@
       "generated_at": "2026-09-17T14:40:10.598Z"
     },
     "CHAMBLFERT": {
-      "rank": 147,
+      "rank": 148,
       "name": "Chambal Fertilisers and Chemicals Limited",
       "ticker": "CHAMBLFERT",
       "exchange": "NSEI",
@@ -5412,6 +5412,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:40:26.796Z"
+    },
+    "APOLLOHOSP": {
+      "rank": 146,
+      "name": "Apollo Hospitals Enterprise Limited",
+      "ticker": "APOLLOHOSP",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Hospital",
+      "is_psu": false,
+      "pat_client_cr": 1941.7,
+      "pat_screener_cr": 2003,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2003,
+      "pat_mismatch": false,
+      "pat_delta_pct": 3.16,
+      "fy_used": "FY26",
+      "csr_spent_cr": 27.5,
+      "csr_obligation_cr": 28.2,
+      "csr_required_2pct_cr": 28.2,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Healthcare and healthcare research initiatives through Total Health - Rural development activities",
+        "Saving a Child's Health Initiative (SACHi)",
+        "Support to Aragonda Apollo Medical and Educational Research Foundation",
+        "Rural development, healthcare and education programs via Apollo Hospitals Educational Research Foundation (AHERF)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 33(ii) 'Amount spent during the year on CSR activities', standalone financial statements; converted from ₹ Million to crore (275 Mn = 27.5 Cr; required 282 Mn = 28.2 Cr).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f9b40997-8116-48ba-949a-ca2e7775e3c2.pdf",
+        "page": 153
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:40:46.154Z"
     }
   }
 }
