@@ -254,6 +254,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:05:31.032Z",
       "error": null
+    },
+    "HAL": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:05:33.141Z",
+      "error": null
     }
   }
 }
