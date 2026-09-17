@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:10:31.762Z",
-  "count": 66,
+  "updated_at": "2026-09-17T14:10:54.298Z",
+  "count": 67,
   "companies": {
     "500049": {
       "rank": 60,
@@ -2372,6 +2372,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:10:30.112Z"
+    },
+    "IOB": {
+      "rank": 67,
+      "name": "Indian Overseas Bank",
+      "ticker": "IOB",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 5418.47,
+      "pat_screener_cr": 5418,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5418,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 8.74,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend covered education and healthcare interventions among other areas, benefiting over 5.85 lakh beneficiaries",
+        "Financial Literacy Centres established at 24 locations under CSR, conducting credit counselling and financial literacy camps"
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Narrative disclosure in MD's statement (p.335): '₹8.74 crore spent under CSR initiatives'; Bank notes elsewhere (p.378) that Section 135 CSR obligations do not strictly apply to it, but CSR spend and initiatives are still disclosed. No explicit 2% obligation, unspent amount, or gross obligation figure stated.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a88099d3-a01b-4dbe-a12f-8b378027d3e1.pdf",
+        "page": 335
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:10:54.297Z"
     }
   }
 }
