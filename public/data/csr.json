@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:13:31.178Z",
-  "count": 75,
+  "updated_at": "2026-09-17T14:13:51.592Z",
+  "count": 76,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2696,6 +2696,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:13:29.897Z"
+    },
+    "TECHM": {
+      "rank": 76,
+      "name": "Tech Mahindra Limited",
+      "ticker": "TECHM",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 4810.9,
+      "pat_screener_cr": 4806,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4806,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.1,
+      "fy_used": "FY26",
+      "csr_spent_cr": 79.64,
+      "csr_obligation_cr": 79.64,
+      "csr_required_2pct_cr": 79.64,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Funded infrastructure at Mahindra University (Hyderabad) - classrooms, labs, hostels (470 double-occupancy rooms), sports facilities via Mahindra Educational Institutions (₹79.64 Mn/796.4 Mn)",
+        "Tech Mahindra Foundation's SMART Centres/Academies provide vocational training in healthcare, ITES, logistics and manufacturing",
+        "ARISE+ programme supports children with disabilities through education and therapy",
+        "Mobile Science Labs and STEM Labs foster experiential learning among government school students"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure IX (CSR Annual Report) & Board's Report CSR section, FY25-26; figures given in ₹ Mn, converted to crore (796.4 Mn = 79.64 crore).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/758bed2c-792d-434f-a326-118a8b4e7989.pdf",
+        "page": 337
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:13:51.592Z"
     }
   }
 }
