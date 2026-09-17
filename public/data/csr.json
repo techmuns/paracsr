@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:53:38.438Z",
-  "count": 20,
+  "updated_at": "2026-09-17T12:53:54.344Z",
+  "count": 21,
   "companies": {
     "500228": {
       "rank": 18,
@@ -701,6 +701,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:53:37.146Z"
+    },
+    "UNIONBANK": {
+      "rank": 21,
+      "name": "Union Bank of India",
+      "ticker": "UNIONBANK",
+      "exchange": "NSEI",
+      "sector": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 19430.21,
+      "pat_screener_cr": 19430,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 19430,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY25",
+      "csr_spent_cr": 25.47,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Healthcare and Sanitation initiatives: healthcare facilities, medical camps, sanitation infrastructure",
+        "Education and Skill Development: programs to enhance access to quality education and skill development"
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Union Bank is a PSB, CSR is voluntary (up to 1% of prior year net profit, not mandatory u/s 135). Directors' Report (page 112-113): total donations approved Rs.37.70 cr for 89 projects; Rs.25.47 cr disbursed for 70 projects via Union Bank Social Foundation (UBSFT) in FY2024-25; Bank donated Rs.121.40 cr to UBSFT. No standard Section 135 mandatory-obligation table (2% net profit) found; csr_spent_cr taken as amount disbursed (Rs.25.47 cr).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5e30ef1f-658a-4b33-8721-25f6a462ae7c.pdf",
+        "page": 112
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:53:54.344Z"
     }
   }
 }
