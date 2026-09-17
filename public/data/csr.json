@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:36:41.220Z",
-  "count": 138,
+  "updated_at": "2026-09-17T14:37:00.419Z",
+  "count": 139,
   "companies": {
     "500049": {
       "rank": 61,
@@ -507,7 +507,7 @@
       "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500480": {
-      "rank": 133,
+      "rank": 134,
       "name": "Cummins India Limited",
       "ticker": "500480",
       "exchange": "BSE",
@@ -1227,7 +1227,7 @@
       "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "532466": {
-      "rank": 117,
+      "rank": 118,
       "name": "Oracle Financial Services Software Limited",
       "ticker": "532466",
       "exchange": "BSE",
@@ -1328,6 +1328,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:09:48.837Z"
+    },
+    "533148": {
+      "rank": 115,
+      "name": "JSW Energy Limited",
+      "ticker": "533148",
+      "exchange": "BSE",
+      "sector": "Power & Utilities",
+      "sector_detail": "Power Generation",
+      "is_psu": false,
+      "pat_client_cr": 2239.31,
+      "pat_screener_cr": 2762,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2762,
+      "pat_mismatch": true,
+      "pat_delta_pct": 23.34,
+      "fy_used": "FY26",
+      "csr_spent_cr": 18.83,
+      "csr_obligation_cr": 18.83,
+      "csr_required_2pct_cr": 18.83,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Constructed classroom, borewell, digital education system and computers for government schools in Karnataka/Maharashtra/Tamil Nadu",
+        "Provided solar water heater, electric fans/geysers and school furniture to schools like Jawahar Navodaya Vidyalaya and Jindal Vidyamandir",
+        "Supplied Mortuary Van with Freezer to Jagaluru town panchayat for healthcare/community use",
+        "Provided 28 Motorised Tricycles for specially-abled citizens in Ballari District (health/community support)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure A (Section 135 CSR annual report) states Total CSR obligation ₹18.83 cr = amount spent ₹18.83 cr, fully spent, no unspent balance for FY25-26; separate MDA table (page 79) shows consolidated CSR spend of ₹48.78 cr across group entities incl. Education ₹20.61 cr & Health ₹4.97 cr — company-level figure per Section 135 disclosure (₹18.83 cr) used as key figure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/187219a3-2624-416b-aec5-9bc164690787.pdf",
+        "page": 136
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:37:00.418Z"
     },
     "SBIN": {
       "rank": 2,
@@ -3855,7 +3892,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 116,
+      "rank": 117,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -4183,7 +4220,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 129,
+      "rank": 130,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4257,7 @@
       "generated_at": "2026-09-17T14:29:41.627Z"
     },
     "POLYCAB": {
-      "rank": 115,
+      "rank": 116,
       "name": "Polycab India Limited",
       "ticker": "POLYCAB",
       "exchange": "NSEI",
@@ -4257,7 +4294,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 138,
+      "rank": 139,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4294,7 +4331,7 @@
       "generated_at": "2026-09-17T14:30:26.092Z"
     },
     "MAZDOCK": {
-      "rank": 118,
+      "rank": 119,
       "name": "Mazagon Dock Shipbuilders Limited",
       "ticker": "MAZDOCK",
       "exchange": "NSEI",
@@ -4331,7 +4368,7 @@
       "generated_at": "2026-09-17T14:31:00.835Z"
     },
     "DIVISLAB": {
-      "rank": 120,
+      "rank": 121,
       "name": "Divi's Laboratories Limited",
       "ticker": "DIVISLAB",
       "exchange": "NSEI",
@@ -4368,7 +4405,7 @@
       "generated_at": "2026-09-17T14:31:16.795Z"
     },
     "BAJAJHFL": {
-      "rank": 121,
+      "rank": 122,
       "name": "Bajaj Housing Finance Limited",
       "ticker": "BAJAJHFL",
       "exchange": "NSEI",
@@ -4404,7 +4441,7 @@
       "generated_at": "2026-09-17T14:31:35.582Z"
     },
     "ASHOKA": {
-      "rank": 119,
+      "rank": 120,
       "name": "Ashoka Buildcon Limited",
       "ticker": "ASHOKA",
       "exchange": "NSEI",
@@ -4440,7 +4477,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 137,
+      "rank": 138,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4476,7 +4513,7 @@
       "generated_at": "2026-09-17T14:32:11.701Z"
     },
     "BRITANNIA": {
-      "rank": 122,
+      "rank": 123,
       "name": "Britannia Industries Limited",
       "ticker": "BRITANNIA",
       "exchange": "NSEI",
@@ -4513,7 +4550,7 @@
       "generated_at": "2026-09-17T14:32:30.242Z"
     },
     "KARURVYSYA": {
-      "rank": 123,
+      "rank": 124,
       "name": "The Karur Vysya Bank Limited",
       "ticker": "KARURVYSYA",
       "exchange": "NSEI",
@@ -4550,7 +4587,7 @@
       "generated_at": "2026-09-17T14:32:50.260Z"
     },
     "OBEROIRLTY": {
-      "rank": 124,
+      "rank": 125,
       "name": "Oberoi Realty Limited",
       "ticker": "OBEROIRLTY",
       "exchange": "NSEI",
@@ -4585,7 +4622,7 @@
       "generated_at": "2026-09-17T14:33:06.228Z"
     },
     "BSE": {
-      "rank": 125,
+      "rank": 126,
       "name": "BSE Limited",
       "ticker": "BSE",
       "exchange": "NSEI",
@@ -4620,7 +4657,7 @@
       "generated_at": "2026-09-17T14:33:24.104Z"
     },
     "SBILIFE": {
-      "rank": 127,
+      "rank": 128,
       "name": "SBI Life Insurance Company Limited",
       "ticker": "SBILIFE",
       "exchange": "NSEI",
@@ -4657,7 +4694,7 @@
       "generated_at": "2026-09-17T14:33:41.384Z"
     },
     "PIDILITIND": {
-      "rank": 126,
+      "rank": 127,
       "name": "Pidilite Industries Limited",
       "ticker": "PIDILITIND",
       "exchange": "NSEI",
@@ -4728,7 +4765,7 @@
       "generated_at": "2026-09-17T14:34:15.089Z"
     },
     "MRF": {
-      "rank": 130,
+      "rank": 131,
       "name": "MRF Limited",
       "ticker": "MRF",
       "exchange": "NSEI",
@@ -4765,7 +4802,7 @@
       "generated_at": "2026-09-17T14:34:30.214Z"
     },
     "TORNTPOWER": {
-      "rank": 128,
+      "rank": 129,
       "name": "Torrent Power Limited",
       "ticker": "TORNTPOWER",
       "exchange": "NSEI",
@@ -4802,7 +4839,7 @@
       "generated_at": "2026-09-17T14:34:49.892Z"
     },
     "ESCORTS": {
-      "rank": 131,
+      "rank": 132,
       "name": "Escorts Kubota Limited",
       "ticker": "ESCORTS",
       "exchange": "NSEI",
@@ -4838,7 +4875,7 @@
       "generated_at": "2026-09-17T14:35:06.986Z"
     },
     "J&KBANK": {
-      "rank": 134,
+      "rank": 135,
       "name": "The Jammu and Kashmir Bank Limited",
       "ticker": "J&KBANK",
       "exchange": "NSEI",
@@ -4874,7 +4911,7 @@
       "generated_at": "2026-09-17T14:35:41.135Z"
     },
     "ALKEM": {
-      "rank": 135,
+      "rank": 136,
       "name": "Alkem Laboratories Limited",
       "ticker": "ALKEM",
       "exchange": "NSEI",
@@ -4911,7 +4948,7 @@
       "generated_at": "2026-09-17T14:36:02.351Z"
     },
     "PNBHOUSING": {
-      "rank": 136,
+      "rank": 137,
       "name": "PNB Housing Finance Limited",
       "ticker": "PNBHOUSING",
       "exchange": "NSEI",
@@ -4947,7 +4984,7 @@
       "generated_at": "2026-09-17T14:36:21.699Z"
     },
     "ADANIENSOL": {
-      "rank": 132,
+      "rank": 133,
       "name": "Adani Energy Solutions Limited",
       "ticker": "ADANIENSOL",
       "exchange": "NSEI",
