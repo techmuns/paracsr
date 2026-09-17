@@ -694,6 +694,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:36:40.067Z",
       "error": null
+    },
+    "SBICARD": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:37:01.578Z",
+      "error": null
     }
   }
 }
