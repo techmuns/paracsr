@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-09-17T12:52:42.223Z",
-  "count": 17,
+  "updated_at": "2026-09-17T12:53:01.108Z",
+  "count": 18,
   "companies": {
+    "500228": {
+      "rank": 18,
+      "name": "JSW Steel Limited",
+      "ticker": "500228",
+      "exchange": "BSE",
+      "sector": "Iron & Steel",
+      "is_psu": false,
+      "pat_client_cr": 22316,
+      "pat_screener_cr": 25508,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 25508,
+      "pat_mismatch": true,
+      "pat_delta_pct": 14.3,
+      "fy_used": "FY26",
+      "csr_spent_cr": 185.99,
+      "csr_obligation_cr": 185.99,
+      "csr_required_2pct_cr": 185.99,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Constructed and renovated multiple school buildings/classrooms (e.g., Bagmandala School, Borli Panchayat School, ZP School Kandalepada) in Raigad district, Maharashtra",
+        "Donated land worth ~₹40.19 crore for education purposes to Unnati Education and Charitable Trust, Chikkaballapura, Karnataka",
+        "Supported Karnataka Health Promotion Trust and HelpAge India with equipment (laptop, refrigerator for Mobile Health Unit) for health-related programs",
+        "Provided furniture, toilets and rainwater harvesting structures to various government (ZP) schools across Raigad district"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure A to Directors' Report, CSR Annual Report FY2025-26 (year ended 31 March 2026); figures stated directly in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e44105ed-fc16-4d0a-a1a1-4521dc30b148.pdf",
+        "page": 199
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:53:01.108Z"
+    },
     "500570": {
       "rank": 3,
       "name": "Tata Motors Limited",
