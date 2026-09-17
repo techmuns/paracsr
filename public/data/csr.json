@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:15:44.007Z",
-  "count": 81,
+  "updated_at": "2026-09-17T14:16:03.811Z",
+  "count": 82,
   "companies": {
     "500049": {
       "rank": 61,
@@ -73,6 +73,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:12:07.261Z"
+    },
+    "500124": {
+      "rank": 82,
+      "name": "Dr. Reddy's Laboratories Limited",
+      "ticker": "500124",
+      "exchange": "BSE",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 4285,
+      "pat_screener_cr": 4158,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4158,
+      "pat_mismatch": false,
+      "pat_delta_pct": -2.96,
+      "fy_used": "FY26",
+      "csr_spent_cr": 111.42,
+      "csr_obligation_cr": 111.32,
+      "csr_required_2pct_cr": 111.32,
+      "csr_unspent_cr": 12.32,
+      "health_or_education": true,
+      "examples": [
+        "School Improvement Programme (FLN & English) reaching 100 government schools (₹4.05 Cr)",
+        "Kallam Anji Reddy Vidyalaya (KARV) providing affordable quality education to 2,264 low-income students (₹8.5 Cr)",
+        "Healthcare Skilling program training women as Homecare General Duty Assistants (₹4.5 Cr)",
+        "Kasturba Gandhi Balika Vidyalaya - residential education for girls from rural areas (₹2.4 Cr)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-IV CSR report (Board's Report) for FY2025-26; amounts originally in ₹ (rupees), converted to crore (e.g., ₹1,11,41,59,457 = ₹111.42 Cr). Unspent transferred ₹12.32 Cr on 22-04-2026. Cross-checked with Note 2.20 (financial statements, in ₹ million) showing CSR expense of ₹1,114 million = ₹111.4 Cr for FY26.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b4d586a3-1dea-4aca-9bdc-143fa8564ad1.pdf",
+        "page": 74
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:16:03.811Z"
     },
     "500182": {
       "rank": 63,
