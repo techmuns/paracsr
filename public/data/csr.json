@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:43:13.795Z",
-  "count": 158,
+  "updated_at": "2026-09-17T14:43:34.106Z",
+  "count": 159,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4542,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 158,
+      "rank": 159,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 157,
+      "rank": 158,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5627,7 +5627,7 @@
       "generated_at": "2026-09-17T14:42:21.150Z"
     },
     "DABUR": {
-      "rank": 156,
+      "rank": 157,
       "name": "Dabur India Limited",
       "ticker": "DABUR",
       "exchange": "NSEI",
@@ -5699,6 +5699,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:43:12.616Z"
+    },
+    "MOTILALOFS": {
+      "rank": 156,
+      "name": "Motilal Oswal Financial Services Limited",
+      "ticker": "MOTILALOFS",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Stockbroking & Allied",
+      "is_psu": false,
+      "pat_client_cr": 1869.31,
+      "pat_screener_cr": 1872,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1872,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.14,
+      "fy_used": "FY26",
+      "csr_spent_cr": 20.1,
+      "csr_obligation_cr": 20.88,
+      "csr_required_2pct_cr": 20.89,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Plaksha University building project (higher education) - ₹10.99 crore spent",
+        "Smart TVs, laptops and charging docks provided to 21 schools",
+        "Motilal Oswal Gyandeep Bhawan (College Building) construction in Jodhpur",
+        "Farmer Training Centre 'Krishikul' and Gaushala/Animal Hospital (health/welfare) in Nashik & Beed"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Board's Report Annexure 4 (CSR Annual Report) used as primary source, page 92-94; amounts originally in ₹ (rupees), converted to INR crore (e.g., ₹20,10,27,572 = 20.10 crore). Cross-checked with Note 63 standalone financials (₹ lakhs: total spent 2,010 lakh = 20.10 crore, obligation 2,089 lakh = 20.89 crore).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d1cec0b8-dcb1-4dce-9765-3172c7fbacea.pdf",
+        "page": 411
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:43:34.106Z"
     }
   }
 }
