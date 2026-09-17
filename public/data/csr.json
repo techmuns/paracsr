@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:51:54.459Z",
-  "count": 183,
+  "updated_at": "2026-09-17T14:52:07.534Z",
+  "count": 184,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4832,7 +4832,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 183,
+      "rank": 184,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6597,6 +6597,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:51:53.119Z"
+    },
+    "SPARC": {
+      "rank": 183,
+      "name": "Sun Pharma Advanced Research Company Limited",
+      "ticker": "SPARC",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 1553.2,
+      "pat_screener_cr": 1553,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1553,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 5 (Board's Report), FY2025-26: Company incurred losses in preceding 3 years, so average net profit u/s 135(5) and CSR obligation are 'Not Applicable' — no CSR spend was required or made. No project-level sector spend to assess health/education focus.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d613e9d5-80ef-4e80-96ae-455b4ca8043c.pdf",
+        "page": 27
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:52:07.534Z"
     }
   }
 }
