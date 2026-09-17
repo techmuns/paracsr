@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:29:04.492Z",
-  "count": 113,
+  "updated_at": "2026-09-17T14:29:24.615Z",
+  "count": 114,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3783,7 +3783,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 113,
+      "rank": 114,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -4072,6 +4072,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:28:42.412Z"
+    },
+    "ICICIGI": {
+      "rank": 113,
+      "name": "ICICI Lombard General Insurance Company Limited",
+      "ticker": "ICICIGI",
+      "exchange": "NSEI",
+      "sector": "Insurance",
+      "sector_detail": "General Insurance",
+      "is_psu": false,
+      "pat_client_cr": 2771.94,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 2771.94,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 51.67,
+      "csr_obligation_cr": 51.4,
+      "csr_required_2pct_cr": 51.4,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Contribution to AIIMS Bhubaneshwar, Jodhpur, Nagpur and other hospitals for healthcare capital assets (₹215.0 million)",
+        "Eye check-ups for underprivileged school children under 'Caring Hands' program (₹145 lakhs)",
+        "Support to National Skill Training Institutes, Army Public/Goodwill Schools and educational institutions like GTU Institute of Technology under livelihood/skilling initiatives (₹77.2 million)",
+        "Road Safety programs including safe schools, rehabilitation centres and support to traffic police (₹1,348 lakhs)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 5.2.18 (CSR Expenditure) states amounts in ₹ lakhs, converted to crore (1 crore=100 lakh); also cross-verified with Directors' Report Annexure C (figures in ₹ million, converted to crore). FY26 (year ended March 31, 2026) figures used: spent ₹5,167 lakh=51.67 cr (per notes) / ₹516.7 million=51.67 cr (per Annexure C, incl. admin overheads & impact assessment); obligation ₹5,140 lakh=51.4 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/efa3d2e1-e5d7-4c73-b4ec-48787de8ac2e.pdf",
+        "page": 344
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:29:24.615Z"
     }
   }
 }
