@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:49:43.354Z",
-  "count": 176,
+  "updated_at": "2026-09-17T14:49:58.557Z",
+  "count": 177,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1485,6 +1485,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:47:04.928Z"
+    },
+    "532144": {
+      "rank": 176,
+      "name": "Welspun Corp Limited",
+      "ticker": "532144",
+      "exchange": "BSE",
+      "sector": "Metals & Mining",
+      "sector_detail": "Iron & Steel Products",
+      "is_psu": false,
+      "pat_client_cr": 1613.05,
+      "pat_screener_cr": 1620,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1620,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.43,
+      "fy_used": "FY26",
+      "csr_spent_cr": 11.79,
+      "csr_obligation_cr": 11.79,
+      "csr_required_2pct_cr": 11.79,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Donation to Welspun Foundation for Health and Knowledge (healthcare and education focused foundation)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Consolidated financial statements, Note 34(i) 'Corporate social responsibility expenditure' for FY ended March 31, 2026; amounts in INR crore as stated (no conversion needed). Standalone figure was Rs.7.98 crore but consolidated (Group) figure of Rs.11.79 crore used as latest/most comprehensive.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/48508a3e-46c9-4b90-a709-ff296d12d829.pdf",
+        "page": 161
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:49:58.557Z"
     },
     "532215": {
       "rank": 16,
@@ -4725,7 +4759,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 176,
+      "rank": 177,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
