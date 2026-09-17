@@ -289,6 +289,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:07:52.134Z",
       "error": null
+    },
+    "OIL": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:07:53.438Z",
+      "error": null
     }
   }
 }
