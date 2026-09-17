@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:50:37.494Z",
-  "count": 10,
+  "updated_at": "2026-09-17T12:50:51.314Z",
+  "count": 11,
   "companies": {
     "500570": {
       "rank": 3,
@@ -358,6 +358,37 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:50:36.380Z"
+    },
+    "COALINDIA": {
+      "rank": 11,
+      "name": "Coal India Limited",
+      "ticker": "COALINDIA",
+      "exchange": "NSEI",
+      "sector": "Coal",
+      "is_psu": true,
+      "pat_client_cr": 31094.29,
+      "pat_screener_cr": 31071,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 31071,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.07,
+      "fy_used": "FY26",
+      "csr_spent_cr": 963.27,
+      "csr_obligation_cr": 1016.28,
+      "csr_required_2pct_cr": 891.87,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Note 13.8/13.8.2 (Consolidated), FY26 figures; Amount Required (2% avg net profit)=891.87cr, Board approved=1124.64cr, Amount spent during year (construction+other)=963.27cr, P&L recognized CSR expense=1016.28cr; no sector-wise (health/education) breakup provided in excerpt so health_or_education left null with no examples.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0a545232-5986-454c-b936-70e14712b84e.pdf",
+        "page": 256
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:50:51.314Z"
     }
   }
 }
