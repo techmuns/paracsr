@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:25:27.737Z",
-  "count": 101,
+  "updated_at": "2026-09-17T14:25:46.033Z",
+  "count": 102,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3608,7 +3608,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 101,
+      "rank": 102,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3643,6 +3643,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:25:26.479Z"
+    },
+    "JSL": {
+      "rank": 101,
+      "name": "Jindal Stainless Limited",
+      "ticker": "JSL",
+      "exchange": "NSEI",
+      "sector": "Metals & Mining",
+      "sector_detail": "Iron & Steel",
+      "is_psu": false,
+      "pat_client_cr": 3193.45,
+      "pat_screener_cr": 3185,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3185,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.26,
+      "fy_used": "FY26",
+      "csr_spent_cr": 25.55,
+      "csr_obligation_cr": 59.54,
+      "csr_required_2pct_cr": 59.54,
+      "csr_unspent_cr": 33.99,
+      "health_or_education": true,
+      "examples": [
+        "Amount paid to Jindal Stainless Charitable Trust (₹33.99 cr) for setting up a hospital and school (ongoing project)",
+        "CSR activities include promoting education & enhancing vocational skills",
+        "CSR activities include promoting preventive health care"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 53 (Standalone Financial Statements) and Annexure-IV to Directors' Report (Annual Report on CSR Activities), FY2025-26; figures already in INR crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0b1892b9-12c2-4cd9-af23-4b25e56b3015.pdf",
+        "page": 350
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:25:46.033Z"
     }
   }
 }
