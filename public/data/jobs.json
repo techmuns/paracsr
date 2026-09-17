@@ -549,6 +549,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:27:34.175Z",
       "error": null
+    },
+    "HDFCAMC": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:28:07.486Z",
+      "error": null
     }
   }
 }
