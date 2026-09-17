@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:57:56.372Z",
-  "count": 29,
+  "updated_at": "2026-09-17T13:58:14.939Z",
+  "count": 30,
   "companies": {
     "500228": {
       "rank": 18,
@@ -1039,6 +1039,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:57:55.034Z"
+    },
+    "RECLTD": {
+      "rank": 30,
+      "name": "REC Limited",
+      "ticker": "RECLTD",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Financial Institution",
+      "is_psu": true,
+      "pat_client_cr": 16308.17,
+      "pat_screener_cr": 16308,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 16308,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 168.83,
+      "csr_obligation_cr": 338.07,
+      "csr_required_2pct_cr": 338.07,
+      "csr_unspent_cr": 163.71,
+      "health_or_education": true,
+      "examples": [
+        "Health/Sanitation/Waste Management/Drinking water spend of ₹88.80 crore",
+        "Education/Vocational/Skill Development spend of ₹26.14 crore"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 40 (FY26). 'Amount spent during the year' (Note 40.2(C)) = ₹168.83 cr in cash; total CSR expense charged to P&L (incl. transfer to Unspent CSR A/c of ₹163.71 cr) = ₹338.07 cr = gross amount required u/s 135(5). Amounts already in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0c5b12ec-16a6-4747-aaf2-0119aee9b5a0.pdf",
+        "page": 148
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:58:14.939Z"
     }
   }
 }
