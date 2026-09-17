@@ -19,6 +19,11 @@
       "status": "done",
       "updated_at": "2026-09-17T12:48:39.797Z",
       "error": null
+    },
+    "LICI": {
+      "status": "running",
+      "updated_at": "2026-09-17T12:48:40.884Z",
+      "error": null
     }
   }
 }
