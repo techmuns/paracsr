@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:44:34.338Z",
-  "count": 162,
+  "updated_at": "2026-09-17T14:44:50.167Z",
+  "count": 163,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4579,7 +4579,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 162,
+      "rank": 163,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5448,7 +5448,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 161,
+      "rank": 162,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5846,6 +5846,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:44:32.982Z"
+    },
+    "GODREJPROP": {
+      "rank": 161,
+      "name": "Godrej Properties Limited",
+      "ticker": "GODREJPROP",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Residential, Commercial Projects",
+      "is_psu": false,
+      "pat_client_cr": 1850.2,
+      "pat_screener_cr": 1841,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1841,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.5,
+      "fy_used": "FY26",
+      "csr_spent_cr": 13.44,
+      "csr_obligation_cr": 13.44,
+      "csr_required_2pct_cr": 13.44,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Standalone FS Note 53, FY ended Mar 31, 2026. Amount fully spent (₹13.44 cr vs required ₹13.44 cr); no unspent balance. No project-level sector/category details (e.g., healthcare/education) provided in excerpt to confirm health_or_education.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/14554255-f943-4082-8eb7-9171f7effa7d.pdf",
+        "page": 195
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:44:50.166Z"
     }
   }
 }
