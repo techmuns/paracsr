@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:09:14.023Z",
-  "count": 62,
+  "updated_at": "2026-09-17T14:09:32.057Z",
+  "count": 63,
   "companies": {
     "500049": {
       "rank": 60,
@@ -2228,6 +2228,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:53.448Z"
+    },
+    "LICHSGFIN": {
+      "rank": 63,
+      "name": "LIC Housing Finance Limited",
+      "ticker": "LICHSGFIN",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Housing Finance Company",
+      "is_psu": true,
+      "pat_client_cr": 5603.67,
+      "pat_screener_cr": 5604,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5604,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 44.84,
+      "csr_obligation_cr": 109.61,
+      "csr_required_2pct_cr": 109.61,
+      "csr_unspent_cr": 64.85,
+      "health_or_education": true,
+      "examples": [
+        "Provided medical equipment, diagnostic devices, hospital furniture and cold-chain equipment to PHCs (e.g. Ghorpadi and Wanwadi PHC, Pune)",
+        "Funded a fully equipped mobile dermatology clinic van (Lok Seva Sangam, Mumbai)",
+        "Installed a 100 KW Solar Power Plant at Sri Guru Amar Das Hospital, Ludhiana",
+        "Provided smart boards, computers, water filters and sanitary infrastructure to 20 government schools in Nainital and Almora districts (Aarohi Society)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financial statements CSR note (p.266-267) and Annexure 4 CSR Report (p.79-85); amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5794704f-102b-40d1-a6c1-0daae7683aed.pdf",
+        "page": 266
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:09:32.057Z"
     }
   }
 }
