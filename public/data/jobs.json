@@ -589,6 +589,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:30:26.092Z",
       "error": null
+    },
+    "MAZDOCK": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:30:43.566Z",
+      "error": null
     }
   }
 }
