@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:23:58.915Z",
-  "count": 96,
+  "updated_at": "2026-09-17T14:24:13.170Z",
+  "count": 97,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1013,6 +1013,38 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:51:43.738Z",
       "sector_detail": "Telecom - Cellular & Fixed line services"
+    },
+    "532629": {
+      "rank": 97,
+      "name": "McNally Bharat Engineering Company Limited",
+      "ticker": "532629",
+      "exchange": "BSE",
+      "sector": "Cement & Construction",
+      "sector_detail": "Civil Construction",
+      "is_psu": false,
+      "pat_client_cr": 3449.55,
+      "pat_screener_cr": 3450,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3450,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "high",
+      "notes": "CSR Committee dissolved on 12 Nov 2022 as Section 135 criteria no longer applicable; auditors' report (Annexure A) explicitly states Section 135 requirement not applicable to the company, so no CSR obligation/spend disclosed for FY26 or FY25.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=582b672a-fe57-4ae1-8e8c-ee7beba63a11.pdf",
+        "page": 53
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:24:13.170Z"
     },
     "532967": {
       "rank": 66,
