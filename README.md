@@ -1,4 +1,4 @@
-# paracsr — India CSR 200
+# paracsr — Corporate Social Responsibility Tracker
 
 A **CSR (Corporate Social Responsibility) spending tracker** for the **top 200 listed
 Indian companies by Profit After Tax (PAT)**.

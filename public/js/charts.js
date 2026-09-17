@@ -36,8 +36,7 @@ export function renderTop(list) {
   const c = mount("chart-top"); if (!c) return;
   const rows = data.slice().reverse(); // ECharts plots first category at the bottom
   c.setOption({
-    grid: { left: 8, right: 64, top: 30, bottom: 8, containLabel: true },
-    legend: { ...LEGEND, top: 0, bottom: "auto", data: ["CSR Spent"] },
+    grid: { left: 8, right: 64, top: 12, bottom: 8, containLabel: true },
     tooltip: {
       ...TOOLTIP,
       formatter: (p) => {
@@ -88,8 +87,7 @@ export function renderSector(list) {
   const c = mount("chart-sector"); if (!c) return;
   const rows = data.slice().reverse();
   c.setOption({
-    grid: { left: 8, right: 60, top: 28, bottom: 8, containLabel: true },
-    legend: { ...LEGEND, top: 0, bottom: "auto", data: ["CSR Spent"] },
+    grid: { left: 8, right: 60, top: 12, bottom: 8, containLabel: true },
     tooltip: { ...TOOLTIP, formatter: (p) => `<b>${esc(rows[p.dataIndex].sector)}</b><br/>CSR Spent: <b>${fmtCr(rows[p.dataIndex].total)}</b>` },
     xAxis: valueAxis(),
     yAxis: catAxis(rows.map((r) => r.sector), { axisLabel: { ...AXIS_LABEL, width: 120, overflow: "truncate" } }),

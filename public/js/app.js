@@ -44,10 +44,13 @@ function populateSectors() {
 
 function updateChrome() {
   const { done, total, updated_at } = state.meta;
-  $("#live-count").textContent = `${fmtNum(done)} of ${fmtNum(total)} companies`;
+  // Header pill = the whole dataset (shows "X of 200" only while still loading).
+  $("#live-count").textContent = done < total ? `${fmtNum(done)} of ${fmtNum(total)} companies` : `${fmtNum(total)} companies`;
   const fyl = $("#fy-label"); if (fyl) { const fb = fyBreakdown(state.records); fyl.textContent = fb.FY25 > 0 ? "FY26 (some FY25)" : "FY26"; }
+  // Filter count = the current filter's subset, shown only when a filter narrows it.
   const f = getFiltered();
-  $("#filter-count").textContent = `Showing ${f.length} of ${state.records.length} loaded`;
+  const loaded = state.records.length;
+  $("#filter-count").textContent = f.length < loaded ? `${fmtNum(f.length)} of ${fmtNum(loaded)} shown` : "";
   if (updated_at) {
     const d = new Date(updated_at);
     if (!isNaN(d)) $("#footer-text").textContent = `Data from company FY26 annual reports (Section 135 CSR disclosures) · verified against Screener · updated ${d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })}`;

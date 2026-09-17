@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>India CSR 200</title>
+  <title>Corporate Social Responsibility Tracker</title>
   <meta name="description" content="CSR spending of India's top 200 listed companies — FY26, from Section 135 annual-report disclosures." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,12 +29,12 @@
       <div class="brand">
         <div class="logo">CSR</div>
         <div>
-          <h1>India CSR 200</h1>
-          <div class="subtitle">CSR spending of India's top 200 listed companies</div>
+          <h1>Corporate Social Responsibility Tracker</h1>
+          <div class="subtitle">India's top 200 listed companies · FY26</div>
         </div>
       </div>
       <div class="header-right">
-        <div class="live-pill"><span class="dot"></span><span id="live-count">— of 200 companies</span> · <span id="fy-label">FY26</span></div>
+        <div class="live-pill"><span class="dot"></span><span id="live-count">— companies</span> · <span id="fy-label">FY26</span></div>
         <button class="btn excel" id="btn-excel" title="Download all companies as an Excel workbook"><i data-lucide="sheet"></i><span>Download Excel</span></button>
       </div>
     </header>
@@ -86,7 +86,7 @@
             <div class="chart" id="chart-govpri" style="height:248px"></div>
           </div>
           <div class="card chart-card">
-            <div class="card-title"><i data-lucide="layers"></i>CSR by Sector <span class="sub">top spenders</span></div>
+            <div class="card-title"><i data-lucide="layers"></i>CSR by Sector <span class="sub">₹ crore</span></div>
             <div class="chart" id="chart-sector" style="height:248px"></div>
           </div>
         </div>
@@ -133,7 +133,7 @@
         </div>
         <div class="card chart-card" style="margin-top:16px">
           <div class="card-title"><i data-lucide="sparkles"></i>What they actually fund <span class="sub" id="ex-count"></span></div>
-          <div class="scroll-area" id="ex-gallery" style="max-height:320px"></div>
+          <div id="ex-gallery"></div>
         </div>
       </section>
 
@@ -157,7 +157,7 @@
       <section class="panel" data-panel="explorer">
         <div class="card chart-card" style="padding-top:14px">
           <div class="card-title" style="justify-content:space-between">
-            <span style="display:inline-flex;align-items:center;gap:8px"><i data-lucide="table"></i>All companies <span class="sub" id="explorer-count"></span></span>
+            <span style="display:inline-flex;align-items:center;gap:8px"><i data-lucide="table"></i>All companies</span>
             <span class="sub" style="font-size:11.5px">Click a column to sort · amber dot = lower-confidence</span>
           </div>
           <div class="table-wrap scroll-area" id="explorer-wrap" style="max-height:calc(100dvh - 320px)"></div>
