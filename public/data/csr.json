@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:25:10.108Z",
-  "count": 100,
+  "updated_at": "2026-09-17T14:25:26.479Z",
+  "count": 101,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3606,6 +3606,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:25:08.899Z"
+    },
+    "ICICIAMC": {
+      "rank": 101,
+      "name": "ICICI Prudential Asset Management Company Limited",
+      "ticker": "ICICIAMC",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Asset Management Company",
+      "is_psu": false,
+      "pat_client_cr": 3298.26,
+      "pat_screener_cr": 2651,
+      "pat_screener_fy": "FY25",
+      "pat_basis": "consolidated",
+      "pat_cr": 2651,
+      "pat_mismatch": true,
+      "pat_delta_pct": -19.62,
+      "fy_used": "FY26",
+      "csr_spent_cr": 52.17,
+      "csr_obligation_cr": 52.17,
+      "csr_required_2pct_cr": 52.17,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "NAMTECH iPTCP programme enhancing employability of 725 ITI students in Gujarat through technical skilling",
+        "Prabal Super 50 Programme with Indian Army/CSRL providing free residential JEE coaching to 39 children of Army personnel",
+        "CSR activities include Healthcare and medical initiatives (per nature of CSR activities list)",
+        "CSR spend routed through ICICI Foundation for Inclusive Growth covering skilling, rural development and healthcare"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Notes to Financial Statements Note 26(b) and Board's Report Annexure B (CSR Annual Report); amounts converted from INR million to crore (521.7 mn = 52.17 cr); figures fully spent, no unspent balance.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cd1c6a68-fa6a-4c15-b21e-9b72735bc9c7.pdf",
+        "page": 180
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:25:26.479Z"
     }
   }
 }
