@@ -108,20 +108,20 @@ function crossVerifyPat(seedPat, screenerPat) {
 
 const SECTOR_RULES = [
   [/insurance|reinsur/i, "Insurance"],
-  [/nbfc|non[- ]?banking|financial institution|financial\b|housing finance|asset management|\bamc\b|broking|capital market|stock exchange|mutual fund/i, "Financial Services"],
+  [/nbfc|non[- ]?banking|financial institution|financial\b|housing finance|asset management|\bamc\b|broking|capital market|stock exchange|\bexchange\b|mutual fund/i, "Financial Services"],
   [/\bbank\b|banking/i, "Banking"],
   [/finance|holding|investment|leasing/i, "Financial Services"],
   [/oil|gas|petroleum|refiner|lng|exploration|drilling|\bfuel/i, "Oil & Gas"],
   [/software|it services|computers|information technology|technology|consulting|internet|digital/i, "IT Services"],
   [/pharma|healthcare|health care|hospital|medical|life science|drug|diagnostic|biotech/i, "Pharma & Healthcare"],
   [/telecom|cellular|communication|tower/i, "Telecom"],
-  [/auto|automobile|vehicle|tyre|tire|two[- ]?wheeler|passenger car|commercial vehicle|motorcycle|ancillar|bearing/i, "Auto & Ancillaries"],
+  [/auto|automobile|vehicle|tyre|tire|wheeler|tractor|passenger car|commercial vehicle|motorcycle|ancillar|bearing/i, "Auto & Ancillaries"],
   [/power|electric|utilit|renewable|solar|hydro|transmission|\bgeneration\b|\benergy\b/i, "Power & Utilities"],
-  [/steel|metal|mining|alumin|zinc|copper|\biron\b|\bcoal\b|\bore\b|ferro/i, "Metals & Mining"],
-  [/cement|construction|infrastructure|realty|real estate|building|engineering|\bepc\b|ports|logistics|capital goods/i, "Cement & Construction"],
-  [/chemical|fertiliser|fertilizer|\bpaint|petrochem|pesticide|agrochem/i, "Chemicals"],
+  [/steel|metal|mining|mineral|alumin|zinc|copper|\biron\b|\bcoal\b|\bore\b|ferro/i, "Metals & Mining"],
+  [/cement|construction|infrastructure|realty|real estate|residential|commercial project|building|engineering|\bepc\b|\bport\b|shipping|logistics|capital goods/i, "Cement & Construction"],
+  [/chemical|fertiliser|fertilizer|\bpaint|petrochem|pesticide|agrochem|explosive|\bdye|pigment/i, "Chemicals"],
   [/fmcg|food|beverage|personal care|household|tobacco|cigarette|\btea\b|coffee|dairy|edible|\bagro\b|sugar/i, "FMCG"],
-  [/retail|consumer|apparel|footwear|jewell|watch|supermarket|\bstore\b|e-?commerce|durable|media|entertainment|hotel|hospitality|textile/i, "Consumer & Retail"],
+  [/retail|consumer|apparel|footwear|jewell|watch|supermarket|\bstore\b|e-?commerce|durable|media|entertainment|hotel|hospitality|textile|trading|distribut/i, "Consumer & Retail"],
 ];
 
 function broadSector(detail) {
