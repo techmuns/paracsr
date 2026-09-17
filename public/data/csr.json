@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:53:55.620Z",
-  "count": 21,
+  "updated_at": "2026-09-17T12:54:10.399Z",
+  "count": 22,
   "companies": {
     "500228": {
       "rank": 18,
@@ -37,6 +37,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:53:01.108Z"
+    },
+    "500247": {
+      "rank": 22,
+      "name": "Kotak Mahindra Bank Limited",
+      "ticker": "500247",
+      "exchange": "BSE",
+      "sector": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 19287.89,
+      "pat_screener_cr": 19288,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 19288,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 329.2,
+      "csr_obligation_cr": 328.99,
+      "csr_required_2pct_cr": 328.99,
+      "csr_unspent_cr": 71.2,
+      "health_or_education": true,
+      "examples": [
+        "Contribution of ₹76.42 crore to Kotak Education Foundation for education initiatives",
+        "Contribution of ₹207.75 crore to other CSR initiatives including community development"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 11, Notes to Accounts (page 218-219) & Sustainability/ESG section (page 236-237); amounts already stated in INR crore, no conversion needed; Total CSR expenditure ₹329.20 cr includes ₹45.03 cr accrual for unspent obligation on ongoing projects; cumulative unspent at year-end ₹71.20 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+        "page": 218
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:54:10.399Z"
     },
     "500570": {
       "rank": 3,
