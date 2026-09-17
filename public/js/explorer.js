@@ -123,7 +123,6 @@ export function renderExplorer(list) {
   table.append(tb);
   wrap.innerHTML = "";
   wrap.append(table);
-  const cnt = $("#explorer-count"); if (cnt) cnt.textContent = `${rows.length} shown`;
   icons();
 }
 
@@ -169,8 +168,8 @@ export async function exportExcel(rows) {
   if (typeof window.ExcelJS === "undefined") return exportCSV(data);
   try {
     const wb = new window.ExcelJS.Workbook();
-    wb.creator = "India CSR 200";
-    const ws = wb.addWorksheet("India CSR 200", {
+    wb.creator = "Corporate Social Responsibility Tracker";
+    const ws = wb.addWorksheet("CSR Tracker", {
       views: [{ showGridLines: false, state: "frozen", ySplit: 2 }],   // gridlines off + frozen title+header
       properties: { tabColor: { argb: "FF6366F1" } },
     });
@@ -185,7 +184,7 @@ export async function exportExcel(rows) {
     // Title banner (row 1)
     ws.mergeCells(1, 1, 1, nCols);
     const title = ws.getCell(1, 1);
-    title.value = "India CSR 200   ·   FY26 CSR spending of India's top 200 listed companies";
+    title.value = "Corporate Social Responsibility Tracker   ·   FY26 · India's top 200 listed companies";
     title.font = { bold: true, size: 14, color: { argb: "FFFFFFFF" } };
     title.alignment = { vertical: "middle", horizontal: "left", indent: 1 };
     title.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF4F46E5" } };
@@ -247,7 +246,7 @@ export async function exportExcel(rows) {
     ws.addConditionalFormatting(eq(8, "low", { font: { color: { argb: "FF991B1B" } }, fill: solid("FFFEE2E2") }));
 
     const buf = await wb.xlsx.writeBuffer();
-    download(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), "india-csr-200.xlsx");
+    download(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), "csr-tracker.xlsx");
   } catch (e) { console.warn("Excel export failed, using CSV:", e); exportCSV(exportRows(rows)); }
 }
 
@@ -256,5 +255,5 @@ function exportCSV(rows) {
   const esc2 = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
   const lines = [CLIENT_COLS.map((c) => esc2(c.h)).join(",")];
   data.forEach((r) => lines.push(CLIENT_COLS.map((c) => esc2(c.v(r))).join(",")));
-  download(new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" }), "india-csr-200.csv");
+  download(new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" }), "csr-tracker.csv");
 }
