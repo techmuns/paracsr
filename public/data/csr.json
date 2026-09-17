@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:36:03.571Z",
-  "count": 136,
+  "updated_at": "2026-09-17T14:36:21.699Z",
+  "count": 137,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4257,7 +4257,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 136,
+      "rank": 137,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4440,7 +4440,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 135,
+      "rank": 136,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4909,6 +4909,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:36:02.351Z"
+    },
+    "PNBHOUSING": {
+      "rank": 135,
+      "name": "PNB Housing Finance Limited",
+      "ticker": "PNBHOUSING",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Housing Finance Company",
+      "is_psu": false,
+      "pat_client_cr": 2291.24,
+      "pat_screener_cr": 2291,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2291,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 12.02,
+      "csr_obligation_cr": 42.25,
+      "csr_required_2pct_cr": 42.25,
+      "csr_unspent_cr": 30.23,
+      "health_or_education": true,
+      "examples": [
+        "Healthcare spend of ₹13.99 crore including medical equipment donations (e.g. Portable Diagnostic Bera System, Audiometer, Soundproof Audiology Room) to Samarpan Multi-Disability Rehab Centre, Kasturba Hospital, Dhule via Rotary Club of Dhule Charitable Foundation",
+        "Education-focused CSR spend of ₹2.15 crore",
+        "Contribution to Pehel Foundation trust for CSR project implementation (₹23.71 crore)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 33.1 (FY26, year ended 31 Mar 2026): Total Amount Spent 12.02 cr; Gross amount required 42.25 cr (matches Directors' Report Annexure obligation of ₹42.24 cr / 42,24,56,492); Shortfall/unspent 30.23 cr. Sector-wise: Healthcare 13.99, Education 2.15, others. Consolidated figures slightly higher (spent 12.17 cr, obligation 42.54 cr) — standalone used as primary company figure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/867ed6b2-6038-4c21-92c7-d3d900dc26cd.pdf",
+        "page": 417
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:36:21.699Z"
     }
   }
 }
