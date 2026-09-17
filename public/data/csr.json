@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:24:31.317Z",
-  "count": 98,
+  "updated_at": "2026-09-17T14:24:49.989Z",
+  "count": 99,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3532,6 +3532,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:24:30.234Z"
+    },
+    "SAIL": {
+      "rank": 99,
+      "name": "Steel Authority of India Limited",
+      "ticker": "SAIL",
+      "exchange": "NSEI",
+      "sector": "Metals & Mining",
+      "sector_detail": "Iron & Steel",
+      "is_psu": true,
+      "pat_client_cr": 3372.8,
+      "pat_screener_cr": 3373,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3373,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 53.38,
+      "csr_obligation_cr": 53.11,
+      "csr_required_2pct_cr": 53.57,
+      "csr_unspent_cr": 20.56,
+      "health_or_education": true,
+      "examples": [
+        "24 Primary Health Centres at Plants provided free medical care to over 1,43,000 patients in FY 2025-26",
+        "5 Mobile Medical Units extended healthcare to about 1.40 lakh villagers in peripheral areas",
+        "SAIL supports over 77 schools educating more than 40,000 children in steel townships",
+        "22 Special Schools (Kalyan, Mukul & DAV Vidyalayas) benefit around 23,000 BPL category students with free education, meals and uniforms"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-XII to Board's Report (Sec 135 CSR Report), FY2025-26; Total amount spent [6(d)] = Rs.53.38 crore (incl. Rs.20.56 crore transferred to Unspent CSR Account); obligation per 5(e)=53.11 cr (after set-off); 2% figure per 5(b)=53.57 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b61f123-3ca7-4727-b61e-4ded4d17c848.pdf",
+        "page": 404
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:24:49.989Z"
     }
   }
 }
