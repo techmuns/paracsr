@@ -434,6 +434,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:20:12.886Z",
       "error": null
+    },
+    "ABCAPITAL": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:20:14.795Z",
+      "error": null
     }
   }
 }
