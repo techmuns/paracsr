@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:53:19.686Z",
-  "count": 19,
+  "updated_at": "2026-09-17T12:53:37.146Z",
+  "count": 20,
   "companies": {
     "500228": {
       "rank": 18,
@@ -665,6 +665,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:53:18.546Z"
+    },
+    "BANKBARODA": {
+      "rank": 20,
+      "name": "Bank of Baroda Limited",
+      "ticker": "BANKBARODA",
+      "exchange": "NSEI",
+      "sector": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 19846.43,
+      "pat_screener_cr": 20070,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 20070,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.13,
+      "fy_used": "FY26",
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Donation of medical equipment and healthcare support to hospitals",
+        "Financial assistance to deserving poor students for their education",
+        "Financial support for Life-Saving Pediatric Cardiac Procedures",
+        "Skill development training via 69 Rural Self Employment Training Institutes (RSETIs)"
+      ],
+      "found": true,
+      "confidence": "low",
+      "notes": "Narrative CSR section (Annual Report FY 2025-26, Board's Report) describes activities and CSR & Sustainability Committee meetings, but no quantified 'Amount Spent/Unspent/Required' table is present in the excerpt; figures set to null.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/12b37c40-fbd0-4f9d-98d8-d59d5d485cb9.pdf",
+        "page": 112
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:53:37.146Z"
     }
   }
 }
