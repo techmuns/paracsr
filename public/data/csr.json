@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:24:14.421Z",
-  "count": 97,
+  "updated_at": "2026-09-17T14:24:30.234Z",
+  "count": 98,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3495,6 +3495,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:23:57.742Z"
+    },
+    "LODHA": {
+      "rank": 98,
+      "name": "Macrotech Developers Limited",
+      "ticker": "LODHA",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Residential, Commercial Projects",
+      "is_psu": false,
+      "pat_client_cr": 3428.2,
+      "pat_screener_cr": 3431,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3431,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.08,
+      "fy_used": "FY26",
+      "csr_spent_cr": 35,
+      "csr_obligation_cr": 1.2,
+      "csr_required_2pct_cr": 28.8,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Lodha Genius Programme nurturing gifted school students in partnership with Ashoka University and IISER Pune",
+        "Offers high-quality education to approx. 7,500+ students across 10+ schools",
+        "Upgrading Zilla Parishad schools and running health camps across Mumbai, Bengaluru and Pune",
+        "Lodha Mathematical Sciences Institute for research and education in mathematical sciences"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "FY26 standalone/consolidated notes (Note 51/58) and Board's Report Annexure 6; amounts in ₹ million converted to crore (350 mn = 35 cr spent; 288 mn=28.8 cr gross 2% obligation; net obligation after set-off = 12 mn = 1.2 cr; fully spent, no unspent amount).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/53001054-7340-45ce-8d4b-de2746e0e7e0.pdf",
+        "page": 214
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:24:30.234Z"
     }
   }
 }
