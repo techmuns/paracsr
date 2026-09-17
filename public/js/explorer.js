@@ -91,7 +91,7 @@ const CLIENT_COLS = [
   { h: "PAT (FY26)",           t: "num",   v: (r) => (isNum(r.pat_cr) ? round2(r.pat_cr) : null) },
   { h: "Type of Institution",  t: "text",  v: (r) => (r.is_psu ? "PSU" : "Non-PSU") },
   { h: "CSR spend (INR cr)",   t: "money", v: (r) => (isNum(r.csr_spent_cr) ? round2(r.csr_spent_cr) : "Not disclosed") },
-  { h: "Nature of spend",      t: "text",  v: (r) => (r.health_or_education === true ? "Yes" : r.health_or_education === false ? "No" : "N/A") },
+  { h: "Spends on Health/Education?", t: "text", v: (r) => (r.health_or_education === true ? "Yes" : r.health_or_education === false ? "No" : "N/A") },
   { h: "Relevant eg.",         t: "text",  v: (r) => ((r.examples || []).length ? r.examples.join("; ") : "—") },
   // provenance the client can trust the source with
   { h: "Data Year",            t: "text",  v: (r) => r.fy_used || "" },
@@ -99,7 +99,7 @@ const CLIENT_COLS = [
   { h: "2% Required (INR cr)", t: "num",   v: (r) => { const x = requiredOf(r); return isNum(x) ? round2(x) : null; } },
   { h: "Source",               t: "text",  v: (r) => (r.source && r.source.annual_report_url) || "" },
 ];
-const COL_WIDTH = { "Company Name": 46, "Relevant eg.": 60, "Source": 52 };
+const COL_WIDTH = { "Company Name": 46, "Relevant eg.": 60, "Source": 52, "Spends on Health/Education?": 20 };
 
 // Always export in the client's order: PAT descending. Uses the passed set
 // (the active filtered set) or the current table set, defaulting to all 200.
@@ -149,7 +149,7 @@ export async function exportExcel(rows) {
       cell.alignment = { vertical: "middle", horizontal: (c.t === "num" || c.t === "money") ? "right" : "left", wrapText: true };
       cell.border = { bottom: { style: "medium", color: { argb: "FF4338CA" } } };
     });
-    hdr.height = 26;
+    hdr.height = 34;
 
     // Data rows — number formats, wrap on long text, banded rows
     data.forEach((r, ri) => {
