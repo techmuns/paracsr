@@ -1,0 +1,1406 @@
+{
+  "updated_at": "2026-09-17T15:03:45.060Z",
+  "count": 200,
+  "companies": [
+    {
+      "rank": 1,
+      "name": "SBI",
+      "ticker": "SBIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 2,
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 3,
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 4,
+      "name": "Life Insurance",
+      "ticker": "LICI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 5,
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 6,
+      "name": "TCS",
+      "ticker": "TCS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 7,
+      "name": "O N G C",
+      "ticker": "ONGC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 8,
+      "name": "I O C L",
+      "ticker": "IOC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 9,
+      "name": "Bharti Airtel",
+      "ticker": "BHARTIARTL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 10,
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 11,
+      "name": "Infosys",
+      "ticker": "INFY",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 12,
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 13,
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 14,
+      "name": "Power Fin.Corpn.",
+      "ticker": "PFC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 15,
+      "name": "Punjab Natl.Bank",
+      "ticker": "PNB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 16,
+      "name": "Bank of Baroda",
+      "ticker": "BANKBARODA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 17,
+      "name": "Hindalco Inds.",
+      "ticker": "HINDALCO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 18,
+      "name": "Union Bank (I)",
+      "ticker": "UNIONBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 19,
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 20,
+      "name": "Kotak Mah. Bank",
+      "ticker": "KOTAKBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 21,
+      "name": "Canara Bank",
+      "ticker": "CANBK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 22,
+      "name": "ITC",
+      "ticker": "ITC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 23,
+      "name": "M & M",
+      "ticker": "M&M",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 24,
+      "name": "HCL Technologies",
+      "ticker": "HCLTECH",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 25,
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 26,
+      "name": "Hindustan Zinc",
+      "ticker": "HINDZINC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 27,
+      "name": "REC Ltd",
+      "ticker": "RECLTD",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 28,
+      "name": "Power Grid Corpn",
+      "ticker": "POWERGRID",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 29,
+      "name": "B P C L",
+      "ticker": "BPCL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 30,
+      "name": "Maruti Suzuki",
+      "ticker": "MARUTI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 31,
+      "name": "Adani Power",
+      "ticker": "ADANIPOWER",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 32,
+      "name": "Adani Ports",
+      "ticker": "ADANIPORTS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 33,
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 34,
+      "name": "Indian Bank",
+      "ticker": "INDIANB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 35,
+      "name": "Sun Pharma.Inds.",
+      "ticker": "SUNPHARMA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 36,
+      "name": "JSW Steel",
+      "ticker": "JSWSTEEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 37,
+      "name": "Vedanta Aluminium Metal",
+      "ticker": "VAML",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 38,
+      "name": "Tata Steel",
+      "ticker": "TATASTEEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 39,
+      "name": "Bajaj Auto",
+      "ticker": "BAJAJ-AUTO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 40,
+      "name": "Bank of India",
+      "ticker": "BANKINDIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 41,
+      "name": "Muthoot Finance",
+      "ticker": "MUTHOOTFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 42,
+      "name": "Shriram Finance",
+      "ticker": "SHRIRAMFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 43,
+      "name": "Hind. Unilever",
+      "ticker": "HINDUNILVR",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 44,
+      "name": "Vedanta",
+      "ticker": "VEDL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 45,
+      "name": "Bajaj Finserv",
+      "ticker": "BAJAJFINSV",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 46,
+      "name": "GAIL (India)",
+      "ticker": "GAIL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 47,
+      "name": "Hind.Aeronautics",
+      "ticker": "HAL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 48,
+      "name": "IDBI Bank",
+      "ticker": "IDBI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 49,
+      "name": "N S E",
+      "ticker": "id",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 50,
+      "name": "General Insuranc",
+      "ticker": "GICRE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 51,
+      "name": "Bajaj Holdings",
+      "ticker": "BAJAJHLDNG",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 52,
+      "name": "UltraTech Cem.",
+      "ticker": "ULTRACEMCO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 53,
+      "name": "Oil India",
+      "ticker": "OIL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 54,
+      "name": "Bank of Maha",
+      "ticker": "MAHABANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 55,
+      "name": "NMDC",
+      "ticker": "NMDC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 56,
+      "name": "Tata Motors",
+      "ticker": "TMCV",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 57,
+      "name": "I R F C",
+      "ticker": "IRFC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 58,
+      "name": "Indus Towers",
+      "ticker": "INDUSTOWER",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 59,
+      "name": "Natl. Aluminium",
+      "ticker": "NATIONALUM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 60,
+      "name": "Bharat Electron",
+      "ticker": "BEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 61,
+      "name": "Lupin",
+      "ticker": "LUPIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 62,
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 63,
+      "name": "Eicher Motors",
+      "ticker": "EICHERMOT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 64,
+      "name": "I O B",
+      "ticker": "IOB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 65,
+      "name": "Cholaman.Inv.&Fn",
+      "ticker": "CHOLAFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 66,
+      "name": "LIC Housing Fin.",
+      "ticker": "LICHSGFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 67,
+      "name": "Grasim Inds",
+      "ticker": "GRASIM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 68,
+      "name": "LTM",
+      "ticker": "LTM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 69,
+      "name": "Hero Motocorp",
+      "ticker": "HEROMOTOCO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 70,
+      "name": "Tata Capital",
+      "ticker": "TATACAP",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 71,
+      "name": "Tech Mahindra",
+      "ticker": "TECHM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 72,
+      "name": "Hyundai Motor I",
+      "ticker": "HYUNDAI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 73,
+      "name": "Asian Paints",
+      "ticker": "ASIANPAINT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 74,
+      "name": "Zydus Lifesci.",
+      "ticker": "ZYDUSLIFE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 75,
+      "name": "S A I L",
+      "ticker": "SAIL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 76,
+      "name": "Lloyds Metals",
+      "ticker": "LLOYDSME",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 77,
+      "name": "Ambuja Cements",
+      "ticker": "AMBUJACEM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 78,
+      "name": "Federal Bank",
+      "ticker": "FEDERALBNK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 79,
+      "name": "Samvardh. Mothe.",
+      "ticker": "MOTHERSON",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 80,
+      "name": "Central Bank",
+      "ticker": "CENTRALBK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 81,
+      "name": "DLF",
+      "ticker": "DLF",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 82,
+      "name": "H U D C O",
+      "ticker": "HUDCO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 83,
+      "name": "Petronet LNG",
+      "ticker": "PETRONET",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 84,
+      "name": "C P C L",
+      "ticker": "CHENNPETRO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 85,
+      "name": "Lodha Developers",
+      "ticker": "LODHA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 86,
+      "name": "Waaree Energies",
+      "ticker": "WAAREEENER",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 87,
+      "name": "Aditya Birla Cap",
+      "ticker": "ABCAPITAL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 88,
+      "name": "Tata Power Co.",
+      "ticker": "TATAPOWER",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 89,
+      "name": "NHPC Ltd",
+      "ticker": "NHPC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 90,
+      "name": "Aurobindo Pharma",
+      "ticker": "AUROPHARMA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 91,
+      "name": "Yes Bank",
+      "ticker": "YESBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 92,
+      "name": "Nestle India",
+      "ticker": "NESTLEIND",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 93,
+      "name": "GE Shipping Co",
+      "ticker": "GESHIP",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 94,
+      "name": "Ashok Leyland",
+      "ticker": "ASHOKLEY",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 95,
+      "name": "Cipla",
+      "ticker": "CIPLA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 96,
+      "name": "ICICI AMC",
+      "ticker": "ICICIAMC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 97,
+      "name": "TVS Motor Co.",
+      "ticker": "TVSMOTOR",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 98,
+      "name": "Oracle Fin.Serv.",
+      "ticker": "OFSS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 99,
+      "name": "Varun Beverages",
+      "ticker": "VBL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 100,
+      "name": "M & M Fin. Serv.",
+      "ticker": "M&MFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 101,
+      "name": "Jindal Stain.",
+      "ticker": "JSL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 102,
+      "name": "Dr Reddy's Labs",
+      "ticker": "DRREDDY",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 103,
+      "name": "NLC India",
+      "ticker": "NLCINDIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 104,
+      "name": "L&T Finance Ltd",
+      "ticker": "LTF",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 105,
+      "name": "Suzlon Energy",
+      "ticker": "SUZLON",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 106,
+      "name": "Glenmark Pharma.",
+      "ticker": "GLENMARK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 107,
+      "name": "Jindal Steel",
+      "ticker": "JINDALSTEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 108,
+      "name": "SBI Funds Mgt.",
+      "ticker": "SBIFUNDS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 109,
+      "name": "Avenue Super.",
+      "ticker": "DMART",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 110,
+      "name": "Divi's Lab.",
+      "ticker": "DIVISLAB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 111,
+      "name": "HDFC AMC",
+      "ticker": "HDFCAMC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 112,
+      "name": "Adani Energy Sol",
+      "ticker": "ADANIENSOL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 113,
+      "name": "Polycab India",
+      "ticker": "POLYCAB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 114,
+      "name": "Mazagon Dock",
+      "ticker": "MAZDOCK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 115,
+      "name": "AU Small Finance",
+      "ticker": "AUBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 116,
+      "name": "BSE",
+      "ticker": "BSE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 117,
+      "name": "UCO Bank",
+      "ticker": "UCOBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 118,
+      "name": "M R P L",
+      "ticker": "MRPL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 119,
+      "name": "HDB FINANC SER",
+      "ticker": "HDBFS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 120,
+      "name": "Karur Vysya Bank",
+      "ticker": "KARURVYSYA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 121,
+      "name": "Bajaj Housing",
+      "ticker": "BAJAJHFL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 122,
+      "name": "Chola Financial",
+      "ticker": "CHOLAHLDNG",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 123,
+      "name": "Pidilite Inds.",
+      "ticker": "PIDILITIND",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 124,
+      "name": "Oberoi Realty",
+      "ticker": "OBEROIRLTY",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 125,
+      "name": "Britannia Inds.",
+      "ticker": "BRITANNIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 126,
+      "name": "SBI Life Insuran",
+      "ticker": "SBILIFE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 127,
+      "name": "MRF",
+      "ticker": "MRF",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 128,
+      "name": "Billionbrains",
+      "ticker": "GROWW",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 129,
+      "name": "Cummins India",
+      "ticker": "CUMMINSIND",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 130,
+      "name": "B H E L",
+      "ticker": "BHEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 131,
+      "name": "ICICI Lombard",
+      "ticker": "ICICIGI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 132,
+      "name": "Adani Enterp.",
+      "ticker": "ADANIENT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 133,
+      "name": "Bosch",
+      "ticker": "BOSCHLTD",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 134,
+      "name": "PNB Housing",
+      "ticker": "PNBHOUSING",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 135,
+      "name": "Torrent Power",
+      "ticker": "TORNTPOWER",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 136,
+      "name": "Welspun Corp",
+      "ticker": "WELCORP",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 137,
+      "name": "J & K Bank",
+      "ticker": "J&KBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 138,
+      "name": "Reliance Infra.",
+      "ticker": "RELINFRA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 139,
+      "name": "Sundaram Finance",
+      "ticker": "SUNDARMFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 140,
+      "name": "SBI Cards",
+      "ticker": "SBICARD",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 141,
+      "name": "Alkem Lab",
+      "ticker": "ALKEM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 142,
+      "name": "IDFC First Bank",
+      "ticker": "IDFCFIRSTB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 143,
+      "name": "SRF",
+      "ticker": "SRF",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 144,
+      "name": "Torrent Pharma.",
+      "ticker": "TORNTPHARM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 145,
+      "name": "Patanjali Foods",
+      "ticker": "PATANJALI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 146,
+      "name": "Apollo Tyres",
+      "ticker": "APOLLOTYRE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 147,
+      "name": "Mankind Pharma",
+      "ticker": "MANKIND",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 148,
+      "name": "Apollo Hospitals",
+      "ticker": "APOLLOHOSP",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 149,
+      "name": "IIFL Finance",
+      "ticker": "IIFL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 150,
+      "name": "Authum Invest",
+      "ticker": "AIIL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 151,
+      "name": "Godrej Consumer",
+      "ticker": "GODREJCP",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 152,
+      "name": "Jio Financial",
+      "ticker": "JIOFIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 153,
+      "name": "JSW Energy",
+      "ticker": "JSWENERGY",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 154,
+      "name": "Solar Industries",
+      "ticker": "SOLARINDS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 155,
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 156,
+      "name": "TVS Holdings",
+      "ticker": "TVSHLTD",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 157,
+      "name": "Dabur India",
+      "ticker": "DABUR",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 158,
+      "name": "Motil.Oswal.Fin.",
+      "ticker": "MOTILALOFS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 159,
+      "name": "UPL",
+      "ticker": "UPL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 160,
+      "name": "HDFC Life Insur.",
+      "ticker": "HDFCLIFE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 161,
+      "name": "Indian Renewable",
+      "ticker": "IREDA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 162,
+      "name": "Gujarat Energy",
+      "ticker": "GUJENERGY",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 163,
+      "name": "Indian Hotels Co",
+      "ticker": "INDHOTEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 164,
+      "name": "Adani Green",
+      "ticker": "ADANIGREEN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 165,
+      "name": "Mphasis",
+      "ticker": "MPHASIS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 166,
+      "name": "Chambal Fert.",
+      "ticker": "CHAMBLFERT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 167,
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 168,
+      "name": "ACC",
+      "ticker": "ACC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 169,
+      "name": "Marico",
+      "ticker": "MARICO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 170,
+      "name": "Dixon Technolog.",
+      "ticker": "DIXON",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 171,
+      "name": "Coromandel Inter",
+      "ticker": "COROMANDEL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 172,
+      "name": "United Spirits",
+      "ticker": "UNITDSPR",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 173,
+      "name": "Bharti Hexacom",
+      "ticker": "BHARTIHEXA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 174,
+      "name": "Trent",
+      "ticker": "TRENT",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 175,
+      "name": "LG Electronics",
+      "ticker": "LGEINDIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 176,
+      "name": "Redington",
+      "ticker": "REDINGTON",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 177,
+      "name": "H P C L",
+      "ticker": "HINDPETRO",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 178,
+      "name": "Havells India",
+      "ticker": "HAVELLS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 179,
+      "name": "Premier Energies",
+      "ticker": "PREMIERENE",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 180,
+      "name": "Tata Consumer",
+      "ticker": "TATACONSUM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 181,
+      "name": "Nippon Life Ind.",
+      "ticker": "NAM-INDIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 182,
+      "name": "Shree Cement",
+      "ticker": "SHREECEM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 183,
+      "name": "S C I",
+      "ticker": "SCI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 184,
+      "name": "Godrej Propert.",
+      "ticker": "GODREJPROP",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 185,
+      "name": "Abbott India",
+      "ticker": "ABBOTINDIA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 186,
+      "name": "ICICI Pru Life",
+      "ticker": "ICICIPRULI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 187,
+      "name": "SPARC",
+      "ticker": "SPARC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 188,
+      "name": "Sun TV Network",
+      "ticker": "SUNTV",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 189,
+      "name": "CESC",
+      "ticker": "CESC",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 190,
+      "name": "JSW Infrast",
+      "ticker": "JSWINFRA",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 191,
+      "name": "Multi Comm. Exc.",
+      "ticker": "MCX",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 192,
+      "name": "A B B",
+      "ticker": "ABB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 193,
+      "name": "Siemens Ener.Ind",
+      "ticker": "ENRIN",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 194,
+      "name": "South Ind.Bank",
+      "ticker": "SOUTHBANK",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 195,
+      "name": "Siemens",
+      "ticker": "SIEMENS",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 196,
+      "name": "Max Healthcare",
+      "ticker": "MAXHEALTH",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 197,
+      "name": "Info Edg.(India)",
+      "ticker": "NAUKRI",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 198,
+      "name": "Kalyan Jewellers",
+      "ticker": "KALYANKJIL",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 199,
+      "name": "Manappuram Fin.",
+      "ticker": "MANAPPURAM",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    },
+    {
+      "rank": 200,
+      "name": "T N Merc. Bank",
+      "ticker": "TMB",
+      "exchange": "NSEI",
+      "pat_fy26_cr": null
+    }
+  ]
+}
