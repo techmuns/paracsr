@@ -309,6 +309,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:08:53.448Z",
       "error": null
+    },
+    "LICHSGFIN": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:09:14.023Z",
+      "error": null
     }
   }
 }
