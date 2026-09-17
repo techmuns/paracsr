@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:37:40.992Z",
-  "count": 141,
+  "updated_at": "2026-09-17T14:37:58.059Z",
+  "count": 142,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4331,7 +4331,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 141,
+      "rank": 142,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5091,6 +5091,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:37:20.837Z"
+    },
+    "ACC": {
+      "rank": 141,
+      "name": "ACC Limited",
+      "ticker": "ACC",
+      "exchange": "NSEI",
+      "sector": "Cement & Construction",
+      "sector_detail": "Cement & Cement Products",
+      "is_psu": false,
+      "pat_client_cr": 2137.07,
+      "pat_screener_cr": 2137,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2137,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 44.66,
+      "csr_obligation_cr": 44.64,
+      "csr_required_2pct_cr": 44.64,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Education thrust area under CSR policy focus areas",
+        "Community Health programmes as a core CSR thrust area",
+        "Sustainable Livelihood Development / Skill development (SAKSHAM programme) training 2,955 rural youth across 13 centres in 9 states",
+        "Rural Infrastructure Development project across Kymore, Chanda, Gagal, and Jamul plant locations"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-B (Annual Report on CSR Activities), Section 6(d)/(a)-(c) for spend and Section 5(a)-(e) for obligation; figures already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bb4e40db-6408-4fbf-91a3-7917b4de41aa.pdf",
+        "page": 157
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:37:58.058Z"
     }
   }
 }
