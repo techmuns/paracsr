@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:54:59.849Z",
-  "count": 193,
+  "updated_at": "2026-09-17T14:55:18.573Z",
+  "count": 194,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4939,7 +4939,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 193,
+      "rank": 194,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6952,6 +6952,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:54:58.491Z"
+    },
+    "PIRAMALFIN": {
+      "rank": 193,
+      "name": "Piramal Finance Limited",
+      "ticker": "PIRAMALFIN",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Housing Finance Company",
+      "is_psu": false,
+      "pat_client_cr": 1504.31,
+      "pat_screener_cr": 1506,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1506,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.11,
+      "fy_used": "FY26",
+      "csr_spent_cr": 13.37,
+      "csr_obligation_cr": 11.71,
+      "csr_required_2pct_cr": 11.71,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Piramal School of Leadership - Promoting Education (₹9.27 crore spent)",
+        "Aspirational Bharat Collaborative - Promoting Education & Health (₹2.39 crore spent)",
+        "Digital Bharat Collaborative - Promoting Health (₹1.71 crore spent)",
+        "CSR assets (laptops, mobiles, freezer, AC, etc.) donated to Kaivalya Education Foundation and Piramal Foundation for Education Leadership across schools"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 54 to standalone FS (Amount required ₹11.71cr; spent ₹13.37cr = 0.26 asset creation + 13.11 other purposes). Note: Directors'-report CSR Annexure A shows the standalone entity's own Sec.135 obligation as Nil (post-conversion, negative average net profit), but it clarifies the Company took over erstwhile PEL's CSR budget of ₹13.37cr against obligation of ₹11.71cr post-merger, consistent with Note 54 figures used here.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7e564ec2-ed30-477b-aba4-817b66db7189.pdf",
+        "page": 373
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:55:18.573Z"
     }
   }
 }
