@@ -199,6 +199,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:01:43.024Z",
       "error": null
+    },
+    "SUNPHARMA": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:01:44.296Z",
+      "error": null
     }
   }
 }
