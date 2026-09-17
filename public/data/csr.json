@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:53:02.467Z",
-  "count": 18,
+  "updated_at": "2026-09-17T12:53:18.547Z",
+  "count": 19,
   "companies": {
     "500228": {
       "rank": 18,
@@ -631,6 +631,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:52:41.138Z"
+    },
+    "ITC": {
+      "rank": 19,
+      "name": "ITC Limited",
+      "ticker": "ITC",
+      "exchange": "NSEI",
+      "sector": "Diversified FMCG",
+      "is_psu": false,
+      "pat_client_cr": 20689.47,
+      "pat_screener_cr": 21018,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 21018,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.59,
+      "fy_used": "FY26",
+      "csr_spent_cr": 513.64,
+      "csr_obligation_cr": 513.54,
+      "csr_required_2pct_cr": 513.54,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promoting education and skill development programs",
+        "Promoting healthcare including preventive healthcare initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Consolidated figures from Note 30(xix), page 325-326, FY26 (year ended 31 March 2026); amounts already in INR crores, no conversion needed. Amount spent (513.64) exceeds required 2% amount (513.54), so unspent is 0.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+        "page": 325
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:53:18.546Z"
     }
   }
 }
