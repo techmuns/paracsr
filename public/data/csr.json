@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:53:02.808Z",
-  "count": 187,
+  "updated_at": "2026-09-17T14:53:22.795Z",
+  "count": 188,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500103": {
-      "rank": 181,
+      "rank": 182,
       "name": "Bharat Heavy Electricals Limited",
       "ticker": "500103",
       "exchange": "BSE",
@@ -689,7 +689,7 @@
       "generated_at": "2026-09-17T14:35:23.086Z"
     },
     "500488": {
-      "rank": 184,
+      "rank": 185,
       "name": "Abbott India Limited",
       "ticker": "500488",
       "exchange": "BSE",
@@ -1906,7 +1906,7 @@
       "generated_at": "2026-09-17T14:41:03.909Z"
     },
     "539437": {
-      "rank": 179,
+      "rank": 180,
       "name": "IDFC First Bank Limited",
       "ticker": "539437",
       "exchange": "BSE",
@@ -4869,7 +4869,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 187,
+      "rank": 188,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6491,7 +6491,7 @@
       "generated_at": "2026-09-17T14:49:42.029Z"
     },
     "ICICIPRULI": {
-      "rank": 180,
+      "rank": 181,
       "name": "ICICI Prudential Life Insurance Company Limited",
       "ticker": "ICICIPRULI",
       "exchange": "NSEI",
@@ -6564,7 +6564,7 @@
       "generated_at": "2026-09-17T14:51:15.033Z"
     },
     "JIOFIN": {
-      "rank": 182,
+      "rank": 183,
       "name": "Jio Financial Services Limited",
       "ticker": "JIOFIN",
       "exchange": "NSEI",
@@ -6636,7 +6636,7 @@
       "generated_at": "2026-09-17T14:51:53.119Z"
     },
     "SPARC": {
-      "rank": 183,
+      "rank": 184,
       "name": "Sun Pharma Advanced Research Company Limited",
       "ticker": "SPARC",
       "exchange": "NSEI",
@@ -6668,7 +6668,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 186,
+      "rank": 187,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6703,7 +6703,7 @@
       "generated_at": "2026-09-17T14:52:42.552Z"
     },
     "TATACONSUM": {
-      "rank": 185,
+      "rank": 186,
       "name": "Tata Consumer Products Limited",
       "ticker": "TATACONSUM",
       "exchange": "NSEI",
@@ -6738,6 +6738,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:53:01.452Z"
+    },
+    "CESC": {
+      "rank": 179,
+      "name": "CESC Limited",
+      "ticker": "CESC",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Integrated Power Utilities",
+      "is_psu": false,
+      "pat_client_cr": 1542,
+      "pat_screener_cr": 1618,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1618,
+      "pat_mismatch": false,
+      "pat_delta_pct": 4.93,
+      "fy_used": "FY26",
+      "csr_spent_cr": 19.57,
+      "csr_obligation_cr": 19.41,
+      "csr_required_2pct_cr": 19.41,
+      "csr_unspent_cr": 16,
+      "health_or_education": true,
+      "examples": [
+        "Eklavya – CESC Skill Academy: skill development/vocational training centres at 14 locations in and around Kolkata (₹1.37 crore spent in FY24-25) covering courses like Electrical & Electronics Appliances Technician, Facility Management, Retail Sales Associate etc.",
+        "CSR focus areas include Health care and Education & Community Development and Skill Development among other areas (Art & Heritage, Environmental Sustainability, Sports)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 'D' to Board's Report (Annual Report on CSR Activities), FY2025-26; amounts already in INR crore as reported. Total spent = ₹19.51cr (projects) + ₹0.06cr (admin overheads) = ₹19.57cr; ₹3.57cr spent directly, ₹16.00cr transferred to Unspent CSR Account (April 28, 2026).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7e90107a-62a4-44da-a82d-ef070e9b4203.pdf",
+        "page": 85
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:53:22.794Z"
     }
   }
 }
