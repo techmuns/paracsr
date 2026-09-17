@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:51:11.108Z",
-  "count": 12,
+  "updated_at": "2026-09-17T12:51:26.219Z",
+  "count": 13,
   "companies": {
     "500570": {
       "rank": 3,
@@ -425,6 +425,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:51:10.015Z"
+    },
+    "NTPC": {
+      "rank": 13,
+      "name": "NTPC Limited",
+      "ticker": "NTPC",
+      "exchange": "NSEI",
+      "sector": "Power Generation",
+      "is_psu": true,
+      "pat_client_cr": 27052.52,
+      "pat_screener_cr": 27546,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 27546,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.82,
+      "fy_used": "FY26",
+      "csr_spent_cr": 459.33,
+      "csr_obligation_cr": 344.33,
+      "csr_required_2pct_cr": 344.33,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Eradicating Hunger and Poverty, Health Care, Sanitation & Drinking Water spend of ₹172.98 crore",
+        "Education and Skill Development spend of ₹88.27 crore",
+        "Contribution to public funded universities of ₹17.10 crore"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Financial Statements, CSR note (page 172), FY ended 31 March 2026; amounts already in ₹ crore, no conversion needed. Total CSR obligation for the year (after set-off) is ₹344.33 crore; actual spend ₹459.33 crore exceeds obligation, so unspent is nil (excess carried forward ₹115.00 crore).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/dbc69766-f1e1-4ecc-9fa9-7599477167db.pdf",
+        "page": 172
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:51:26.219Z"
     }
   }
 }
