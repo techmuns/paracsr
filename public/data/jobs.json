@@ -874,6 +874,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:49:23.800Z",
       "error": null
+    },
+    "ADANIGREEN": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:49:25.006Z",
+      "error": null
     }
   }
 }
