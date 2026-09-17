@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:11:11.949Z",
-  "count": 68,
+  "updated_at": "2026-09-17T14:11:30.675Z",
+  "count": 69,
   "companies": {
     "500049": {
       "rank": 60,
@@ -180,6 +180,43 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:54:10.399Z",
       "sector_detail": "Private Sector Bank"
+    },
+    "500257": {
+      "rank": 69,
+      "name": "Lupin Limited",
+      "ticker": "500257",
+      "exchange": "BSE",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 5332.84,
+      "pat_screener_cr": 5355,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5355,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.42,
+      "fy_used": "FY26",
+      "csr_spent_cr": 36.3,
+      "csr_obligation_cr": 54.77,
+      "csr_required_2pct_cr": 54.77,
+      "csr_unspent_cr": 18.47,
+      "health_or_education": true,
+      "examples": [
+        "Mobile Medical Van (Lives Project) providing free doctor consultations and doorstep healthcare to reduce out-of-pocket expenses",
+        "Learn & Earn Programme providing pharmaceutical manufacturing skill training with 'earn while you learn' stipends for disadvantaged youth",
+        "Establishing a world-class pharmaceutical training institute (PAGE Foundation) with land acquired in Ahmedabad, estimated project cost ~₹200 crore",
+        "Livelihoods Project covering agriculture, dairy, livestock, and skill development interventions"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annexure D (Board's Report CSR annual report) and Note 52 to Standalone Financial Statements, FY26 (year ended 31.03.2026); figures converted from ₹ million to ₹ crore (÷10). Total CSR obligation = 2% avg net profit = ₹547.7mn = ₹54.77 cr; total amount spent (incl. admin overhead & impact assessment) = ₹363.0mn = ₹36.30 cr; unspent transferred to unspent CSR account = ₹184.7mn = ₹18.47 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8fb3dcd7-7042-4c3c-9e52-a3966a5c110d.pdf",
+        "page": 484
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:11:30.674Z"
     },
     "500440": {
       "rank": 37,
