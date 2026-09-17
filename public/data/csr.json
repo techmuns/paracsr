@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:37:59.479Z",
-  "count": 142,
+  "updated_at": "2026-09-17T14:38:16.316Z",
+  "count": 143,
   "companies": {
     "500049": {
       "rank": 61,
@@ -398,7 +398,7 @@
       "generated_at": "2026-09-17T14:20:58.249Z"
     },
     "500420": {
-      "rank": 140,
+      "rank": 141,
       "name": "Torrent Pharmaceuticals Limited",
       "ticker": "500420",
       "exchange": "BSE",
@@ -833,6 +833,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:22:53.883Z"
+    },
+    "500850": {
+      "rank": 138,
+      "name": "The Indian Hotels Company Limited",
+      "ticker": "500850",
+      "exchange": "BSE",
+      "sector": "Consumer & Retail",
+      "sector_detail": "Hotels & Resorts",
+      "is_psu": false,
+      "pat_client_cr": 2084.38,
+      "pat_screener_cr": 2247,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2247,
+      "pat_mismatch": true,
+      "pat_delta_pct": 7.8,
+      "fy_used": "FY26",
+      "csr_spent_cr": 30.77,
+      "csr_obligation_cr": 30.72,
+      "csr_required_2pct_cr": 30.72,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Skill Building programmes benefiting 21,097 persons (skilling/vocational training)",
+        "Entrepreneurship Support projects benefiting 800 persons",
+        "Local Initiatives Support and Heritage Support projects in aspirational districts (e.g., Baramulla, Kupwara, Haridwar)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 26 (Standalone Financial Statements) footnote (i) and Annexure I (Annual Report on CSR Activities) for FY2025-26; amounts already in INR crore, no conversion needed. CSR spend categorized as Skill Building, Sustainability, Heritage, Entrepreneurship, Local Initiatives - skilling qualifies as education-related; no explicit healthcare/hospital spend line found in this excerpt though company separately acquired a wellness resort (unrelated to CSR).\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d58afeb7-2026-4d97-aa3e-a5bd6ab58d7f.pdf",
+        "page": 204
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:38:16.316Z"
     },
     "505200": {
       "rank": 67,
@@ -4331,7 +4367,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 142,
+      "rank": 143,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4514,7 +4550,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 138,
+      "rank": 139,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -5056,7 +5092,7 @@
       "generated_at": "2026-09-17T14:36:40.067Z"
     },
     "SBICARD": {
-      "rank": 139,
+      "rank": 140,
       "name": "SBI Cards and Payment Services Limited",
       "ticker": "SBICARD",
       "exchange": "NSEI",
@@ -5093,7 +5129,7 @@
       "generated_at": "2026-09-17T14:37:20.837Z"
     },
     "ACC": {
-      "rank": 141,
+      "rank": 142,
       "name": "ACC Limited",
       "ticker": "ACC",
       "exchange": "NSEI",
