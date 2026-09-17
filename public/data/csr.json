@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:04:32.245Z",
-  "count": 48,
+  "updated_at": "2026-09-17T14:04:48.245Z",
+  "count": 49,
   "companies": {
     "500188": {
       "rank": 36,
@@ -181,6 +181,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:02:22.609Z"
+    },
+    "500490": {
+      "rank": 48,
+      "name": "Bajaj Holdings & Investment Limited",
+      "ticker": "500490",
+      "exchange": "BSE",
+      "sector": "Financial Services",
+      "sector_detail": "Holding Company",
+      "is_psu": false,
+      "pat_client_cr": 9636.75,
+      "pat_screener_cr": 9789,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 9789,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.58,
+      "fy_used": "FY26",
+      "csr_spent_cr": 27.07,
+      "csr_obligation_cr": 42.57,
+      "csr_required_2pct_cr": 42.57,
+      "csr_unspent_cr": 15.55,
+      "health_or_education": true,
+      "examples": [
+        "CSR focus areas include child education, child health and youth skilling initiatives",
+        "Group's 'Bajaj Beyond' pledge of ₹5,000 crore over five years covers education, health and protection interventions for children",
+        "Inclusion programs for Persons with Disabilities (PwDs)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 22 (Other expenses) - Expenditure towards CSR activities table, standalone financial statements FY2026; corroborated by Directors' Report CSR annexure (Section 6-7) and narrative text on page 31. Amounts in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/518f3118-1e3f-4950-9c5f-522427c796c7.pdf",
+        "page": 155
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:04:48.245Z"
     },
     "500510": {
       "rank": 27,
@@ -1695,7 +1731,7 @@
       "generated_at": "2026-09-17T14:04:07.567Z"
     },
     "GICRE": {
-      "rank": 48,
+      "rank": 49,
       "name": "General Insurance Corporation of India",
       "ticker": "GICRE",
       "exchange": "NSEI",
