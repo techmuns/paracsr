@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:56:55.033Z",
-  "count": 199,
+  "updated_at": "2026-09-17T14:57:13.663Z",
+  "count": 200,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500103": {
-      "rank": 183,
+      "rank": 184,
       "name": "Bharat Heavy Electricals Limited",
       "ticker": "500103",
       "exchange": "BSE",
@@ -221,7 +221,7 @@
       "generated_at": "2026-09-17T14:16:03.811Z"
     },
     "500163": {
-      "rank": 191,
+      "rank": 192,
       "name": "Godfrey Phillips India Limited",
       "ticker": "500163",
       "exchange": "BSE",
@@ -724,7 +724,7 @@
       "generated_at": "2026-09-17T14:35:23.086Z"
     },
     "500488": {
-      "rank": 186,
+      "rank": 187,
       "name": "Abbott India Limited",
       "ticker": "500488",
       "exchange": "BSE",
@@ -1161,7 +1161,7 @@
       "generated_at": "2026-09-17T14:10:09.731Z"
     },
     "506480": {
-      "rank": 192,
+      "rank": 193,
       "name": "GOCL Corporation Limited",
       "ticker": "506480",
       "exchange": "BSE",
@@ -1631,7 +1631,7 @@
       "generated_at": "2026-09-17T14:47:04.928Z"
     },
     "532144": {
-      "rank": 179,
+      "rank": 180,
       "name": "Welspun Corp Limited",
       "ticker": "532144",
       "exchange": "BSE",
@@ -1976,7 +1976,7 @@
       "generated_at": "2026-09-17T14:41:03.909Z"
     },
     "539437": {
-      "rank": 181,
+      "rank": 182,
       "name": "IDFC First Bank Limited",
       "ticker": "539437",
       "exchange": "BSE",
@@ -2012,7 +2012,7 @@
       "generated_at": "2026-09-17T14:50:15.840Z"
     },
     "543220": {
-      "rank": 196,
+      "rank": 197,
       "name": "Max Healthcare Institute Limited",
       "ticker": "543220",
       "exchange": "BSE",
@@ -4976,7 +4976,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 199,
+      "rank": 200,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6598,7 +6598,7 @@
       "generated_at": "2026-09-17T14:49:42.029Z"
     },
     "ICICIPRULI": {
-      "rank": 182,
+      "rank": 183,
       "name": "ICICI Prudential Life Insurance Company Limited",
       "ticker": "ICICIPRULI",
       "exchange": "NSEI",
@@ -6671,7 +6671,7 @@
       "generated_at": "2026-09-17T14:51:15.033Z"
     },
     "JIOFIN": {
-      "rank": 184,
+      "rank": 185,
       "name": "Jio Financial Services Limited",
       "ticker": "JIOFIN",
       "exchange": "NSEI",
@@ -6743,7 +6743,7 @@
       "generated_at": "2026-09-17T14:51:53.119Z"
     },
     "SPARC": {
-      "rank": 185,
+      "rank": 186,
       "name": "Sun Pharma Advanced Research Company Limited",
       "ticker": "SPARC",
       "exchange": "NSEI",
@@ -6775,7 +6775,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 189,
+      "rank": 190,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6810,7 +6810,7 @@
       "generated_at": "2026-09-17T14:52:42.552Z"
     },
     "TATACONSUM": {
-      "rank": 187,
+      "rank": 188,
       "name": "Tata Consumer Products Limited",
       "ticker": "TATACONSUM",
       "exchange": "NSEI",
@@ -6847,7 +6847,7 @@
       "generated_at": "2026-09-17T14:53:01.452Z"
     },
     "CESC": {
-      "rank": 180,
+      "rank": 181,
       "name": "CESC Limited",
       "ticker": "CESC",
       "exchange": "NSEI",
@@ -6882,7 +6882,7 @@
       "generated_at": "2026-09-17T14:53:22.794Z"
     },
     "NAM-INDIA": {
-      "rank": 190,
+      "rank": 191,
       "name": "Nippon Life India Asset Management Limited",
       "ticker": "NAM-INDIA",
       "exchange": "NSEI",
@@ -6919,7 +6919,7 @@
       "generated_at": "2026-09-17T14:53:42.863Z"
     },
     "JSWINFRA": {
-      "rank": 188,
+      "rank": 189,
       "name": "JSW Infrastructure Limited",
       "ticker": "JSWINFRA",
       "exchange": "NSEI",
@@ -6955,7 +6955,7 @@
       "generated_at": "2026-09-17T14:54:21.961Z"
     },
     "PREMIERENE": {
-      "rank": 193,
+      "rank": 194,
       "name": "Premier Energies Limited",
       "ticker": "PREMIERENE",
       "exchange": "NSEI",
@@ -6991,7 +6991,7 @@
       "generated_at": "2026-09-17T14:54:58.491Z"
     },
     "PIRAMALFIN": {
-      "rank": 194,
+      "rank": 195,
       "name": "Piramal Finance Limited",
       "ticker": "PIRAMALFIN",
       "exchange": "NSEI",
@@ -7028,7 +7028,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 198,
+      "rank": 199,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
@@ -7062,7 +7062,7 @@
       "generated_at": "2026-09-17T14:55:37.151Z"
     },
     "SOUTHBANK": {
-      "rank": 195,
+      "rank": 196,
       "name": "The South Indian Bank Limited",
       "ticker": "SOUTHBANK",
       "exchange": "NSEI",
@@ -7136,7 +7136,7 @@
       "generated_at": "2026-09-17T14:56:14.455Z"
     },
     "SUNTV": {
-      "rank": 197,
+      "rank": 198,
       "name": "Sun TV Network Limited",
       "ticker": "SUNTV",
       "exchange": "NSEI",
@@ -7171,6 +7171,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:56:53.656Z"
+    },
+    "DIXON": {
+      "rank": 179,
+      "name": "Dixon Technologies (India) Limited",
+      "ticker": "DIXON",
+      "exchange": "NSEI",
+      "sector": "Consumer & Retail",
+      "sector_detail": "Consumer Electronics",
+      "is_psu": false,
+      "pat_client_cr": 1438.64,
+      "pat_screener_cr": 1644,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1644,
+      "pat_mismatch": true,
+      "pat_delta_pct": 14.27,
+      "fy_used": "FY26",
+      "csr_spent_cr": 4.9,
+      "csr_obligation_cr": 4.9,
+      "csr_required_2pct_cr": 4.9,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Purkal Youth Development Society - promotes education/skill development for underprivileged youth",
+        "Saint Hardayal Educational and Orphans Welfare Society (SHEOWS) - orphan care and welfare",
+        "Reimagining Higher Education Foundation - higher education support (₹2.60 crore)",
+        "Latika Roy Memorial Foundation - support for children with disabilities/special education"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financials Note 47 (CSR) and CSR Annexure-IV (Board's Report), FY26 (year ended 31 Mar 2026); amounts converted from ₹ Lakhs to crore (₹490 Lakhs = ₹4.90 crore). Consolidated figure was ₹16.76 crore (₹1,676 Lakhs) but standalone used per instructions default.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf",
+        "page": 381
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:57:13.663Z"
     }
   }
 }
