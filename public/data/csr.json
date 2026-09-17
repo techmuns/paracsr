@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:50:52.370Z",
-  "count": 11,
+  "updated_at": "2026-09-17T12:51:10.016Z",
+  "count": 12,
   "companies": {
     "500570": {
       "rank": 3,
@@ -389,6 +389,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:50:51.314Z"
+    },
+    "INFY": {
+      "rank": 12,
+      "name": "Infosys Limited",
+      "ticker": "INFY",
+      "exchange": "NSEI",
+      "sector": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 31064.85,
+      "pat_screener_cr": 29474,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 29474,
+      "pat_mismatch": true,
+      "pat_delta_pct": -5.12,
+      "fy_used": "FY26",
+      "csr_spent_cr": 558.44,
+      "csr_obligation_cr": 577.36,
+      "csr_required_2pct_cr": 576.96,
+      "csr_unspent_cr": 19,
+      "health_or_education": true,
+      "examples": [
+        "Provided medical equipment and software system for Universal Cornea Care Mission at Hyderabad Eye Institute (₹21.08 crore)",
+        "Provided medical equipment to Post Graduate Institute of Medical Education & Research (PGIMER) (₹51.45 crore cumulative)",
+        "Constructed skill development training center with hostel rooms, classrooms, labs and workshop rooms (₹10.31 crore cumulative)",
+        "Constructed a girls' hostel in Pune at Shrimad Rajchandra Aatma Tatva Research Center (₹9 crore cumulative)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annexure 6 CSR report (page 66-68) and Note 2.25 to standalone financial statements (page 274), FY ended March 31, 2026; figures already in ₹ crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+        "page": 106
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:51:10.015Z"
     }
   }
 }
