@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:52:02.590Z",
-  "count": 15,
+  "updated_at": "2026-09-17T12:52:22.736Z",
+  "count": 16,
   "companies": {
     "500570": {
       "rank": 3,
@@ -39,7 +39,7 @@
       "generated_at": "2026-09-17T12:48:05.645Z"
     },
     "532215": {
-      "rank": 15,
+      "rank": 16,
       "name": "Axis Bank Limited",
       "ticker": "532215",
       "exchange": "BSE",
@@ -426,7 +426,7 @@
       "generated_at": "2026-09-17T12:50:36.380Z"
     },
     "COALINDIA": {
-      "rank": 12,
+      "rank": 13,
       "name": "Coal India Limited",
       "ticker": "COALINDIA",
       "exchange": "NSEI",
@@ -457,7 +457,7 @@
       "generated_at": "2026-09-17T12:50:51.314Z"
     },
     "INFY": {
-      "rank": 13,
+      "rank": 14,
       "name": "Infosys Limited",
       "ticker": "INFY",
       "exchange": "NSEI",
@@ -493,7 +493,7 @@
       "generated_at": "2026-09-17T12:51:10.015Z"
     },
     "NTPC": {
-      "rank": 14,
+      "rank": 15,
       "name": "NTPC Limited",
       "ticker": "NTPC",
       "exchange": "NSEI",
@@ -526,6 +526,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:51:26.219Z"
+    },
+    "PFC": {
+      "rank": 12,
+      "name": "Power Finance Corporation Limited",
+      "ticker": "PFC",
+      "exchange": "NSEI",
+      "sector": "Financial Institution",
+      "is_psu": true,
+      "pat_client_cr": 25900.95,
+      "pat_screener_cr": 33625,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 33625,
+      "pat_mismatch": true,
+      "pat_delta_pct": 29.82,
+      "fy_used": "FY26",
+      "csr_spent_cr": 306.84,
+      "csr_obligation_cr": 306.37,
+      "csr_required_2pct_cr": 306.37,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Education/Vocational Skill development projects - ₹4.47 crore spent in FY26",
+        "Various projects supporting research, training, solar power, sanitation, skill development, Health care etc. (ongoing multi-year projects)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 35 (Standalone Financial Statements) & Annexure (CSR Annual Report). FY2025-26: 2% requirement ₹306.37 cr; Total amount spent for the year ₹306.84 cr (per AOC/CSR annexure set-off table, includes ₹253.51 cr transferred to Unspent CSR Account for ongoing projects) — excess spend of ₹0.47 cr over requirement, so unspent shown as 0 (fully met via set-off mechanism); Note 35.1 also shows a separate \"Amount spent during the year\" line of ₹57.55 cr (cash outflow basis) with large closing unspent balance of ₹286.56 cr — used the AOC-2/CSR Annexure figures as the definitive Section 135(5)/(6) compliance figures. Health care mentioned as one of the ongoing project categories; explicit sector-wise spend shows Education/Vocational Skill development ₹4.47 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/96c4b4c2-f627-483c-a532-551cc0ace50b.pdf",
+        "page": 374
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:52:22.736Z"
     }
   }
 }
