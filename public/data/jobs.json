@@ -609,6 +609,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:31:54.741Z",
       "error": null
+    },
+    "HDBFS": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:31:55.817Z",
+      "error": null
     }
   }
 }
