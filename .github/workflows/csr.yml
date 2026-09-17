@@ -7,7 +7,7 @@ on:
       limit:  { description: "Max companies this run", required: false, type: string, default: "70" }
       force:  { description: "Re-do companies already done", required: false, type: boolean, default: false }
   schedule:
-    - cron: "0 22 * * 0"          # Sundays ~03:30 IST — refresh stale + fill any gaps
+    - cron: "0 22 1,15 * *"       # 1st & 15th ~03:30 IST — twice-monthly (~15-day) refresh
     # - cron: "0 2 1 8 *"         # ~Aug 1, refresh the universe (enable after validating mode=universe)
 permissions:
   contents: write
@@ -54,8 +54,10 @@ jobs:
           LIMIT:  ${{ github.event.inputs.limit }}
           FORCE:  ${{ github.event.inputs.force == 'true' && '1' || '' }}
           REFRESH: ${{ github.event_name == 'schedule' && '1' || '' }}
-          REFRESH_DAYS: "90"
-          MAX_PER_RUN: "60"
+          # A refresh only re-reads a report when its URL changed, so a full sweep of
+          # all ~200 costs almost nothing — it checks everyone every run and re-reads
+          # only the handful with a fresh annual report.
+          MAX_PER_RUN: "220"
           TARGET_BRANCH: ${{ github.ref_name }}
         run: |
           if [ "$MODE" = "universe" ]; then
