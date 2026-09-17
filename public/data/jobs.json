@@ -854,6 +854,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:47:40.831Z",
       "error": null
+    },
+    "HAVELLS": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:48:13.476Z",
+      "error": null
     }
   }
 }
