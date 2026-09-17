@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:30:03.969Z",
-  "count": 116,
+  "updated_at": "2026-09-17T14:30:26.092Z",
+  "count": 117,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4183,6 +4183,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:30:02.341Z"
+    },
+    "AUBANK": {
+      "rank": 117,
+      "name": "AU Small Finance Bank Limited",
+      "ticker": "AUBANK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Other Bank",
+      "is_psu": false,
+      "pat_client_cr": 2641.25,
+      "pat_screener_cr": 762,
+      "pat_screener_fy": "FY17",
+      "pat_basis": "consolidated",
+      "pat_cr": 762,
+      "pat_mismatch": true,
+      "pat_delta_pct": -71.15,
+      "fy_used": "FY26",
+      "csr_spent_cr": 35.39,
+      "csr_obligation_cr": 49.5,
+      "csr_required_2pct_cr": 44.35,
+      "csr_unspent_cr": 14.11,
+      "health_or_education": true,
+      "examples": [
+        "AU Ignite – Education & Skills Development programme",
+        "Bano Champion – sports development initiative integrating structured play/training in schools, with impact assessment across nine Rajasthan districts",
+        "AU Udyogini – Women Empowerment initiative",
+        "Healthcare initiatives alongside Green initiative, Art & Culture and Jal Bank programmes"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 5 (Schedule 18, notes to financial statements) states Amount spent during year = ₹35.39 cr (incl. ₹3.60 cr asset acquisition + ₹31.79 cr other projects); Board Report Annexure CSR section gives obligation ₹44.35 cr (2% avg net profit) plus additional ₹0.65 cr board-approved budget = total obligation/gross amount required ₹45 cr (financial-statement note shows ₹49.50 cr incl. prior year deficit); total amount spent per Annexure ₹30.89 cr (incl admin overheads/impact assessment) vs ₹35.39 cr per FS note (difference due to capex classification treatment across years); unspent ₹14.11 cr transferred to Unspent CSR Account FY25-26; all figures already in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/eb30e818-86e4-4b67-a119-bd7044a02b22.pdf",
+        "page": 354
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:30:26.092Z"
     }
   }
 }
