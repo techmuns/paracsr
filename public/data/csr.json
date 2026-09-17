@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:32:12.905Z",
-  "count": 123,
+  "updated_at": "2026-09-17T14:32:30.243Z",
+  "count": 124,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 121,
+      "rank": 122,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 123,
+      "rank": 124,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 122,
+      "rank": 123,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4437,6 +4437,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:32:11.701Z"
+    },
+    "BRITANNIA": {
+      "rank": 121,
+      "name": "Britannia Industries Limited",
+      "ticker": "BRITANNIA",
+      "exchange": "NSEI",
+      "sector": "FMCG",
+      "sector_detail": "Packaged Foods",
+      "is_psu": false,
+      "pat_client_cr": 2533.49,
+      "pat_screener_cr": 2537,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2537,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.14,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0,
+      "csr_obligation_cr": 54.79,
+      "csr_required_2pct_cr": 54.79,
+      "csr_unspent_cr": 54.51,
+      "health_or_education": true,
+      "examples": [
+        "Health & Nutrition and Community Rehabilitation programs",
+        "Promoting Education and Growth and Development of Children",
+        "Preventive healthcare for women and community development",
+        "Rural development initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 45 (also mirrored in Consolidated Note 44), FY26: 'Amount of expenditure incurred' shown as '-' (nil) vs FY25 ₹50.44 cr; obligation ₹54.79 cr; shortfall ₹54.51 cr transferred to Unspent CSR Account per Sec 135(6). Amounts already in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d92eccd5-0a82-4722-a751-da1d0998a0b8.pdf",
+        "page": 120
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:32:30.242Z"
     }
   }
 }
