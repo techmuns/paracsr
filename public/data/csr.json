@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:07:53.439Z",
-  "count": 58,
+  "updated_at": "2026-09-17T14:08:17.663Z",
+  "count": 59,
   "companies": {
     "500188": {
       "rank": 36,
@@ -436,7 +436,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "526371": {
-      "rank": 55,
+      "rank": 56,
       "name": "NMDC Limited",
       "ticker": "526371",
       "exchange": "BSE",
@@ -1983,7 +1983,7 @@
       "generated_at": "2026-09-17T14:06:36.206Z"
     },
     "INDUSTOWER": {
-      "rank": 56,
+      "rank": 57,
       "name": "Indus Towers Limited",
       "ticker": "INDUSTOWER",
       "exchange": "NSEI",
@@ -2019,7 +2019,7 @@
       "generated_at": "2026-09-17T14:07:16.412Z"
     },
     "MAHABANK": {
-      "rank": 57,
+      "rank": 58,
       "name": "Bank of Maharashtra",
       "ticker": "MAHABANK",
       "exchange": "NSEI",
@@ -2055,7 +2055,7 @@
       "generated_at": "2026-09-17T14:07:33.749Z"
     },
     "IRFC": {
-      "rank": 58,
+      "rank": 59,
       "name": "Indian Railway Finance Corporation Limited",
       "ticker": "IRFC",
       "exchange": "NSEI",
@@ -2089,6 +2089,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:07:52.134Z"
+    },
+    "OIL": {
+      "rank": 55,
+      "name": "Oil India Limited",
+      "ticker": "OIL",
+      "exchange": "NSEI",
+      "sector": "Oil & Gas",
+      "sector_detail": "Oil Exploration & Production",
+      "is_psu": true,
+      "pat_client_cr": 6619.94,
+      "pat_screener_cr": 7551,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 7551,
+      "pat_mismatch": true,
+      "pat_delta_pct": 14.06,
+      "fy_used": "FY26",
+      "csr_spent_cr": 144.59,
+      "csr_obligation_cr": 137.51,
+      "csr_required_2pct_cr": 137.51,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend on healthcare and education initiatives as part of broader activities",
+        "Third-party impact assessment of 24 CSR projects covering education, healthcare, skill development, sustainable livelihoods and women empowerment, impacting over 1.96 lakh beneficiaries",
+        "Nature of CSR activities includes Healthcare and Education among focus areas (Skill Development, Rural Infrastructure, Environment, Sports, Art & Culture, Swachh Bharat Abhiyaan)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financial statements Note 40.3 (page 302-303) and Board's Report CSR Annexure (page 178-179); figures already in INR crore, no conversion needed. Note: Consolidated figures (Note 45.3) differ - CSR spent ₹221.04 cr on obligation of ₹204.60 cr; standalone figures used here as primary company-level disclosure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ca090c8-e109-41af-883a-496c2bb503c5.pdf",
+        "page": 302
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:08:17.663Z"
     }
   }
 }
