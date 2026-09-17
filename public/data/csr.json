@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:08:38.339Z",
-  "count": 60,
+  "updated_at": "2026-09-17T14:08:53.448Z",
+  "count": 61,
   "companies": {
     "500049": {
       "rank": 60,
@@ -2160,6 +2160,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:17.663Z"
+    },
+    "NATIONALUM": {
+      "rank": 61,
+      "name": "National Aluminium Company Limited",
+      "ticker": "NATIONALUM",
+      "exchange": "NSEI",
+      "sector": "Metals & Mining",
+      "sector_detail": "Aluminium",
+      "is_psu": true,
+      "pat_client_cr": 5797.01,
+      "pat_screener_cr": 5797,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5797,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 80.77,
+      "csr_obligation_cr": 79.13,
+      "csr_required_2pct_cr": 79.13,
+      "csr_unspent_cr": 16.87,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 34.1 (Standalone/Consolidated FS) & Annexure-I CSR Annual Report FY2025-26: 2% obligation ₹79.13cr; total spent ₹80.77cr (₹63.90cr spent + ₹16.87cr unspent on ongoing projects); no health/education project descriptions found in excerpts provided.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3fcd63bd-65fc-40a3-85b1-d9ab0633fe59.pdf",
+        "page": 253
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:08:53.448Z"
     }
   }
 }
