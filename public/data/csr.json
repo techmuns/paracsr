@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:39:11.320Z",
-  "count": 146,
+  "updated_at": "2026-09-17T14:39:30.089Z",
+  "count": 147,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4399,7 +4399,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 146,
+      "rank": 147,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5266,6 +5266,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:38:54.141Z"
+    },
+    "GUJENERGY": {
+      "rank": 146,
+      "name": "Gujarat Energy Limited",
+      "ticker": "GUJENERGY",
+      "exchange": "NSEI",
+      "sector": "Oil & Gas",
+      "sector_detail": "LPG/CNG/PNG/LNG Supplier",
+      "is_psu": false,
+      "pat_client_cr": 2018.91,
+      "pat_screener_cr": 1678,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1678,
+      "pat_mismatch": true,
+      "pat_delta_pct": -16.89,
+      "fy_used": "FY26",
+      "csr_spent_cr": 12.21,
+      "csr_obligation_cr": 65.17,
+      "csr_required_2pct_cr": 65.36,
+      "csr_unspent_cr": 53.01,
+      "health_or_education": true,
+      "examples": [
+        "Setting up of Cardiac OTs, Paediatric Cardiac OTs and allied infrastructure (Healthcare) - ₹2.06 crore",
+        "Contribution to provide free/subsidised treatment to needy with advanced medical equipment - ₹0.50 crore",
+        "Skill Development training (Computer Hardware, Graphic Designing, Digital Marketing) - ₹0.17 crore",
+        "Construction & Development of Anganwadis in various districts of Gujarat (Education) - ₹22.48 crore (ongoing project)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 56, Standalone FS FY26; figures already in ₹ crore. csr_spent_cr = 'Amount spent during the year (Paid in Cash)' current-year row (12.21 cr); note gross obligation (Note 56 pt.1) 65.36 cr vs net obligation after set-off (pt.5e in Annexure) 65.17 cr, and shortfall 53.01 cr. Total incl. ongoing prior-year project spend was 55.79+12.21=67.99 cr per Annexure IIIA.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6ee741c-57d8-467f-9084-b8ac79df6e09.pdf",
+        "page": 257
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:39:30.089Z"
     }
   }
 }
