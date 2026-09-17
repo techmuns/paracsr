@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="header-right">
-        <div class="live-pill"><span class="dot"></span><span id="live-count">— of 200 companies</span> · FY26</div>
+        <div class="live-pill"><span class="dot"></span><span id="live-count">— of 200 companies</span> · <span id="fy-label">FY26</span></div>
         <button class="btn pdf" id="btn-pdf" title="Export current table to PDF"><i data-lucide="file-text"></i><span>PDF</span></button>
         <button class="btn excel" id="btn-excel" title="Export current table to Excel"><i data-lucide="sheet"></i><span>Excel</span></button>
       </div>
@@ -76,9 +76,10 @@
       <!-- ① BIG PICTURE -->
       <section class="panel active" data-panel="big">
         <div class="grid stat-row" id="stat-tiles"></div>
+        <div id="fy-summary" class="fy-summary"></div>
         <div class="grid big-picture" style="margin-top:16px">
           <div class="card chart-card">
-            <div class="card-title"><i data-lucide="bar-chart-3"></i>Top 15 CSR Spenders <span class="sub">₹ crore · FY26</span></div>
+            <div class="card-title"><i data-lucide="bar-chart-3"></i>Top 15 CSR Spenders <span class="sub">₹ crore</span></div>
             <div class="chart" id="chart-top" style="height:322px"></div>
           </div>
         </div>
@@ -150,8 +151,8 @@
           </span>
         </div>
         <div class="card chart-card">
-          <div class="card-title"><i data-lucide="scale"></i>Spent vs required by law (2%) <span class="sub">difference in ₹ crore · green = spent more, amber = spent less</span></div>
-          <div class="chart" id="chart-rule" style="height:420px"></div>
+          <div class="card-title"><i data-lucide="scale"></i>Spent vs required by law (2%) <span class="sub">15 biggest over- &amp; under-spenders · green = more, amber = less · hover for figures · full list in Company Explorer</span></div>
+          <div class="chart" id="chart-rule" style="height:452px"></div>
         </div>
       </section>
 

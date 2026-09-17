@@ -8,7 +8,9 @@ export const state = {
 };
 
 async function getJSON(url) {
-  const res = await fetch(url, { cache: "no-store" });
+  // Cache-bust so a CDN/edge-cached older copy never shows a stale count after a refresh.
+  const bust = (url.includes("?") ? "&" : "?") + "v=" + Date.now();
+  const res = await fetch(url + bust, { cache: "no-store" });
   if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
   return res.json();
 }
@@ -35,6 +37,13 @@ export const requiredOf = (r) => (isNum(r.csr_required_2pct_cr) ? r.csr_required
 
 export function distinctSectors(records = state.records) {
   return [...new Set(records.map((r) => r.sector).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
+// How many records came from the FY26 report vs the FY25 fallback.
+export function fyBreakdown(records = state.records) {
+  const b = { FY26: 0, FY25: 0, unknown: 0 };
+  records.forEach((r) => { b[r.fy_used === "FY26" ? "FY26" : r.fy_used === "FY25" ? "FY25" : "unknown"]++; });
+  return b;
 }
 
 /* ----------------------------------------------------- filter pipeline */
