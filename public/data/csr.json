@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:27:18.543Z",
-  "count": 107,
+  "updated_at": "2026-09-17T14:27:34.175Z",
+  "count": 108,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3679,7 +3679,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 107,
+      "rank": 108,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3858,6 +3858,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:27:17.384Z"
+    },
+    "DMART": {
+      "rank": 107,
+      "name": "Avenue Supermarts Limited",
+      "ticker": "DMART",
+      "exchange": "NSEI",
+      "sector": "Consumer & Retail",
+      "sector_detail": "Diversified Retail",
+      "is_psu": false,
+      "pat_client_cr": 2970.49,
+      "pat_screener_cr": 2970,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2970,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 53.63,
+      "csr_obligation_cr": 72.33,
+      "csr_required_2pct_cr": 72.33,
+      "csr_unspent_cr": 18.7,
+      "health_or_education": true,
+      "examples": [
+        "Tata Trusts Assam Cancer Care Foundation - Comprehensive Patient Support in Cancer Care initiative (₹4.07 crore) covering screening, financial support and counselling for cancer patients in Barpeta and Dibrugarh districts, Assam",
+        "Water resource development and healthcare focused multi-year CSR projects",
+        "ASHA workers conducted 5,07,426 door-to-door cancer screenings under the healthcare CSR programme"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 37 & Directors' Report CSR Annexure (Section 135(5)); figures already in ₹ crore, no conversion needed; FY26 standalone figures used (spent 53.63 cr, obligation 72.33 cr, unspent 18.70 cr).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+        "page": 174
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:27:34.175Z"
     }
   }
 }
