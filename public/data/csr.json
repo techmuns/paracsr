@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:34:50.932Z",
-  "count": 132,
+  "updated_at": "2026-09-17T14:35:06.986Z",
+  "count": 133,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 132,
+      "rank": 133,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 131,
+      "rank": 132,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4763,6 +4763,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:34:49.892Z"
+    },
+    "ESCORTS": {
+      "rank": 131,
+      "name": "Escorts Kubota Limited",
+      "ticker": "ESCORTS",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Tractors",
+      "is_psu": false,
+      "pat_client_cr": 2394.09,
+      "pat_screener_cr": 2394,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2394,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 16.72,
+      "csr_obligation_cr": 20.25,
+      "csr_required_2pct_cr": 20.08,
+      "csr_unspent_cr": 3.53,
+      "health_or_education": true,
+      "examples": [
+        "Runs Escorts Training and Development Centre providing skilling/vocational training (e.g., soil testing, farm machinery training) in Bangalore",
+        "Skilling and equipment support at EKL CSR Foundation training centre in Kurukshetra, Haryana",
+        "CSR spend on capital assets (equipment, machinery) for training/education-oriented centres"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Note 28 (Other expenses - CSR) and Annexure E to Directors' Report (CSR Annual Report); amounts in INR crore as originally stated (e.g., ₹16,72,32,711 = 16.72 crore).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aa4acd39-762b-4cf1-9948-7ad5537f6059.pdf",
+        "page": 400
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:35:06.986Z"
     }
   }
 }
