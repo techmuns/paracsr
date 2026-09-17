@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:10:55.621Z",
-  "count": 67,
+  "updated_at": "2026-09-17T14:11:10.633Z",
+  "count": 68,
   "companies": {
     "500049": {
       "rank": 60,
@@ -2407,6 +2407,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:10:54.297Z"
+    },
+    "RAYMOND": {
+      "rank": 68,
+      "name": "Raymond Limited",
+      "ticker": "RAYMOND",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Industrial Products",
+      "is_psu": false,
+      "pat_client_cr": 5341.27,
+      "pat_screener_cr": 5361,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5361,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.37,
+      "fy_used": "FY26",
+      "csr_spent_cr": 10.58,
+      "csr_obligation_cr": 10.58,
+      "csr_required_2pct_cr": 10.58,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR initiatives primarily under thrust areas of promoting education & healthcare and employment enhancing vocational skills",
+        "Nature of CSR activities includes promoting education, including special education, environmental sustainability, animal welfare and rural development projects"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure B (Sec 135 CSR report) and Note 44 to standalone financials, FY2025-26; amounts converted from Rs. 1058 Lakh = 10.58 crore; Directors' Report para 21 corroborates spend of Rs.1058 lakh.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9acf1216-e428-42a8-8b82-1300b9e55a02.pdf",
+        "page": 73
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:11:10.633Z"
     }
   }
 }
