@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:28:07.486Z",
-  "count": 110,
+  "updated_at": "2026-09-17T14:28:22.992Z",
+  "count": 111,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3746,7 +3746,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 110,
+      "rank": 111,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3961,6 +3961,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:27:34.175Z"
+    },
+    "HDFCAMC": {
+      "rank": 110,
+      "name": "HDFC Asset Management Company Limited",
+      "ticker": "HDFCAMC",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Asset Management Company",
+      "is_psu": false,
+      "pat_client_cr": 2858.06,
+      "pat_screener_cr": 2858,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2858,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 42.51,
+      "csr_obligation_cr": 42.51,
+      "csr_required_2pct_cr": 42.51,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Set up a Radiotherapy Unit with dedicated Oncology block at Ramakrishna Mission Sevashrama (Charitable Hospital)",
+        "Financial aid for setting up Sri Satya Sai Hospital building in Vidarbha region, Yavatmal",
+        "Supported construction of Bombay Scottish school building at Mahim, Mumbai",
+        "Financial aid for treatment of underprivileged cancer patients via Indian Cancer Society and TATA Memorial Dharamshala Project"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 32 (Standalone Financial Statements) CSR Expense table, FY26 figures; Directors' Report Annexure confirms same amounts (₹42,50,71,013 spent vs required).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fdf831f5-7d3a-4621-bcf9-483c1bcbfc88.pdf",
+        "page": 240
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:28:22.992Z"
     }
   }
 }
