@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:57:38.431Z",
-  "count": 28,
+  "updated_at": "2026-09-17T13:57:55.034Z",
+  "count": 29,
   "companies": {
     "500228": {
       "rank": 18,
@@ -827,7 +827,7 @@
       "sector_detail": "Non Banking Financial Company (NBFC)"
     },
     "PNB": {
-      "rank": 26,
+      "rank": 27,
       "name": "Punjab National Bank",
       "ticker": "PNB",
       "exchange": "NSEI",
@@ -864,7 +864,7 @@
       "generated_at": "2026-09-17T13:53:53.583Z"
     },
     "HINDPETRO": {
-      "rank": 27,
+      "rank": 28,
       "name": "Hindustan Petroleum Corporation Limited",
       "ticker": "HINDPETRO",
       "exchange": "NSEI",
@@ -933,7 +933,7 @@
       "generated_at": "2026-09-17T13:56:59.479Z"
     },
     "HCLTECH": {
-      "rank": 28,
+      "rank": 29,
       "name": "HCL Technologies Limited",
       "ticker": "HCLTECH",
       "exchange": "NSEI",
@@ -1003,6 +1003,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:57:36.738Z"
+    },
+    "M&M": {
+      "rank": 26,
+      "name": "Mahindra & Mahindra Limited",
+      "ticker": "M&M",
+      "exchange": "NSEI",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Passenger Cars & Utility Vehicles",
+      "is_psu": false,
+      "pat_client_cr": 17098.85,
+      "pat_screener_cr": 18622,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 18622,
+      "pat_mismatch": true,
+      "pat_delta_pct": 8.91,
+      "fy_used": "FY26",
+      "csr_spent_cr": 210.56,
+      "csr_obligation_cr": 219.72,
+      "csr_required_2pct_cr": 219.72,
+      "csr_unspent_cr": 9.58,
+      "health_or_education": true,
+      "examples": [
+        "Girl Child Education flagship project",
+        "Maternity and Newborn Care initiatives",
+        "Women Empowerment programs"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 34, CSR (Companies Act Sec 135), Standalone Accounts FY2025-26; amounts already in Rs. crores; P&L expense recognised Rs.220.14 cr differs slightly from 'amount spent' table figure of Rs.210.56 cr due to unspent amount transferred to bank account.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+        "page": 177
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:57:55.034Z"
     }
   }
 }
