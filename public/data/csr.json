@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:09:50.262Z",
-  "count": 64,
+  "updated_at": "2026-09-17T14:10:09.731Z",
+  "count": 65,
   "companies": {
     "500049": {
       "rank": 60,
@@ -397,6 +397,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:59:10.933Z"
+    },
+    "505200": {
+      "rank": 65,
+      "name": "Eicher Motors Limited",
+      "ticker": "505200",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "2/3 Wheelers",
+      "is_psu": false,
+      "pat_client_cr": 5515.23,
+      "pat_screener_cr": 5515,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5515,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 46.61,
+      "csr_obligation_cr": 83.18,
+      "csr_required_2pct_cr": 83.18,
+      "csr_unspent_cr": 36.57,
+      "health_or_education": true,
+      "examples": [
+        "Supported Bodh Shiksha Samiti's foundational schooling across 32 Bodhshalas serving ~4,688 students in Alwar, Rajasthan (Shikshak Pahal Programme)",
+        "Multi-decade partnership with Dr. Shroff Charity Eye Hospital, Delhi (healthcare legacy project)",
+        "Skill development/education centre training ~600 youth at Akshaya College of Engineering, Coimbatore",
+        "Constructed 9 new classrooms, school toilets, RO water purifiers and incinerators for schools in Cuddalore, Tamil Nadu (REAL project)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone & Consolidated Note 51/49 'Expenditure on CSR', FY ended March 31, 2026; amounts already in INR crores, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d17e4c7d-5ef6-4135-b0f3-cc7bb1ca7f09.pdf",
+        "page": 286
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:10:09.731Z"
     },
     "507685": {
       "rank": 38,
