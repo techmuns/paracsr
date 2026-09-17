@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:45:14.167Z",
-  "count": 165,
+  "updated_at": "2026-09-17T14:46:05.240Z",
+  "count": 164,
   "companies": {
     "500049": {
       "rank": 61,
@@ -940,43 +940,6 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:38:16.316Z"
-    },
-    "503806": {
-      "rank": 163,
-      "name": "SRF Limited",
-      "ticker": "503806",
-      "exchange": "BSE",
-      "sector": "Chemicals",
-      "sector_detail": "Commodity Chemicals",
-      "is_psu": false,
-      "pat_client_cr": 1835.18,
-      "pat_screener_cr": 1835,
-      "pat_screener_fy": "FY26",
-      "pat_basis": "consolidated",
-      "pat_cr": 1835,
-      "pat_mismatch": false,
-      "pat_delta_pct": -0.01,
-      "fy_used": "FY26",
-      "csr_spent_cr": 32.97,
-      "csr_obligation_cr": 40.26,
-      "csr_required_2pct_cr": 40.26,
-      "csr_unspent_cr": 7.33,
-      "health_or_education": true,
-      "examples": [
-        "School education programmes",
-        "Promotion of healthcare (health camps/medical support)",
-        "Vocational skills and livelihood projects",
-        "Apprenticeship programme"
-      ],
-      "found": true,
-      "confidence": "high",
-      "notes": "Standalone/Consolidated Notes to Accounts, Note (f)/(d) 'Disclosure on corporate social responsibility expense', FY ended March 31, 2026; amounts already in INR crore. Actual spent = 2.84 (ongoing) + 30.13 (other than ongoing) = 32.97 cr; prescribed CSR (2% avg net profit) = 40.26 cr; unspent (ongoing) = 7.33 cr.",
-      "source": {
-        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4a7644aa-f953-438c-a41a-8827cff676f5.pdf",
-        "page": 180
-      },
-      "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:45:14.167Z"
     },
     "505200": {
       "rank": 67,
@@ -4616,7 +4579,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 165,
+      "rank": 164,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5485,7 +5448,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 164,
+      "rank": 163,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
