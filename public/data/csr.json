@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:05:33.141Z",
-  "count": 51,
+  "updated_at": "2026-09-17T14:05:52.039Z",
+  "count": 52,
   "companies": {
     "500188": {
       "rank": 36,
@@ -1834,6 +1834,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:05:31.032Z"
+    },
+    "HAL": {
+      "rank": 52,
+      "name": "Hindustan Aeronautics Limited",
+      "ticker": "HAL",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Aerospace & Defense",
+      "is_psu": true,
+      "pat_client_cr": 9115.6,
+      "pat_screener_cr": 9116,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 9116,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 180.99,
+      "csr_obligation_cr": 168.67,
+      "csr_required_2pct_cr": 183.26,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Supplied equipment for Liver Transplantation, Plastic Surgery & Neuro Surgery Depts. of Osmania General Hospital, Hyderabad (~₹9.5 crore)",
+        "Supported Nizam Institute of Medical Science with Level 3-5 Critical Care Capabilities - ICU and Emergency Facility enhancement",
+        "Infrastructure development in Kasturba Gandhi Residential Girls Schools of Amethi District",
+        "Construction of HAL-RGIPT Innovation & Skill Development Centre at Rajiv Gandhi Institute of Petroleum Technology, Jais, Amethi"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure III to Board's Report (Annual Report on CSR Activities, FY 2025-26), pages 56-58; figures converted from ₹ Lakh to crore (1 crore = 100 lakh): Total CSR obligation ₹16,867 Lakh = ₹168.67 cr; Total amount spent ₹18,099 Lakh = ₹180.99 cr; 2% avg net profit ₹18,326 Lakh = ₹183.26 cr; Unspent = Nil.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+        "page": 56
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:05:52.038Z"
     }
   }
 }
