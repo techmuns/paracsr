@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:16:51.563Z",
-  "count": 84,
+  "updated_at": "2026-09-17T14:17:10.763Z",
+  "count": 85,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3026,6 +3026,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:16:50.216Z"
+    },
+    "CIPLA": {
+      "rank": 85,
+      "name": "Cipla Limited",
+      "ticker": "CIPLA",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 3879.23,
+      "pat_screener_cr": 3862,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3862,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.44,
+      "fy_used": "FY26",
+      "csr_spent_cr": 82.69,
+      "csr_obligation_cr": 94.73,
+      "csr_required_2pct_cr": 94.96,
+      "csr_unspent_cr": 12.04,
+      "health_or_education": true,
+      "examples": [
+        "Palliative care programme supporting 50,000+ patients across 27 cities with home visits and helpline support",
+        "7 mobile healthcare units deployed covering 118+ villages delivering 1,24,000+ primary healthcare consultations and maternal/child health services",
+        "22 schools supported with digital learning infrastructure benefiting 3,000+ students; 900+ scholarships for academic achievers",
+        "Setting up skilling institutes (PAGE) in Ahmedabad and Hyderabad; contribution to IISc Bengaluru for infrastructure and specialised medical equipment"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "CSR annexure (Note 48/Annexure to Board's Report) & standalone Notes to Accounts (Note 48), FY2025-26 figures; amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4070b137-2a68-4790-8821-268ff7c4e408.pdf",
+        "page": 172
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:17:10.763Z"
     }
   }
 }
