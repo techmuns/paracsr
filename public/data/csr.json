@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:29:26.242Z",
-  "count": 114,
+  "updated_at": "2026-09-17T14:29:41.627Z",
+  "count": 115,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4109,6 +4109,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:29:24.615Z"
+    },
+    "UCOBANK": {
+      "rank": 115,
+      "name": "UCO Bank",
+      "ticker": "UCOBANK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 2767.86,
+      "pat_screener_cr": 2468,
+      "pat_screener_fy": "FY25",
+      "pat_basis": "consolidated",
+      "pat_cr": 2468,
+      "pat_mismatch": true,
+      "pat_delta_pct": -10.83,
+      "fy_used": "FY26",
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Provided ambulances/emergency vehicles to GC Medical College (Assam), Dhubri Medical College, and Aizawl Municipal Corporation",
+        "Supported installation of dialysis machines at JITO Day Care Centre, Kolkata",
+        "Provided computer infrastructure to Chhatrapati Maharaj College (Kolhapur) and Tihu College (Assam)",
+        "Supported infrastructure development at Assam University and IIIT Bhagalpur"
+      ],
+      "found": true,
+      "confidence": "low",
+      "notes": "Section 135 not applicable to PSBs incl. UCO Bank (BRSR Sec VI, p.64); narrative CSR annexure (BRSR aspirational-district table, pp.107-109) lists only scattered project-level amounts (e.g. Rs.30,000-7.05 lakh per district), no total 'Amount Spent during the Year' / 2% obligation figure disclosed anywhere in excerpt.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ca19db4a-430a-4e1a-80cf-974fcfe16f77.pdf",
+        "page": 107
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:29:41.627Z"
     }
   }
 }
