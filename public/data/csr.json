@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:01:44.296Z",
-  "count": 40,
+  "updated_at": "2026-09-17T14:02:02.873Z",
+  "count": 41,
   "companies": {
     "500188": {
       "rank": 35,
@@ -1437,6 +1437,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:01:43.024Z"
+    },
+    "SUNPHARMA": {
+      "rank": 41,
+      "name": "Sun Pharmaceutical Industries Limited",
+      "ticker": "SUNPHARMA",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 11479.42,
+      "pat_screener_cr": 11509,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 11509,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.26,
+      "fy_used": "FY26",
+      "csr_spent_cr": 98.08,
+      "csr_obligation_cr": 95.18,
+      "csr_required_2pct_cr": 95.17,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Supported Shantilal Shanghvi Foundation in setting up a Cancer Sanatorium Institute in Wadala, Mumbai with 49 treatment beds and 128 accommodation rooms for outstation cancer patients (₹45 crore)",
+        "Anganwadi Development Programme run with Anwesha Foundation (₹1.74 crore)",
+        "Annual Action Plan covered Healthcare, Education, Environment Conservation, Drinking Water, Disaster Relief and Rural Development",
+        "Setting up a pharmaceutical industry Skilling Institute (PAGE Foundation) with other Indian Pharmaceutical Alliance member companies"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-D (Board's Report CSR annexure) and Note 54(8) to Standalone Financial Statements FY26; figures given in ₹ Million converted to crore (÷10). Total amount spent for FY26 = ₹980.8 Mn = ₹98.08 cr; obligation ₹951.8 Mn = ₹95.18 cr; 2% figure ₹951.7 Mn = ₹95.17 cr; surplus/excess spent, so unspent = 0.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
+        "page": 73
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:02:02.873Z"
     }
   }
 }
