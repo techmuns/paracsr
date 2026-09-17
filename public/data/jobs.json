@@ -299,6 +299,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:08:17.663Z",
       "error": null
+    },
+    "NATIONALUM": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:08:38.339Z",
+      "error": null
     }
   }
 }
