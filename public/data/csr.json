@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:54:23.443Z",
-  "count": 191,
+  "updated_at": "2026-09-17T14:54:40.833Z",
+  "count": 192,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1159,6 +1159,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:10:09.731Z"
+    },
+    "506480": {
+      "rank": 191,
+      "name": "GOCL Corporation Limited",
+      "ticker": "506480",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Explosives",
+      "is_psu": false,
+      "pat_client_cr": 1521.95,
+      "pat_screener_cr": 1522,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1522,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0.33,
+      "csr_obligation_cr": 1.0012,
+      "csr_required_2pct_cr": 1.0415,
+      "csr_unspent_cr": 0.6712,
+      "health_or_education": true,
+      "examples": [
+        "Maintenance of school at Rourkela, Odisha (promotion of education)",
+        "Renovation of Smt. Jamuna Hinduja Ladies Ghat, Haridwar - includes promotion of healthcare/sanitation"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 39/41 (Standalone/Consolidated FS) and Annexure-B CSR Report FY26; amounts converted from INR lakhs to crore (1 crore=100 lakh). Gross 2% requirement=104.15 lakh=1.0415 cr; Total CSR obligation per Annexure-B item 5(e)=100.12 lakh=1.0012 cr; Amount spent=33.00 lakh=0.33 cr; Unspent (transferred to unspent CSR account)=67.12 lakh=0.6712 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad42ac5f-0b15-416a-93b6-1fc20c245ff3.pdf",
+        "page": 224
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:54:40.832Z"
     },
     "507685": {
       "rank": 38,
@@ -4904,7 +4939,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 191,
+      "rank": 192,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
