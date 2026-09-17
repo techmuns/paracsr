@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:26:59.382Z",
-  "count": 106,
+  "updated_at": "2026-09-17T14:27:17.385Z",
+  "count": 107,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3679,7 +3679,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 106,
+      "rank": 107,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3822,6 +3822,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:26:41.647Z"
+    },
+    "LTF": {
+      "rank": 106,
+      "name": "L&T Finance Limited",
+      "ticker": "LTF",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 2981.18,
+      "pat_screener_cr": 2983,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2983,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.06,
+      "fy_used": "FY26",
+      "csr_spent_cr": 30.3,
+      "csr_obligation_cr": 17.38,
+      "csr_required_2pct_cr": 43.55,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Healthcare programs under Social Inclusion thrust area",
+        "Digital Financial Literacy and Entrepreneurship Development (Digital Sakhi program)",
+        "Skill training of youth for enhancing employability"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "FY26 figures from Note 35 (standalone financials) and Annexure E to Board's Report; Total Amount Spent for FY26 = ₹30.30 crore (₹28.86 cr on CSR projects + ₹1.44 cr admin overheads); CSR obligation for the year (post set-off) = ₹17.38 crore; gross 2% requirement = ₹43.55 crore; fully spent, no unspent amount; excess of ₹12.92 cr carried forward for set-off.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9c1891f8-e461-4f6c-b5f0-df5821e6acd1.pdf",
+        "page": 282
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:27:17.384Z"
     }
   }
 }
