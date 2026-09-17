@@ -399,6 +399,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:15:24.009Z",
       "error": null
+    },
+    "ASIANPAINT": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:15:25.686Z",
+      "error": null
     }
   }
 }
