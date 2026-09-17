@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:21:37.949Z",
-  "count": 91,
+  "updated_at": "2026-09-17T14:21:57.201Z",
+  "count": 92,
   "companies": {
     "500049": {
       "rank": 61,
@@ -798,6 +798,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:05:07.075Z"
+    },
+    "513683": {
+      "rank": 92,
+      "name": "NLC India Limited",
+      "ticker": "513683",
+      "exchange": "BSE",
+      "sector": "Power & Utilities",
+      "sector_detail": "Power Generation",
+      "is_psu": true,
+      "pat_client_cr": 3522.2,
+      "pat_screener_cr": 3769,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3769,
+      "pat_mismatch": true,
+      "pat_delta_pct": 7.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 48.06,
+      "csr_obligation_cr": 40.98,
+      "csr_required_2pct_cr": 44.87,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Medical-health & family welfare spend of ₹10.74 crore",
+        "Education & scholarship spend of ₹10.01 crore",
+        "Vocational Skill Centre development ₹0.59 crore",
+        "Safe drinking water supply/cutting of drains ₹4.93 crore"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 39 Corporate Social Responsibilities, Standalone Financial Statements FY2025-26; figures already in ₹ crore. Total amount spent during year (construction/acquisition assets ₹26.28 cr + other purposes ₹21.78 cr) = ₹48.06 cr per nature-wise table; obligation (Total CSR Obligation after set-off) ₹40.98 cr; gross 2% requirement ₹44.87 cr; unspent = nil (E. Amount unspent during the year: -).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d28b50c9-e932-4f4e-b082-ab8a10dfcc20.pdf",
+        "page": 182
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:21:57.201Z"
     },
     "517334": {
       "rank": 85,
