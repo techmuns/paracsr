@@ -229,6 +229,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:03:25.068Z",
       "error": null
+    },
+    "BAJAJFINSV": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:03:48.815Z",
+      "error": null
     }
   }
 }
