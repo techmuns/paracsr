@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:51:32.053Z",
-  "count": 182,
+  "updated_at": "2026-09-17T14:51:53.119Z",
+  "count": 183,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500103": {
-      "rank": 180,
+      "rank": 181,
       "name": "Bharat Heavy Electricals Limited",
       "ticker": "500103",
       "exchange": "BSE",
@@ -365,7 +365,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 173,
+      "rank": 174,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -1524,7 +1524,7 @@
       "generated_at": "2026-09-17T14:47:04.928Z"
     },
     "532144": {
-      "rank": 177,
+      "rank": 178,
       "name": "Welspun Corp Limited",
       "ticker": "532144",
       "exchange": "BSE",
@@ -1869,7 +1869,7 @@
       "generated_at": "2026-09-17T14:41:03.909Z"
     },
     "539437": {
-      "rank": 178,
+      "rank": 179,
       "name": "IDFC First Bank Limited",
       "ticker": "539437",
       "exchange": "BSE",
@@ -4832,7 +4832,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 182,
+      "rank": 183,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5701,7 +5701,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 176,
+      "rank": 177,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6239,7 +6239,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 172,
+      "rank": 173,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6276,7 +6276,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 174,
+      "rank": 175,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6311,7 +6311,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 175,
+      "rank": 176,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6347,7 +6347,7 @@
       "generated_at": "2026-09-17T14:48:45.461Z"
     },
     "SOLARINDS": {
-      "rank": 171,
+      "rank": 172,
       "name": "Solar Industries India Limited",
       "ticker": "SOLARINDS",
       "exchange": "NSEI",
@@ -6454,7 +6454,7 @@
       "generated_at": "2026-09-17T14:49:42.029Z"
     },
     "ICICIPRULI": {
-      "rank": 179,
+      "rank": 180,
       "name": "ICICI Prudential Life Insurance Company Limited",
       "ticker": "ICICIPRULI",
       "exchange": "NSEI",
@@ -6527,7 +6527,7 @@
       "generated_at": "2026-09-17T14:51:15.033Z"
     },
     "JIOFIN": {
-      "rank": 181,
+      "rank": 182,
       "name": "Jio Financial Services Limited",
       "ticker": "JIOFIN",
       "exchange": "NSEI",
@@ -6560,6 +6560,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:51:30.547Z"
+    },
+    "COFORGE": {
+      "rank": 171,
+      "name": "Coforge Limited",
+      "ticker": "COFORGE",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 1555.7,
+      "pat_screener_cr": 1745,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1745,
+      "pat_mismatch": true,
+      "pat_delta_pct": 12.17,
+      "fy_used": "FY26",
+      "csr_spent_cr": 16.9,
+      "csr_obligation_cr": 16.9,
+      "csr_required_2pct_cr": 16.9,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Coforge Public Library initiative - flagship libraries in Noida, Gurugram and Hyderabad providing free access to books and reading programs for underprivileged children",
+        "Partnership with Vidya & Child supporting three schools for first-generation learners; 600 children across two government primary schools benefited in FY26",
+        "Volunteer-led reading programs reaching 4,000 children in government schools",
+        "Support for scientific research institutions and setting up of public library contributing to sustainable development"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 23(c) 'Corporate Social Responsibility expenditure' - Contribution to Government Schools/Others INR 169 Mn = INR 16.9 Cr; converted from INR Mn (1 Cr=10 Mn); amount required = amount spent = 169 Mn, unspent = 0; narrative CSR annexure (page 31) confirms education/library focus.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b6778798-69aa-4fea-b818-8182497957b3.pdf",
+        "page": 118
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:51:53.119Z"
     }
   }
 }
