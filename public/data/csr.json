@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:22:38.264Z",
-  "count": 94,
+  "updated_at": "2026-09-17T14:22:53.883Z",
+  "count": 95,
   "companies": {
     "500049": {
       "rank": 61,
@@ -581,6 +581,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:59:10.933Z"
+    },
+    "500790": {
+      "rank": 95,
+      "name": "Nestlé India Limited",
+      "ticker": "500790",
+      "exchange": "BSE",
+      "sector": "FMCG",
+      "sector_detail": "Packaged Foods",
+      "is_psu": false,
+      "pat_client_cr": 3499.08,
+      "pat_screener_cr": 3499,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3499,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 85.01,
+      "csr_obligation_cr": 84.77,
+      "csr_required_2pct_cr": 84.77,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Nutrition, health and breastfeeding awareness programmes",
+        "Setting up libraries in schools to promote reading culture",
+        "Hands-on science education access programme (Project Vriddhi)",
+        "Clean drinking water and sanitation facilities in schools"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-2 to Board's Report (Sec.135 CSR annual report), FY2025-26; amounts converted from ₹ million to crore (₹850.1mn=₹85.01cr spent; ₹847.7mn=₹84.77cr obligation/2% requirement); excess spent ₹2.4mn, no unspent amount.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+        "page": 192
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:22:53.883Z"
     },
     "505200": {
       "rank": 67,
