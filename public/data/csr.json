@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:22:16.803Z",
-  "count": 93,
+  "updated_at": "2026-09-17T14:22:36.646Z",
+  "count": 94,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3353,6 +3353,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:22:15.432Z"
+    },
+    "AUROPHARMA": {
+      "rank": 94,
+      "name": "Aurobindo Pharma Limited",
+      "ticker": "AUROPHARMA",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 3504.75,
+      "pat_screener_cr": 3503,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3503,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.05,
+      "fy_used": "FY26",
+      "csr_spent_cr": 31.31,
+      "csr_obligation_cr": 43.395,
+      "csr_required_2pct_cr": 43.151,
+      "csr_unspent_cr": 12.084,
+      "health_or_education": true,
+      "examples": [
+        "Constructed Dining Hall and Kitchen Block at Vidya Bharathi Vignana Kendra school to support student nutrition and reduce dropouts",
+        "Ran Aurobindo Skill Development Centre training 552 students with 98.9% placement rate",
+        "Constructed Multipurpose Community Hall used for health camps and community welfare in Kasimkota village",
+        "CSR nature of activities includes Education, Skilling, Employment, Health and Wellness"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financial statements Note 27 (CSR expenditure ₹431.5 million) plus Board's Report Annexure-5 (CSR Annual Report) providing detailed Section 135 breakup for FY2025-26; figures converted from INR million to crore (÷10). Note 27 shows amount required/approved/spent as ₹431.5 mn (=43.15 cr, fully spent per notes), but detailed Annexure-5 shows total obligation ₹433.95 mn and total amount spent for FY ₹313.10 mn (=31.31 cr) with ₹120.84 mn unspent transferred to Unspent CSR Account; used Annexure-5 figures as more granular 'Amount Spent during the Year' breakup.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ec25ad91-8862-484e-b848-03b3d5e520c9.pdf",
+        "page": 175
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:22:36.645Z"
     }
   }
 }
