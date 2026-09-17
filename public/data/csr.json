@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:59:12.489Z",
-  "count": 33,
+  "updated_at": "2026-09-17T13:59:28.189Z",
+  "count": 34,
   "companies": {
     "500228": {
       "rank": 18,
@@ -1181,6 +1181,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:58:53.859Z"
+    },
+    "MARUTI": {
+      "rank": 34,
+      "name": "Maruti Suzuki India Limited",
+      "ticker": "MARUTI",
+      "exchange": "NSEI",
+      "sector": "Auto & Ancillaries",
+      "sector_detail": "Passenger Cars & Utility Vehicles",
+      "is_psu": false,
+      "pat_client_cr": 14679.5,
+      "pat_screener_cr": 14680,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 14680,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 240.5,
+      "csr_obligation_cr": 245.4,
+      "csr_required_2pct_cr": 245.4,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Award in health category for Zydus hospital under CSR initiatives",
+        "Skill development through Japan India Institute for Manufacturing",
+        "Skill development via International Automobile Centre of Excellence",
+        "Community development and road safety programmes (Automated Driving Test Tracks)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 27 (Other Expenses) - CSR note, standalone financials; amounts originally in INR million converted to crore (÷10). FY26 spent ₹2,405mn = ₹240.5cr; required ₹2,454mn = ₹245.4cr; no shortfall (excess CSR spent in prior years used).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf",
+        "page": 214
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:59:28.189Z"
     }
   }
 }
