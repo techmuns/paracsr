@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:50:38.544Z",
-  "count": 179,
+  "updated_at": "2026-09-17T14:50:58.079Z",
+  "count": 180,
   "companies": {
     "500049": {
       "rank": 61,
@@ -36,6 +36,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:36.819Z"
+    },
+    "500103": {
+      "rank": 179,
+      "name": "Bharat Heavy Electricals Limited",
+      "ticker": "500103",
+      "exchange": "BSE",
+      "sector": "Power & Utilities",
+      "sector_detail": "Heavy Electrical Equipment",
+      "is_psu": true,
+      "pat_client_cr": 1600.26,
+      "pat_screener_cr": 1600,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1600,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 6.18,
+      "csr_obligation_cr": 8.6,
+      "csr_required_2pct_cr": 8.59,
+      "csr_unspent_cr": 7.12,
+      "health_or_education": true,
+      "examples": [
+        "Financial support for infrastructure upgradation and digitalisation at Mandya Institute of Medical Sciences (MIMS), Mandya, Karnataka",
+        "Support for running schools located in BHEL manufacturing units at Haridwar, Jagdishpur & Jhansi",
+        "Financial support for special school and rehabilitation centre for intellectually challenged children (Arivalayam, Trichy)",
+        "About 40 projects under 'Health & Nutrition' theme including medical camps, nutritional support kits, and medical equipment for govt. hospitals/health centres"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note [26](vii) Corporate Social Responsibility, Financial Statements; amounts in ₹ crore as stated. Board Report Annexure (Sec 4.5) gives figures in ₹ lakh (converted: 2% obligation ₹859.13 lakh=8.59 cr; total spent incl. overheads/impact assessment ₹617.62 lakh=6.18 cr matches note); unspent carried forward ₹7.12 cr (594.83+ lakh transferred/etc.).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/04116f8e-fa1a-4abc-9e5f-f3c8be2db99f.pdf",
+        "page": 218
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:50:58.078Z"
     },
     "500109": {
       "rank": 154,
@@ -4795,7 +4832,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 179,
+      "rank": 180,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
