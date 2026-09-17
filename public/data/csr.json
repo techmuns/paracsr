@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:57:18.962Z",
-  "count": 27,
+  "updated_at": "2026-09-17T13:57:36.738Z",
+  "count": 28,
   "companies": {
     "500228": {
       "rank": 18,
@@ -40,7 +40,7 @@
       "sector_detail": "Iron & Steel"
     },
     "500247": {
-      "rank": 24,
+      "rank": 25,
       "name": "Kotak Mahindra Bank Limited",
       "ticker": "500247",
       "exchange": "BSE",
@@ -686,7 +686,7 @@
       "sector_detail": "Refineries & Marketing"
     },
     "ITC": {
-      "rank": 19,
+      "rank": 20,
       "name": "ITC Limited",
       "ticker": "ITC",
       "exchange": "NSEI",
@@ -721,7 +721,7 @@
       "sector_detail": "Diversified FMCG"
     },
     "BANKBARODA": {
-      "rank": 20,
+      "rank": 21,
       "name": "Bank of Baroda Limited",
       "ticker": "BANKBARODA",
       "exchange": "NSEI",
@@ -758,7 +758,7 @@
       "generated_at": "2026-09-17T13:54:15.758Z"
     },
     "UNIONBANK": {
-      "rank": 22,
+      "rank": 23,
       "name": "Union Bank of India",
       "ticker": "UNIONBANK",
       "exchange": "NSEI",
@@ -793,7 +793,7 @@
       "sector_detail": "Public Sector Bank"
     },
     "BAJFINANCE": {
-      "rank": 23,
+      "rank": 24,
       "name": "Bajaj Finance Limited",
       "ticker": "BAJFINANCE",
       "exchange": "NSEI",
@@ -827,7 +827,7 @@
       "sector_detail": "Non Banking Financial Company (NBFC)"
     },
     "PNB": {
-      "rank": 25,
+      "rank": 26,
       "name": "Punjab National Bank",
       "ticker": "PNB",
       "exchange": "NSEI",
@@ -864,7 +864,7 @@
       "generated_at": "2026-09-17T13:53:53.583Z"
     },
     "HINDPETRO": {
-      "rank": 26,
+      "rank": 27,
       "name": "Hindustan Petroleum Corporation Limited",
       "ticker": "HINDPETRO",
       "exchange": "NSEI",
@@ -896,7 +896,7 @@
       "sector_detail": "Refineries & Marketing"
     },
     "CANBK": {
-      "rank": 21,
+      "rank": 22,
       "name": "Canara Bank",
       "ticker": "CANBK",
       "exchange": "NSEI",
@@ -933,7 +933,7 @@
       "generated_at": "2026-09-17T13:56:59.479Z"
     },
     "HCLTECH": {
-      "rank": 27,
+      "rank": 28,
       "name": "HCL Technologies Limited",
       "ticker": "HCLTECH",
       "exchange": "NSEI",
@@ -968,6 +968,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:57:17.668Z"
+    },
+    "VEDL": {
+      "rank": 19,
+      "name": "Vedanta Limited",
+      "ticker": "VEDL",
+      "exchange": "NSEI",
+      "sector": "Metals & Mining",
+      "sector_detail": "Diversified Metals",
+      "is_psu": false,
+      "pat_client_cr": 17391,
+      "pat_screener_cr": 25096,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 25096,
+      "pat_mismatch": true,
+      "pat_delta_pct": 44.3,
+      "fy_used": "FY26",
+      "csr_spent_cr": 106,
+      "csr_obligation_cr": 210,
+      "csr_required_2pct_cr": 126,
+      "csr_unspent_cr": 16,
+      "health_or_education": true,
+      "examples": [
+        "Health and sanitation projects (₹10 crore spent in FY26)",
+        "Education, sports and culture initiatives (₹13 crore spent in FY26)"
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Note 40(a), Standalone financial statements, year ended 31 Mar 2026; gross CSR obligation ₹210 Cr (incl. utilisation of prior excess spend ₹108 Cr); actual cash/asset spend during year = In-Cash amount spent (₹90 Cr) + Yet to be Paid (₹16 Cr) = ₹106 Cr against required ₹126 Cr; unspent (yet to be paid in cash) = ₹16 Cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3725606c-05f5-40b2-b122-55c0a6e7bdd1.pdf",
+        "page": 378
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:57:36.738Z"
     }
   }
 }
