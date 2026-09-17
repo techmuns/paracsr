@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:53:24.048Z",
-  "count": 188,
+  "updated_at": "2026-09-17T14:53:42.864Z",
+  "count": 189,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4869,7 +4869,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 188,
+      "rank": 189,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6773,6 +6773,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:53:22.794Z"
+    },
+    "NAM-INDIA": {
+      "rank": 188,
+      "name": "Nippon Life India Asset Management Limited",
+      "ticker": "NAM-INDIA",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Asset Management Company",
+      "is_psu": false,
+      "pat_client_cr": 1529.38,
+      "pat_screener_cr": 1529,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1529,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 23.3,
+      "csr_obligation_cr": 23.3,
+      "csr_required_2pct_cr": 23.24,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Vision Foundation of India's Rashtriya Netra Yagna - free cataract surgeries for ~3,760 low-income beneficiaries across 6 states/13 cities",
+        "TERI VIKAS 3.0 - integrated school-community program covering WASH, education, nutrition for ~600 students/women in Dhanbad, Jharkhand",
+        "Swades Foundation - integrated rural development covering water, sanitation and livelihoods for 1,630 beneficiaries in Nashik",
+        "Olympic Gold Quest program supporting training and financial aid for 210 Olympic/Paralympic athletes"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financial statements Note 22(b) 'Details of CSR expenditure', p.312-313 (consolidated figures used, slightly higher than standalone note 21(b) on p.261 which shows 23.00); Board's Report Annexure-A confirms 2% obligation of ₹22.94 Cr and average net profit ₹1147.14 Cr; amount spent equals amount approved (23.30), so unspent = 0 though some allocated to ongoing multi-year projects.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3e0df5a1-f686-4a6c-853c-8f2f819cccbb.pdf",
+        "page": 261
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:53:42.863Z"
     }
   }
 }
