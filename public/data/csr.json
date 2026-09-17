@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:27:35.158Z",
-  "count": 108,
+  "updated_at": "2026-09-17T14:27:51.533Z",
+  "count": 109,
   "companies": {
     "500049": {
       "rank": 61,
@@ -583,6 +583,41 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:48:05.645Z",
       "sector_detail": "Passenger Cars & Utility Vehicles"
+    },
+    "500620": {
+      "rank": 108,
+      "name": "The Great Eastern Shipping Company Limited",
+      "ticker": "500620",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Shipping",
+      "is_psu": false,
+      "pat_client_cr": 2942.52,
+      "pat_screener_cr": 2943,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2943,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 28.09,
+      "csr_obligation_cr": 43.99,
+      "csr_required_2pct_cr": 43.99,
+      "csr_unspent_cr": 15.9,
+      "health_or_education": true,
+      "examples": [
+        "GE Foundation supports education initiatives focused on improving quality of education and building capacities of teachers/educators",
+        "GE Foundation health focus: improving health outcomes for adolescent girls, pregnant women, infants and women from marginalised communities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 'B' to Board's Report, Sec 135 CSR Annual Report FY2025-26; amounts in ₹ converted to crore (e.g. ₹27,87,50,000 = 27.875 cr; Total spent incl. admin overheads = ₹28,08,64,608 = 28.09 cr); unspent = obligation 43.99 - spent 28.09 = 15.90 cr (transferred to Unspent CSR Account ₹35.21 lakh + prior related transfers); Company also separately contributed ₹44 cr to Great Eastern Foundation (subsidiary) which itself spent ₹29.08 cr on CSR per Board's Report main section.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/596cc389-0bd6-4dc7-8f37-a540b06aa948.pdf",
+        "page": 47
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:27:51.533Z"
     },
     "500696": {
       "rank": 34,
@@ -3679,7 +3714,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 108,
+      "rank": 109,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
