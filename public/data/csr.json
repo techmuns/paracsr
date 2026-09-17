@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:41:05.063Z",
-  "count": 152,
+  "updated_at": "2026-09-17T14:41:23.636Z",
+  "count": 153,
   "companies": {
     "500049": {
       "rank": 61,
@@ -36,6 +36,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:36.819Z"
+    },
+    "500109": {
+      "rank": 150,
+      "name": "Mangalore Refinery and Petrochemicals Limited",
+      "ticker": "500109",
+      "exchange": "BSE",
+      "sector": "Oil & Gas",
+      "sector_detail": "Refineries & Marketing",
+      "is_psu": true,
+      "pat_client_cr": 1924.58,
+      "pat_screener_cr": 1925,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1925,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 48.67,
+      "csr_obligation_cr": 65.42,
+      "csr_required_2pct_cr": 65.42,
+      "csr_unspent_cr": 60.8,
+      "health_or_education": true,
+      "examples": [
+        "Shiksha Samrakshan - education-focused CSR spend of ₹20.85 crore (FY26)",
+        "Arogya Samrakshan - healthcare-focused CSR spend of ₹21.07 crore (FY26)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 36.2 (Other Expenses note) to FY26 financial statements; amounts converted from ₹ million to ₹ crore (÷10). Gross amount required = ₹654.18 million = ₹65.42 crore; Total amount spent during FY26 = ₹486.70 million = ₹48.67 crore; unspent (shortfall, mainly ongoing projects) = ₹607.96 million = ₹60.80 crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f3ac9967-87b8-4e22-85a5-6bc0ccf8eb61.pdf",
+        "page": 219
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:41:23.636Z"
     },
     "500110": {
       "rank": 106,
@@ -4472,7 +4507,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 152,
+      "rank": 153,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5341,7 +5376,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 151,
+      "rank": 152,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5378,7 +5413,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 150,
+      "rank": 151,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
