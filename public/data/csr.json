@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:50:00.135Z",
-  "count": 177,
+  "updated_at": "2026-09-17T14:50:15.841Z",
+  "count": 178,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1830,6 +1830,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:41:03.909Z"
+    },
+    "539437": {
+      "rank": 177,
+      "name": "IDFC First Bank Limited",
+      "ticker": "539437",
+      "exchange": "BSE",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 1610.56,
+      "pat_screener_cr": 1611,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1611,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.03,
+      "fy_used": "FY26",
+      "csr_spent_cr": 41.82,
+      "csr_obligation_cr": 25.49,
+      "csr_required_2pct_cr": 55.5,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "MBA Scholarship Programme providing need-based financial assistance up to ₹2 lakh to students from low-income families; supported 2,743 scholars across 167 colleges in 26 states since inception",
+        "CSR activities under Health and Sanitation focus area",
+        "CSR activities under Education focus area (Schedule VII)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone financial statements Note 18.27 (Amount spent ₹41.82 cr, Previous Year ₹31.86 cr); Directors' Report Annexure 2 CSR Annual Report gives Total CSR obligation for FY26 of ₹25.49 cr (after set-off) and total amount spent ₹42.04 cr (incl. admin/impact assessment); consolidated note 18.11 shows Group spend ₹42.77 cr. Standalone note figure (₹41.82 cr) used as key 'Amount Spent during the Year'.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/345b121c-5c1b-485a-bdcc-de3e4d475baf.pdf",
+        "page": 310
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:50:15.840Z"
     },
     "SBIN": {
       "rank": 2,
@@ -4759,7 +4795,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 177,
+      "rank": 178,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
