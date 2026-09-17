@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:31:18.045Z",
-  "count": 120,
+  "updated_at": "2026-09-17T14:31:35.583Z",
+  "count": 121,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 119,
+      "rank": 120,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 120,
+      "rank": 121,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4329,6 +4329,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:31:16.795Z"
+    },
+    "BAJAJHFL": {
+      "rank": 119,
+      "name": "Bajaj Housing Finance Limited",
+      "ticker": "BAJAJHFL",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Housing Finance Company",
+      "is_psu": false,
+      "pat_client_cr": 2560.34,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 2560.34,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 43.83,
+      "csr_obligation_cr": 41.94,
+      "csr_required_2pct_cr": 43.41,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Bajaj Beyond initiative focused on youth skilling, enabling employment and entrepreneurship",
+        "CSR interventions in education, health, and protection for children",
+        "Support for inclusion of Persons with Disabilities (PwDs)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "CSR annexure (Annual Report on CSR activities, pages 96-98) and Note 35 to financial statements (page 233); amount spent during year = ₹43.83 crore (incl. admin overheads ₹0.40 cr and impact assessment ₹0.05 cr); 2% obligation ₹43.41 cr, net obligation after set-off ₹41.94 cr; fully spent, no unspent amount.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/04c9c155-cdce-4552-b193-2c3d791a5735.pdf",
+        "page": 232
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:31:35.582Z"
     }
   }
 }
