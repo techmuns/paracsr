@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:51:27.414Z",
-  "count": 13,
+  "updated_at": "2026-09-17T12:51:43.739Z",
+  "count": 14,
   "companies": {
     "500570": {
       "rank": 3,
@@ -37,6 +37,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:48:05.645Z"
+    },
+    "532454": {
+      "rank": 11,
+      "name": "Bharti Airtel Limited",
+      "ticker": "532454",
+      "exchange": "BSE",
+      "sector": "Telecom - Cellular & Fixed line services",
+      "is_psu": false,
+      "pat_client_cr": 26695.2,
+      "pat_screener_cr": 33823,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 33823,
+      "pat_mismatch": true,
+      "pat_delta_pct": 26.7,
+      "fy_used": "FY26",
+      "csr_spent_cr": 176.317,
+      "csr_obligation_cr": 175.727,
+      "csr_required_2pct_cr": 175.727,
+      "csr_unspent_cr": 93.73,
+      "health_or_education": true,
+      "examples": [
+        "Contributed to Satya Bharti Schools program (education)",
+        "Construction of Student Housing facility at Anant National University",
+        "Construction of campus infrastructure at Chanakya University"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From CSR-2 report (Section 135) on page 132; amounts converted from ₹ Mn to ₹ crore (1 crore = 10 Mn). Total spent H1,763.17 Mn = 176.317 cr; obligation H1,757.27 Mn = 175.727 cr; unspent (parked for ongoing projects) H937.30 Mn = 93.73 cr.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf",
+        "page": 197
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:51:43.738Z"
     },
     "SBIN": {
       "rank": 2,
@@ -360,7 +395,7 @@
       "generated_at": "2026-09-17T12:50:36.380Z"
     },
     "COALINDIA": {
-      "rank": 11,
+      "rank": 12,
       "name": "Coal India Limited",
       "ticker": "COALINDIA",
       "exchange": "NSEI",
@@ -391,7 +426,7 @@
       "generated_at": "2026-09-17T12:50:51.314Z"
     },
     "INFY": {
-      "rank": 12,
+      "rank": 13,
       "name": "Infosys Limited",
       "ticker": "INFY",
       "exchange": "NSEI",
@@ -427,7 +462,7 @@
       "generated_at": "2026-09-17T12:51:10.015Z"
     },
     "NTPC": {
-      "rank": 13,
+      "rank": 14,
       "name": "NTPC Limited",
       "ticker": "NTPC",
       "exchange": "NSEI",
