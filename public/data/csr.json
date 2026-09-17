@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:12:36.173Z",
-  "count": 72,
+  "updated_at": "2026-09-17T14:12:51.945Z",
+  "count": 73,
   "companies": {
     "500049": {
       "rank": 60,
@@ -2588,6 +2588,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:12:34.484Z"
+    },
+    "LTM": {
+      "rank": 73,
+      "name": "LTM Limited",
+      "ticker": "LTM",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 5018.1,
+      "pat_screener_cr": 4983,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4983,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.7,
+      "fy_used": "FY26",
+      "csr_spent_cr": 95.218,
+      "csr_obligation_cr": 95.753,
+      "csr_required_2pct_cr": 95.753,
+      "csr_unspent_cr": 0.787,
+      "health_or_education": true,
+      "examples": [
+        "CSR focus areas include Education, Health and Nutrition/Wellness initiatives",
+        "66 capital assets created/acquired through CSR spend during FY26"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure D (Board's Report CSR Annual Report), FY26; figures converted from INR Mn to crore (÷100). Total amount spent for FY = INR 952.18 Mn = ₹95.218 crore; 2% obligation = INR 957.53 Mn = ₹95.753 crore; unspent transferred = INR 7.87 Mn = ₹0.787 crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/638203b2-9e4a-47aa-b271-69ae61fd056c.pdf",
+        "page": 157
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:12:51.945Z"
     }
   }
 }
