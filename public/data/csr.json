@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:26:42.789Z",
-  "count": 105,
+  "updated_at": "2026-09-17T14:26:58.222Z",
+  "count": 106,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500110": {
-      "rank": 103,
+      "rank": 104,
       "name": "Chennai Petroleum Corporation Limited",
       "ticker": "500110",
       "exchange": "BSE",
@@ -1014,6 +1014,40 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:52:01.411Z",
       "sector_detail": "Private Sector Bank"
+    },
+    "532343": {
+      "rank": 101,
+      "name": "TVS Motor Company Limited",
+      "ticker": "532343",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "2/3 Wheelers",
+      "is_psu": false,
+      "pat_client_cr": 3018.33,
+      "pat_screener_cr": 3186,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3186,
+      "pat_mismatch": true,
+      "pat_delta_pct": 5.56,
+      "fy_used": "FY26",
+      "csr_spent_cr": 56.37,
+      "csr_obligation_cr": 55.99,
+      "csr_required_2pct_cr": 55.99,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR activities include health care and education programs as part of rural development initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 48 (Standalone Financial Statements, FY26); amounts already in INR crore. Nature of CSR activities includes health care, education, rural/economic development. No shortfall (fully spent, in fact exceeded obligation by 0.38 cr).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4e988d1e-e2c9-40c8-aa8d-8760675c59d6.pdf",
+        "page": 160
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:26:58.221Z"
     },
     "532454": {
       "rank": 11,
@@ -3645,7 +3679,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 105,
+      "rank": 106,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3682,7 +3716,7 @@
       "generated_at": "2026-09-17T14:25:26.479Z"
     },
     "JSL": {
-      "rank": 101,
+      "rank": 102,
       "name": "Jindal Stainless Limited",
       "ticker": "JSL",
       "exchange": "NSEI",
@@ -3718,7 +3752,7 @@
       "generated_at": "2026-09-17T14:25:46.033Z"
     },
     "SUZLON": {
-      "rank": 102,
+      "rank": 103,
       "name": "Suzlon Energy Limited",
       "ticker": "SUZLON",
       "exchange": "NSEI",
@@ -3754,7 +3788,7 @@
       "generated_at": "2026-09-17T14:26:03.816Z"
     },
     "TMCV": {
-      "rank": 104,
+      "rank": 105,
       "name": "Tata Motors Limited",
       "ticker": "TMCV",
       "exchange": "NSEI",
