@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:04:51.084Z",
-  "count": 49,
+  "updated_at": "2026-09-17T14:05:07.075Z",
+  "count": 50,
   "companies": {
     "500188": {
       "rank": 36,
@@ -183,7 +183,7 @@
       "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500490": {
-      "rank": 48,
+      "rank": 49,
       "name": "Bajaj Holdings & Investment Limited",
       "ticker": "500490",
       "exchange": "BSE",
@@ -400,6 +400,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:03:45.749Z"
+    },
+    "512599": {
+      "rank": 48,
+      "name": "Adani Enterprises Limited",
+      "ticker": "512599",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Trading - Minerals",
+      "is_psu": false,
+      "pat_client_cr": 9339.47,
+      "pat_screener_cr": 9951,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 9951,
+      "pat_mismatch": true,
+      "pat_delta_pct": 6.55,
+      "fy_used": "FY26",
+      "csr_spent_cr": 60.18,
+      "csr_obligation_cr": 59.77,
+      "csr_required_2pct_cr": 59.77,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR focus areas include Education and Community Health, implemented through Adani Foundation"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annual Report on CSR Activities per Section 135, pages 164-165, FY 2025-26; figures already in INR crore, no conversion needed\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a859a404-0859-451c-b8aa-f163631188c3.pdf",
+        "page": 164
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "532215": {
       "rank": 16,
@@ -1731,7 +1765,7 @@
       "generated_at": "2026-09-17T14:04:07.567Z"
     },
     "GICRE": {
-      "rank": 49,
+      "rank": 50,
       "name": "General Insurance Corporation of India",
       "ticker": "GICRE",
       "exchange": "NSEI",
