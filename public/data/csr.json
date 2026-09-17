@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:20:38.544Z",
-  "count": 88,
+  "updated_at": "2026-09-17T14:20:58.249Z",
+  "count": 89,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500114": {
-      "rank": 74,
+      "rank": 75,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -75,7 +75,7 @@
       "generated_at": "2026-09-17T14:12:07.261Z"
     },
     "500124": {
-      "rank": 83,
+      "rank": 84,
       "name": "Dr. Reddy's Laboratories Limited",
       "ticker": "500124",
       "exchange": "BSE",
@@ -291,6 +291,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:11:30.674Z"
+    },
+    "500400": {
+      "rank": 74,
+      "name": "The Tata Power Company Limited",
+      "ticker": "500400",
+      "exchange": "BSE",
+      "sector": "Power & Utilities",
+      "sector_detail": "Integrated Power Utilities",
+      "is_psu": false,
+      "pat_client_cr": 3747.19,
+      "pat_screener_cr": 5118,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5118,
+      "pat_mismatch": true,
+      "pat_delta_pct": 36.58,
+      "fy_used": "FY26",
+      "csr_spent_cr": 19.14,
+      "csr_obligation_cr": 13.83,
+      "csr_required_2pct_cr": 13.83,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR focused on Education (including financial and digital literacy) as one of the three major thrust areas",
+        "Employability and Employment (Skilling for livelihood) programmes",
+        "Contribution of ₹13.11 crore to Tata Power Community Development Trust (TPCDT) which runs education/skilling programmes"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone FS Note 35(ii) 'Corporate Social Responsibility' (FY26: spent ₹19.14 cr, required ₹13.83 cr); Board's Report Annexure III states amount spent on CSR projects ₹18.15 cr (Group/CSR annexure basis) vs statutory note figure of ₹19.14 cr used as key spend figure; all figures already in ₹ crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a5491ca0-092d-4f99-a329-c62579cc6ef2.pdf",
+        "page": 215
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:20:58.249Z"
     },
     "500425": {
       "rank": 64,
@@ -727,7 +763,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "517334": {
-      "rank": 84,
+      "rank": 85,
       "name": "Samvardhana Motherson International Limited",
       "ticker": "517334",
       "exchange": "BSE",
@@ -2701,7 +2737,7 @@
       "generated_at": "2026-09-17T14:12:34.484Z"
     },
     "LTM": {
-      "rank": 75,
+      "rank": 76,
       "name": "LTM Limited",
       "ticker": "LTM",
       "exchange": "NSEI",
@@ -2773,7 +2809,7 @@
       "generated_at": "2026-09-17T14:13:11.426Z"
     },
     "TATACAP": {
-      "rank": 76,
+      "rank": 77,
       "name": "Tata Capital Limited",
       "ticker": "TATACAP",
       "exchange": "NSEI",
@@ -2809,7 +2845,7 @@
       "generated_at": "2026-09-17T14:13:29.897Z"
     },
     "TECHM": {
-      "rank": 77,
+      "rank": 78,
       "name": "Tech Mahindra Limited",
       "ticker": "TECHM",
       "exchange": "NSEI",
@@ -2846,7 +2882,7 @@
       "generated_at": "2026-09-17T14:13:51.592Z"
     },
     "CENTRALBK": {
-      "rank": 78,
+      "rank": 79,
       "name": "Central Bank of India",
       "ticker": "CENTRALBK",
       "exchange": "NSEI",
@@ -2883,7 +2919,7 @@
       "generated_at": "2026-09-17T14:14:40.239Z"
     },
     "DLF": {
-      "rank": 80,
+      "rank": 81,
       "name": "DLF Limited",
       "ticker": "DLF",
       "exchange": "NSEI",
@@ -2919,7 +2955,7 @@
       "generated_at": "2026-09-17T14:15:01.844Z"
     },
     "FEDERALBNK": {
-      "rank": 79,
+      "rank": 80,
       "name": "The Federal Bank Limited",
       "ticker": "FEDERALBNK",
       "exchange": "NSEI",
@@ -2956,7 +2992,7 @@
       "generated_at": "2026-09-17T14:15:24.009Z"
     },
     "ASIANPAINT": {
-      "rank": 81,
+      "rank": 82,
       "name": "Asian Paints Limited",
       "ticker": "ASIANPAINT",
       "exchange": "NSEI",
@@ -2991,7 +3027,7 @@
       "generated_at": "2026-09-17T14:15:42.411Z"
     },
     "HUDCO": {
-      "rank": 85,
+      "rank": 86,
       "name": "Housing and Urban Development Corporation Limited",
       "ticker": "HUDCO",
       "exchange": "NSEI",
@@ -3028,7 +3064,7 @@
       "generated_at": "2026-09-17T14:16:27.706Z"
     },
     "PETRONET": {
-      "rank": 86,
+      "rank": 87,
       "name": "Petronet LNG Limited",
       "ticker": "PETRONET",
       "exchange": "NSEI",
@@ -3065,7 +3101,7 @@
       "generated_at": "2026-09-17T14:16:50.216Z"
     },
     "CIPLA": {
-      "rank": 88,
+      "rank": 89,
       "name": "Cipla Limited",
       "ticker": "CIPLA",
       "exchange": "NSEI",
@@ -3102,7 +3138,7 @@
       "generated_at": "2026-09-17T14:17:10.763Z"
     },
     "NHPC": {
-      "rank": 82,
+      "rank": 83,
       "name": "NHPC Limited",
       "ticker": "NHPC",
       "exchange": "NSEI",
@@ -3139,7 +3175,7 @@
       "generated_at": "2026-09-17T14:20:12.886Z"
     },
     "ABCAPITAL": {
-      "rank": 87,
+      "rank": 88,
       "name": "Aditya Birla Capital Limited",
       "ticker": "ABCAPITAL",
       "exchange": "NSEI",
