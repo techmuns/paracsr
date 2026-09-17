@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:02:04.457Z",
-  "count": 41,
+  "updated_at": "2026-09-17T14:02:22.609Z",
+  "count": 42,
   "companies": {
     "500188": {
       "rank": 35,
@@ -145,6 +145,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:00:14.499Z"
+    },
+    "500470": {
+      "rank": 42,
+      "name": "Tata Steel Limited",
+      "ticker": "500470",
+      "exchange": "BSE",
+      "sector": "Metals & Mining",
+      "sector_detail": "Iron & Steel",
+      "is_psu": false,
+      "pat_client_cr": 10793.87,
+      "pat_screener_cr": 10886,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 10886,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.85,
+      "fy_used": "FY26",
+      "csr_spent_cr": 473.09,
+      "csr_obligation_cr": 412.92,
+      "csr_required_2pct_cr": 412.92,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Public Health projects benefited 18,75,914 people (CSR beneficiary table)",
+        "Education programs benefited 11,15,902 people",
+        "CSR focus areas include education, health, water, livelihood, rural and urban infrastructure"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 1 (CSR Annual Report, pages 162-163) and Note 30(iv) to standalone financials (page 372), FY2025-26 (year ended March 31, 2026); figures in ₹ crore as originally stated. Total CSR obligation = 2% average net profit (412.92 cr); actual total spend 473.09 cr (Board-approved incl. admin overheads), fully spent, no unspent amount; excess spend of 60.17 cr not carried forward.\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/eb836c3a-cf5f-427d-bc71-e368d5861e02.pdf",
+        "page": 162
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500510": {
       "rank": 26,
