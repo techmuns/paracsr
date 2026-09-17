@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:31:36.684Z",
-  "count": 121,
+  "updated_at": "2026-09-17T14:31:54.741Z",
+  "count": 122,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 120,
+      "rank": 121,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 121,
+      "rank": 122,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4294,7 +4294,7 @@
       "generated_at": "2026-09-17T14:31:00.835Z"
     },
     "DIVISLAB": {
-      "rank": 118,
+      "rank": 119,
       "name": "Divi's Laboratories Limited",
       "ticker": "DIVISLAB",
       "exchange": "NSEI",
@@ -4331,7 +4331,7 @@
       "generated_at": "2026-09-17T14:31:16.795Z"
     },
     "BAJAJHFL": {
-      "rank": 119,
+      "rank": 120,
       "name": "Bajaj Housing Finance Limited",
       "ticker": "BAJAJHFL",
       "exchange": "NSEI",
@@ -4365,6 +4365,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:31:35.582Z"
+    },
+    "ASHOKA": {
+      "rank": 118,
+      "name": "Ashoka Buildcon Limited",
+      "ticker": "ASHOKA",
+      "exchange": "NSEI",
+      "sector": "Cement & Construction",
+      "sector_detail": "Civil Construction",
+      "is_psu": false,
+      "pat_client_cr": 2550.01,
+      "pat_screener_cr": 2576,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2576,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 6.94,
+      "csr_obligation_cr": 6.92,
+      "csr_required_2pct_cr": 6.92,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Construction of Oncology and Maternity building at Ashoka Institute of Medical Sciences & Research (AIMSAR), Nasik - Rs. 6.32 crore",
+        "Promoting health care including preventive health care (standalone: Rs. 631.50 lakh)",
+        "Promoting education, especially tribal education (standalone: Rs. 12.32 lakh)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone figures from Directors' Report Annexure-VI CSR Annual Report (Rs. crore) used as primary; consistent with standalone Note 43 (₹ in Lakhs: obligation 692.24 lakh=6.92cr, spent 700.00/694.08 lakh~6.94-6.94cr). Excess spent by Rs.0.02 crore, so unspent=0.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=108ab479-291c-4200-b846-fa318adcd757.pdf",
+        "page": 323
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:31:54.741Z"
     }
   }
 }
