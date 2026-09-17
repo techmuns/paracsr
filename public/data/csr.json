@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:38:35.589Z",
-  "count": 144,
+  "updated_at": "2026-09-17T14:38:54.141Z",
+  "count": 145,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4367,7 +4367,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 144,
+      "rank": 145,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5199,6 +5199,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:38:34.448Z"
+    },
+    "SUNDARMFIN": {
+      "rank": 144,
+      "name": "Sundaram Finance Limited",
+      "ticker": "SUNDARMFIN",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 2058.86,
+      "pat_screener_cr": 2059,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2059,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY25",
+      "csr_spent_cr": 24.7,
+      "csr_obligation_cr": 24.23,
+      "csr_required_2pct_cr": 24.31,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Supported Sundaram Medical Foundation - upgraded hospital infrastructure and equipment across its Annexure, Inpatient and Outpatient facilities",
+        "Laxmi Charities - need-based scholarships (₹6.23 crore disbursed to 3,658 disadvantaged students in Tamil Nadu for school/college education)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 43.02 (Notes to Accounts, ₹ in crores) shows amount of expenditure incurred = 24.70 cr for FY25, required = 24.31 cr; Annexure III (CSR annual report, figures in ₹ lakhs, converted to crore) shows CSR spent on projects 23.30 cr + admin overheads 1.39 cr = total 24.69 cr, net obligation 24.23 cr, fully spent with excess set-off 0.46 cr, unspent=0.",
+      "source": {
+        "annual_report_url": "https://www.sundaramfinance.in/assets/app_docs/downloads/annual-reports/2024-2025/annual_report_2024_25.pdf?v=2.7",
+        "page": 50
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:38:54.141Z"
     }
   }
 }
