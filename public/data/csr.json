@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:46:46.828Z",
-  "count": 166,
+  "updated_at": "2026-09-17T14:47:04.928Z",
+  "count": 167,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1376,6 +1376,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:06:58.991Z"
+    },
+    "531642": {
+      "rank": 165,
+      "name": "Marico Limited",
+      "ticker": "531642",
+      "exchange": "BSE",
+      "sector": "Oil & Gas",
+      "sector_detail": "Edible Oil",
+      "is_psu": false,
+      "pat_client_cr": 1762,
+      "pat_screener_cr": 1813,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1813,
+      "pat_mismatch": false,
+      "pat_delta_pct": 2.89,
+      "fy_used": "FY26",
+      "csr_spent_cr": 26.7,
+      "csr_obligation_cr": 26.55,
+      "csr_required_2pct_cr": 26.67,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Nihar Shanti Pathshala Funwala – education program",
+        "Marico Innovation Foundation – healthcare, livelihoods and innovation initiatives",
+        "Parachute Kalpavriksha Foundation – community and ecological sustenance including livelihood enhancement",
+        "Jalashay – water stewardship program"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Board's Report Annexure 'E' CSR disclosure (pages 198-199), FY26; Total amount spent for the financial year ₹26.70 Cr vs 2% obligation ₹26.55 Cr (after set-off), fully spent (Unspent: NIL); figures already in ₹ crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d48a9a7-e7ee-4677-a18b-78ae7b5b01c7.pdf",
+        "page": 275
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:47:04.928Z"
     },
     "532215": {
       "rank": 16,
@@ -4616,7 +4653,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 166,
+      "rank": 167,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5485,7 +5522,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 165,
+      "rank": 166,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
