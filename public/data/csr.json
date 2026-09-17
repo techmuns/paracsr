@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:41:24.735Z",
-  "count": 153,
+  "updated_at": "2026-09-17T14:41:41.674Z",
+  "count": 154,
   "companies": {
     "500049": {
       "rank": 61,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500109": {
-      "rank": 150,
+      "rank": 151,
       "name": "Mangalore Refinery and Petrochemicals Limited",
       "ticker": "500109",
       "exchange": "BSE",
@@ -433,7 +433,7 @@
       "generated_at": "2026-09-17T14:20:58.249Z"
     },
     "500420": {
-      "rank": 141,
+      "rank": 142,
       "name": "Torrent Pharmaceuticals Limited",
       "ticker": "500420",
       "exchange": "BSE",
@@ -833,7 +833,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500710": {
-      "rank": 147,
+      "rank": 148,
       "name": "Akzo Nobel India Limited",
       "ticker": "500710",
       "exchange": "BSE",
@@ -1086,6 +1086,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:11:46.952Z"
+    },
+    "512070": {
+      "rank": 139,
+      "name": "UPL Limited",
+      "ticker": "512070",
+      "exchange": "BSE",
+      "sector": "Chemicals",
+      "sector_detail": "Pesticides & Agrochemicals",
+      "is_psu": false,
+      "pat_client_cr": 1922,
+      "pat_screener_cr": 2220,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2220,
+      "pat_mismatch": true,
+      "pat_delta_pct": 15.5,
+      "fy_used": "FY26",
+      "csr_spent_cr": 19,
+      "csr_obligation_cr": 19,
+      "csr_required_2pct_cr": 19,
+      "csr_unspent_cr": 11,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend on Education and Skilling programs",
+        "CSR spend on Health and Wellness initiatives"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 49 CSR expenditure, Standalone Financial Statements FY26; gross amount required = 19 cr, amount spent during current year = 8 cr + 11 cr shortfall set-off (from prior year excess) = 19 cr total; unspent/shortfall at year-end = 11 cr; nature of CSR activities includes Health, Wellness, Education, Skilling.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/eb12d677-50d7-4495-9f5f-1921ef482847.pdf",
+        "page": 151
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:41:41.673Z"
     },
     "512455": {
       "rank": 93,
@@ -1438,7 +1473,7 @@
       "generated_at": "2026-09-17T14:24:13.170Z"
     },
     "532767": {
-      "rank": 145,
+      "rank": 146,
       "name": "Gayatri Projects Limited",
       "ticker": "532767",
       "exchange": "BSE",
@@ -1543,7 +1578,7 @@
       "generated_at": "2026-09-17T14:37:00.418Z"
     },
     "539177": {
-      "rank": 149,
+      "rank": 150,
       "name": "Authum Investment & Infrastructure Limited",
       "ticker": "539177",
       "exchange": "BSE",
@@ -4507,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 153,
+      "rank": 154,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4690,7 +4725,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 139,
+      "rank": 140,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -5232,7 +5267,7 @@
       "generated_at": "2026-09-17T14:36:40.067Z"
     },
     "SBICARD": {
-      "rank": 140,
+      "rank": 141,
       "name": "SBI Cards and Payment Services Limited",
       "ticker": "SBICARD",
       "exchange": "NSEI",
@@ -5269,7 +5304,7 @@
       "generated_at": "2026-09-17T14:37:20.837Z"
     },
     "ACC": {
-      "rank": 142,
+      "rank": 143,
       "name": "ACC Limited",
       "ticker": "ACC",
       "exchange": "NSEI",
@@ -5306,7 +5341,7 @@
       "generated_at": "2026-09-17T14:37:58.058Z"
     },
     "GROWW": {
-      "rank": 143,
+      "rank": 144,
       "name": "Billionbrains Garage Ventures Limited",
       "ticker": "GROWW",
       "exchange": "NSEI",
@@ -5341,7 +5376,7 @@
       "generated_at": "2026-09-17T14:38:34.448Z"
     },
     "SUNDARMFIN": {
-      "rank": 144,
+      "rank": 145,
       "name": "Sundaram Finance Limited",
       "ticker": "SUNDARMFIN",
       "exchange": "NSEI",
@@ -5376,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 152,
+      "rank": 153,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5413,7 +5448,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 151,
+      "rank": 152,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5450,7 +5485,7 @@
       "generated_at": "2026-09-17T14:40:10.598Z"
     },
     "CHAMBLFERT": {
-      "rank": 148,
+      "rank": 149,
       "name": "Chambal Fertilisers and Chemicals Limited",
       "ticker": "CHAMBLFERT",
       "exchange": "NSEI",
@@ -5486,7 +5521,7 @@
       "generated_at": "2026-09-17T14:40:26.796Z"
     },
     "APOLLOHOSP": {
-      "rank": 146,
+      "rank": 147,
       "name": "Apollo Hospitals Enterprise Limited",
       "ticker": "APOLLOHOSP",
       "exchange": "NSEI",
