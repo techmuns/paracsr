@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:52:44.112Z",
-  "count": 186,
+  "updated_at": "2026-09-17T14:53:01.453Z",
+  "count": 187,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4869,7 +4869,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 186,
+      "rank": 187,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6668,7 +6668,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 185,
+      "rank": 186,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6701,6 +6701,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:52:42.552Z"
+    },
+    "TATACONSUM": {
+      "rank": 185,
+      "name": "Tata Consumer Products Limited",
+      "ticker": "TATACONSUM",
+      "exchange": "NSEI",
+      "sector": "FMCG",
+      "sector_detail": "Tea & Coffee",
+      "is_psu": false,
+      "pat_client_cr": 1542.3,
+      "pat_screener_cr": 1547,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1547,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.3,
+      "fy_used": "FY26",
+      "csr_spent_cr": 25.25,
+      "csr_obligation_cr": 24.44,
+      "csr_required_2pct_cr": 24.44,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Rural Healthcare and Research Centre (RHRC) at Chabua, Assam and Rural India Health Project (RIHP) Hospital in Kodagu, Karnataka providing affordable healthcare",
+        "Supporting cancer-affected children through St. Jude India ChildCare Centres, Kolkata",
+        "Promoting education & vocational skills for differently-abled via TGBL Foundation and Srishti, Kerala (Rs.4.94 Cr + Rs.0.65 Cr)",
+        "Scholarships to underprivileged youth through Foundation for Academic Excellence & Access (FAEA) and NAPS/NATS skilling scheme (Rs.7.30 Cr)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure 1 (Board's Report CSR Annexure), FY2025-26; amounts already in Rs. Crores. Total amount spent (25.25 Cr) exceeds 2% obligation (24.44 Cr); excess of 0.91 Cr carried forward for set-off, hence unspent = 0.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9065880b-665c-4296-8e23-cea7822e2668.pdf",
+        "page": 106
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:53:01.452Z"
     }
   }
 }
