@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:54:03.857Z",
-  "count": 190,
+  "updated_at": "2026-09-17T14:54:21.961Z",
+  "count": 191,
   "companies": {
     "500049": {
       "rank": 61,
@@ -221,7 +221,7 @@
       "generated_at": "2026-09-17T14:16:03.811Z"
     },
     "500163": {
-      "rank": 189,
+      "rank": 190,
       "name": "Godfrey Phillips India Limited",
       "ticker": "500163",
       "exchange": "BSE",
@@ -4904,7 +4904,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 190,
+      "rank": 191,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6703,7 +6703,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 187,
+      "rank": 188,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6810,7 +6810,7 @@
       "generated_at": "2026-09-17T14:53:22.794Z"
     },
     "NAM-INDIA": {
-      "rank": 188,
+      "rank": 189,
       "name": "Nippon Life India Asset Management Limited",
       "ticker": "NAM-INDIA",
       "exchange": "NSEI",
@@ -6845,6 +6845,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:53:42.863Z"
+    },
+    "JSWINFRA": {
+      "rank": 187,
+      "name": "JSW Infrastructure Limited",
+      "ticker": "JSWINFRA",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Port & Port services",
+      "is_psu": false,
+      "pat_client_cr": 1523.31,
+      "pat_screener_cr": 1547,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1547,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.56,
+      "fy_used": "FY26",
+      "csr_spent_cr": 4.92,
+      "csr_obligation_cr": 4.92,
+      "csr_required_2pct_cr": 4.92,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Set up a Science Lab in Government Model Higher Primary School, Aversa, Uttar Kannada, Karnataka",
+        "Provided a Power Boat for school children in Japa, Jagatsinghpur, Odisha",
+        "CSR focus areas include education, health and nutrition (implemented via JSW Foundation)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-B, Annual Report on CSR Activities (Board's Report), FY2025-26; figures stated directly in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/77e85723-ca95-4eda-a81e-66332f915730.pdf",
+        "page": 92
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:54:21.961Z"
     }
   }
 }
