@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:20:14.795Z",
-  "count": 87,
+  "updated_at": "2026-09-17T14:20:37.026Z",
+  "count": 88,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3065,7 +3065,7 @@
       "generated_at": "2026-09-17T14:16:50.216Z"
     },
     "CIPLA": {
-      "rank": 87,
+      "rank": 88,
       "name": "Cipla Limited",
       "ticker": "CIPLA",
       "exchange": "NSEI",
@@ -3137,6 +3137,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:20:12.886Z"
+    },
+    "ABCAPITAL": {
+      "rank": 87,
+      "name": "Aditya Birla Capital Limited",
+      "ticker": "ABCAPITAL",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Investment Company",
+      "is_psu": false,
+      "pat_client_cr": 3764.49,
+      "pat_screener_cr": 3864,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3864,
+      "pat_mismatch": false,
+      "pat_delta_pct": 2.64,
+      "fy_used": "FY26",
+      "csr_spent_cr": 52.72,
+      "csr_obligation_cr": 54.6,
+      "csr_required_2pct_cr": 54.6,
+      "csr_unspent_cr": 1.88,
+      "health_or_education": true,
+      "examples": [
+        "Promoting education through Anganwadi centres, government schools, merit-based scholarships and remedial education for tribal students",
+        "Preventive health care assistance to underprivileged patients, hospital infrastructure support and need-based surgery funding",
+        "Training support for athletes aspiring to National/International/Olympic Games",
+        "Soil and water conservation and livelihood generation programs for women empowerment"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 38 (Standalone Financial Statements) gives CSR expense of ₹54.60 cr (P&L charge) with 'Amount Spent during the Year' of ₹53.70 cr; however, Annexure A (Board's Report CSR Annual Report, page 200-202) gives the statutory Section 135 breakup: 2% obligation ₹54.60 cr, Total Amount Spent for FY ₹52.72 cr (₹52,72,35,350), Amount Unspent/transferred to Unspent CSR Account ₹1.87-1.88 cr. Used Annexure A figures as the authoritative Section 135 disclosure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/92d71e95-80e5-487f-94aa-b41e59be5c5e.pdf",
+        "page": 354
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:20:37.026Z"
     }
   }
 }
