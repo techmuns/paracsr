@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:38:17.344Z",
-  "count": 143,
+  "updated_at": "2026-09-17T14:38:34.448Z",
+  "count": 144,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4367,7 +4367,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 143,
+      "rank": 144,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5164,6 +5164,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:37:58.058Z"
+    },
+    "GROWW": {
+      "rank": 143,
+      "name": "Billionbrains Garage Ventures Limited",
+      "ticker": "GROWW",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Stockbroking & Allied",
+      "is_psu": false,
+      "pat_client_cr": 2083,
+      "pat_screener_cr": 2083,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2083,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 7.604,
+      "csr_obligation_cr": 9.594,
+      "csr_required_2pct_cr": 9.594,
+      "csr_unspent_cr": 1.99,
+      "health_or_education": true,
+      "examples": [
+        "Promoting education, including special education and employment-enhancing vocational skills, especially among children, women, elderly and differently abled",
+        "Livelihood enhancement projects"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure IV CSR report & Note 36 to standalone financials, FY26 (year ended Mar 31, 2026); amounts converted from INR million to crore (÷10). Total CSR obligation ₹95.94 mn = ₹9.594 cr; total spent ₹76.04 mn = ₹7.604 cr; unspent/shortfall ₹19.90 mn = ₹1.99 cr, transferred to Unspent CSR Account.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b85f074b-f1af-415a-93fb-0a6c236b905c.pdf",
+        "page": 81
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:38:34.448Z"
     }
   }
 }
