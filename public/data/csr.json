@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:42:02.760Z",
-  "count": 155,
+  "updated_at": "2026-09-17T14:42:21.150Z",
+  "count": 156,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4542,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 155,
+      "rank": 156,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 154,
+      "rank": 155,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5448,7 +5448,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 153,
+      "rank": 154,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
@@ -5588,6 +5588,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:42:01.033Z"
+    },
+    "HDFCLIFE": {
+      "rank": 153,
+      "name": "HDFC Life Insurance Company Limited",
+      "ticker": "HDFCLIFE",
+      "exchange": "NSEI",
+      "sector": "Insurance",
+      "sector_detail": "Life Insurance",
+      "is_psu": false,
+      "pat_client_cr": 1912.32,
+      "pat_screener_cr": 1912,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1912,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 11.67,
+      "csr_obligation_cr": 11.67,
+      "csr_required_2pct_cr": 16.07,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Surgeries for congenital heart defects in children and clubfoot correction surgeries",
+        "Cancer treatment and support for children; general health check-up camps in rural areas",
+        "Scholarships, infrastructural development in schools, and distribution of books for underprivileged children",
+        "Skilling and livelihood training to deaf youth and career counselling for children"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annexure 2 (CSR Annual Report) and Note 13 (Schedules) for FY ended March 31, 2026; figures converted from ₹ Lakh to ₹ crore (e.g. ₹1,167 Lakh = ₹11.67 crore). 2% obligation ₹16.07 crore, but net CSR due after set-off was ₹11.67 crore, fully spent (unspent = Nil).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/87058873-f32d-4ce7-af23-5b6fc65815e1.pdf",
+        "page": 248
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:42:21.150Z"
     }
   }
 }
