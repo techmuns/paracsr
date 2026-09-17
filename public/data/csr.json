@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:33:25.382Z",
-  "count": 127,
+  "updated_at": "2026-09-17T14:33:41.384Z",
+  "count": 128,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 125,
+      "rank": 126,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 127,
+      "rank": 128,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4403,7 +4403,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 126,
+      "rank": 127,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4581,6 +4581,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:33:24.104Z"
+    },
+    "SBILIFE": {
+      "rank": 125,
+      "name": "SBI Life Insurance Company Limited",
+      "ticker": "SBILIFE",
+      "exchange": "NSEI",
+      "sector": "Insurance",
+      "sector_detail": "Life Insurance",
+      "is_psu": false,
+      "pat_client_cr": 2470.3,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "consolidated",
+      "pat_cr": 2470.3,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 20.01,
+      "csr_obligation_cr": 17.11,
+      "csr_required_2pct_cr": 17.11,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Supported education, nutrition and overall development of underprivileged children",
+        "Contributed to school infrastructure - hostels, playgrounds, digital smart classrooms, sanitation",
+        "Vocational training and skill development for disadvantaged sections to enhance livelihood",
+        "Contributed towards medical facilities/hospital infrastructure, cancer screening and surgeries for underprivileged children"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 37, Schedules Forming Part of Financial Statements, FY2025-26; amounts converted from ₹ Lakhs to crore (₹2,001 Lakhs=₹20.01 cr; required ₹1,711 Lakhs=₹17.11 cr); fully spent, unspent=0 per Section 135(5) table.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/14b49afc-218e-4be7-8bce-e5fb86f2a632.pdf",
+        "page": 188
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:33:41.384Z"
     }
   }
 }
