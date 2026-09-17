@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:49:02.466Z",
-  "count": 174,
+  "updated_at": "2026-09-17T14:49:23.800Z",
+  "count": 175,
   "companies": {
     "500049": {
       "rank": 61,
@@ -328,7 +328,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 170,
+      "rank": 171,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -1450,7 +1450,7 @@
       "generated_at": "2026-09-17T14:06:58.991Z"
     },
     "531642": {
-      "rank": 166,
+      "rank": 167,
       "name": "Marico Limited",
       "ticker": "531642",
       "exchange": "BSE",
@@ -4725,7 +4725,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 174,
+      "rank": 175,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5594,7 +5594,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 173,
+      "rank": 174,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6058,7 +6058,7 @@
       "generated_at": "2026-09-17T14:44:56.934Z"
     },
     "PATANJALI": {
-      "rank": 165,
+      "rank": 166,
       "name": "Patanjali Foods Limited",
       "ticker": "PATANJALI",
       "exchange": "NSEI",
@@ -6095,7 +6095,7 @@
       "generated_at": "2026-09-17T14:46:45.514Z"
     },
     "SHREECEM": {
-      "rank": 167,
+      "rank": 168,
       "name": "Shree Cement Limited",
       "ticker": "SHREECEM",
       "exchange": "NSEI",
@@ -6132,7 +6132,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 169,
+      "rank": 170,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6169,7 +6169,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 171,
+      "rank": 172,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6204,7 +6204,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 172,
+      "rank": 173,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6240,7 +6240,7 @@
       "generated_at": "2026-09-17T14:48:45.461Z"
     },
     "SOLARINDS": {
-      "rank": 168,
+      "rank": 169,
       "name": "Solar Industries India Limited",
       "ticker": "SOLARINDS",
       "exchange": "NSEI",
@@ -6273,6 +6273,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:49:00.942Z"
+    },
+    "IIFL": {
+      "rank": 165,
+      "name": "IIFL Finance Limited",
+      "ticker": "IIFL",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 1660.8,
+      "pat_screener_cr": 1817,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1817,
+      "pat_mismatch": true,
+      "pat_delta_pct": 9.41,
+      "fy_used": "FY26",
+      "csr_spent_cr": 8.4312815,
+      "csr_obligation_cr": 10.7542271,
+      "csr_required_2pct_cr": 10.7542271,
+      "csr_unspent_cr": 2.3229456,
+      "health_or_education": true,
+      "examples": [
+        "Donated a 16-Slice CT Scan Machine to Maharana Bhupal Hospital, Udaipur, benefiting 7,147 patients",
+        "Sakhiyon ki Baadi program promoting foundational literacy for girls in Rajasthan across 259 learning centres",
+        "Free Mega Medical Camp at Pandharpur benefiting 11,100 pilgrims with medical aid and food support",
+        "Supported infrastructure and computer lab at Government Senior Secondary School, Vati, Udaipur benefiting 257 students"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure II to Directors' Report, Section 135 CSR report FY2025-26; amounts converted from ₹ to crore (e.g. ₹10,75,42,271 = 10.75 crore).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f7c8567f-8a20-407f-afeb-ed5811269304.pdf",
+        "page": 88
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:49:23.800Z"
     }
   }
 }
