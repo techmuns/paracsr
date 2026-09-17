@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:57:00.883Z",
-  "count": 26,
+  "updated_at": "2026-09-17T13:57:17.668Z",
+  "count": 27,
   "companies": {
     "500228": {
       "rank": 18,
@@ -931,6 +931,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:56:59.479Z"
+    },
+    "HCLTECH": {
+      "rank": 27,
+      "name": "HCL Technologies Limited",
+      "ticker": "HCLTECH",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 17599.98,
+      "pat_screener_cr": 16652,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 16652,
+      "pat_mismatch": true,
+      "pat_delta_pct": -5.39,
+      "fy_used": "FY26",
+      "csr_spent_cr": 304.32,
+      "csr_obligation_cr": 304.32,
+      "csr_required_2pct_cr": 304.32,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Mobile Health Clinic Programme in Hardoi, UP supported 3,40,000+ beneficiaries with primary healthcare, diagnostics and free medicines",
+        "Strengthening of Health & Wellness Centers benefited 37,500 pregnant women with improved antenatal and delivery care",
+        "Strengthening of Community Health Centers provided ~1,01,400 teleconsultations annually",
+        "Child Nutrition Management Programme benefitted over 4,275 households to reduce early childhood malnutrition"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Directors' Report Annexure 3 (Sec 135 CSR annual report), FY2025-26; Total amount spent [(a)+(b)+(c)] = 304.32 cr equals total CSR obligation (fully spent, no unspent amount); amounts already in ₹ crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "page": 166
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:57:17.668Z"
     }
   }
 }
