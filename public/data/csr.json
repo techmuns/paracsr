@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:39:31.300Z",
-  "count": 147,
+  "updated_at": "2026-09-17T14:39:48.550Z",
+  "count": 148,
   "companies": {
     "500049": {
       "rank": 61,
@@ -796,6 +796,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T13:59:10.933Z"
+    },
+    "500710": {
+      "rank": 146,
+      "name": "Akzo Nobel India Limited",
+      "ticker": "500710",
+      "exchange": "BSE",
+      "sector": "Chemicals",
+      "sector_detail": "Paints",
+      "is_psu": false,
+      "pat_client_cr": 1973.8,
+      "pat_screener_cr": 1974,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1974,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 10.7,
+      "csr_obligation_cr": 10.7,
+      "csr_required_2pct_cr": 10.7,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Vocational skill training programs (₹4.5 crore)",
+        "Promoting education initiatives (₹1.4 crore)",
+        "Promoting preventive healthcare (₹0.7 crore)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 25(b) to Standalone/Consolidated FY2025-26 accounts; amounts originally in INR millions, converted to crore (÷10). Amount required = amount spent = ₹107 million = ₹10.7 crore; fully spent, no unspent balance.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/05f5c198-325c-47c7-b842-d55c93f1f0ed.pdf",
+        "page": 74
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:39:48.549Z"
     },
     "500790": {
       "rank": 98,
@@ -4399,7 +4435,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 147,
+      "rank": 148,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5268,7 +5304,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 146,
+      "rank": 147,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
