@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:03:26.767Z",
-  "count": 45,
+  "updated_at": "2026-09-17T14:03:45.749Z",
+  "count": 46,
   "companies": {
     "500188": {
       "rank": 35,
@@ -327,6 +327,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:00:37.242Z"
+    },
+    "511218": {
+      "rank": 46,
+      "name": "Shriram Finance Limited",
+      "ticker": "511218",
+      "exchange": "BSE",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 10024.16,
+      "pat_screener_cr": 10024,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 10024,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 183.01,
+      "csr_obligation_cr": 182.97,
+      "csr_required_2pct_cr": 182.97,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Preventive healthcare initiatives and health camps",
+        "Scholarship scheme and contribution towards primary, secondary and higher education",
+        "Training and skill development programs",
+        "School repairs and renovation"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 74A 'Details of CSR Expenses' (also consolidated Note 62A shows Rs.183.01 cr spent vs Rs.182.97 cr required); figures in Rs. crores as stated, no conversion needed; no shortfall reported for FY26.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/281fe009-9bb2-4e56-864b-f6a00da8725c.pdf",
+        "page": 273
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:03:45.749Z"
     },
     "532215": {
       "rank": 16,
