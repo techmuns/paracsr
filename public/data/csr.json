@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:16:05.572Z",
-  "count": 82,
+  "updated_at": "2026-09-17T14:16:27.706Z",
+  "count": 83,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2952,6 +2952,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:15:42.411Z"
+    },
+    "HUDCO": {
+      "rank": 83,
+      "name": "Housing and Urban Development Corporation Limited",
+      "ticker": "HUDCO",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Financial Institution",
+      "is_psu": true,
+      "pat_client_cr": 4034.37,
+      "pat_screener_cr": 4034,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4034,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 60.06,
+      "csr_obligation_cr": 57.9,
+      "csr_required_2pct_cr": 57.89,
+      "csr_unspent_cr": 32.75,
+      "health_or_education": true,
+      "examples": [
+        "Procurement of medical equipment for AIIMS Bibinagar, Telangana and AIIMS Jammu (eye bank project)",
+        "Purchase of medical equipment for Cancer Institute (WIA), Adyar, Chennai and Gujarat Cancer and Research Institute, Ahmedabad",
+        "Procurement of Battery-Operated Vehicles with stretchers for SCB Medical College & Hospital, Cuttack, Odisha",
+        "HUDCO Pehal - developing educational infrastructure in Govt. schools and schools for children with special needs"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 35 (Corporate Social Responsibility) in notes to accounts, cross-checked with Directors' Report Statutory Disclosures Sec.24(i); 60% of budget targeted at 'Health and Nutrition' theme, 65.75% of spend actually on health-related projects; amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/169ba9ea-5c3c-4028-a4d7-55a2c497795b.pdf",
+        "page": 330
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:16:27.706Z"
     }
   }
 }
