@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:38:55.321Z",
-  "count": 145,
+  "updated_at": "2026-09-17T14:39:10.147Z",
+  "count": 146,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1365,6 +1365,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:24:13.170Z"
+    },
+    "532767": {
+      "rank": 145,
+      "name": "Gayatri Projects Limited",
+      "ticker": "532767",
+      "exchange": "BSE",
+      "sector": "Cement & Construction",
+      "sector_detail": "Civil Construction",
+      "is_psu": false,
+      "pat_client_cr": 2042.12,
+      "pat_screener_cr": 2042,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2042,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 0,
+      "csr_obligation_cr": 0,
+      "csr_required_2pct_cr": 0,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 32.26/33.28 & Annexure-5 (Board's Report): average net profit negative, so CSR obligation NIL and amount spent NIL for FY2025-26; no CSR projects undertaken.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed07ad73-1e23-4710-be4a-c7fa7bc83c65.pdf",
+        "page": 144
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:39:10.147Z"
     },
     "532967": {
       "rank": 66,
@@ -4367,7 +4399,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 145,
+      "rank": 146,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
