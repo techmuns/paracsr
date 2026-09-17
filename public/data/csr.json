@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:43:53.572Z",
-  "count": 160,
+  "updated_at": "2026-09-17T14:44:13.059Z",
+  "count": 161,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1266,6 +1266,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:17:32.644Z"
+    },
+    "526299": {
+      "rank": 159,
+      "name": "Mphasis Limited",
+      "ticker": "526299",
+      "exchange": "BSE",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 1862.6,
+      "pat_screener_cr": 1863,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1863,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 41.321,
+      "csr_obligation_cr": 41.289,
+      "csr_required_2pct_cr": 41.289,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Solar electrification and education sponsorship for 168 children across 6 SOS Children's Villages (Bhimtal, Begusarai, Hojai, Nagapattinam, Thrissur, Visakhapatnam) - covering school fees, uniforms, books, remedial learning and digital literacy",
+        "Promoting STEM education/career programs, quantum computing research, AI Innovation Lab, and Green Innovation Challenge",
+        "One Billion Drops - constructed 1,298 percolation wells across Bengaluru parks/campuses for groundwater recharge",
+        "Partnered with Art & Photography Foundation to build the Museum of Art & Photography (MAP), Bengaluru - INR 10 crore commitment over 2019-2025 for inclusive, accessible cultural/educational institution"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 40 (Standalone Financial Statements) and Annexure-4 (Board's Report CSR Annual Report), FY ended 31 Mar 2026; figures stated in ₹ million converted to crore (÷10): spent ₹413.21mn=41.321cr; required 2%=₹412.89mn=41.289cr; no shortfall/unspent.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/55f59c6a-6d7b-487b-b688-843817d6eecb.pdf",
+        "page": 72
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:44:13.059Z"
     },
     "526371": {
       "rank": 57,
@@ -4542,7 +4579,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 160,
+      "rank": 161,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5448,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 159,
+      "rank": 160,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
