@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:40:47.298Z",
-  "count": 151,
+  "updated_at": "2026-09-17T14:41:03.909Z",
+  "count": 152,
   "companies": {
     "500049": {
       "rank": 61,
@@ -1506,6 +1506,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:37:00.418Z"
+    },
+    "539177": {
+      "rank": 149,
+      "name": "Authum Investment & Infrastructure Limited",
+      "ticker": "539177",
+      "exchange": "BSE",
+      "sector": "Financial Services",
+      "sector_detail": "Non Banking Financial Company (NBFC)",
+      "is_psu": false,
+      "pat_client_cr": 1931.09,
+      "pat_screener_cr": 1929,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1929,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.11,
+      "fy_used": "FY26",
+      "csr_spent_cr": 35.4,
+      "csr_obligation_cr": 35.4,
+      "csr_required_2pct_cr": 35.3983117,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSR funds directed toward healthcare, education, and institutional grants via registered implementing agencies",
+        "Jay Jagannath Education Trust – Rs. 2,00,000 contribution",
+        "Motilal Oswal Foundation – Rs. 2.50 crore contribution",
+        "Authum Foundation – aggregate contributions of over Rs. 27 crore for national causes including healthcare and education"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-V (Section 135 CSR Annual Report), FY2025-26; amounts converted from Rs. to INR crore (35,40,00,000 = 35.40 cr; 35,39,83,117 = 35.3983 cr). Excess spent over 2% requirement by Rs.16,883.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b024db68-cfd1-4bfd-ac30-cc7e39929e6c.pdf",
+        "page": 113
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:41:03.909Z"
     },
     "SBIN": {
       "rank": 2,
@@ -4435,7 +4472,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 151,
+      "rank": 152,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5304,7 +5341,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 150,
+      "rank": 151,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5341,7 +5378,7 @@
       "generated_at": "2026-09-17T14:39:30.089Z"
     },
     "COROMANDEL": {
-      "rank": 149,
+      "rank": 150,
       "name": "Coromandel International Limited",
       "ticker": "COROMANDEL",
       "exchange": "NSEI",
