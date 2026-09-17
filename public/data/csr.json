@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:21:58.660Z",
-  "count": 92,
+  "updated_at": "2026-09-17T14:22:15.432Z",
+  "count": 93,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3321,6 +3321,38 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:21:16.938Z"
+    },
+    "YESBANK": {
+      "rank": 93,
+      "name": "Yes Bank Limited",
+      "ticker": "YESBANK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 3511.71,
+      "pat_screener_cr": 3512,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3512,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 40.31,
+      "csr_obligation_cr": 34.74,
+      "csr_required_2pct_cr": 34.74,
+      "csr_unspent_cr": 0,
+      "health_or_education": null,
+      "examples": [],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Consolidated Note 17.6.19 CSR (Standalone Note 17.5.53 similar, ₹403.08mn spent vs ₹347.40mn required); converted from ₹ million to crore (÷100); no project-level sector detail (healthcare/education) disclosed in excerpt, so health_or_education left null; contribution largely via YES Foundation.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/69d53e41-cb81-4ab7-8d92-7693edd96daf.pdf",
+        "page": 248
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:22:15.432Z"
     }
   }
 }
