@@ -509,6 +509,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:25:46.033Z",
       "error": null
+    },
+    "SUZLON": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:25:47.148Z",
+      "error": null
     }
   }
 }
