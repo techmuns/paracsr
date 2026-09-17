@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:25:47.148Z",
-  "count": 102,
+  "updated_at": "2026-09-17T14:26:03.817Z",
+  "count": 103,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3608,7 +3608,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 102,
+      "rank": 103,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -3679,6 +3679,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:25:46.033Z"
+    },
+    "SUZLON": {
+      "rank": 102,
+      "name": "Suzlon Energy Limited",
+      "ticker": "SUZLON",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Heavy Electrical Equipment",
+      "is_psu": false,
+      "pat_client_cr": 3163.39,
+      "pat_screener_cr": 3163,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3163,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 12.682,
+      "csr_obligation_cr": 11.21,
+      "csr_required_2pct_cr": 11.21,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Reached 15,001 patients through health camps, 2,380 eye screenings and 781 cataract surgeries",
+        "Supported education across 450 schools benefiting 44,324 students with digital learning, WASH facilities and infrastructure support",
+        "217 students received scholarships under the Adopt-a-Student initiative"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Directors' Report CSR Annexure (Sec 135) pages 132-136 and Note 30.2 to standalone financial statements, FYE March 31, 2026; amounts already in ₹ Crore; excess spent over obligation ₹1.47 Cr, no unspent amount.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/984e4598-0b42-4377-a49f-2749dc392f06.pdf",
+        "page": 138
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:26:03.816Z"
     }
   }
 }
