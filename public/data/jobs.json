@@ -259,6 +259,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:05:52.038Z",
       "error": null
+    },
+    "ULTRACEMCO": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:05:53.536Z",
+      "error": null
     }
   }
 }
