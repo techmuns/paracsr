@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:49:01.458Z",
-  "count": 5,
+  "updated_at": "2026-09-17T12:49:20.516Z",
+  "count": 6,
   "companies": {
     "500570": {
       "rank": 3,
@@ -147,7 +147,7 @@
       "generated_at": "2026-09-17T12:48:39.797Z"
     },
     "LICI": {
-      "rank": 5,
+      "rank": 6,
       "name": "Life Insurance Corporation of India",
       "ticker": "LICI",
       "exchange": "NSEI",
@@ -181,6 +181,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:49:00.165Z"
+    },
+    "ICICIBANK": {
+      "rank": 5,
+      "name": "ICICI Bank Limited",
+      "ticker": "ICICIBANK",
+      "exchange": "NSEI",
+      "sector": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 54207.7,
+      "pat_screener_cr": 57936,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 57936,
+      "pat_mismatch": true,
+      "pat_delta_pct": 6.88,
+      "fy_used": "FY26",
+      "csr_spent_cr": 878.05,
+      "csr_obligation_cr": 994.06,
+      "csr_required_2pct_cr": 992.23,
+      "csr_unspent_cr": 116.01,
+      "health_or_education": true,
+      "examples": [
+        "Provided Dual Energy CT Simulator (DECT) at ACTREC's Proton Therapy Centre, Navi Mumbai, benefiting 1,265 cancer patients",
+        "Provided robotic gait training machine to Bhagwan Mahaveer Viklang Sahayata Samiti, Jaipur for patients with paralysis-related mobility issues",
+        "Supported surgical equipment at Baba Farid University of Health Sciences, Punjab",
+        "Financial literacy training programme reaching over 0.69 million individuals across India"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 55 to Standalone Accounts & Board's Report Annexure (Sec 135); figures converted from ₹ million to ₹ crore (÷100). CSR obligation ₹9,940.6mn=₹994.06cr; 2% req per Board Report ₹9,922.3mn=₹992.23cr; amount spent (excl. unspent A/c utilisation) ₹8,780.5mn=₹878.05cr; shortfall/unspent transferred ₹1,161.0mn=₹116.10cr (used as unspent).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/01c30537-c969-4503-bbae-a07d51eb09a5.pdf",
+        "page": 347
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:49:20.515Z"
     }
   }
 }
