@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:48:13.476Z",
-  "count": 171,
+  "updated_at": "2026-09-17T14:48:29.191Z",
+  "count": 172,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4725,7 +4725,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 171,
+      "rank": 172,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5594,7 +5594,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 170,
+      "rank": 171,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6167,6 +6167,41 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:47:40.831Z"
+    },
+    "HAVELLS": {
+      "rank": 170,
+      "name": "Havells India Limited",
+      "ticker": "HAVELLS",
+      "exchange": "NSEI",
+      "sector": "Consumer & Retail",
+      "sector_detail": "Consumer Electronics",
+      "is_psu": false,
+      "pat_client_cr": 1690.56,
+      "pat_screener_cr": 1689,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1689,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.09,
+      "fy_used": "FY26",
+      "csr_spent_cr": 38.73,
+      "csr_obligation_cr": 33.78,
+      "csr_required_2pct_cr": 35.1,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Promotion of education, eradicating hunger and sanitation & Hygiene activities via grant to QRG Foundation (₹16.77 crore)",
+        "Skill Development programs (₹0.50 crore)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 8, Standalone/Consolidated Financial Statements FY26 (also CSR Annexure-4 to Directors' Report); Total CSR Expense (Amount spent) = ₹38.73 cr; 2% requirement = ₹35.10 cr; obligation net of set-off = ₹33.78 cr per Annexure; no unspent amount other than ongoing projects.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/91649597-75d8-410c-b359-b79e40e6bd6b.pdf",
+        "page": 327
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:48:29.191Z"
     }
   }
 }
