@@ -189,6 +189,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:00:58.979Z",
       "error": null
+    },
+    "ADANIPORTS": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:01:00.447Z",
+      "error": null
     }
   }
 }
