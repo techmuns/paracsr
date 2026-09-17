@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:14:41.607Z",
-  "count": 78,
+  "updated_at": "2026-09-17T14:15:01.845Z",
+  "count": 79,
   "companies": {
     "500049": {
       "rank": 61,
@@ -2807,6 +2807,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:14:40.239Z"
+    },
+    "DLF": {
+      "rank": 79,
+      "name": "DLF Limited",
+      "ticker": "DLF",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "Residential, Commercial Projects",
+      "is_psu": false,
+      "pat_client_cr": 4414.68,
+      "pat_screener_cr": 4415,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 4415,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 6.66,
+      "csr_obligation_cr": 26.92,
+      "csr_required_2pct_cr": 27.91,
+      "csr_unspent_cr": 20.26,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend on healthcare projects for underserved communities",
+        "CSR spend on promoting education among marginalized communities",
+        "Golf Excellence project (skilling/sports promotion)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Annexure - CSR Report & Note 32(b) 'Details of CSR expenditure' in standalone financial statements (₹ in lakhs converted to crore); CSR annexure figures (₹6.66 cr spent, ₹26.92 cr obligation, ₹27.91 cr 2% requirement, ₹20.26 cr unspent) used as primary; note 32(b) shows slightly different board-approved amount (₹26.80 cr) spent ₹26.80 cr in lakhs terms - reconciled to CSR annexure as key figure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7ecef16f-7888-4fed-9be5-77aa26834bd4.pdf",
+        "page": 34
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:15:01.844Z"
     }
   }
 }
