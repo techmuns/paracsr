@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:42:44.783Z",
-  "count": 157,
+  "updated_at": "2026-09-17T14:43:12.616Z",
+  "count": 158,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4542,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 157,
+      "rank": 158,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 156,
+      "rank": 157,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5627,7 +5627,7 @@
       "generated_at": "2026-09-17T14:42:21.150Z"
     },
     "DABUR": {
-      "rank": 155,
+      "rank": 156,
       "name": "Dabur India Limited",
       "ticker": "DABUR",
       "exchange": "NSEI",
@@ -5662,6 +5662,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:42:43.629Z"
+    },
+    "IREDA": {
+      "rank": 155,
+      "name": "Indian Renewable Energy Development Agency Limited",
+      "ticker": "IREDA",
+      "exchange": "NSEI",
+      "sector": "Financial Services",
+      "sector_detail": "Financial Institution",
+      "is_psu": true,
+      "pat_client_cr": 1874,
+      "pat_screener_cr": 1874,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1874,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 32.6,
+      "csr_obligation_cr": 32.6,
+      "csr_required_2pct_cr": 32.6,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Provided two ICU-equipped ambulances in Bundi and Kota Districts, Rajasthan",
+        "CT Scan machine and battery-operated vehicles for Homi Bhabha Cancer Hospital & Research Centre, Muzaffarpur, Bihar",
+        "Solar water coolers with RO purifiers in Government schools across Mayurbhanj District, Odisha",
+        "Developmental works in Sainik School, Silvassa, UT of Dadra & Nagar Haveli & Daman & Diu"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 38 (Standalone/Consolidated FS) and Annexure-V CSR Annual Report (Directors' Report) for FY ended 31.03.2026; total spent (incl. unspent transferred to Unspent CSR A/c ₹26.09 cr + actual paid ₹6.51 cr) = ₹32.60 cr fully meeting ₹32.60 cr obligation; no shortfall.",
+      "source": {
+        "annual_report_url": "https://archives.nseindia.com/annual_reports/AR_31096_IREDA_2025_2026_A_15173254_02092026153927.pdf",
+        "page": 339
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:43:12.616Z"
     }
   }
 }
