@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:49:39.508Z",
-  "count": 7,
+  "updated_at": "2026-09-17T12:49:57.481Z",
+  "count": 8,
   "companies": {
     "500570": {
       "rank": 3,
@@ -250,6 +250,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:49:37.906Z"
+    },
+    "IOC": {
+      "rank": 8,
+      "name": "Indian Oil Corporation Limited",
+      "ticker": "IOC",
+      "exchange": "NSEI",
+      "sector": "Refineries & Marketing",
+      "is_psu": true,
+      "pat_client_cr": 42096.26,
+      "pat_screener_cr": 43677,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 43677,
+      "pat_mismatch": false,
+      "pat_delta_pct": 3.76,
+      "fy_used": "FY26",
+      "csr_spent_cr": 488.63,
+      "csr_obligation_cr": 416.68,
+      "csr_required_2pct_cr": 460.55,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "TB Elimination Programme: ₹31.27 crore in 2025-26 for Rapid Molecular Diagnostic Test devices and Handheld X-ray machines across UP, Chhattisgarh, Rajasthan, MP (740 machines cumulatively, 1.1 lakh positive cases identified)",
+        "₹315.02 crore (64.47% of total CSR spend) directed to 'Health & Nutrition and PM Internship Scheme' priority thematic areas",
+        "Educational scholarships and promotion of vocational/employment skills as part of CSR activities",
+        "Contribution towards PMUY flagship CSR projects and provision of drinking water facilities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 45 (Standalone Financial Statements) and CSR Annual Report Annexure (page 125-126), FY26 (year ended 31 March 2026); all figures in INR crore as reported, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1f26d8d3-83d0-402f-87d1-8c9aad405031.pdf",
+        "page": 294
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:49:57.481Z"
     }
   }
 }
