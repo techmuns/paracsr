@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:05:08.935Z",
-  "count": 50,
+  "updated_at": "2026-09-17T14:05:31.032Z",
+  "count": 51,
   "companies": {
     "500188": {
       "rank": 36,
@@ -1800,6 +1800,40 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:04:29.802Z"
+    },
+    "IDBI": {
+      "rank": 51,
+      "name": "IDBI Bank Limited",
+      "ticker": "IDBI",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 9209.97,
+      "pat_screener_cr": 9237,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 9237,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.29,
+      "fy_used": "FY26",
+      "csr_spent_cr": 154.39,
+      "csr_obligation_cr": 145,
+      "csr_required_2pct_cr": 144.86,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Funded Jaslok Hospital & Research Centre, Sri Kanchi Kamakoti Medical Trust (SKKMT), and TMC Navya Care hospitals/medical centres (CSR projects of ₹1 crore+ each)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Directors' Report CSR Annexure-B (FY2025-26): 2% obligation ₹144.86 cr, Board-approved CSR budget/obligation ₹145 cr; Total amount spent (incl. prior years' unspent accounts) ₹154.39 cr, of which ₹126.96 cr spent from FY26 budget (unspent for FY26 = Nil, ₹18.04 cr transferred to unspent account for ongoing projects). Financial statement Schedule note III corroborates ₹145 cr obligation and ₹127 cr spent (+₹18 cr transferred) = ₹145 cr total.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2452f761-2b8b-48bb-bf41-ea688e06836c.pdf",
+        "page": 571
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:05:31.032Z"
     }
   }
 }
