@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:35:24.139Z",
-  "count": 134,
+  "updated_at": "2026-09-17T14:35:41.135Z",
+  "count": 135,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4257,7 +4257,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 134,
+      "rank": 135,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4440,7 +4440,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 133,
+      "rank": 134,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -4836,6 +4836,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:35:06.986Z"
+    },
+    "J&KBANK": {
+      "rank": 133,
+      "name": "The Jammu and Kashmir Bank Limited",
+      "ticker": "J&KBANK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 2359.51,
+      "pat_screener_cr": 2360,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2360,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 22.36,
+      "csr_obligation_cr": 45.66,
+      "csr_required_2pct_cr": 45.66,
+      "csr_unspent_cr": 23.3,
+      "health_or_education": true,
+      "examples": [
+        "CSR spend on Healthcare initiatives",
+        "CSR spend on Education initiatives",
+        "Community Development programs"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Per Board's Report Annexure 1 (Annual Report on CSR activities, FY2025-26): Total amount spent for the year = ₹22.36 crore (₹21.69 cr projects + ₹0.67 cr admin overheads); obligation/2% requirement = ₹45.66 crore; unspent ₹23.30 cr transferred to Unspent CSR Account on 24-04-2026. Note: Schedule 18 notes to accounts show a different framing (₹21.31 cr expenditure incurred + ₹24.35 cr accrual = ₹45.66 cr total recognized as expense); Annexure 1 in Directors' Report is used as primary source per instructions for banks.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+        "page": 348
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:35:41.135Z"
     }
   }
 }
