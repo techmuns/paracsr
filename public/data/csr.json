@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:43:35.389Z",
-  "count": 159,
+  "updated_at": "2026-09-17T14:43:51.074Z",
+  "count": 160,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4542,7 +4542,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 159,
+      "rank": 160,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5411,7 +5411,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 158,
+      "rank": 159,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -5736,6 +5736,42 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:43:34.106Z"
+    },
+    "PERSISTENT": {
+      "rank": 158,
+      "name": "Persistent Systems Limited",
+      "ticker": "PERSISTENT",
+      "exchange": "NSEI",
+      "sector": "IT Services",
+      "sector_detail": "Computers - Software & Consulting",
+      "is_psu": false,
+      "pat_client_cr": 1865.12,
+      "pat_screener_cr": 1865,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1865,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.01,
+      "fy_used": "FY26",
+      "csr_spent_cr": 23.771,
+      "csr_obligation_cr": 23.771,
+      "csr_required_2pct_cr": 23.771,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Support for Facial Cleft surgeries",
+        "Support for Cochlear Implant Surgeries",
+        "Foundations' focus areas include Health, Education, Community Development, and Wildlife/Heritage Conservation"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "From Directors' Report Annexure D / CSR note (pages 123-125) and MD&A (page 264); amounts stated in INR Million, converted to crore (1 crore=10 million). Total CSR obligation & spend both INR 237.71 Million = 23.771 crore; fully spent, no unspent amount.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf",
+        "page": 123
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:43:51.074Z"
     }
   }
 }
