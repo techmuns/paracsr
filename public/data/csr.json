@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:11:48.294Z",
-  "count": 70,
+  "updated_at": "2026-09-17T14:12:07.261Z",
+  "count": 71,
   "companies": {
     "500049": {
       "rank": 60,
@@ -36,6 +36,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:08:36.819Z"
+    },
+    "500114": {
+      "rank": 71,
+      "name": "Titan Company Limited",
+      "ticker": "500114",
+      "exchange": "BSE",
+      "sector": "Consumer & Retail",
+      "sector_detail": "Gems, Jewellery And Watches",
+      "is_psu": false,
+      "pat_client_cr": 5073,
+      "pat_screener_cr": 5073,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5073,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 90,
+      "csr_obligation_cr": 88.55,
+      "csr_required_2pct_cr": 88.55,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Titan Kanya girl child education program supporting 50k+ girl children with literacy, learning centres and 188 Titan Scholarships",
+        "Happy Eyes vision care program delivering 23,346 cataract/eye surgeries and 50,945 spectacles to underserved communities",
+        "LeAP skilling initiative trained 15,800+ youth including PwDs and at-risk women across employability and livelihood programs",
+        "STEM teacher training program covering 1,600+ government teachers and Mothers Literacy Program for 9,000+ rural mothers"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone CSR annexure (Annexure-II, Board's Report FY25-26): obligation Rs.88.55cr, total spent Rs.90.00cr (projects Rs.87.32cr + admin Rs.1.92cr + impact assessment Rs.0.76cr), fully spent, no shortfall. Note: consolidated financial-statement note (page 432) shows Rs.95cr spent/required at group level; standalone figures used per Section 135 annexure.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1e85b157-d3b6-44c8-ab75-4776048dab00.pdf",
+        "page": 432
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:12:07.261Z"
     },
     "500182": {
       "rank": 62,
