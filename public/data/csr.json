@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:47:42.183Z",
-  "count": 169,
+  "updated_at": "2026-09-17T14:47:56.874Z",
+  "count": 170,
   "companies": {
     "500049": {
       "rank": 61,
@@ -326,6 +326,42 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:54:10.399Z",
       "sector_detail": "Private Sector Bank"
+    },
+    "500251": {
+      "rank": 168,
+      "name": "Trent Limited",
+      "ticker": "500251",
+      "exchange": "BSE",
+      "sector": "Consumer & Retail",
+      "sector_detail": "Speciality Retail",
+      "is_psu": false,
+      "pat_client_cr": 1719.65,
+      "pat_screener_cr": 1721,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1721,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.08,
+      "fy_used": "FY26",
+      "csr_spent_cr": 13.61,
+      "csr_obligation_cr": 22.15,
+      "csr_required_2pct_cr": 22.15,
+      "csr_unspent_cr": 8.95,
+      "health_or_education": true,
+      "examples": [
+        "CSR focus on education, employability and skill development for youth and women",
+        "Skilling and upskilling of oncology nurses and establishment of nurses' accommodation, implemented through Tata Cancer Care Foundation",
+        "Affirmative Action programme empowering youth and women from SC/ST communities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Board's Report Annexure A (Section 135 CSR annexure), pages 123-124; also Note 33/38(b) shows P&L CSR expense of ₹22.56 crore (cash+provision, differs from cash-spent ₹13.61 crore reported in Annexure A used here as 'Amount Spent during the Year').",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+        "page": 191
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:47:56.874Z"
     },
     "500257": {
       "rank": 72,
@@ -4653,7 +4689,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 169,
+      "rank": 170,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -5522,7 +5558,7 @@
       "generated_at": "2026-09-17T14:38:54.141Z"
     },
     "GUJENERGY": {
-      "rank": 168,
+      "rank": 169,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
