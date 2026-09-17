@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:55:38.499Z",
-  "count": 195,
+  "updated_at": "2026-09-17T14:55:55.535Z",
+  "count": 196,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4939,7 +4939,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 195,
+      "rank": 196,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -6991,7 +6991,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 194,
+      "rank": 195,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
@@ -7023,6 +7023,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:55:37.151Z"
+    },
+    "SOUTHBANK": {
+      "rank": 194,
+      "name": "The South Indian Bank Limited",
+      "ticker": "SOUTHBANK",
+      "exchange": "NSEI",
+      "sector": "Banking",
+      "sector_detail": "Private Sector Bank",
+      "is_psu": false,
+      "pat_client_cr": 1455.64,
+      "pat_screener_cr": 1456,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 1456,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0.02,
+      "fy_used": "FY26",
+      "csr_spent_cr": 32.35,
+      "csr_obligation_cr": 31.27,
+      "csr_required_2pct_cr": 32.3,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Supported Carmel Higher Secondary School, Chalakudy and Sree Kanchi Sankara Public School, Kalady (education)",
+        "Funded Thiruvalla Life Care Foundation and Ernakulam General Hospital Development Society (healthcare)",
+        "Ran Financial Literacy Council programs across Kerala and Tamil Nadu (education)",
+        "Supported Raksha Society for Care of Children with Special Needs, Kochi (special education)"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 17/18 'Corporate social responsibility' in standalone/consolidated notes gives Amount Spent ₹32.35 cr (FY26); Directors' Report Annexure B (CSR Annual Report) gives detailed break-up: CSR obligation ₹31.27 cr, 2% average net profit ₹32.30 cr (before set-off), total spent ₹32.35 cr (incl. admin overheads), unspent ₹0.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f5ab78b8-948a-4632-a517-f94b2555b448.pdf",
+        "page": 453
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:55:55.534Z"
     }
   }
 }
