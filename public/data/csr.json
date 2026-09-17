@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:20:59.542Z",
-  "count": 89,
+  "updated_at": "2026-09-17T14:21:16.938Z",
+  "count": 90,
   "companies": {
     "500049": {
       "rank": 61,
@@ -3101,7 +3101,7 @@
       "generated_at": "2026-09-17T14:16:50.216Z"
     },
     "CIPLA": {
-      "rank": 89,
+      "rank": 90,
       "name": "Cipla Limited",
       "ticker": "CIPLA",
       "exchange": "NSEI",
@@ -3175,7 +3175,7 @@
       "generated_at": "2026-09-17T14:20:12.886Z"
     },
     "ABCAPITAL": {
-      "rank": 88,
+      "rank": 89,
       "name": "Aditya Birla Capital Limited",
       "ticker": "ABCAPITAL",
       "exchange": "NSEI",
@@ -3210,6 +3210,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:20:37.026Z"
+    },
+    "WAAREEENER": {
+      "rank": 88,
+      "name": "Waaree Energies Limited",
+      "ticker": "WAAREEENER",
+      "exchange": "NSEI",
+      "sector": "Power & Utilities",
+      "sector_detail": "Other Electrical Equipment",
+      "is_psu": false,
+      "pat_client_cr": 3711.3,
+      "pat_screener_cr": 3884,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 3884,
+      "pat_mismatch": false,
+      "pat_delta_pct": 4.65,
+      "fy_used": "FY26",
+      "csr_spent_cr": 34.24,
+      "csr_obligation_cr": 30.12,
+      "csr_required_2pct_cr": 30.12,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Land purchase for university campus (Motilal Oswal Foundation) - ₹19 crore",
+        "School building renovation/infrastructure at Degam Village (Prathmik Vidhyamandir Dhodiyawad)",
+        "School building and infrastructure support to Tapovan Vidhyalay Dham and Shri Vardhman Jain Boarding And Vidhyalaya",
+        "Boarding facility infrastructure at Shree Savarkundla Jain Vidyarthigru"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure III (Board's Report), FY2025-26; amounts converted from ₹ to crore (₹34,23,67,792 = ₹34.24 crore spent; ₹30,12,46,376 = ₹30.12 crore obligation); fully spent with excess of ₹4.11 crore carried forward.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b04cd41c-d498-4bc5-bb56-41bd535882af.pdf",
+        "page": 76
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:21:16.938Z"
     }
   }
 }
