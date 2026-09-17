@@ -1,5 +1,42 @@
 {
-  "updated_at": "2026-09-17T12:47:24.154Z",
-  "count": 0,
-  "companies": {}
+  "updated_at": "2026-09-17T12:47:46.304Z",
+  "count": 1,
+  "companies": {
+    "SBIN": {
+      "rank": 1,
+      "name": "State Bank of India",
+      "ticker": "SBIN",
+      "exchange": "NSEI",
+      "sector": "Public Sector Bank",
+      "is_psu": true,
+      "pat_client_cr": 83298.78,
+      "pat_screener_cr": 86666,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 86666,
+      "pat_mismatch": false,
+      "pat_delta_pct": 4.04,
+      "fy_used": "FY26",
+      "csr_spent_cr": 709.01,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
+      "health_or_education": true,
+      "examples": [
+        "Upgraded infrastructure of 699 primary schools (₹24.45 crore) and 453 Primary Health Centres (₹7.01 crore) across India",
+        "CSR donation of ₹99.75 lakh for an Alcon Constellation Retina Surgery Machine to Midnapur Rotary Eye Hospital, West Bengal",
+        "CSR support of ₹176.49 lakh to Zilla Parishad Girls High School, Alapadu, Dist. Eluru (AP) for infrastructure upgrades including a science lab",
+        "CSR donation of ₹86.26 lakh for medical equipment at Bagchi Sri Shankara Cancer Centre & Research Institute, Bhubaneswar (Odisha)"
+      ],
+      "found": true,
+      "confidence": "medium",
+      "notes": "Notes to accounts/Statutory Reports, pages 137-142 & 21; Total CSR Expenditure ₹709.01 crore for FY 2025-26 explicitly stated; no separate 2% statutory obligation, unspent, or gross obligation figures disclosed in excerpt (bank donates 1% of prior year profit per RBI guidelines, not standard Sec 135 2% formula figures shown).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/faa17496-838f-432d-a39f-32d82156799c.pdf",
+        "page": 140
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T12:47:46.303Z"
+    }
+  }
 }
