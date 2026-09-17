@@ -824,6 +824,11 @@
       "status": "done",
       "updated_at": "2026-09-17T14:44:56.934Z",
       "error": null
+    },
+    "PATANJALI": {
+      "status": "running",
+      "updated_at": "2026-09-17T14:46:24.784Z",
+      "error": null
     }
   }
 }
