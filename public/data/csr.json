@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:12:08.558Z",
-  "count": 71,
+  "updated_at": "2026-09-17T14:12:34.484Z",
+  "count": 72,
   "companies": {
     "500049": {
       "rank": 60,
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500114": {
-      "rank": 71,
+      "rank": 72,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -2551,6 +2551,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:11:10.633Z"
+    },
+    "ZYDUSLIFE": {
+      "rank": 71,
+      "name": "Zydus Lifesciences Limited",
+      "ticker": "ZYDUSLIFE",
+      "exchange": "NSEI",
+      "sector": "Pharma & Healthcare",
+      "sector_detail": "Pharmaceuticals",
+      "is_psu": false,
+      "pat_client_cr": 5040,
+      "pat_screener_cr": 5124,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 5124,
+      "pat_mismatch": false,
+      "pat_delta_pct": 1.67,
+      "fy_used": "FY26",
+      "csr_spent_cr": 10.1,
+      "csr_obligation_cr": 54.8,
+      "csr_required_2pct_cr": 83.5,
+      "csr_unspent_cr": 44.7,
+      "health_or_education": true,
+      "examples": [
+        "Zydus Medical College and Hospital (ZMCH) in Dahod, Gujarat provides free tertiary healthcare to tribal and underserved populations",
+        "Contributed ₹44.7 crore towards establishing Zydus Lifesciences University in Gujarat",
+        "Revived B.G. Chavda Secondary and Higher Secondary School at Changodar benefiting 400+ students",
+        "Provided educational scholarships to 100 meritorious pharmacy and tribal students, and to rural medical/engineering students in Maharashtra"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Board's Report Annexure-C (CSR Annual Report) & Note 37 (Standalone FS); figures in ₹ million converted to crore (÷100). Total CSR obligation ₹548mn=54.8cr; 2% average net profit ₹835mn=83.5cr (after ₹287mn set-off, net obligation 548mn); Amount spent ₹101mn=10.1cr; Unspent ₹447mn=44.7cr transferred to Unspent CSR Account.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3b825406-a2d1-44a7-9e41-10f5c876d22f.pdf",
+        "page": 272
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:12:34.484Z"
     }
   }
 }
