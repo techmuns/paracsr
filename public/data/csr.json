@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:30:43.566Z",
-  "count": 118,
+  "updated_at": "2026-09-17T14:31:00.836Z",
+  "count": 119,
   "companies": {
     "500049": {
       "rank": 61,
@@ -4146,7 +4146,7 @@
       "generated_at": "2026-09-17T14:29:24.615Z"
     },
     "UCOBANK": {
-      "rank": 117,
+      "rank": 118,
       "name": "UCO Bank",
       "ticker": "UCOBANK",
       "exchange": "NSEI",
@@ -4220,7 +4220,7 @@
       "generated_at": "2026-09-17T14:30:02.341Z"
     },
     "AUBANK": {
-      "rank": 118,
+      "rank": 119,
       "name": "AU Small Finance Bank Limited",
       "ticker": "AUBANK",
       "exchange": "NSEI",
@@ -4255,6 +4255,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:30:26.092Z"
+    },
+    "MAZDOCK": {
+      "rank": 117,
+      "name": "Mazagon Dock Shipbuilders Limited",
+      "ticker": "MAZDOCK",
+      "exchange": "NSEI",
+      "sector": "Cement & Construction",
+      "sector_detail": "Ship Building & Allied Services",
+      "is_psu": true,
+      "pat_client_cr": 2583.38,
+      "pat_screener_cr": 2578,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 2578,
+      "pat_mismatch": false,
+      "pat_delta_pct": -0.21,
+      "fy_used": "FY26",
+      "csr_spent_cr": 35.75,
+      "csr_obligation_cr": 45.28,
+      "csr_required_2pct_cr": 45.93,
+      "csr_unspent_cr": 9.38,
+      "health_or_education": true,
+      "examples": [
+        "Deployed a Mobile TB Diagnostic Laboratory and distributed 2,400 nutrition kits under 'TB Mukt Nandurbar' health project",
+        "Supported digital haemoglobinometers for frontline health workers to address anaemia among women/girls in Nandurbar (Aspirational Districts healthcare initiative)",
+        "Funded stipends to apprentices and trainers' salaries at MDL's Apprentice Training School (skill development/education)",
+        "Integrated Village Development project in Shahpur, Thane covering education, health and livelihoods for SC/ST communities"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure E/Appendix E to Board's Report (Sec.135 CSR Annual Report), item 6(a)-(d): amount spent ₹3,575.46 lakh = ₹35.75 cr; total CSR obligation ₹4,528.10 lakh = ₹45.28 cr; 2% of avg net profit ₹4,592.78 lakh = ₹45.93 cr; unspent ₹937.97 lakh = ₹9.38 cr (transferred to Unspent CSR Account). Standalone financial statements (Note 51) converted from ₹ lakhs to ₹ crore.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b7ec224-9db5-455b-bf51-6777bba75b31.pdf",
+        "page": 124
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:31:00.835Z"
     }
   }
 }
