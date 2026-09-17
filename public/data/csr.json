@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-17T14:12:53.340Z",
-  "count": 73,
+  "updated_at": "2026-09-17T14:13:11.426Z",
+  "count": 74,
   "companies": {
     "500049": {
-      "rank": 60,
+      "rank": 61,
       "name": "Bharat Electronics Limited",
       "ticker": "500049",
       "exchange": "BSE",
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500114": {
-      "rank": 72,
+      "rank": 73,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -75,7 +75,7 @@
       "generated_at": "2026-09-17T14:12:07.261Z"
     },
     "500182": {
-      "rank": 62,
+      "rank": 63,
       "name": "Hero MotoCorp Limited",
       "ticker": "500182",
       "exchange": "BSE",
@@ -219,7 +219,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500257": {
-      "rank": 69,
+      "rank": 70,
       "name": "Lupin Limited",
       "ticker": "500257",
       "exchange": "BSE",
@@ -328,7 +328,7 @@
       "generated_at": "2026-09-17T14:02:22.609Z"
     },
     "500490": {
-      "rank": 49,
+      "rank": 50,
       "name": "Bajaj Holdings & Investment Limited",
       "ticker": "500490",
       "exchange": "BSE",
@@ -473,7 +473,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "505200": {
-      "rank": 65,
+      "rank": 66,
       "name": "Eicher Motors Limited",
       "ticker": "505200",
       "exchange": "BSE",
@@ -547,7 +547,7 @@
       "generated_at": "2026-09-17T14:00:37.242Z"
     },
     "511218": {
-      "rank": 47,
+      "rank": 48,
       "name": "Shriram Finance Limited",
       "ticker": "511218",
       "exchange": "BSE",
@@ -584,7 +584,7 @@
       "generated_at": "2026-09-17T14:03:45.749Z"
     },
     "511243": {
-      "rank": 70,
+      "rank": 71,
       "name": "Cholamandalam Investment and Finance Company Limited",
       "ticker": "511243",
       "exchange": "BSE",
@@ -619,7 +619,7 @@
       "generated_at": "2026-09-17T14:11:46.952Z"
     },
     "512599": {
-      "rank": 48,
+      "rank": 49,
       "name": "Adani Enterprises Limited",
       "ticker": "512599",
       "exchange": "BSE",
@@ -653,7 +653,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "526371": {
-      "rank": 56,
+      "rank": 57,
       "name": "NMDC Limited",
       "ticker": "526371",
       "exchange": "BSE",
@@ -757,7 +757,7 @@
       "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "532967": {
-      "rank": 64,
+      "rank": 65,
       "name": "Kiri Industries Limited",
       "ticker": "532967",
       "exchange": "BSE",
@@ -2054,7 +2054,7 @@
       "generated_at": "2026-09-17T14:04:07.567Z"
     },
     "GICRE": {
-      "rank": 50,
+      "rank": 51,
       "name": "General Insurance Corporation of India",
       "ticker": "GICRE",
       "exchange": "NSEI",
@@ -2091,7 +2091,7 @@
       "generated_at": "2026-09-17T14:04:29.802Z"
     },
     "IDBI": {
-      "rank": 51,
+      "rank": 52,
       "name": "IDBI Bank Limited",
       "ticker": "IDBI",
       "exchange": "NSEI",
@@ -2125,7 +2125,7 @@
       "generated_at": "2026-09-17T14:05:31.032Z"
     },
     "HAL": {
-      "rank": 52,
+      "rank": 53,
       "name": "Hindustan Aeronautics Limited",
       "ticker": "HAL",
       "exchange": "NSEI",
@@ -2162,7 +2162,7 @@
       "generated_at": "2026-09-17T14:05:52.038Z"
     },
     "ULTRACEMCO": {
-      "rank": 53,
+      "rank": 54,
       "name": "UltraTech Cement Limited",
       "ticker": "ULTRACEMCO",
       "exchange": "NSEI",
@@ -2199,7 +2199,7 @@
       "generated_at": "2026-09-17T14:06:11.326Z"
     },
     "GAIL": {
-      "rank": 54,
+      "rank": 55,
       "name": "GAIL (India) Limited",
       "ticker": "GAIL",
       "exchange": "NSEI",
@@ -2236,7 +2236,7 @@
       "generated_at": "2026-09-17T14:06:36.206Z"
     },
     "INDUSTOWER": {
-      "rank": 57,
+      "rank": 58,
       "name": "Indus Towers Limited",
       "ticker": "INDUSTOWER",
       "exchange": "NSEI",
@@ -2272,7 +2272,7 @@
       "generated_at": "2026-09-17T14:07:16.412Z"
     },
     "MAHABANK": {
-      "rank": 58,
+      "rank": 59,
       "name": "Bank of Maharashtra",
       "ticker": "MAHABANK",
       "exchange": "NSEI",
@@ -2308,7 +2308,7 @@
       "generated_at": "2026-09-17T14:07:33.749Z"
     },
     "IRFC": {
-      "rank": 59,
+      "rank": 60,
       "name": "Indian Railway Finance Corporation Limited",
       "ticker": "IRFC",
       "exchange": "NSEI",
@@ -2344,7 +2344,7 @@
       "generated_at": "2026-09-17T14:07:52.134Z"
     },
     "OIL": {
-      "rank": 55,
+      "rank": 56,
       "name": "Oil India Limited",
       "ticker": "OIL",
       "exchange": "NSEI",
@@ -2380,7 +2380,7 @@
       "generated_at": "2026-09-17T14:08:17.663Z"
     },
     "NATIONALUM": {
-      "rank": 61,
+      "rank": 62,
       "name": "National Aluminium Company Limited",
       "ticker": "NATIONALUM",
       "exchange": "NSEI",
@@ -2412,7 +2412,7 @@
       "generated_at": "2026-09-17T14:08:53.448Z"
     },
     "LICHSGFIN": {
-      "rank": 63,
+      "rank": 64,
       "name": "LIC Housing Finance Limited",
       "ticker": "LICHSGFIN",
       "exchange": "NSEI",
@@ -2449,7 +2449,7 @@
       "generated_at": "2026-09-17T14:09:32.057Z"
     },
     "HYUNDAI": {
-      "rank": 66,
+      "rank": 67,
       "name": "Hyundai Motor India Limited",
       "ticker": "HYUNDAI",
       "exchange": "NSEI",
@@ -2483,7 +2483,7 @@
       "generated_at": "2026-09-17T14:10:30.112Z"
     },
     "IOB": {
-      "rank": 67,
+      "rank": 68,
       "name": "Indian Overseas Bank",
       "ticker": "IOB",
       "exchange": "NSEI",
@@ -2518,7 +2518,7 @@
       "generated_at": "2026-09-17T14:10:54.297Z"
     },
     "RAYMOND": {
-      "rank": 68,
+      "rank": 69,
       "name": "Raymond Limited",
       "ticker": "RAYMOND",
       "exchange": "NSEI",
@@ -2553,7 +2553,7 @@
       "generated_at": "2026-09-17T14:11:10.633Z"
     },
     "ZYDUSLIFE": {
-      "rank": 71,
+      "rank": 72,
       "name": "Zydus Lifesciences Limited",
       "ticker": "ZYDUSLIFE",
       "exchange": "NSEI",
@@ -2590,7 +2590,7 @@
       "generated_at": "2026-09-17T14:12:34.484Z"
     },
     "LTM": {
-      "rank": 73,
+      "rank": 74,
       "name": "LTM Limited",
       "ticker": "LTM",
       "exchange": "NSEI",
@@ -2623,6 +2623,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:12:51.945Z"
+    },
+    "GRASIM": {
+      "rank": 47,
+      "name": "Grasim Industries Limited",
+      "ticker": "GRASIM",
+      "exchange": "NSEI",
+      "sector": "Cement & Construction",
+      "sector_detail": "Cement & Cement Products",
+      "is_psu": false,
+      "pat_client_cr": 4966.48,
+      "pat_screener_cr": 10300,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 10300,
+      "pat_mismatch": true,
+      "pat_delta_pct": 107.39,
+      "fy_used": "FY26",
+      "csr_spent_cr": 73.35,
+      "csr_obligation_cr": 14.27,
+      "csr_required_2pct_cr": 14.27,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "Aditya Birla Schools (ABS) offering education from Montessori to Class XII with infrastructure support",
+        "Education initiatives supported ~26,000 persons via scholarships, TLMs, science/computer education (STEM) programmes",
+        "Healthcare interventions including preventive, diagnostic and curative health camps, anaemia check-ups",
+        "Strengthened Anganwadi centres for early childhood care and education"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Note 4.7.3 (Standalone Financial Statements) and Annexure 'E' to Board's Report (Annual Report on CSR Activities), FY ended 31 March 2026; amounts already in INR crore, no conversion needed.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb984eea-0f01-4339-9cf9-b1946e60f65a.pdf",
+        "page": 366
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:13:11.426Z"
     }
   }
 }
