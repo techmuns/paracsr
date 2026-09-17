@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T13:58:16.266Z",
-  "count": 30,
+  "updated_at": "2026-09-17T13:58:35.339Z",
+  "count": 31,
   "companies": {
     "500228": {
       "rank": 18,
@@ -73,6 +73,43 @@
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T12:54:10.399Z",
       "sector_detail": "Private Sector Bank"
+    },
+    "500510": {
+      "rank": 26,
+      "name": "Larsen & Toubro Limited",
+      "ticker": "500510",
+      "exchange": "BSE",
+      "sector": "Cement & Construction",
+      "sector_detail": "Civil Construction",
+      "is_psu": false,
+      "pat_client_cr": 16083.99,
+      "pat_screener_cr": 18954,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 18954,
+      "pat_mismatch": true,
+      "pat_delta_pct": 17.84,
+      "fy_used": "FY26",
+      "csr_spent_cr": 201.55,
+      "csr_obligation_cr": 164.09,
+      "csr_required_2pct_cr": 175.79,
+      "csr_unspent_cr": 0,
+      "health_or_education": true,
+      "examples": [
+        "CSTIs (Construction Skills Training Institutes) and multi-skill employability training for youth and women",
+        "Multi Skill Training Centre at Visakhapatnam, Andhra Pradesh",
+        "Skill Training initiatives for rural women and youth in Gujarat",
+        "Skill Training Academy, Madh"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure C to Board's Report (Section 135 disclosure). Total amount spent for FY (table 6d) = 189.85 cr, but set-off table (item f-ii) states Total amount spent for the Financial Year = 201.55 cr (used as key figure per excess-spend reconciliation); obligation (net of set-off) = 164.09 cr; gross 2% = 175.79 cr; fully spent, no unspent amount.",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf",
+        "page": 475
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T13:58:35.339Z"
     },
     "500570": {
       "rank": 3,
@@ -827,7 +864,7 @@
       "sector_detail": "Non Banking Financial Company (NBFC)"
     },
     "PNB": {
-      "rank": 27,
+      "rank": 28,
       "name": "Punjab National Bank",
       "ticker": "PNB",
       "exchange": "NSEI",
@@ -864,7 +901,7 @@
       "generated_at": "2026-09-17T13:53:53.583Z"
     },
     "HINDPETRO": {
-      "rank": 28,
+      "rank": 29,
       "name": "Hindustan Petroleum Corporation Limited",
       "ticker": "HINDPETRO",
       "exchange": "NSEI",
@@ -933,7 +970,7 @@
       "generated_at": "2026-09-17T13:56:59.479Z"
     },
     "HCLTECH": {
-      "rank": 29,
+      "rank": 30,
       "name": "HCL Technologies Limited",
       "ticker": "HCLTECH",
       "exchange": "NSEI",
@@ -1005,7 +1042,7 @@
       "generated_at": "2026-09-17T13:57:36.738Z"
     },
     "M&M": {
-      "rank": 26,
+      "rank": 27,
       "name": "Mahindra & Mahindra Limited",
       "ticker": "M&M",
       "exchange": "NSEI",
@@ -1041,7 +1078,7 @@
       "generated_at": "2026-09-17T13:57:55.034Z"
     },
     "RECLTD": {
-      "rank": 30,
+      "rank": 31,
       "name": "REC Limited",
       "ticker": "RECLTD",
       "exchange": "NSEI",
