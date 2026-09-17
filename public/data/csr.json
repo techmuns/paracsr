@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-09-17T14:08:19.814Z",
-  "count": 59,
+  "updated_at": "2026-09-17T14:08:36.820Z",
+  "count": 60,
   "companies": {
+    "500049": {
+      "rank": 60,
+      "name": "Bharat Electronics Limited",
+      "ticker": "500049",
+      "exchange": "BSE",
+      "sector": "Other",
+      "sector_detail": "Aerospace & Defense",
+      "is_psu": true,
+      "pat_client_cr": 6062,
+      "pat_screener_cr": 6062,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 6062,
+      "pat_mismatch": false,
+      "pat_delta_pct": 0,
+      "fy_used": "FY26",
+      "csr_spent_cr": 32.43,
+      "csr_obligation_cr": 107.79,
+      "csr_required_2pct_cr": 107.79,
+      "csr_unspent_cr": 75.21,
+      "health_or_education": true,
+      "examples": [
+        "Impact Assessment of Infrastructure/Facilities created in Govt. Hospital/CHC under CSR",
+        "CSR infrastructure support to Wildlife Sanctuary and Surveillance Infrastructure"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Annexure-2, Annual Report on CSR Activities FY2025-26 (page 70-71); amounts converted from ₹ to crore (e.g., ₹32,43,13,113.72 = 32.43 crore); total CSR obligation = 2% average net profit (no set-off/surplus adjustments).\"",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fe7510ea-01e4-4f93-99bd-b41007aebe1d.pdf",
+        "page": 70
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:08:36.819Z"
+    },
     "500188": {
       "rank": 36,
       "name": "Hindustan Zinc Limited",
