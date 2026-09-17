@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T13:54:16.936Z",
+  "updated_at": "2026-09-17T13:54:36.892Z",
   "count": 25,
   "companies": {
     "500228": {
@@ -296,6 +296,7 @@
       "ticker": "LICI",
       "exchange": "NSEI",
       "sector": "Insurance",
+      "sector_detail": "Life Insurance",
       "is_psu": true,
       "pat_client_cr": 64434.77,
       "pat_screener_cr": 57453,
@@ -305,27 +306,26 @@
       "pat_mismatch": true,
       "pat_delta_pct": -10.84,
       "fy_used": "FY26",
-      "csr_spent_cr": null,
+      "csr_spent_cr": 77.74,
       "csr_obligation_cr": null,
       "csr_required_2pct_cr": null,
       "csr_unspent_cr": null,
       "health_or_education": true,
       "examples": [
-        "LIC Golden Jubilee Foundation sanctioned 119 projects worth ₹77.74 crore in FY26, with health-related projects receiving the highest-ever allocation of ₹62.20 crore",
-        "Provided 10,660 new scholarships to meritorious students from underprivileged families in FY26",
-        "Since inception, 437 projects sanctioned for healthcare and 417 for education, out of 1045 total projects worth ₹303 crore (as on 31.03.2026)",
-        "Runs rural education programs, vocational and skill development initiatives, and healthcare/medical support activities"
+        "Health projects received highest-ever allocation of ₹62.20 crore, including funding for cancer hospitals (e.g., Tata Memorial Hospital, Mumbai; Adyar Cancer Institute, Chennai) and support for congenital heart surgery, bone marrow transplant and cochlear implant surgeries",
+        "₹105.35 crore spent on scholarships for ~41,776 deserving students pursuing higher education",
+        "Funded construction of school buildings, hostels, computer labs, libraries and skill/vocational training centres",
+        "39 tribal welfare projects worth ₹9.05 crore including school buildings, hostels and toilet blocks for tribal students"
       ],
       "found": true,
-      "confidence": "high",
-      "notes": "CSR under Section 135 NOT applicable to LIC (statutory corporation under LIC Act 1956, outside Companies Act 2013 CSR purview). Voluntary social spend done via LIC Golden Jubilee Foundation (Charitable Trust); figures given are Foundation project sanctions, not a Section 135 CSR spend table, so csr_spent/obligation/2%/unspent are null (not applicable/not disclosed in that format).",
+      "confidence": "medium",
+      "notes": "LIC is exempt from Sec.135 CSR (statutory corporation under LIC Act 1956); figures are voluntary spend by LIC Golden Jubilee Foundation, FY2025-26: 119 projects worth ₹77.74 crore sanctioned (used as csr_spent_cr proxy); no formal 2% obligation/unspent figures disclosed.",
       "source": {
         "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bbfc5caf-c294-4e5a-b33d-7cc543f0479d.pdf",
         "page": 340
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:49:00.165Z",
-      "sector_detail": "Life Insurance"
+      "generated_at": "2026-09-17T13:54:36.892Z"
     },
     "ICICIBANK": {
       "rank": 5,
