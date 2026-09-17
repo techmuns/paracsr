@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T14:02:24.815Z",
-  "count": 42,
+  "updated_at": "2026-09-17T14:02:44.190Z",
+  "count": 43,
   "companies": {
     "500188": {
       "rank": 35,
@@ -1510,6 +1510,43 @@
       },
       "model": "anthropic.claude-sonnet-5",
       "generated_at": "2026-09-17T14:02:02.873Z"
+    },
+    "BAJAJ-AUTO": {
+      "rank": 43,
+      "name": "Bajaj Auto Limited",
+      "ticker": "BAJAJ-AUTO",
+      "exchange": "NSEI",
+      "sector": "Other",
+      "sector_detail": "2/3 Wheelers",
+      "is_psu": false,
+      "pat_client_cr": 10744.21,
+      "pat_screener_cr": 10574,
+      "pat_screener_fy": "FY26",
+      "pat_basis": "consolidated",
+      "pat_cr": 10574,
+      "pat_mismatch": false,
+      "pat_delta_pct": -1.58,
+      "fy_used": "FY26",
+      "csr_spent_cr": 187.73,
+      "csr_obligation_cr": 187.73,
+      "csr_required_2pct_cr": 187.73,
+      "csr_unspent_cr": 152.01,
+      "health_or_education": true,
+      "examples": [
+        "Set up BEST (skilling) Centers with equipment and furniture at engineering colleges including COEP, SASTRA, UPES Dehradun, Thapar Institute, Mahindra University and others",
+        "Set up STEP centers (skilling/education) in Hyderabad, Lucknow, Prayagraj and Nashik at partner colleges",
+        "CSR spend of H14.03 crore on Education, Special Education, Vocation, Livelihoods",
+        "CSR spend of H6.68 crore on Poverty, Health, Sanitation, Water"
+      ],
+      "found": true,
+      "confidence": "high",
+      "notes": "Standalone Note 29 'Expenditure towards CSR activities' and Directors' Report CSR Annexure (Section 135), FY2025-26; figures in H crore as reported (consolidated figure was 187.99 crore, standalone used here).",
+      "source": {
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5cfa2fc3-ea76-452d-a3a9-71d3c9bf5ad6.pdf",
+        "page": 225
+      },
+      "model": "anthropic.claude-sonnet-5",
+      "generated_at": "2026-09-17T14:02:44.190Z"
     }
   }
 }
