@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:36:05.907Z",
+  "updated_at": "2026-10-02T01:37:09.542Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -75,7 +75,7 @@
       "generated_at": "2026-09-17T14:50:58.078Z"
     },
     "500109": {
-      "rank": 155,
+      "rank": 154,
       "name": "Mangalore Refinery and Petrochemicals Limited",
       "ticker": "500109",
       "exchange": "BSE",
@@ -541,7 +541,7 @@
       "generated_at": "2026-09-17T14:20:58.249Z"
     },
     "500420": {
-      "rank": 144,
+      "rank": 143,
       "name": "Torrent Pharmaceuticals Limited",
       "ticker": "500420",
       "exchange": "BSE",
@@ -978,7 +978,7 @@
       "generated_at": "2026-09-17T13:59:10.933Z"
     },
     "500710": {
-      "rank": 151,
+      "rank": 150,
       "name": "Akzo Nobel India Limited",
       "ticker": "500710",
       "exchange": "BSE",
@@ -1305,7 +1305,7 @@
       "generated_at": "2026-09-17T14:11:46.952Z"
     },
     "512070": {
-      "rank": 141,
+      "rank": 155,
       "name": "UPL Limited",
       "ticker": "512070",
       "exchange": "BSE",
@@ -1313,12 +1313,12 @@
       "sector_detail": "Pesticides & Agrochemicals",
       "is_psu": false,
       "pat_client_cr": 1922,
-      "pat_screener_cr": 2220,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 2220,
-      "pat_mismatch": true,
-      "pat_delta_pct": 15.5,
+      "pat_cr": 1922,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 19,
       "csr_obligation_cr": 19,
@@ -1834,7 +1834,7 @@
       "generated_at": "2026-09-17T14:24:13.170Z"
     },
     "532767": {
-      "rank": 148,
+      "rank": 147,
       "name": "Gayatri Projects Limited",
       "ticker": "532767",
       "exchange": "BSE",
@@ -1939,7 +1939,7 @@
       "generated_at": "2026-09-17T14:37:00.418Z"
     },
     "539177": {
-      "rank": 154,
+      "rank": 153,
       "name": "Authum Investment & Infrastructure Limited",
       "ticker": "539177",
       "exchange": "BSE",
@@ -1947,12 +1947,12 @@
       "sector_detail": "Non Banking Financial Company (NBFC)",
       "is_psu": false,
       "pat_client_cr": 1931.09,
-      "pat_screener_cr": 1929,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1929,
+      "pat_cr": 1931.09,
       "pat_mismatch": false,
-      "pat_delta_pct": -0.11,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 35.4,
       "csr_obligation_cr": 35.4,
@@ -5163,7 +5163,7 @@
       "generated_at": "2026-09-17T14:31:54.741Z"
     },
     "HDBFS": {
-      "rank": 142,
+      "rank": 141,
       "name": "HDB Financial Services Limited",
       "ticker": "HDBFS",
       "exchange": "NSEI",
@@ -5706,7 +5706,7 @@
       "generated_at": "2026-09-17T14:36:40.067Z"
     },
     "SBICARD": {
-      "rank": 143,
+      "rank": 142,
       "name": "SBI Cards and Payment Services Limited",
       "ticker": "SBICARD",
       "exchange": "NSEI",
@@ -5743,7 +5743,7 @@
       "generated_at": "2026-09-17T14:37:20.837Z"
     },
     "ACC": {
-      "rank": 145,
+      "rank": 144,
       "name": "ACC Limited",
       "ticker": "ACC",
       "exchange": "NSEI",
@@ -5751,12 +5751,12 @@
       "sector_detail": "Cement & Cement Products",
       "is_psu": false,
       "pat_client_cr": 2137.07,
-      "pat_screener_cr": 2137,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 2137,
+      "pat_cr": 2137.07,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 44.66,
       "csr_obligation_cr": 44.64,
@@ -5780,7 +5780,7 @@
       "generated_at": "2026-09-17T14:37:58.058Z"
     },
     "GROWW": {
-      "rank": 146,
+      "rank": 145,
       "name": "Billionbrains Garage Ventures Limited",
       "ticker": "GROWW",
       "exchange": "NSEI",
@@ -5788,12 +5788,12 @@
       "sector_detail": "Stockbroking & Allied",
       "is_psu": false,
       "pat_client_cr": 2083,
-      "pat_screener_cr": 2083,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
       "pat_cr": 2083,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 7.604,
       "csr_obligation_cr": 9.594,
@@ -5815,7 +5815,7 @@
       "generated_at": "2026-09-17T14:38:34.448Z"
     },
     "SUNDARMFIN": {
-      "rank": 147,
+      "rank": 146,
       "name": "Sundaram Finance Limited",
       "ticker": "SUNDARMFIN",
       "exchange": "NSEI",
@@ -5924,7 +5924,7 @@
       "generated_at": "2026-09-17T14:40:10.598Z"
     },
     "CHAMBLFERT": {
-      "rank": 152,
+      "rank": 151,
       "name": "Chambal Fertilisers and Chemicals Limited",
       "ticker": "CHAMBLFERT",
       "exchange": "NSEI",
@@ -5960,7 +5960,7 @@
       "generated_at": "2026-09-17T14:40:26.796Z"
     },
     "APOLLOHOSP": {
-      "rank": 149,
+      "rank": 148,
       "name": "Apollo Hospitals Enterprise Limited",
       "ticker": "APOLLOHOSP",
       "exchange": "NSEI",
@@ -5997,7 +5997,7 @@
       "generated_at": "2026-09-17T14:40:46.154Z"
     },
     "MANKIND": {
-      "rank": 153,
+      "rank": 152,
       "name": "Mankind Pharma Limited",
       "ticker": "MANKIND",
       "exchange": "NSEI",
@@ -6037,12 +6037,12 @@
       "sector_detail": "Life Insurance",
       "is_psu": false,
       "pat_client_cr": 1912.32,
-      "pat_screener_cr": 1912,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1912,
+      "pat_cr": 1912.32,
       "pat_mismatch": false,
-      "pat_delta_pct": -0.02,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 11.67,
       "csr_obligation_cr": 11.67,
@@ -6568,7 +6568,7 @@
       "generated_at": "2026-09-17T14:49:23.800Z"
     },
     "ADANIGREEN": {
-      "rank": 150,
+      "rank": 149,
       "name": "Adani Green Energy Limited",
       "ticker": "ADANIGREEN",
       "exchange": "NSEI",

@@ -12,7 +12,7 @@
     },
     "500109": {
       "status": "done",
-      "updated_at": "2026-09-17T14:41:23.636Z",
+      "updated_at": "2026-10-02T01:36:52.065Z",
       "error": null
     },
     "500110": {
@@ -77,7 +77,7 @@
     },
     "500420": {
       "status": "done",
-      "updated_at": "2026-09-17T14:37:39.885Z",
+      "updated_at": "2026-10-02T01:36:22.029Z",
       "error": null
     },
     "500425": {
@@ -137,7 +137,7 @@
     },
     "500710": {
       "status": "done",
-      "updated_at": "2026-09-17T14:39:48.549Z",
+      "updated_at": "2026-10-02T01:36:39.495Z",
       "error": null
     },
     "500790": {
@@ -147,7 +147,7 @@
     },
     "500850": {
       "status": "done",
-      "updated_at": "2026-09-17T14:38:16.316Z",
+      "updated_at": "2026-10-02T01:36:26.917Z",
       "error": null
     },
     "503806": {
@@ -182,7 +182,7 @@
     },
     "512070": {
       "status": "done",
-      "updated_at": "2026-09-17T14:41:41.673Z",
+      "updated_at": "2026-10-02T01:36:54.406Z",
       "error": null
     },
     "512455": {
@@ -257,7 +257,7 @@
     },
     "532767": {
       "status": "done",
-      "updated_at": "2026-09-17T14:39:10.147Z",
+      "updated_at": "2026-10-02T01:36:34.369Z",
       "error": null
     },
     "532967": {
@@ -267,12 +267,12 @@
     },
     "533148": {
       "status": "done",
-      "updated_at": "2026-09-17T14:37:00.418Z",
+      "updated_at": "2026-10-02T01:36:17.126Z",
       "error": null
     },
     "539177": {
       "status": "done",
-      "updated_at": "2026-09-17T14:41:03.909Z",
+      "updated_at": "2026-10-02T01:36:49.519Z",
       "error": null
     },
     "539437": {
@@ -777,87 +777,87 @@
     },
     "ALKEM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:36:02.351Z",
+      "updated_at": "2026-10-02T01:36:09.420Z",
       "error": null
     },
     "PNBHOUSING": {
       "status": "done",
-      "updated_at": "2026-09-17T14:36:21.699Z",
+      "updated_at": "2026-10-02T01:36:11.987Z",
       "error": null
     },
     "ADANIENSOL": {
       "status": "done",
-      "updated_at": "2026-09-17T14:36:40.067Z",
+      "updated_at": "2026-10-02T01:36:14.552Z",
       "error": null
     },
     "SBICARD": {
       "status": "done",
-      "updated_at": "2026-09-17T14:37:20.838Z",
+      "updated_at": "2026-10-02T01:36:19.477Z",
       "error": null
     },
     "ACC": {
       "status": "done",
-      "updated_at": "2026-09-17T14:37:58.059Z",
+      "updated_at": "2026-10-02T01:36:24.361Z",
       "error": null
     },
     "GROWW": {
       "status": "done",
-      "updated_at": "2026-09-17T14:38:34.448Z",
+      "updated_at": "2026-10-02T01:36:29.266Z",
       "error": null
     },
     "SUNDARMFIN": {
       "status": "done",
-      "updated_at": "2026-09-17T14:38:54.141Z",
+      "updated_at": "2026-10-02T01:36:31.810Z",
       "error": null
     },
     "GUJENERGY": {
       "status": "done",
-      "updated_at": "2026-09-17T14:39:30.089Z",
+      "updated_at": "2026-10-02T01:36:36.931Z",
       "error": null
     },
     "COROMANDEL": {
       "status": "done",
-      "updated_at": "2026-09-17T14:40:10.598Z",
+      "updated_at": "2026-10-02T01:36:42.062Z",
       "error": null
     },
     "CHAMBLFERT": {
       "status": "done",
-      "updated_at": "2026-09-17T14:40:26.796Z",
+      "updated_at": "2026-10-02T01:36:44.629Z",
       "error": null
     },
     "APOLLOHOSP": {
       "status": "done",
-      "updated_at": "2026-09-17T14:40:46.154Z",
+      "updated_at": "2026-10-02T01:36:47.193Z",
       "error": null
     },
     "MANKIND": {
       "status": "done",
-      "updated_at": "2026-09-17T14:42:01.033Z",
+      "updated_at": "2026-10-02T01:36:56.952Z",
       "error": null
     },
     "HDFCLIFE": {
       "status": "done",
-      "updated_at": "2026-09-17T14:42:21.150Z",
+      "updated_at": "2026-10-02T01:36:59.297Z",
       "error": null
     },
     "DABUR": {
       "status": "done",
-      "updated_at": "2026-09-17T14:42:43.629Z",
+      "updated_at": "2026-10-02T01:37:01.845Z",
       "error": null
     },
     "IREDA": {
       "status": "done",
-      "updated_at": "2026-09-17T14:43:12.616Z",
+      "updated_at": "2026-10-02T01:37:04.413Z",
       "error": null
     },
     "MOTILALOFS": {
       "status": "done",
-      "updated_at": "2026-09-17T14:43:34.106Z",
+      "updated_at": "2026-10-02T01:37:06.977Z",
       "error": null
     },
     "PERSISTENT": {
       "status": "done",
-      "updated_at": "2026-09-17T14:43:51.074Z",
+      "updated_at": "2026-10-02T01:37:09.541Z",
       "error": null
     },
     "GODREJCP": {
