@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:31:43.298Z",
+  "updated_at": "2026-10-02T01:32:39.457Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -761,7 +761,7 @@
       "generated_at": "2026-09-17T14:52:26.469Z"
     },
     "500490": {
-      "rank": 50,
+      "rank": 49,
       "name": "Bajaj Holdings & Investment Limited",
       "ticker": "500490",
       "exchange": "BSE",
@@ -1241,12 +1241,12 @@
       "sector_detail": "Non Banking Financial Company (NBFC)",
       "is_psu": false,
       "pat_client_cr": 10024.16,
-      "pat_screener_cr": 10024,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 10024,
+      "pat_cr": 10024.16,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 183.01,
       "csr_obligation_cr": 182.97,
@@ -1377,7 +1377,7 @@
       "generated_at": "2026-09-17T14:21:36.572Z"
     },
     "512599": {
-      "rank": 49,
+      "rank": 51,
       "name": "Adani Enterprises Limited",
       "ticker": "512599",
       "exchange": "BSE",
@@ -1385,12 +1385,12 @@
       "sector_detail": "Trading - Minerals",
       "is_psu": false,
       "pat_client_cr": 9339.47,
-      "pat_screener_cr": 9951,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 9951,
-      "pat_mismatch": true,
-      "pat_delta_pct": 6.55,
+      "pat_cr": 9339.47,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 60.18,
       "csr_obligation_cr": 59.77,
@@ -3313,7 +3313,7 @@
       "generated_at": "2026-09-17T14:04:07.567Z"
     },
     "GICRE": {
-      "rank": 51,
+      "rank": 50,
       "name": "General Insurance Corporation of India",
       "ticker": "GICRE",
       "exchange": "NSEI",
@@ -3321,12 +3321,12 @@
       "sector_detail": "General Insurance",
       "is_psu": true,
       "pat_client_cr": 9662.38,
-      "pat_screener_cr": 9662,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 9662,
+      "pat_cr": 9662.38,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 69.28,
       "csr_obligation_cr": 135.78,
@@ -3624,19 +3624,20 @@
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "CSR spend on healthcare and education initiatives as part of broader activities",
-        "Third-party impact assessment of 24 CSR projects covering education, healthcare, skill development, sustainable livelihoods and women empowerment, impacting over 1.96 lakh beneficiaries",
-        "Nature of CSR activities includes Healthcare and Education among focus areas (Skill Development, Rural Infrastructure, Environment, Sports, Art & Culture, Swachh Bharat Abhiyaan)"
+        "CSR initiatives in healthcare including health camps and medical support",
+        "Education support, scholarships and skill development programs",
+        "Impact assessment of 24 CSR projects covering education, healthcare, skill development, livelihoods and women empowerment benefiting ~1.96 lakh beneficiaries"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Standalone financial statements Note 40.3 (page 302-303) and Board's Report CSR Annexure (page 178-179); figures already in INR crore, no conversion needed. Note: Consolidated figures (Note 45.3) differ - CSR spent ₹221.04 cr on obligation of ₹204.60 cr; standalone figures used here as primary company-level disclosure.",
+      "notes": "Standalone financial statements Note 40.3 (also consolidated Note 45.3 shows ₹221.04 cr spent vs ₹204.60 cr obligation); Directors' Report CSR Annexure (p.179) confirms ₹144.59 cr spent against ₹137.51 cr obligation, standalone figures used (fy_used=FY26, year ended 31 Mar 2026).",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ca090c8-e109-41af-883a-496c2bb503c5.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8ca090c8-e109-41af-883a-496c2bb503c5.pdf",
+        "report_year": 2026,
         "page": 302
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:08:17.663Z"
+      "generated_at": "2026-10-02T01:32:39.456Z"
     },
     "NATIONALUM": {
       "rank": 62,
