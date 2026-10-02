@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:38:43.783Z",
+  "updated_at": "2026-10-02T01:39:08.566Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -7162,20 +7162,19 @@
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "Primary & Preventive Health care initiatives",
-        "Promotion of Education programs",
-        "Contribution to charitable trusts (Rs. 41.87 crore) supporting healthcare/education",
-        "Contribution to public trust (Rs. 0.80 crore)"
+        "CSR focus on Primary & Preventive Health Care",
+        "CSR focus on Promotion of Education"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Note 24.2 (CSR Expenditure) and Annexure I (CSR Annual Report) to Directors' Report, standalone financials FY ended March 31, 2026; amounts already in INR crore.",
+      "notes": "Note 24.2 (CSR Expenditure) and Annexure I to Directors' Report, FY ended March 31, 2026; amounts in INR crore as reported, fully spent (excess spent 0.07 cr over 2% obligation).",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=973f3ba0-1016-4b1d-aacf-cb7b7acd043d.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/973f3ba0-1016-4b1d-aacf-cb7b7acd043d.pdf",
+        "report_year": 2026,
         "page": 121
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:56:53.656Z"
+      "generated_at": "2026-10-02T01:39:08.566Z"
     },
     "DIXON": {
       "rank": 177,
