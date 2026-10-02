@@ -7,7 +7,7 @@
     },
     "500103": {
       "status": "done",
-      "updated_at": "2026-09-17T14:50:58.079Z",
+      "updated_at": "2026-10-02T01:38:02.859Z",
       "error": null
     },
     "500109": {
@@ -57,7 +57,7 @@
     },
     "500251": {
       "status": "done",
-      "updated_at": "2026-09-17T14:47:56.874Z",
+      "updated_at": "2026-10-02T01:37:37.608Z",
       "error": null
     },
     "500257": {
@@ -102,7 +102,7 @@
     },
     "500488": {
       "status": "done",
-      "updated_at": "2026-09-17T14:52:26.469Z",
+      "updated_at": "2026-10-02T01:38:14.959Z",
       "error": null
     },
     "500490": {
@@ -152,7 +152,7 @@
     },
     "503806": {
       "status": "done",
-      "updated_at": "2026-09-17T14:46:23.332Z",
+      "updated_at": "2026-10-02T01:37:24.912Z",
       "error": null
     },
     "505200": {
@@ -207,7 +207,7 @@
     },
     "520056": {
       "status": "done",
-      "updated_at": "2026-09-17T14:48:12.187Z",
+      "updated_at": "2026-10-02T01:37:40.149Z",
       "error": null
     },
     "526299": {
@@ -222,12 +222,12 @@
     },
     "531642": {
       "status": "done",
-      "updated_at": "2026-09-17T14:47:04.928Z",
+      "updated_at": "2026-10-02T01:37:30.040Z",
       "error": null
     },
     "532144": {
       "status": "done",
-      "updated_at": "2026-09-17T14:49:58.557Z",
+      "updated_at": "2026-10-02T01:37:55.399Z",
       "error": null
     },
     "532215": {
@@ -277,7 +277,7 @@
     },
     "539437": {
       "status": "done",
-      "updated_at": "2026-09-17T14:50:15.840Z",
+      "updated_at": "2026-10-02T01:37:57.962Z",
       "error": null
     },
     "543220": {
@@ -877,87 +877,87 @@
     },
     "PATANJALI": {
       "status": "done",
-      "updated_at": "2026-09-17T14:46:45.514Z",
+      "updated_at": "2026-10-02T01:37:27.479Z",
       "error": null
     },
     "SHREECEM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:47:24.066Z",
+      "updated_at": "2026-10-02T01:37:32.605Z",
       "error": null
     },
     "BHARTIHEXA": {
       "status": "done",
-      "updated_at": "2026-09-17T14:47:40.831Z",
+      "updated_at": "2026-10-02T01:37:35.254Z",
       "error": null
     },
     "HAVELLS": {
       "status": "done",
-      "updated_at": "2026-09-17T14:48:29.191Z",
+      "updated_at": "2026-10-02T01:37:42.478Z",
       "error": null
     },
     "LGEINDIA": {
       "status": "done",
-      "updated_at": "2026-09-17T14:48:45.461Z",
+      "updated_at": "2026-10-02T01:37:45.120Z",
       "error": null
     },
     "SOLARINDS": {
       "status": "done",
-      "updated_at": "2026-09-17T14:49:00.942Z",
+      "updated_at": "2026-10-02T01:37:47.691Z",
       "error": null
     },
     "IIFL": {
       "status": "done",
-      "updated_at": "2026-09-17T14:49:23.800Z",
+      "updated_at": "2026-10-02T01:37:50.272Z",
       "error": null
     },
     "ADANIGREEN": {
       "status": "done",
-      "updated_at": "2026-09-17T14:49:42.029Z",
+      "updated_at": "2026-10-02T01:37:52.837Z",
       "error": null
     },
     "ICICIPRULI": {
       "status": "done",
-      "updated_at": "2026-09-17T14:50:37.117Z",
+      "updated_at": "2026-10-02T01:38:00.312Z",
       "error": null
     },
     "SIEMENS": {
       "status": "done",
-      "updated_at": "2026-09-17T14:51:15.033Z",
+      "updated_at": "2026-10-02T01:38:05.184Z",
       "error": null
     },
     "JIOFIN": {
       "status": "done",
-      "updated_at": "2026-09-17T14:51:30.547Z",
+      "updated_at": "2026-10-02T01:38:07.726Z",
       "error": null
     },
     "COFORGE": {
       "status": "done",
-      "updated_at": "2026-09-17T14:51:53.119Z",
+      "updated_at": "2026-10-02T01:38:10.066Z",
       "error": null
     },
     "SPARC": {
       "status": "done",
-      "updated_at": "2026-09-17T14:52:07.534Z",
+      "updated_at": "2026-10-02T01:38:12.608Z",
       "error": null
     },
     "IGL": {
       "status": "done",
-      "updated_at": "2026-09-17T14:52:42.552Z",
+      "updated_at": "2026-10-02T01:38:17.502Z",
       "error": null
     },
     "TATACONSUM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:53:01.452Z",
+      "updated_at": "2026-10-02T01:38:20.091Z",
       "error": null
     },
     "CESC": {
       "status": "done",
-      "updated_at": "2026-09-17T14:53:22.795Z",
+      "updated_at": "2026-10-02T01:38:22.653Z",
       "error": null
     },
     "NAM-INDIA": {
       "status": "done",
-      "updated_at": "2026-09-17T14:53:42.863Z",
+      "updated_at": "2026-10-02T01:38:25.212Z",
       "error": null
     },
     "JSWINFRA": {
