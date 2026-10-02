@@ -42,7 +42,7 @@
     },
     "500188": {
       "status": "done",
-      "updated_at": "2026-09-17T13:59:50.107Z",
+      "updated_at": "2026-10-02T01:31:20.720Z",
       "error": null
     },
     "500228": {
@@ -52,7 +52,7 @@
     },
     "500247": {
       "status": "done",
-      "updated_at": "2026-09-17T12:54:10.399Z",
+      "updated_at": "2026-10-02T01:30:42.970Z",
       "error": null
     },
     "500251": {
@@ -87,12 +87,12 @@
     },
     "500440": {
       "status": "done",
-      "updated_at": "2026-09-17T14:00:14.500Z",
+      "updated_at": "2026-10-02T01:31:23.063Z",
       "error": null
     },
     "500470": {
       "status": "done",
-      "updated_at": "2026-09-17T14:02:22.609Z",
+      "updated_at": "2026-10-02T01:31:38.411Z",
       "error": null
     },
     "500480": {
@@ -112,7 +112,7 @@
     },
     "500510": {
       "status": "done",
-      "updated_at": "2026-09-17T13:58:35.339Z",
+      "updated_at": "2026-10-02T01:31:10.952Z",
       "error": null
     },
     "500530": {
@@ -132,7 +132,7 @@
     },
     "500696": {
       "status": "done",
-      "updated_at": "2026-09-17T13:59:10.933Z",
+      "updated_at": "2026-10-02T01:31:15.846Z",
       "error": null
     },
     "500710": {
@@ -167,7 +167,7 @@
     },
     "507685": {
       "status": "done",
-      "updated_at": "2026-09-17T14:00:37.242Z",
+      "updated_at": "2026-10-02T01:31:25.607Z",
       "error": null
     },
     "511218": {
@@ -302,7 +302,7 @@
     },
     "LICI": {
       "status": "done",
-      "updated_at": "2026-09-17T13:54:36.892Z",
+      "updated_at": "2026-10-02T01:30:55.796Z",
       "error": null
     },
     "ICICIBANK": {
@@ -362,7 +362,7 @@
     },
     "BANKBARODA": {
       "status": "done",
-      "updated_at": "2026-09-17T13:54:15.759Z",
+      "updated_at": "2026-10-02T01:30:53.240Z",
       "error": null
     },
     "UNIONBANK": {
@@ -372,82 +372,82 @@
     },
     "BAJFINANCE": {
       "status": "done",
-      "updated_at": "2026-09-17T12:54:28.541Z",
+      "updated_at": "2026-10-02T01:30:45.536Z",
       "error": null
     },
     "PNB": {
       "status": "done",
-      "updated_at": "2026-09-17T13:53:53.583Z",
+      "updated_at": "2026-10-02T01:30:50.675Z",
       "error": null
     },
     "HINDPETRO": {
       "status": "done",
-      "updated_at": "2026-09-17T12:55:00.638Z",
+      "updated_at": "2026-10-02T01:30:48.103Z",
       "error": null
     },
     "CANBK": {
       "status": "done",
-      "updated_at": "2026-09-17T13:56:59.479Z",
+      "updated_at": "2026-10-02T01:30:58.365Z",
       "error": null
     },
     "HCLTECH": {
       "status": "done",
-      "updated_at": "2026-09-17T13:57:17.668Z",
+      "updated_at": "2026-10-02T01:31:00.933Z",
       "error": null
     },
     "VEDL": {
       "status": "done",
-      "updated_at": "2026-09-17T13:57:36.738Z",
+      "updated_at": "2026-10-02T01:31:03.499Z",
       "error": null
     },
     "M&M": {
       "status": "done",
-      "updated_at": "2026-09-17T13:57:55.034Z",
+      "updated_at": "2026-10-02T01:31:06.071Z",
       "error": null
     },
     "RECLTD": {
       "status": "done",
-      "updated_at": "2026-09-17T13:58:14.939Z",
+      "updated_at": "2026-10-02T01:31:08.400Z",
       "error": null
     },
     "POWERGRID": {
       "status": "done",
-      "updated_at": "2026-09-17T13:58:53.859Z",
+      "updated_at": "2026-10-02T01:31:13.296Z",
       "error": null
     },
     "MARUTI": {
       "status": "done",
-      "updated_at": "2026-09-17T13:59:28.189Z",
+      "updated_at": "2026-10-02T01:31:18.173Z",
       "error": null
     },
     "ADANIPOWER": {
       "status": "done",
-      "updated_at": "2026-09-17T14:00:58.979Z",
+      "updated_at": "2026-10-02T01:31:28.168Z",
       "error": null
     },
     "ADANIPORTS": {
       "status": "done",
-      "updated_at": "2026-09-17T14:01:20.812Z",
+      "updated_at": "2026-10-02T01:31:30.725Z",
       "error": null
     },
     "INDIANB": {
       "status": "done",
-      "updated_at": "2026-09-17T14:01:43.024Z",
+      "updated_at": "2026-10-02T01:31:33.284Z",
       "error": null
     },
     "SUNPHARMA": {
       "status": "done",
-      "updated_at": "2026-09-17T14:02:02.873Z",
+      "updated_at": "2026-10-02T01:31:35.849Z",
       "error": null
     },
     "BAJAJ-AUTO": {
       "status": "done",
-      "updated_at": "2026-09-17T14:02:44.190Z",
+      "updated_at": "2026-10-02T01:31:40.973Z",
       "error": null
     },
     "MUTHOOTFIN": {
       "status": "done",
-      "updated_at": "2026-09-17T14:03:03.847Z",
+      "updated_at": "2026-10-02T01:31:43.298Z",
       "error": null
     },
     "BANKINDIA": {
