@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:38:25.213Z",
+  "updated_at": "2026-10-02T01:38:43.783Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -6977,24 +6977,23 @@
       "pat_delta_pct": 0.02,
       "fy_used": "FY26",
       "csr_spent_cr": 11.85,
-      "csr_obligation_cr": 0.85,
+      "csr_obligation_cr": 10.47,
       "csr_required_2pct_cr": 10.47,
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "Promoting education initiatives",
-        "Health care programs/health camps",
-        "Rural development and environmental sustainability initiatives"
+        "CSR activities promoting education, health care and environmental sustainability (Group-wide)"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Consolidated financials Note 33 (FY26): amount required ₹104.74mn, amount spent ₹118.53mn (also stated as ₹118.52mn in text) — converted from ₹ million to crore (1 crore=10 million): required ≈10.47 cr, spent ≈11.85 cr. Standalone Note 31 figures (Annexure III CSR report) were smaller: required ₹11.14mn (1.114 cr), spent ₹20.12mn (2.012 cr) — used consolidated Group figures as primary. No shortfall; excess spend treated as asset for set-off.",
+      "notes": "Consolidated figures from Note 33 (CSR), FY26: amount spent ₹118.53 million = ₹11.85 crore; required ₹104.74 million = ₹10.47 crore; no shortfall (excess spent). Converted from ₹ million to ₹ crore (÷100).",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=579090b8-12b1-463c-9517-9f5a7f6ba7fc.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/579090b8-12b1-463c-9517-9f5a7f6ba7fc.pdf",
+        "report_year": 2026,
         "page": 182
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:54:58.491Z"
+      "generated_at": "2026-10-02T01:38:43.783Z"
     },
     "PIRAMALFIN": {
       "rank": 195,
