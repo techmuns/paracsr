@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:37:09.542Z",
+  "updated_at": "2026-10-02T01:37:21.393Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -6308,10 +6308,11 @@
       "notes": "annual report not found on Screener",
       "source": {
         "annual_report_url": null,
+        "report_year": null,
         "page": null
       },
       "model": null,
-      "generated_at": "2026-09-17T14:44:56.934Z"
+      "generated_at": "2026-10-02T01:37:21.393Z"
     },
     "PATANJALI": {
       "rank": 168,
