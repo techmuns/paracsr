@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:35:51.608Z",
+  "updated_at": "2026-10-02T01:36:05.907Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -5583,18 +5583,19 @@
       "health_or_education": true,
       "examples": [
         "CSR spend on Healthcare initiatives",
-        "CSR spend on Education initiatives",
-        "Community Development programs"
+        "CSR spend on Education programs",
+        "Community Development projects"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Per Board's Report Annexure 1 (Annual Report on CSR activities, FY2025-26): Total amount spent for the year = ₹22.36 crore (₹21.69 cr projects + ₹0.67 cr admin overheads); obligation/2% requirement = ₹45.66 crore; unspent ₹23.30 cr transferred to Unspent CSR Account on 24-04-2026. Note: Schedule 18 notes to accounts show a different framing (₹21.31 cr expenditure incurred + ₹24.35 cr accrual = ₹45.66 cr total recognized as expense); Annexure 1 in Directors' Report is used as primary source per instructions for banks.",
+      "notes": "From Directors' Report Annexure 1 'Annual Report on CSR activities FY2025-26' (Total Amount Spent = 22.36 cr, incl. 21.69 cr projects + 0.67 cr admin overheads); Notes to Accounts Schedule 18 shows a different figure (45.66 cr incl. 24.35 cr unspent accrual for ongoing projects) - using Annexure's actual cash-spent figure as primary 'Amount Spent' per Section 135(5)/(6) table; unspent amount 23.30 cr transferred to Unspent CSR Account on 24-04-2026.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+        "report_year": 2026,
         "page": 348
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:35:41.135Z"
+      "generated_at": "2026-10-02T01:36:05.907Z"
     },
     "ALKEM": {
       "rank": 138,
