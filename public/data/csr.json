@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T15:02:23.664Z",
+  "updated_at": "2026-10-02T01:30:38.850Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1665,7 +1665,7 @@
       "generated_at": "2026-09-17T14:49:58.557Z"
     },
     "532215": {
-      "rank": 16,
+      "rank": 15,
       "name": "Axis Bank Limited",
       "ticker": "532215",
       "exchange": "BSE",
@@ -1731,19 +1731,19 @@
       "generated_at": "2026-09-17T14:26:58.221Z"
     },
     "532454": {
-      "rank": 11,
+      "rank": 14,
       "name": "Bharti Airtel Limited",
       "ticker": "532454",
       "exchange": "BSE",
       "sector": "Telecom",
       "is_psu": false,
       "pat_client_cr": 26695.2,
-      "pat_screener_cr": 33823,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 33823,
-      "pat_mismatch": true,
-      "pat_delta_pct": 26.7,
+      "pat_cr": 26695.2,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 176.317,
       "csr_obligation_cr": 175.727,
@@ -2379,7 +2379,7 @@
       "sector_detail": "Telecom - Cellular & Fixed line services"
     },
     "COALINDIA": {
-      "rank": 13,
+      "rank": 11,
       "name": "Coal India Limited",
       "ticker": "COALINDIA",
       "exchange": "NSEI",
@@ -2411,19 +2411,19 @@
       "sector_detail": "Coal"
     },
     "INFY": {
-      "rank": 14,
+      "rank": 12,
       "name": "Infosys Limited",
       "ticker": "INFY",
       "exchange": "NSEI",
       "sector": "IT Services",
       "is_psu": false,
       "pat_client_cr": 31064.85,
-      "pat_screener_cr": 29474,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 29474,
-      "pat_mismatch": true,
-      "pat_delta_pct": -5.12,
+      "pat_cr": 31064.85,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 558.44,
       "csr_obligation_cr": 577.36,
@@ -2448,7 +2448,7 @@
       "sector_detail": "Computers - Software & Consulting"
     },
     "NTPC": {
-      "rank": 15,
+      "rank": 13,
       "name": "NTPC Limited",
       "ticker": "NTPC",
       "exchange": "NSEI",
@@ -2484,19 +2484,19 @@
       "sector_detail": "Power Generation"
     },
     "PFC": {
-      "rank": 12,
+      "rank": 16,
       "name": "Power Finance Corporation Limited",
       "ticker": "PFC",
       "exchange": "NSEI",
       "sector": "Financial Services",
       "is_psu": true,
       "pat_client_cr": 25900.95,
-      "pat_screener_cr": 33625,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 33625,
-      "pat_mismatch": true,
-      "pat_delta_pct": 29.82,
+      "pat_cr": 25900.95,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 306.84,
       "csr_obligation_cr": 306.37,
@@ -2632,6 +2632,7 @@
       "ticker": "UNIONBANK",
       "exchange": "NSEI",
       "sector": "Banking",
+      "sector_detail": "Public Sector Bank",
       "is_psu": true,
       "pat_client_cr": 19430.21,
       "pat_screener_cr": 19430,
@@ -2640,26 +2641,28 @@
       "pat_cr": 19430,
       "pat_mismatch": false,
       "pat_delta_pct": 0,
-      "fy_used": "FY25",
-      "csr_spent_cr": 25.47,
-      "csr_obligation_cr": null,
+      "fy_used": "FY26",
+      "csr_spent_cr": 35.88,
+      "csr_obligation_cr": 61.69,
       "csr_required_2pct_cr": null,
-      "csr_unspent_cr": null,
+      "csr_unspent_cr": 25.81,
       "health_or_education": true,
       "examples": [
-        "Healthcare and Sanitation initiatives: healthcare facilities, medical camps, sanitation infrastructure",
-        "Education and Skill Development: programs to enhance access to quality education and skill development"
+        "Scholarships of ₹2,000/year for girl children (5th-12th standard) in Govt./Govt.-aided rural schools, benefitting ~1718 girls (₹34.36 lakh disbursed)",
+        "Construction of toilets in Govt./Govt.-aided girls' schools across regions (₹171.28 lakh spent)",
+        "Healthcare and sanitation initiatives including medical camps and sanitation infrastructure",
+        "Education and skill development programs to enhance access to quality education"
       ],
       "found": true,
-      "confidence": "medium",
-      "notes": "Union Bank is a PSB, CSR is voluntary (up to 1% of prior year net profit, not mandatory u/s 135). Directors' Report (page 112-113): total donations approved Rs.37.70 cr for 89 projects; Rs.25.47 cr disbursed for 70 projects via Union Bank Social Foundation (UBSFT) in FY2024-25; Bank donated Rs.121.40 cr to UBSFT. No standard Section 135 mandatory-obligation table (2% net profit) found; csr_spent_cr taken as amount disbursed (Rs.25.47 cr).",
+      "confidence": "high",
+      "notes": "Directors' Report Note 22 (CSR) & Social Capital section, FY2025-26; Bank is a Public Sector Bank, CSR via Union Bank Social Foundation Trust (UBSFT) voluntarily (up to 1% of prior year net profit, not mandatory Sec 135). Donations approved ₹61.69 cr for 147 projects; amount disbursed ₹35.88 cr. No formal 2%-of-average-profit Sec.135 obligation disclosed (bank uses 1% voluntary basis).",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5e30ef1f-658a-4b33-8721-25f6a462ae7c.pdf",
-        "page": 112
+        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=893ae5a6-593c-4bbb-bd88-d74ed86e47b3.pdf",
+        "report_year": 2026,
+        "page": 414
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T12:53:54.344Z",
-      "sector_detail": "Public Sector Bank"
+      "generated_at": "2026-10-02T01:30:38.850Z"
     },
     "BAJFINANCE": {
       "rank": 25,
