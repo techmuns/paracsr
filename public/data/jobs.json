@@ -2,7 +2,7 @@
   "jobs": {
     "500049": {
       "status": "done",
-      "updated_at": "2026-09-17T14:08:36.820Z",
+      "updated_at": "2026-10-02T01:32:42.981Z",
       "error": null
     },
     "500103": {
@@ -22,12 +22,12 @@
     },
     "500114": {
       "status": "done",
-      "updated_at": "2026-09-17T14:12:07.261Z",
+      "updated_at": "2026-10-02T01:33:10.940Z",
       "error": null
     },
     "500124": {
       "status": "done",
-      "updated_at": "2026-09-17T14:16:03.811Z",
+      "updated_at": "2026-10-02T01:33:38.649Z",
       "error": null
     },
     "500163": {
@@ -37,7 +37,7 @@
     },
     "500182": {
       "status": "done",
-      "updated_at": "2026-09-17T14:09:12.676Z",
+      "updated_at": "2026-10-02T01:32:48.107Z",
       "error": null
     },
     "500188": {
@@ -62,7 +62,7 @@
     },
     "500257": {
       "status": "done",
-      "updated_at": "2026-09-17T14:11:30.674Z",
+      "updated_at": "2026-10-02T01:33:06.024Z",
       "error": null
     },
     "500390": {
@@ -82,7 +82,7 @@
     },
     "500425": {
       "status": "done",
-      "updated_at": "2026-09-17T14:14:14.989Z",
+      "updated_at": "2026-10-02T01:33:25.798Z",
       "error": null
     },
     "500440": {
@@ -157,7 +157,7 @@
     },
     "505200": {
       "status": "done",
-      "updated_at": "2026-09-17T14:10:09.731Z",
+      "updated_at": "2026-10-02T01:32:55.791Z",
       "error": null
     },
     "506480": {
@@ -177,7 +177,7 @@
     },
     "511243": {
       "status": "done",
-      "updated_at": "2026-09-17T14:11:46.952Z",
+      "updated_at": "2026-10-02T01:33:08.592Z",
       "error": null
     },
     "512070": {
@@ -262,7 +262,7 @@
     },
     "532967": {
       "status": "done",
-      "updated_at": "2026-09-17T14:09:48.837Z",
+      "updated_at": "2026-10-02T01:32:53.225Z",
       "error": null
     },
     "533148": {
@@ -507,82 +507,82 @@
     },
     "NATIONALUM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:08:53.448Z",
+      "updated_at": "2026-10-02T01:32:45.541Z",
       "error": null
     },
     "LICHSGFIN": {
       "status": "done",
-      "updated_at": "2026-09-17T14:09:32.057Z",
+      "updated_at": "2026-10-02T01:32:50.664Z",
       "error": null
     },
     "HYUNDAI": {
       "status": "done",
-      "updated_at": "2026-09-17T14:10:30.112Z",
+      "updated_at": "2026-10-02T01:32:58.347Z",
       "error": null
     },
     "IOB": {
       "status": "done",
-      "updated_at": "2026-09-17T14:10:54.297Z",
+      "updated_at": "2026-10-02T01:33:00.897Z",
       "error": null
     },
     "RAYMOND": {
       "status": "done",
-      "updated_at": "2026-09-17T14:11:10.633Z",
+      "updated_at": "2026-10-02T01:33:03.460Z",
       "error": null
     },
     "ZYDUSLIFE": {
       "status": "done",
-      "updated_at": "2026-09-17T14:12:34.484Z",
+      "updated_at": "2026-10-02T01:33:13.487Z",
       "error": null
     },
     "LTM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:12:51.945Z",
+      "updated_at": "2026-10-02T01:33:15.814Z",
       "error": null
     },
     "GRASIM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:13:11.426Z",
+      "updated_at": "2026-10-02T01:33:18.363Z",
       "error": null
     },
     "TATACAP": {
       "status": "done",
-      "updated_at": "2026-09-17T14:13:29.897Z",
+      "updated_at": "2026-10-02T01:33:20.689Z",
       "error": null
     },
     "TECHM": {
       "status": "done",
-      "updated_at": "2026-09-17T14:13:51.592Z",
+      "updated_at": "2026-10-02T01:33:23.234Z",
       "error": null
     },
     "CENTRALBK": {
       "status": "done",
-      "updated_at": "2026-09-17T14:14:40.239Z",
+      "updated_at": "2026-10-02T01:33:28.357Z",
       "error": null
     },
     "DLF": {
       "status": "done",
-      "updated_at": "2026-09-17T14:15:01.845Z",
+      "updated_at": "2026-10-02T01:33:30.928Z",
       "error": null
     },
     "FEDERALBNK": {
       "status": "done",
-      "updated_at": "2026-09-17T14:15:24.009Z",
+      "updated_at": "2026-10-02T01:33:33.488Z",
       "error": null
     },
     "ASIANPAINT": {
       "status": "done",
-      "updated_at": "2026-09-17T14:15:42.411Z",
+      "updated_at": "2026-10-02T01:33:36.057Z",
       "error": null
     },
     "HUDCO": {
       "status": "done",
-      "updated_at": "2026-09-17T14:16:27.706Z",
+      "updated_at": "2026-10-02T01:33:40.996Z",
       "error": null
     },
     "PETRONET": {
       "status": "done",
-      "updated_at": "2026-09-17T14:16:50.216Z",
+      "updated_at": "2026-10-02T01:33:43.541Z",
       "error": null
     },
     "CIPLA": {
