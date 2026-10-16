@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:13:36.543Z",
+  "updated_at": "2026-10-16T00:14:06.342Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1578,20 +1578,17 @@
       "csr_required_2pct_cr": 166.3,
       "csr_unspent_cr": 65.86,
       "health_or_education": true,
-      "examples": [
-        "CSR projects in Education, Health & Hygiene, and Nutrition as per Schedule VII focus areas",
-        "CSR spend includes Skill Development and Income Generation programs",
-        "Drinking Water and Rural Development projects undertaken alongside health/education initiatives"
-      ],
+      "examples": [],
       "found": true,
       "confidence": "high",
-      "notes": "Note 2.51.10 (Standalone/Consolidated) and Annexure-VIII (Directors' Report CSR Annexure); Amount Spent during the Year = ₹100.44 crore (actual CSR expenditure), with ₹65.86 crore deposited in Unspent CSR Account (UCSRA), totaling gross CSR obligation of ₹166.30 crore for FY2025-26.",
+      "notes": "Note 2.51.10 (Standalone/Consolidated) and Annexure VIII CSR Report; 'Amount spent during the year' row = ₹100.44 cr (table B); total CSR obligation/2% requirement = ₹166.30 cr; shortfall/unspent = ₹65.86 cr transferred to UCSRA. CSR focus areas include Education, Health & Hygiene among others, but no specific project-level examples (e.g., hospital/school names) were disclosed in the excerpt.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ba2efa9-af6e-4f79-ba34-fa96bf07e0aa.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba2efa9-af6e-4f79-ba34-fa96bf07e0aa.pdf",
+        "report_year": 2026,
         "page": 405
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:06:58.991Z"
+      "generated_at": "2026-10-16T00:14:06.342Z"
     },
     "531642": {
       "rank": 168,

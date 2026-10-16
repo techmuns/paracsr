@@ -217,7 +217,7 @@
     },
     "526371": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:11.910Z",
+      "updated_at": "2026-10-16T00:14:06.342Z",
       "error": null
     },
     "531642": {
@@ -467,22 +467,22 @@
     },
     "IDBI": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:01.655Z",
+      "updated_at": "2026-10-16T00:13:40.226Z",
       "error": null
     },
     "HAL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:04.223Z",
+      "updated_at": "2026-10-16T00:13:42.792Z",
       "error": null
     },
     "ULTRACEMCO": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:06.787Z",
+      "updated_at": "2026-10-16T00:13:45.353Z",
       "error": null
     },
     "GAIL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:09.349Z",
+      "updated_at": "2026-10-16T00:13:47.908Z",
       "error": null
     },
     "INDUSTOWER": {
