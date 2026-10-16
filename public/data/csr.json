@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:14:06.342Z",
+  "updated_at": "2026-10-16T00:14:38.107Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1884,19 +1884,19 @@
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "CSR spend on Education",
-        "CSR spend on Healthcare",
-        "Rural development, hunger/poverty alleviation and safe drinking water initiatives"
+        "CSR spend directed toward Education",
+        "CSR spend directed toward Healthcare"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Annexure E (CSR Annual Report) and Note (Standalone/Consolidated) for FY2025-26; amount spent ₹9.96 Lakhs = ₹0.0996 crore (rounded to ₹0.09 crore per Annexure E); Section 135(5) obligation stated as Nil/Not Applicable; nature of CSR activities includes Education and Healthcare.",
+      "notes": "Annexure E (Board's Report) states amount spent ₹0.09 Cr with Nil obligation; Notes to standalone/consolidated financials show ₹9.96 Lakh (=₹0.0996 Cr, rounded to 0.09 Cr) spent on Education, Healthcare, Rural Development etc. for FY2025-26; converted lakh to crore.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1d08920-ba83-4f11-b62d-fedbbe5d8905.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f1d08920-ba83-4f11-b62d-fedbbe5d8905.pdf",
+        "report_year": 2026,
         "page": 140
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:09:48.837Z"
+      "generated_at": "2026-10-16T00:14:38.107Z"
     },
     "533148": {
       "rank": 116,
@@ -3677,12 +3677,12 @@
       "sector_detail": "Housing Finance Company",
       "is_psu": true,
       "pat_client_cr": 5603.67,
-      "pat_screener_cr": 5604,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 5604,
+      "pat_cr": 5603.67,
       "pat_mismatch": false,
-      "pat_delta_pct": 0.01,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 44.84,
       "csr_obligation_cr": 109.61,
