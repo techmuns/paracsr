@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:21:04.163Z",
+  "updated_at": "2026-10-16T00:21:22.504Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -6335,25 +6335,26 @@
       "pat_delta_pct": -0.03,
       "fy_used": "FY26",
       "csr_spent_cr": 41.65,
-      "csr_obligation_cr": 26.45,
-      "csr_required_2pct_cr": 26.45,
+      "csr_obligation_cr": 26.4461,
+      "csr_required_2pct_cr": 26.4461,
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
         "Ayurvedic healthcare infrastructure development and preventive/curative healthcare services",
+        "Promotion of education and support for women's education",
         "Medical education and research support",
-        "Promotion of education including support for women's education",
         "Development of sports infrastructure"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Note 28(II), Standalone Financial Statements FY26; amounts converted from ₹ in Lakh to crore (₹4,165.00 lakh = ₹41.65 crore spent; ₹2,644.61 lakh = ₹26.45 crore required/obligation; company spent more than required, surplus/shortfall of (1,520.39) lakh i.e. surplus of ₹15.20 crore, so unspent = 0).",
+      "notes": "From Note 28(II) 'Disclosure in respect of CSR expenses' (Standalone Financial Statements, FY26). Figures originally in ₹ Lakh, converted to ₹ crore (÷100). Amount spent (₹4,165.00 lakh = ₹41.65 cr) exceeds the gross amount required (₹2,644.61 lakh = ₹26.4461 cr), resulting in a surplus (negative shortfall of ₹1,520.39 lakh), hence unspent amount is nil.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89af6f75-6a1d-4099-ba43-630c4de2d6b8.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/89af6f75-6a1d-4099-ba43-630c4de2d6b8.pdf",
+        "report_year": 2026,
         "page": 186
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:46:45.514Z"
+      "generated_at": "2026-10-16T00:21:22.503Z"
     },
     "SHREECEM": {
       "rank": 170,
