@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:19:27.240Z",
+  "updated_at": "2026-10-16T00:20:05.631Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -5875,20 +5875,21 @@
       "csr_unspent_cr": 53.01,
       "health_or_education": true,
       "examples": [
-        "Setting up of Cardiac OTs, Paediatric Cardiac OTs and allied infrastructure (Healthcare) - ₹2.06 crore",
-        "Contribution to provide free/subsidised treatment to needy with advanced medical equipment - ₹0.50 crore",
-        "Skill Development training (Computer Hardware, Graphic Designing, Digital Marketing) - ₹0.17 crore",
-        "Construction & Development of Anganwadis in various districts of Gujarat (Education) - ₹22.48 crore (ongoing project)"
+        "Setting up Cardiac OTs, Paediatric Cardiac OTs and allied infrastructure (Healthcare)",
+        "Upgradation of patient care and treatment facilities at U.N. Mehta Institute of Cardiology Centre",
+        "Construction & Development of Anganwadis across various districts of Gujarat (Education) \\u2013 \\u20b922.48 Cr",
+        "Centralized mid-day kitchen feeding children in Govt. schools of Bharuch District via Akshaya Patra Foundation; Skill development training in Computer Hardware/Graphic Designing/Digital Marketing"
       ],
       "found": true,
-      "confidence": "high",
-      "notes": "Note 56, Standalone FS FY26; figures already in ₹ crore. csr_spent_cr = 'Amount spent during the year (Paid in Cash)' current-year row (12.21 cr); note gross obligation (Note 56 pt.1) 65.36 cr vs net obligation after set-off (pt.5e in Annexure) 65.17 cr, and shortfall 53.01 cr. Total incl. ongoing prior-year project spend was 55.79+12.21=67.99 cr per Annexure IIIA.",
+      "confidence": "medium",
+      "notes": "Note 56 (Standalone FS, FY2025-26): Gross 2% requirement \\u20b965.36 Cr; Net CSR obligation (Total CSR Obligation per 5(e)) \\u20b965.17 Cr; Amount spent during the year (paid in cash) \\u20b912.21 Cr; Shortfall at year-end \\u20b953.01 Cr (balance transferred to unspent CSR account for ongoing projects, per Sec 135(6)). Figures reflect combined GEL+erstwhile GSPC obligation per Board's Report Annexure IIIA, while cash-spent figure of 12.21 Cr pertains to GEL's own current-year non-ongoing project spend; separate GSPC spend of \\u20b94.14 Cr and large ongoing-project disbursements (\\u20b955.79 Cr from unspent account, incl. Anganwadis, GERMI R&D, cardiology upgrades) also reported.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6ee741c-57d8-467f-9084-b8ac79df6e09.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d6ee741c-57d8-467f-9084-b8ac79df6e09.pdf",
+        "report_year": 2026,
         "page": 257
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:39:30.089Z"
+      "generated_at": "2026-10-16T00:20:05.630Z"
     },
     "COROMANDEL": {
       "rank": 156,
