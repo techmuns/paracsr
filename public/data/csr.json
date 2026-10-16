@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:22:19.762Z",
+  "updated_at": "2026-10-16T00:22:47.020Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -221,7 +221,7 @@
       "generated_at": "2026-09-17T14:16:03.811Z"
     },
     "500163": {
-      "rank": 192,
+      "rank": 191,
       "name": "Godfrey Phillips India Limited",
       "ticker": "500163",
       "exchange": "BSE",
@@ -1182,18 +1182,19 @@
       "csr_unspent_cr": 0.6712,
       "health_or_education": true,
       "examples": [
-        "Maintenance of school at Rourkela, Odisha (promotion of education)",
-        "Renovation of Smt. Jamuna Hinduja Ladies Ghat, Haridwar - includes promotion of healthcare/sanitation"
+        "Maintenance of school at Rourkela (promoting education) through Sri Ranga Nayaka Swamy Charitable Trust",
+        "Renovation of Smt. Jamuna Hinduja Ladies Ghat project includes promotion of healthcare, including preventive healthcare and sanitation, under Schedule VII"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Note 39/41 (Standalone/Consolidated FS) and Annexure-B CSR Report FY26; amounts converted from INR lakhs to crore (1 crore=100 lakh). Gross 2% requirement=104.15 lakh=1.0415 cr; Total CSR obligation per Annexure-B item 5(e)=100.12 lakh=1.0012 cr; Amount spent=33.00 lakh=0.33 cr; Unspent (transferred to unspent CSR account)=67.12 lakh=0.6712 cr.",
+      "notes": "Note 39/41 CSR disclosure (standalone & consolidated) and Annexure-B CSR report; figures given in INR lakhs, converted to crore by dividing by 100. Total CSR obligation for FY26 = Rs.100.12 lakh (per Annexure-B item 5(e)); Gross 2% requirement = Rs.104.15 lakh; Amount spent = Rs.33.00 lakh; Unspent transferred to CSR unspent account = Rs.67.12 lakh.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad42ac5f-0b15-416a-93b6-1fc20c245ff3.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42ac5f-0b15-416a-93b6-1fc20c245ff3.pdf",
+        "report_year": 2026,
         "page": 224
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:54:40.832Z"
+      "generated_at": "2026-10-16T00:22:47.019Z"
     },
     "507685": {
       "rank": 38,
@@ -6786,7 +6787,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 190,
+      "rank": 189,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6894,7 +6895,7 @@
       "generated_at": "2026-09-17T14:53:22.794Z"
     },
     "NAM-INDIA": {
-      "rank": 191,
+      "rank": 190,
       "name": "Nippon Life India Asset Management Limited",
       "ticker": "NAM-INDIA",
       "exchange": "NSEI",
@@ -6902,12 +6903,12 @@
       "sector_detail": "Asset Management Company",
       "is_psu": false,
       "pat_client_cr": 1529.38,
-      "pat_screener_cr": 1529,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1529,
+      "pat_cr": 1529.38,
       "pat_mismatch": false,
-      "pat_delta_pct": -0.02,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 23.3,
       "csr_obligation_cr": 23.3,
@@ -6931,7 +6932,7 @@
       "generated_at": "2026-09-17T14:53:42.863Z"
     },
     "JSWINFRA": {
-      "rank": 189,
+      "rank": 192,
       "name": "JSW Infrastructure Limited",
       "ticker": "JSWINFRA",
       "exchange": "NSEI",
@@ -6939,12 +6940,12 @@
       "sector_detail": "Port & Port services",
       "is_psu": false,
       "pat_client_cr": 1523.31,
-      "pat_screener_cr": 1547,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1547,
+      "pat_cr": 1523.31,
       "pat_mismatch": false,
-      "pat_delta_pct": 1.56,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 4.92,
       "csr_obligation_cr": 4.92,
