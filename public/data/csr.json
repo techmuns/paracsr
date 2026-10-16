@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:19:19.394Z",
+  "updated_at": "2026-10-16T00:19:27.240Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1854,13 +1854,14 @@
       "examples": [],
       "found": true,
       "confidence": "high",
-      "notes": "Note 32.26/33.28 & Annexure-5 (Board's Report): average net profit negative, so CSR obligation NIL and amount spent NIL for FY2025-26; no CSR projects undertaken.",
+      "notes": "Note 33.28/32.26 and Annexure-5 CSR report; average net profit negative, so CSR obligation NIL and no spend during FY2025-26.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed07ad73-1e23-4710-be4a-c7fa7bc83c65.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ed07ad73-1e23-4710-be4a-c7fa7bc83c65.pdf",
+        "report_year": 2026,
         "page": 144
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:39:10.147Z"
+      "generated_at": "2026-10-16T00:19:27.239Z"
     },
     "532967": {
       "rank": 66,
