@@ -42,7 +42,7 @@
     },
     "500188": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:20.720Z",
+      "updated_at": "2026-10-16T00:12:59.089Z",
       "error": null
     },
     "500228": {
@@ -87,12 +87,12 @@
     },
     "500440": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:23.063Z",
+      "updated_at": "2026-10-16T00:13:01.427Z",
       "error": null
     },
     "500470": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:38.411Z",
+      "updated_at": "2026-10-16T00:13:16.763Z",
       "error": null
     },
     "500480": {
@@ -107,12 +107,12 @@
     },
     "500490": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:56.773Z",
+      "updated_at": "2026-10-16T00:13:33.989Z",
       "error": null
     },
     "500510": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:10.952Z",
+      "updated_at": "2026-10-16T00:12:49.287Z",
       "error": null
     },
     "500530": {
@@ -132,7 +132,7 @@
     },
     "500696": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:15.846Z",
+      "updated_at": "2026-10-16T00:12:54.181Z",
       "error": null
     },
     "500710": {
@@ -167,12 +167,12 @@
     },
     "507685": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:25.607Z",
+      "updated_at": "2026-10-16T00:13:03.967Z",
       "error": null
     },
     "511218": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:49.334Z",
+      "updated_at": "2026-10-16T00:13:26.567Z",
       "error": null
     },
     "511243": {
@@ -192,7 +192,7 @@
     },
     "512599": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:59.113Z",
+      "updated_at": "2026-10-16T00:13:36.543Z",
       "error": null
     },
     "513683": {
@@ -387,82 +387,82 @@
     },
     "CANBK": {
       "status": "done",
-      "updated_at": "2026-10-02T01:30:58.365Z",
+      "updated_at": "2026-10-16T00:12:36.719Z",
       "error": null
     },
     "HCLTECH": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:00.933Z",
+      "updated_at": "2026-10-16T00:12:39.278Z",
       "error": null
     },
     "VEDL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:03.499Z",
+      "updated_at": "2026-10-16T00:12:41.839Z",
       "error": null
     },
     "M&M": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:06.071Z",
+      "updated_at": "2026-10-16T00:12:44.405Z",
       "error": null
     },
     "RECLTD": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:08.400Z",
+      "updated_at": "2026-10-16T00:12:46.743Z",
       "error": null
     },
     "POWERGRID": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:13.296Z",
+      "updated_at": "2026-10-16T00:12:51.636Z",
       "error": null
     },
     "MARUTI": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:18.173Z",
+      "updated_at": "2026-10-16T00:12:56.551Z",
       "error": null
     },
     "ADANIPOWER": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:28.168Z",
+      "updated_at": "2026-10-16T00:13:06.523Z",
       "error": null
     },
     "ADANIPORTS": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:30.725Z",
+      "updated_at": "2026-10-16T00:13:09.085Z",
       "error": null
     },
     "INDIANB": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:33.284Z",
+      "updated_at": "2026-10-16T00:13:11.646Z",
       "error": null
     },
     "SUNPHARMA": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:35.849Z",
+      "updated_at": "2026-10-16T00:13:14.203Z",
       "error": null
     },
     "BAJAJ-AUTO": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:40.973Z",
+      "updated_at": "2026-10-16T00:13:19.338Z",
       "error": null
     },
     "MUTHOOTFIN": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:43.298Z",
+      "updated_at": "2026-10-16T00:13:21.686Z",
       "error": null
     },
     "BANKINDIA": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:47.011Z",
+      "updated_at": "2026-10-16T00:13:24.231Z",
       "error": null
     },
     "BAJAJFINSV": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:51.881Z",
+      "updated_at": "2026-10-16T00:13:29.120Z",
       "error": null
     },
     "GICRE": {
       "status": "done",
-      "updated_at": "2026-10-02T01:31:54.212Z",
+      "updated_at": "2026-10-16T00:13:31.456Z",
       "error": null
     },
     "IDBI": {

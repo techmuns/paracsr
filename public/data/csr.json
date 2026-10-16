@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:12:32.865Z",
+  "updated_at": "2026-10-16T00:13:36.543Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -761,7 +761,7 @@
       "generated_at": "2026-09-17T14:52:26.469Z"
     },
     "500490": {
-      "rank": 49,
+      "rank": 50,
       "name": "Bajaj Holdings & Investment Limited",
       "ticker": "500490",
       "exchange": "BSE",
@@ -1377,7 +1377,7 @@
       "generated_at": "2026-09-17T14:21:36.572Z"
     },
     "512599": {
-      "rank": 51,
+      "rank": 49,
       "name": "Adani Enterprises Limited",
       "ticker": "512599",
       "exchange": "BSE",
@@ -1385,12 +1385,12 @@
       "sector_detail": "Trading - Minerals",
       "is_psu": false,
       "pat_client_cr": 9339.47,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 9951,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 9339.47,
-      "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_cr": 9951,
+      "pat_mismatch": true,
+      "pat_delta_pct": 6.55,
       "fy_used": "FY26",
       "csr_spent_cr": 60.18,
       "csr_obligation_cr": 59.77,
@@ -3313,7 +3313,7 @@
       "generated_at": "2026-09-17T14:04:07.567Z"
     },
     "GICRE": {
-      "rank": 50,
+      "rank": 51,
       "name": "General Insurance Corporation of India",
       "ticker": "GICRE",
       "exchange": "NSEI",
