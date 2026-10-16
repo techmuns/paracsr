@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:16:10.442Z",
+  "updated_at": "2026-10-16T00:16:31.710Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1806,28 +1806,29 @@
       "sector_detail": "Civil Construction",
       "is_psu": false,
       "pat_client_cr": 3449.55,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 3450,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 3449.55,
+      "pat_cr": 3450,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0.01,
       "fy_used": "FY26",
-      "csr_spent_cr": 0,
-      "csr_obligation_cr": 0,
-      "csr_required_2pct_cr": 0,
-      "csr_unspent_cr": 0,
+      "csr_spent_cr": null,
+      "csr_obligation_cr": null,
+      "csr_required_2pct_cr": null,
+      "csr_unspent_cr": null,
       "health_or_education": null,
       "examples": [],
       "found": true,
       "confidence": "high",
-      "notes": "CSR Committee dissolved on 12 Nov 2022 as Section 135 criteria no longer applicable; auditors' report (Annexure A) explicitly states Section 135 requirement not applicable to the company, so no CSR obligation/spend disclosed for FY26 or FY25.",
+      "notes": "CSR Committee dissolved in Nov 2022; auditor confirms Section 135 not applicable to the company for FY26 (clause 3(xx)), so no CSR spend disclosed.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=582b672a-fe57-4ae1-8e8c-ee7beba63a11.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/582b672a-fe57-4ae1-8e8c-ee7beba63a11.pdf",
+        "report_year": 2026,
         "page": 53
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:24:13.170Z"
+      "generated_at": "2026-10-16T00:16:31.710Z"
     },
     "532767": {
       "rank": 146,
