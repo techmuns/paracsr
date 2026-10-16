@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:16:46.745Z",
+  "updated_at": "2026-10-16T00:18:03.036Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -184,7 +184,7 @@
       "generated_at": "2026-09-17T14:12:07.261Z"
     },
     "500124": {
-      "rank": 85,
+      "rank": 84,
       "name": "Dr. Reddy's Laboratories Limited",
       "ticker": "500124",
       "exchange": "BSE",
@@ -473,7 +473,7 @@
       "generated_at": "2026-09-17T14:11:30.674Z"
     },
     "500390": {
-      "rank": 79,
+      "rank": 111,
       "name": "Reliance Infrastructure Limited",
       "ticker": "500390",
       "exchange": "BSE",
@@ -481,12 +481,12 @@
       "sector_detail": "Integrated Power Utilities",
       "is_psu": false,
       "pat_client_cr": 2900.23,
-      "pat_screener_cr": 4838,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 4838,
-      "pat_mismatch": true,
-      "pat_delta_pct": 66.81,
+      "pat_cr": 2900.23,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 0,
       "csr_obligation_cr": 0,
@@ -908,7 +908,7 @@
       "sector_detail": "Passenger Cars & Utility Vehicles"
     },
     "500620": {
-      "rank": 111,
+      "rank": 110,
       "name": "The Great Eastern Shipping Company Limited",
       "ticker": "500620",
       "exchange": "BSE",
@@ -1014,7 +1014,7 @@
       "generated_at": "2026-09-17T14:39:48.549Z"
     },
     "500790": {
-      "rank": 98,
+      "rank": 97,
       "name": "Nestlé India Limited",
       "ticker": "500790",
       "exchange": "BSE",
@@ -1340,7 +1340,7 @@
       "generated_at": "2026-09-17T14:41:41.673Z"
     },
     "512455": {
-      "rank": 93,
+      "rank": 92,
       "name": "Lloyds Metals and Energy Limited",
       "ticker": "512455",
       "exchange": "BSE",
@@ -1411,7 +1411,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "513683": {
-      "rank": 94,
+      "rank": 93,
       "name": "NLC India Limited",
       "ticker": "513683",
       "exchange": "BSE",
@@ -1447,7 +1447,7 @@
       "generated_at": "2026-10-16T00:16:10.441Z"
     },
     "517334": {
-      "rank": 92,
+      "rank": 91,
       "name": "Samvardhana Motherson International Limited",
       "ticker": "517334",
       "exchange": "BSE",
@@ -1484,7 +1484,7 @@
       "generated_at": "2026-09-17T14:17:32.644Z"
     },
     "520056": {
-      "rank": 101,
+      "rank": 100,
       "name": "TVS Holdings Limited",
       "ticker": "520056",
       "exchange": "BSE",
@@ -1693,7 +1693,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "532343": {
-      "rank": 108,
+      "rank": 103,
       "name": "TVS Motor Company Limited",
       "ticker": "532343",
       "exchange": "BSE",
@@ -1701,12 +1701,12 @@
       "sector_detail": "2/3 Wheelers",
       "is_psu": false,
       "pat_client_cr": 3018.33,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 3186,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 3018.33,
-      "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_cr": 3186,
+      "pat_mismatch": true,
+      "pat_delta_pct": 5.56,
       "fy_used": "FY26",
       "csr_spent_cr": 56.37,
       "csr_obligation_cr": 55.99,
@@ -1771,12 +1771,12 @@
       "sector_detail": "Software Products",
       "is_psu": false,
       "pat_client_cr": 2639.3,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 2639,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 2639.3,
+      "pat_cr": 2639,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": -0.01,
       "fy_used": "FY26",
       "csr_spent_cr": 65.5,
       "csr_obligation_cr": 62.4,
@@ -1798,7 +1798,7 @@
       "generated_at": "2026-09-17T14:30:42.410Z"
     },
     "532629": {
-      "rank": 99,
+      "rank": 98,
       "name": "McNally Bharat Engineering Company Limited",
       "ticker": "532629",
       "exchange": "BSE",
@@ -3955,7 +3955,7 @@
       "generated_at": "2026-09-17T14:13:29.897Z"
     },
     "TECHM": {
-      "rank": 80,
+      "rank": 79,
       "name": "Tech Mahindra Limited",
       "ticker": "TECHM",
       "exchange": "NSEI",
@@ -3992,7 +3992,7 @@
       "generated_at": "2026-09-17T14:13:51.592Z"
     },
     "CENTRALBK": {
-      "rank": 81,
+      "rank": 80,
       "name": "Central Bank of India",
       "ticker": "CENTRALBK",
       "exchange": "NSEI",
@@ -4029,7 +4029,7 @@
       "generated_at": "2026-09-17T14:14:40.239Z"
     },
     "DLF": {
-      "rank": 82,
+      "rank": 81,
       "name": "DLF Limited",
       "ticker": "DLF",
       "exchange": "NSEI",
@@ -4065,7 +4065,7 @@
       "generated_at": "2026-09-17T14:15:01.844Z"
     },
     "FEDERALBNK": {
-      "rank": 84,
+      "rank": 83,
       "name": "The Federal Bank Limited",
       "ticker": "FEDERALBNK",
       "exchange": "NSEI",
@@ -4102,7 +4102,7 @@
       "generated_at": "2026-09-17T14:15:24.009Z"
     },
     "ASIANPAINT": {
-      "rank": 83,
+      "rank": 82,
       "name": "Asian Paints Limited",
       "ticker": "ASIANPAINT",
       "exchange": "NSEI",
@@ -4137,7 +4137,7 @@
       "generated_at": "2026-09-17T14:15:42.411Z"
     },
     "HUDCO": {
-      "rank": 87,
+      "rank": 86,
       "name": "Housing and Urban Development Corporation Limited",
       "ticker": "HUDCO",
       "exchange": "NSEI",
@@ -4174,7 +4174,7 @@
       "generated_at": "2026-09-17T14:16:27.706Z"
     },
     "PETRONET": {
-      "rank": 88,
+      "rank": 87,
       "name": "Petronet LNG Limited",
       "ticker": "PETRONET",
       "exchange": "NSEI",
@@ -4211,7 +4211,7 @@
       "generated_at": "2026-09-17T14:16:50.216Z"
     },
     "CIPLA": {
-      "rank": 91,
+      "rank": 90,
       "name": "Cipla Limited",
       "ticker": "CIPLA",
       "exchange": "NSEI",
@@ -4248,7 +4248,7 @@
       "generated_at": "2026-09-17T14:17:10.763Z"
     },
     "NHPC": {
-      "rank": 86,
+      "rank": 85,
       "name": "NHPC Limited",
       "ticker": "NHPC",
       "exchange": "NSEI",
@@ -4285,7 +4285,7 @@
       "generated_at": "2026-09-17T14:20:12.886Z"
     },
     "ABCAPITAL": {
-      "rank": 90,
+      "rank": 89,
       "name": "Aditya Birla Capital Limited",
       "ticker": "ABCAPITAL",
       "exchange": "NSEI",
@@ -4322,7 +4322,7 @@
       "generated_at": "2026-09-17T14:20:37.026Z"
     },
     "WAAREEENER": {
-      "rank": 89,
+      "rank": 88,
       "name": "Waaree Energies Limited",
       "ticker": "WAAREEENER",
       "exchange": "NSEI",
@@ -4360,7 +4360,7 @@
       "generated_at": "2026-10-16T00:15:54.746Z"
     },
     "YESBANK": {
-      "rank": 96,
+      "rank": 95,
       "name": "Yes Bank Limited",
       "ticker": "YESBANK",
       "exchange": "NSEI",
@@ -4392,7 +4392,7 @@
       "generated_at": "2026-09-17T14:22:15.432Z"
     },
     "AUROPHARMA": {
-      "rank": 97,
+      "rank": 96,
       "name": "Aurobindo Pharma Limited",
       "ticker": "AUROPHARMA",
       "exchange": "NSEI",
@@ -4429,7 +4429,7 @@
       "generated_at": "2026-09-17T14:22:36.645Z"
     },
     "ASHOKLEY": {
-      "rank": 95,
+      "rank": 94,
       "name": "Ashok Leyland Limited",
       "ticker": "ASHOKLEY",
       "exchange": "NSEI",
@@ -4465,7 +4465,7 @@
       "generated_at": "2026-09-17T14:23:57.742Z"
     },
     "LODHA": {
-      "rank": 100,
+      "rank": 99,
       "name": "Macrotech Developers Limited",
       "ticker": "LODHA",
       "exchange": "NSEI",
@@ -4502,7 +4502,7 @@
       "generated_at": "2026-09-17T14:24:30.234Z"
     },
     "SAIL": {
-      "rank": 102,
+      "rank": 101,
       "name": "Steel Authority of India Limited",
       "ticker": "SAIL",
       "exchange": "NSEI",
@@ -4540,7 +4540,7 @@
       "generated_at": "2026-10-16T00:16:46.745Z"
     },
     "JINDALSTEL": {
-      "rank": 103,
+      "rank": 102,
       "name": "Jindal Steel & Power Limited",
       "ticker": "JINDALSTEL",
       "exchange": "NSEI",
@@ -4722,7 +4722,7 @@
       "generated_at": "2026-09-17T14:26:41.647Z"
     },
     "LTF": {
-      "rank": 109,
+      "rank": 108,
       "name": "L&T Finance Limited",
       "ticker": "LTF",
       "exchange": "NSEI",
@@ -4758,7 +4758,7 @@
       "generated_at": "2026-09-17T14:27:17.384Z"
     },
     "DMART": {
-      "rank": 110,
+      "rank": 109,
       "name": "Avenue Supermarts Limited",
       "ticker": "DMART",
       "exchange": "NSEI",
@@ -4794,7 +4794,7 @@
       "generated_at": "2026-09-17T14:27:34.175Z"
     },
     "HDFCAMC": {
-      "rank": 113,
+      "rank": 112,
       "name": "HDFC Asset Management Company Limited",
       "ticker": "HDFCAMC",
       "exchange": "NSEI",
@@ -4802,12 +4802,12 @@
       "sector_detail": "Asset Management Company",
       "is_psu": false,
       "pat_client_cr": 2858.06,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 2858,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 2858.06,
+      "pat_cr": 2858,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0,
       "fy_used": "FY26",
       "csr_spent_cr": 42.51,
       "csr_obligation_cr": 42.51,
@@ -4831,7 +4831,7 @@
       "generated_at": "2026-09-17T14:28:22.992Z"
     },
     "M&MFIN": {
-      "rank": 112,
+      "rank": 113,
       "name": "Mahindra & Mahindra Financial Services Limited",
       "ticker": "M&MFIN",
       "exchange": "NSEI",
@@ -4839,12 +4839,12 @@
       "sector_detail": "Non Banking Financial Company (NBFC)",
       "is_psu": false,
       "pat_client_cr": 2854.53,
-      "pat_screener_cr": 2861,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 2861,
+      "pat_cr": 2854.53,
       "pat_mismatch": false,
-      "pat_delta_pct": 0.23,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 47.78,
       "csr_obligation_cr": 47.75,
@@ -5061,12 +5061,12 @@
       "sector_detail": "Pharmaceuticals",
       "is_psu": false,
       "pat_client_cr": 2568,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 2568,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
       "pat_cr": 2568,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0,
       "fy_used": "FY26",
       "csr_spent_cr": 37,
       "csr_obligation_cr": 49,
@@ -5147,19 +5147,20 @@
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "Construction of Oncology and Maternity building at Ashoka Institute of Medical Sciences & Research (AIMSAR), Nasik - Rs. 6.32 crore",
-        "Promoting health care including preventive health care (standalone: Rs. 631.50 lakh)",
-        "Promoting education, especially tribal education (standalone: Rs. 12.32 lakh)"
+        "Constructed an Oncology and Maternity building at Ashoka Institute of Medical Sciences & Research (AIMSAR), Nasik (₹6.32 crore)",
+        "Spent ₹6.32 crore (of ₹6.94 crore total CSR) on promoting health care including preventive health care",
+        "₹0.12 crore spent on promoting education, especially tribal education"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Standalone figures from Directors' Report Annexure-VI CSR Annual Report (Rs. crore) used as primary; consistent with standalone Note 43 (₹ in Lakhs: obligation 692.24 lakh=6.92cr, spent 700.00/694.08 lakh~6.94-6.94cr). Excess spent by Rs.0.02 crore, so unspent=0.",
+      "notes": "Standalone figures used (Note 43 to standalone financials + Directors' Report Annexure VI CSR Annual Report, FY26); amounts converted from ₹ lakh to ₹ crore (Note43: Gross required 692.24 lakh=6.92cr; spent 694.08 lakh=6.94cr, matching Annexure VI's 6.92cr obligation and 6.94cr spent, with 0.02cr excess spend/set-off, so unspent=0.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=108ab479-291c-4200-b846-fa318adcd757.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/108ab479-291c-4200-b846-fa318adcd757.pdf",
+        "report_year": 2026,
         "page": 323
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:31:54.741Z"
+      "generated_at": "2026-10-16T00:18:03.036Z"
     },
     "HDBFS": {
       "rank": 140,

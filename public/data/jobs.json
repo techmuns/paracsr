@@ -17,7 +17,7 @@
     },
     "500110": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:34.915Z",
+      "updated_at": "2026-10-16T00:17:01.042Z",
       "error": null
     },
     "500114": {
@@ -67,7 +67,7 @@
     },
     "500390": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:50.875Z",
+      "updated_at": "2026-10-16T00:17:15.912Z",
       "error": null
     },
     "500400": {
@@ -117,7 +117,7 @@
     },
     "500530": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:58.331Z",
+      "updated_at": "2026-10-16T00:17:23.311Z",
       "error": null
     },
     "500570": {
@@ -127,7 +127,7 @@
     },
     "500620": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:47.238Z",
+      "updated_at": "2026-10-16T00:17:13.584Z",
       "error": null
     },
     "500696": {
@@ -237,7 +237,7 @@
     },
     "532343": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:39.803Z",
+      "updated_at": "2026-10-16T00:17:06.126Z",
       "error": null
     },
     "532454": {
@@ -247,7 +247,7 @@
     },
     "532466": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:11.025Z",
+      "updated_at": "2026-10-16T00:17:35.792Z",
       "error": null
     },
     "532629": {
@@ -632,87 +632,87 @@
     },
     "JINDALSTEL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:24.285Z",
+      "updated_at": "2026-10-16T00:16:50.441Z",
       "error": null
     },
     "ICICIAMC": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:27.225Z",
+      "updated_at": "2026-10-16T00:16:53.380Z",
       "error": null
     },
     "JSL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:29.788Z",
+      "updated_at": "2026-10-16T00:16:55.931Z",
       "error": null
     },
     "SUZLON": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:32.355Z",
+      "updated_at": "2026-10-16T00:16:58.479Z",
       "error": null
     },
     "TMCV": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:37.475Z",
+      "updated_at": "2026-10-16T00:17:03.584Z",
       "error": null
     },
     "LTF": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:42.357Z",
+      "updated_at": "2026-10-16T00:17:08.717Z",
       "error": null
     },
     "DMART": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:44.686Z",
+      "updated_at": "2026-10-16T00:17:11.046Z",
       "error": null
     },
     "HDFCAMC": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:53.220Z",
+      "updated_at": "2026-10-16T00:17:18.439Z",
       "error": null
     },
     "M&MFIN": {
       "status": "done",
-      "updated_at": "2026-10-02T01:34:55.764Z",
+      "updated_at": "2026-10-16T00:17:20.778Z",
       "error": null
     },
     "ICICIGI": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:00.997Z",
+      "updated_at": "2026-10-16T00:17:25.635Z",
       "error": null
     },
     "UCOBANK": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:03.567Z",
+      "updated_at": "2026-10-16T00:17:28.164Z",
       "error": null
     },
     "POLYCAB": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:06.129Z",
+      "updated_at": "2026-10-16T00:17:30.709Z",
       "error": null
     },
     "AUBANK": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:08.687Z",
+      "updated_at": "2026-10-16T00:17:33.252Z",
       "error": null
     },
     "MAZDOCK": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:13.574Z",
+      "updated_at": "2026-10-16T00:17:38.336Z",
       "error": null
     },
     "DIVISLAB": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:15.902Z",
+      "updated_at": "2026-10-16T00:17:40.885Z",
       "error": null
     },
     "BAJAJHFL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:18.560Z",
+      "updated_at": "2026-10-16T00:17:43.515Z",
       "error": null
     },
     "ASHOKA": {
       "status": "done",
-      "updated_at": "2026-10-02T01:35:21.119Z",
+      "updated_at": "2026-10-16T00:18:03.036Z",
       "error": null
     },
     "HDBFS": {
