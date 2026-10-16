@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:15:54.746Z",
+  "updated_at": "2026-10-16T00:16:10.442Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1432,20 +1432,19 @@
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "Medical-health & family welfare spend of ₹10.74 crore",
-        "Education & scholarship spend of ₹10.01 crore",
-        "Vocational Skill Centre development ₹0.59 crore",
-        "Safe drinking water supply/cutting of drains ₹4.93 crore"
+        "Spent ₹10.74 crore on Medical-health & family welfare activities",
+        "Spent ₹10.01 crore on Education & scholarship programs"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Note 39 Corporate Social Responsibilities, Standalone Financial Statements FY2025-26; figures already in ₹ crore. Total amount spent during year (construction/acquisition assets ₹26.28 cr + other purposes ₹21.78 cr) = ₹48.06 cr per nature-wise table; obligation (Total CSR Obligation after set-off) ₹40.98 cr; gross 2% requirement ₹44.87 cr; unspent = nil (E. Amount unspent during the year: -).",
+      "notes": "Note 39 'Corporate Social Responsibilities' in standalone financial statements, FY2025-26 figures; Amount spent = construction/acquisition (26.28) + other purposes (21.78) = 48.06 crore; Unspent shown as '-' i.e. nil.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d28b50c9-e932-4f4e-b082-ab8a10dfcc20.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d28b50c9-e932-4f4e-b082-ab8a10dfcc20.pdf",
+        "report_year": 2026,
         "page": 182
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:21:57.201Z"
+      "generated_at": "2026-10-16T00:16:10.441Z"
     },
     "517334": {
       "rank": 92,
