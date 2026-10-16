@@ -22,12 +22,12 @@
     },
     "500114": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:10.940Z",
+      "updated_at": "2026-10-16T00:14:56.741Z",
       "error": null
     },
     "500124": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:38.649Z",
+      "updated_at": "2026-10-16T00:15:24.204Z",
       "error": null
     },
     "500163": {
@@ -62,7 +62,7 @@
     },
     "500257": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:06.024Z",
+      "updated_at": "2026-10-16T00:14:51.846Z",
       "error": null
     },
     "500390": {
@@ -72,7 +72,7 @@
     },
     "500400": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:56.843Z",
+      "updated_at": "2026-10-16T00:15:41.644Z",
       "error": null
     },
     "500420": {
@@ -82,7 +82,7 @@
     },
     "500425": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:25.798Z",
+      "updated_at": "2026-10-16T00:15:11.852Z",
       "error": null
     },
     "500440": {
@@ -157,7 +157,7 @@
     },
     "505200": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:55.791Z",
+      "updated_at": "2026-10-16T00:14:41.854Z",
       "error": null
     },
     "506480": {
@@ -177,7 +177,7 @@
     },
     "511243": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:08.592Z",
+      "updated_at": "2026-10-16T00:14:54.199Z",
       "error": null
     },
     "512070": {
@@ -202,7 +202,7 @@
     },
     "517334": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:49.422Z",
+      "updated_at": "2026-10-16T00:15:33.982Z",
       "error": null
     },
     "520056": {
@@ -517,87 +517,87 @@
     },
     "HYUNDAI": {
       "status": "done",
-      "updated_at": "2026-10-02T01:32:58.347Z",
+      "updated_at": "2026-10-16T00:14:44.403Z",
       "error": null
     },
     "IOB": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:00.897Z",
+      "updated_at": "2026-10-16T00:14:46.968Z",
       "error": null
     },
     "RAYMOND": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:03.460Z",
+      "updated_at": "2026-10-16T00:14:49.303Z",
       "error": null
     },
     "ZYDUSLIFE": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:13.487Z",
+      "updated_at": "2026-10-16T00:14:59.080Z",
       "error": null
     },
     "LTM": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:15.814Z",
+      "updated_at": "2026-10-16T00:15:01.623Z",
       "error": null
     },
     "GRASIM": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:18.363Z",
+      "updated_at": "2026-10-16T00:15:04.190Z",
       "error": null
     },
     "TATACAP": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:20.689Z",
+      "updated_at": "2026-10-16T00:15:06.737Z",
       "error": null
     },
     "TECHM": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:23.234Z",
+      "updated_at": "2026-10-16T00:15:09.288Z",
       "error": null
     },
     "CENTRALBK": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:28.357Z",
+      "updated_at": "2026-10-16T00:15:14.413Z",
       "error": null
     },
     "DLF": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:30.928Z",
+      "updated_at": "2026-10-16T00:15:16.972Z",
       "error": null
     },
     "FEDERALBNK": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:33.488Z",
+      "updated_at": "2026-10-16T00:15:19.330Z",
       "error": null
     },
     "ASIANPAINT": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:36.057Z",
+      "updated_at": "2026-10-16T00:15:21.871Z",
       "error": null
     },
     "HUDCO": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:40.996Z",
+      "updated_at": "2026-10-16T00:15:26.739Z",
       "error": null
     },
     "PETRONET": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:43.541Z",
+      "updated_at": "2026-10-16T00:15:29.087Z",
       "error": null
     },
     "CIPLA": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:47.093Z",
+      "updated_at": "2026-10-16T00:15:31.630Z",
       "error": null
     },
     "NHPC": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:51.971Z",
+      "updated_at": "2026-10-16T00:15:36.527Z",
       "error": null
     },
     "ABCAPITAL": {
       "status": "done",
-      "updated_at": "2026-10-02T01:33:54.294Z",
+      "updated_at": "2026-10-16T00:15:39.088Z",
       "error": null
     },
     "WAAREEENER": {
