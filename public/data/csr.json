@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T00:15:41.644Z",
+  "updated_at": "2026-10-16T00:15:54.746Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -1340,7 +1340,7 @@
       "generated_at": "2026-09-17T14:41:41.673Z"
     },
     "512455": {
-      "rank": 92,
+      "rank": 93,
       "name": "Lloyds Metals and Energy Limited",
       "ticker": "512455",
       "exchange": "BSE",
@@ -1411,7 +1411,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "513683": {
-      "rank": 93,
+      "rank": 94,
       "name": "NLC India Limited",
       "ticker": "513683",
       "exchange": "BSE",
@@ -1448,7 +1448,7 @@
       "generated_at": "2026-09-17T14:21:57.201Z"
     },
     "517334": {
-      "rank": 91,
+      "rank": 92,
       "name": "Samvardhana Motherson International Limited",
       "ticker": "517334",
       "exchange": "BSE",
@@ -4211,7 +4211,7 @@
       "generated_at": "2026-09-17T14:16:50.216Z"
     },
     "CIPLA": {
-      "rank": 90,
+      "rank": 91,
       "name": "Cipla Limited",
       "ticker": "CIPLA",
       "exchange": "NSEI",
@@ -4285,7 +4285,7 @@
       "generated_at": "2026-09-17T14:20:12.886Z"
     },
     "ABCAPITAL": {
-      "rank": 89,
+      "rank": 90,
       "name": "Aditya Birla Capital Limited",
       "ticker": "ABCAPITAL",
       "exchange": "NSEI",
@@ -4322,7 +4322,7 @@
       "generated_at": "2026-09-17T14:20:37.026Z"
     },
     "WAAREEENER": {
-      "rank": 95,
+      "rank": 89,
       "name": "Waaree Energies Limited",
       "ticker": "WAAREEENER",
       "exchange": "NSEI",
@@ -4330,33 +4330,34 @@
       "sector_detail": "Other Electrical Equipment",
       "is_psu": false,
       "pat_client_cr": 3711.3,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 3884,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 3711.3,
+      "pat_cr": 3884,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 4.65,
       "fy_used": "FY26",
-      "csr_spent_cr": 34.24,
-      "csr_obligation_cr": 30.12,
-      "csr_required_2pct_cr": 30.12,
+      "csr_spent_cr": 34.237,
+      "csr_obligation_cr": 30.1246,
+      "csr_required_2pct_cr": 30.1246,
       "csr_unspent_cr": 0,
       "health_or_education": true,
       "examples": [
-        "Land purchase for university campus (Motilal Oswal Foundation) - ₹19 crore",
-        "School building renovation/infrastructure at Degam Village (Prathmik Vidhyamandir Dhodiyawad)",
-        "School building and infrastructure support to Tapovan Vidhyalay Dham and Shri Vardhman Jain Boarding And Vidhyalaya",
+        "Land purchase for Motilal Oswal Foundation university campus",
+        "School building/infrastructure support at Tapovan Vidhyalay Dham and Shri Vardhman Jain Boarding and Vidhyalaya",
+        "School building renovation at Prathmik Vidhyamandir Dhodiyawad, Degam Village",
         "Boarding facility infrastructure at Shree Savarkundla Jain Vidyarthigru"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Annexure III (Board's Report), FY2025-26; amounts converted from ₹ to crore (₹34,23,67,792 = ₹34.24 crore spent; ₹30,12,46,376 = ₹30.12 crore obligation); fully spent with excess of ₹4.11 crore carried forward.",
+      "notes": "Annexure III (CSR) to Board's Report, page 76-77; amounts converted from INR to crore (e.g., ₹34,23,67,792 = 34.2368 cr); FY2025-26 figures used.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b04cd41c-d498-4bc5-bb56-41bd535882af.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b04cd41c-d498-4bc5-bb56-41bd535882af.pdf",
+        "report_year": 2026,
         "page": 76
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:21:16.938Z"
+      "generated_at": "2026-10-16T00:15:54.746Z"
     },
     "YESBANK": {
       "rank": 96,
@@ -4428,7 +4429,7 @@
       "generated_at": "2026-09-17T14:22:36.645Z"
     },
     "ASHOKLEY": {
-      "rank": 94,
+      "rank": 95,
       "name": "Ashok Leyland Limited",
       "ticker": "ASHOKLEY",
       "exchange": "NSEI",
