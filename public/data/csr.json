@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T01:33:49.548Z",
+  "updated_at": "2026-11-02T01:34:20.765Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -400,7 +400,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "500251": {
-      "rank": 173,
+      "rank": 174,
       "name": "Trent Limited",
       "ticker": "500251",
       "exchange": "BSE",
@@ -1169,12 +1169,12 @@
       "sector_detail": "Explosives",
       "is_psu": false,
       "pat_client_cr": 1521.95,
-      "pat_screener_cr": 1522,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1522,
+      "pat_cr": 1521.95,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 0.33,
       "csr_obligation_cr": 1.0012,
@@ -1485,7 +1485,7 @@
       "generated_at": "2026-09-17T14:17:32.644Z"
     },
     "520056": {
-      "rank": 174,
+      "rank": 175,
       "name": "TVS Holdings Limited",
       "ticker": "520056",
       "exchange": "BSE",
@@ -1591,7 +1591,7 @@
       "generated_at": "2026-10-16T00:14:06.342Z"
     },
     "531642": {
-      "rank": 168,
+      "rank": 169,
       "name": "Marico Limited",
       "ticker": "531642",
       "exchange": "BSE",
@@ -2018,12 +2018,12 @@
       "sector_detail": "Hospital",
       "is_psu": false,
       "pat_client_cr": 1442.41,
-      "pat_screener_cr": 1442,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1442,
+      "pat_cr": 1442.41,
       "pat_mismatch": false,
-      "pat_delta_pct": -0.03,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 14.8,
       "csr_obligation_cr": 14.75,
@@ -5857,7 +5857,7 @@
       "generated_at": "2026-10-16T00:19:19.393Z"
     },
     "GUJENERGY": {
-      "rank": 177,
+      "rank": 178,
       "name": "Gujarat Energy Limited",
       "ticker": "GUJENERGY",
       "exchange": "NSEI",
@@ -6361,7 +6361,7 @@
       "generated_at": "2026-10-16T00:21:22.503Z"
     },
     "SHREECEM": {
-      "rank": 169,
+      "rank": 170,
       "name": "Shree Cement Limited",
       "ticker": "SHREECEM",
       "exchange": "NSEI",
@@ -6398,7 +6398,7 @@
       "generated_at": "2026-09-17T14:47:24.066Z"
     },
     "BHARTIHEXA": {
-      "rank": 172,
+      "rank": 173,
       "name": "Bharti Hexacom Limited",
       "ticker": "BHARTIHEXA",
       "exchange": "NSEI",
@@ -6435,7 +6435,7 @@
       "generated_at": "2026-09-17T14:47:40.831Z"
     },
     "HAVELLS": {
-      "rank": 175,
+      "rank": 176,
       "name": "Havells India Limited",
       "ticker": "HAVELLS",
       "exchange": "NSEI",
@@ -6470,7 +6470,7 @@
       "generated_at": "2026-09-17T14:48:29.191Z"
     },
     "LGEINDIA": {
-      "rank": 176,
+      "rank": 177,
       "name": "LG Electronics India Limited",
       "ticker": "LGEINDIA",
       "exchange": "NSEI",
@@ -6506,7 +6506,7 @@
       "generated_at": "2026-09-17T14:48:45.461Z"
     },
     "SOLARINDS": {
-      "rank": 171,
+      "rank": 172,
       "name": "Solar Industries India Limited",
       "ticker": "SOLARINDS",
       "exchange": "NSEI",
@@ -6541,7 +6541,7 @@
       "generated_at": "2026-09-17T14:49:00.942Z"
     },
     "IIFL": {
-      "rank": 178,
+      "rank": 179,
       "name": "IIFL Finance Limited",
       "ticker": "IIFL",
       "exchange": "NSEI",
@@ -6721,7 +6721,7 @@
       "generated_at": "2026-09-17T14:51:30.547Z"
     },
     "COFORGE": {
-      "rank": 170,
+      "rank": 171,
       "name": "Coforge Limited",
       "ticker": "COFORGE",
       "exchange": "NSEI",
@@ -7043,7 +7043,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 200,
+      "rank": 196,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
@@ -7051,12 +7051,12 @@
       "sector_detail": "Trading & Distributors",
       "is_psu": false,
       "pat_client_cr": 1490.22,
-      "pat_screener_cr": 1284,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1284,
-      "pat_mismatch": true,
-      "pat_delta_pct": -13.84,
+      "pat_cr": 1490.22,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 21.66,
       "csr_obligation_cr": 27.87,
@@ -7077,7 +7077,7 @@
       "generated_at": "2026-09-17T14:55:37.151Z"
     },
     "SOUTHBANK": {
-      "rank": 196,
+      "rank": 197,
       "name": "The South Indian Bank Limited",
       "ticker": "SOUTHBANK",
       "exchange": "NSEI",
@@ -7114,7 +7114,7 @@
       "generated_at": "2026-09-17T14:55:55.534Z"
     },
     "NAUKRI": {
-      "rank": 197,
+      "rank": 168,
       "name": "Info Edge (India) Limited",
       "ticker": "NAUKRI",
       "exchange": "NSEI",
@@ -7122,12 +7122,12 @@
       "sector_detail": "Internet & Catalogue Retail",
       "is_psu": false,
       "pat_client_cr": 1449.81,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 1763,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 1449.81,
-      "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_cr": 1763,
+      "pat_mismatch": true,
+      "pat_delta_pct": 21.6,
       "fy_used": "FY26",
       "csr_spent_cr": 17.27,
       "csr_obligation_cr": 22.19,
@@ -7159,12 +7159,12 @@
       "sector_detail": "TV Broadcasting & Software Production",
       "is_psu": false,
       "pat_client_cr": 1439.58,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 1441,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 1439.58,
+      "pat_cr": 1441,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0.1,
       "fy_used": "FY26",
       "csr_spent_cr": 42.67,
       "csr_obligation_cr": 42.6,
@@ -7187,7 +7187,7 @@
       "generated_at": "2026-10-02T01:39:08.566Z"
     },
     "DIXON": {
-      "rank": 179,
+      "rank": 200,
       "name": "Dixon Technologies (India) Limited",
       "ticker": "DIXON",
       "exchange": "NSEI",
@@ -7195,12 +7195,12 @@
       "sector_detail": "Consumer Electronics",
       "is_psu": false,
       "pat_client_cr": 1438.64,
-      "pat_screener_cr": 1644,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1644,
-      "pat_mismatch": true,
-      "pat_delta_pct": 14.27,
+      "pat_cr": 1438.64,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 4.9,
       "csr_obligation_cr": 4.9,
