@@ -2,7 +2,7 @@
   "jobs": {
     "500049": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:20.145Z",
+      "updated_at": "2026-11-02T01:27:20.956Z",
       "error": null
     },
     "500103": {
@@ -22,7 +22,7 @@
     },
     "500114": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:56.741Z",
+      "updated_at": "2026-11-02T01:27:52.644Z",
       "error": null
     },
     "500124": {
@@ -37,7 +37,7 @@
     },
     "500182": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:25.266Z",
+      "updated_at": "2026-11-02T01:27:26.825Z",
       "error": null
     },
     "500188": {
@@ -62,7 +62,7 @@
     },
     "500257": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:51.846Z",
+      "updated_at": "2026-11-02T01:27:46.355Z",
       "error": null
     },
     "500390": {
@@ -107,7 +107,7 @@
     },
     "500490": {
       "status": "done",
-      "updated_at": "2026-10-16T00:13:33.989Z",
+      "updated_at": "2026-11-02T01:26:50.127Z",
       "error": null
     },
     "500510": {
@@ -157,7 +157,7 @@
     },
     "505200": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:41.854Z",
+      "updated_at": "2026-11-02T01:27:35.726Z",
       "error": null
     },
     "506480": {
@@ -177,7 +177,7 @@
     },
     "511243": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:54.199Z",
+      "updated_at": "2026-11-02T01:27:49.624Z",
       "error": null
     },
     "512070": {
@@ -192,7 +192,7 @@
     },
     "512599": {
       "status": "done",
-      "updated_at": "2026-10-16T00:13:36.543Z",
+      "updated_at": "2026-11-02T01:26:53.640Z",
       "error": null
     },
     "513683": {
@@ -217,7 +217,7 @@
     },
     "526371": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:06.342Z",
+      "updated_at": "2026-11-02T01:27:07.144Z",
       "error": null
     },
     "531642": {
@@ -262,7 +262,7 @@
     },
     "532967": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:38.107Z",
+      "updated_at": "2026-11-02T01:27:32.464Z",
       "error": null
     },
     "533148": {
@@ -467,77 +467,77 @@
     },
     "IDBI": {
       "status": "done",
-      "updated_at": "2026-10-16T00:13:40.226Z",
+      "updated_at": "2026-11-02T01:26:56.252Z",
       "error": null
     },
     "HAL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:13:42.792Z",
+      "updated_at": "2026-11-02T01:26:58.868Z",
       "error": null
     },
     "ULTRACEMCO": {
       "status": "done",
-      "updated_at": "2026-10-16T00:13:45.353Z",
+      "updated_at": "2026-11-02T01:27:01.483Z",
       "error": null
     },
     "GAIL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:13:47.908Z",
+      "updated_at": "2026-11-02T01:27:04.093Z",
       "error": null
     },
     "INDUSTOWER": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:09.955Z",
+      "updated_at": "2026-11-02T01:27:09.742Z",
       "error": null
     },
     "MAHABANK": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:12.518Z",
+      "updated_at": "2026-11-02T01:27:12.354Z",
       "error": null
     },
     "IRFC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:15.003Z",
+      "updated_at": "2026-11-02T01:27:15.070Z",
       "error": null
     },
     "OIL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:17.581Z",
+      "updated_at": "2026-11-02T01:27:17.673Z",
       "error": null
     },
     "NATIONALUM": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:22.701Z",
+      "updated_at": "2026-11-02T01:27:23.555Z",
       "error": null
     },
     "LICHSGFIN": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:27.601Z",
+      "updated_at": "2026-11-02T01:27:29.416Z",
       "error": null
     },
     "HYUNDAI": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:44.403Z",
+      "updated_at": "2026-11-02T01:27:38.322Z",
       "error": null
     },
     "IOB": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:46.968Z",
+      "updated_at": "2026-11-02T01:27:40.695Z",
       "error": null
     },
     "RAYMOND": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:49.303Z",
+      "updated_at": "2026-11-02T01:27:43.308Z",
       "error": null
     },
     "ZYDUSLIFE": {
       "status": "done",
-      "updated_at": "2026-10-16T00:14:59.080Z",
+      "updated_at": "2026-11-02T01:27:55.244Z",
       "error": null
     },
     "LTM": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:01.623Z",
+      "updated_at": "2026-11-02T01:27:57.628Z",
       "error": null
     },
     "GRASIM": {
