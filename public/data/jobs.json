@@ -47,12 +47,12 @@
     },
     "500228": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:13.082Z",
+      "updated_at": "2026-11-02T01:25:00.713Z",
       "error": null
     },
     "500247": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:20.538Z",
+      "updated_at": "2026-11-02T01:25:08.925Z",
       "error": null
     },
     "500251": {
@@ -122,7 +122,7 @@
     },
     "500570": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:34.636Z",
+      "updated_at": "2026-11-02T01:24:19.757Z",
       "error": null
     },
     "500620": {
@@ -232,7 +232,7 @@
     },
     "532215": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:05.404Z",
+      "updated_at": "2026-11-02T01:24:52.477Z",
       "error": null
     },
     "532343": {
@@ -242,7 +242,7 @@
     },
     "532454": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:02.843Z",
+      "updated_at": "2026-11-02T01:24:49.410Z",
       "error": null
     },
     "532466": {
@@ -287,102 +287,102 @@
     },
     "SBIN": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:32.059Z",
+      "updated_at": "2026-11-02T01:24:16.227Z",
       "error": null
     },
     "RELIANCE": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:37.211Z",
+      "updated_at": "2026-11-02T01:24:22.369Z",
       "error": null
     },
     "HDFCBANK": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:39.771Z",
+      "updated_at": "2026-11-02T01:24:24.981Z",
       "error": null
     },
     "LICI": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:32.865Z",
+      "updated_at": "2026-11-02T01:25:21.502Z",
       "error": null
     },
     "ICICIBANK": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:42.335Z",
+      "updated_at": "2026-11-02T01:24:27.595Z",
       "error": null
     },
     "TCS": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:44.895Z",
+      "updated_at": "2026-11-02T01:24:30.207Z",
       "error": null
     },
     "IOC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:47.457Z",
+      "updated_at": "2026-11-02T01:24:32.823Z",
       "error": null
     },
     "ONGC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:50.013Z",
+      "updated_at": "2026-11-02T01:24:35.440Z",
       "error": null
     },
     "IDEA": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:52.577Z",
+      "updated_at": "2026-11-02T01:24:38.051Z",
       "error": null
     },
     "COALINDIA": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:55.146Z",
+      "updated_at": "2026-11-02T01:24:40.672Z",
       "error": null
     },
     "INFY": {
       "status": "done",
-      "updated_at": "2026-10-16T00:11:57.711Z",
+      "updated_at": "2026-11-02T01:24:43.291Z",
       "error": null
     },
     "NTPC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:00.269Z",
+      "updated_at": "2026-11-02T01:24:45.905Z",
       "error": null
     },
     "PFC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:07.963Z",
+      "updated_at": "2026-11-02T01:24:55.079Z",
       "error": null
     },
     "BPCL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:10.519Z",
+      "updated_at": "2026-11-02T01:24:57.450Z",
       "error": null
     },
     "ITC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:15.640Z",
+      "updated_at": "2026-11-02T01:25:03.304Z",
       "error": null
     },
     "BANKBARODA": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:30.314Z",
+      "updated_at": "2026-11-02T01:25:19.110Z",
       "error": null
     },
     "UNIONBANK": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:17.994Z",
+      "updated_at": "2026-11-02T01:25:05.667Z",
       "error": null
     },
     "BAJFINANCE": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:22.891Z",
+      "updated_at": "2026-11-02T01:25:11.531Z",
       "error": null
     },
     "PNB": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:27.769Z",
+      "updated_at": "2026-11-02T01:25:16.511Z",
       "error": null
     },
     "HINDPETRO": {
       "status": "done",
-      "updated_at": "2026-10-16T00:12:25.429Z",
+      "updated_at": "2026-11-02T01:25:14.144Z",
       "error": null
     },
     "CANBK": {
