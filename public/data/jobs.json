@@ -17,7 +17,7 @@
     },
     "500110": {
       "status": "done",
-      "updated_at": "2026-10-16T00:17:01.042Z",
+      "updated_at": "2026-11-02T01:29:34.725Z",
       "error": null
     },
     "500114": {
@@ -72,7 +72,7 @@
     },
     "500400": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:41.644Z",
+      "updated_at": "2026-11-02T01:28:53.438Z",
       "error": null
     },
     "500420": {
@@ -127,7 +127,7 @@
     },
     "500620": {
       "status": "done",
-      "updated_at": "2026-10-16T00:17:13.584Z",
+      "updated_at": "2026-11-02T01:29:48.605Z",
       "error": null
     },
     "500696": {
@@ -142,7 +142,7 @@
     },
     "500790": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:19.185Z",
+      "updated_at": "2026-11-02T01:29:10.573Z",
       "error": null
     },
     "500850": {
@@ -187,7 +187,7 @@
     },
     "512455": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:58.382Z",
+      "updated_at": "2026-11-02T01:28:59.309Z",
       "error": null
     },
     "512599": {
@@ -197,12 +197,12 @@
     },
     "513683": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:10.441Z",
+      "updated_at": "2026-11-02T01:29:02.334Z",
       "error": null
     },
     "517334": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:33.982Z",
+      "updated_at": "2026-11-02T01:28:44.938Z",
       "error": null
     },
     "520056": {
@@ -237,7 +237,7 @@
     },
     "532343": {
       "status": "done",
-      "updated_at": "2026-10-16T00:17:06.126Z",
+      "updated_at": "2026-11-02T01:29:40.354Z",
       "error": null
     },
     "532454": {
@@ -252,7 +252,7 @@
     },
     "532629": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:31.710Z",
+      "updated_at": "2026-11-02T01:29:16.227Z",
       "error": null
     },
     "532767": {
@@ -587,82 +587,82 @@
     },
     "CIPLA": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:31.630Z",
+      "updated_at": "2026-11-02T01:28:41.423Z",
       "error": null
     },
     "NHPC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:36.527Z",
+      "updated_at": "2026-11-02T01:28:47.551Z",
       "error": null
     },
     "ABCAPITAL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:39.088Z",
+      "updated_at": "2026-11-02T01:28:50.161Z",
       "error": null
     },
     "WAAREEENER": {
       "status": "done",
-      "updated_at": "2026-10-16T00:15:54.746Z",
+      "updated_at": "2026-11-02T01:28:56.037Z",
       "error": null
     },
     "YESBANK": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:14.066Z",
+      "updated_at": "2026-11-02T01:29:04.935Z",
       "error": null
     },
     "AUROPHARMA": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:16.635Z",
+      "updated_at": "2026-11-02T01:29:07.319Z",
       "error": null
     },
     "ASHOKLEY": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:21.749Z",
+      "updated_at": "2026-11-02T01:29:13.175Z",
       "error": null
     },
     "LODHA": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:35.298Z",
+      "updated_at": "2026-11-02T01:29:18.831Z",
       "error": null
     },
     "SAIL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:46.745Z",
+      "updated_at": "2026-11-02T01:29:21.442Z",
       "error": null
     },
     "JINDALSTEL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:50.441Z",
+      "updated_at": "2026-11-02T01:29:24.057Z",
       "error": null
     },
     "ICICIAMC": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:53.380Z",
+      "updated_at": "2026-11-02T01:29:26.437Z",
       "error": null
     },
     "JSL": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:55.931Z",
+      "updated_at": "2026-11-02T01:29:29.040Z",
       "error": null
     },
     "SUZLON": {
       "status": "done",
-      "updated_at": "2026-10-16T00:16:58.479Z",
+      "updated_at": "2026-11-02T01:29:31.653Z",
       "error": null
     },
     "TMCV": {
       "status": "done",
-      "updated_at": "2026-10-16T00:17:03.584Z",
+      "updated_at": "2026-11-02T01:29:37.314Z",
       "error": null
     },
     "LTF": {
       "status": "done",
-      "updated_at": "2026-10-16T00:17:08.717Z",
+      "updated_at": "2026-11-02T01:29:42.967Z",
       "error": null
     },
     "DMART": {
       "status": "done",
-      "updated_at": "2026-10-16T00:17:11.046Z",
+      "updated_at": "2026-11-02T01:29:45.577Z",
       "error": null
     },
     "HDFCAMC": {

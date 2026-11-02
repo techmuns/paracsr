@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T01:28:37.590Z",
+  "updated_at": "2026-11-02T01:29:48.605Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -118,12 +118,12 @@
       "sector_detail": "Refineries & Marketing",
       "is_psu": true,
       "pat_client_cr": 3102.7,
-      "pat_screener_cr": 3103,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3103,
+      "pat_cr": 3102.7,
       "pat_mismatch": false,
-      "pat_delta_pct": 0.01,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 55.23,
       "csr_obligation_cr": 54,
@@ -147,7 +147,7 @@
       "generated_at": "2026-09-17T14:26:23.219Z"
     },
     "500114": {
-      "rank": 74,
+      "rank": 73,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -184,7 +184,7 @@
       "generated_at": "2026-09-17T14:12:07.261Z"
     },
     "500124": {
-      "rank": 83,
+      "rank": 82,
       "name": "Dr. Reddy's Laboratories Limited",
       "ticker": "500124",
       "exchange": "BSE",
@@ -473,7 +473,7 @@
       "generated_at": "2026-09-17T14:11:30.674Z"
     },
     "500390": {
-      "rank": 110,
+      "rank": 111,
       "name": "Reliance Infrastructure Limited",
       "ticker": "500390",
       "exchange": "BSE",
@@ -505,7 +505,7 @@
       "generated_at": "2026-09-17T14:28:06.375Z"
     },
     "500400": {
-      "rank": 73,
+      "rank": 90,
       "name": "The Tata Power Company Limited",
       "ticker": "500400",
       "exchange": "BSE",
@@ -513,12 +513,12 @@
       "sector_detail": "Integrated Power Utilities",
       "is_psu": false,
       "pat_client_cr": 3747.19,
-      "pat_screener_cr": 5118,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 5118,
-      "pat_mismatch": true,
-      "pat_delta_pct": 36.58,
+      "pat_cr": 3747.19,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 19.14,
       "csr_obligation_cr": 13.83,
@@ -578,7 +578,7 @@
       "generated_at": "2026-09-17T14:37:39.885Z"
     },
     "500425": {
-      "rank": 78,
+      "rank": 77,
       "name": "Ambuja Cements Limited",
       "ticker": "500425",
       "exchange": "BSE",
@@ -834,7 +834,7 @@
       "generated_at": "2026-09-17T13:58:35.339Z"
     },
     "500530": {
-      "rank": 113,
+      "rank": 114,
       "name": "Bosch Limited",
       "ticker": "500530",
       "exchange": "BSE",
@@ -908,7 +908,7 @@
       "sector_detail": "Passenger Cars & Utility Vehicles"
     },
     "500620": {
-      "rank": 109,
+      "rank": 110,
       "name": "The Great Eastern Shipping Company Limited",
       "ticker": "500620",
       "exchange": "BSE",
@@ -916,12 +916,12 @@
       "sector_detail": "Shipping",
       "is_psu": false,
       "pat_client_cr": 2942.52,
-      "pat_screener_cr": 2943,
-      "pat_screener_fy": "FY26",
-      "pat_basis": "consolidated",
-      "pat_cr": 2943,
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
+      "pat_basis": "standalone",
+      "pat_cr": 2942.52,
       "pat_mismatch": false,
-      "pat_delta_pct": 0.02,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 28.09,
       "csr_obligation_cr": 43.99,
@@ -1022,12 +1022,12 @@
       "sector_detail": "Packaged Foods",
       "is_psu": false,
       "pat_client_cr": 3499.08,
-      "pat_screener_cr": 3499,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3499,
+      "pat_cr": 3499.08,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 85.01,
       "csr_obligation_cr": 84.77,
@@ -1341,7 +1341,7 @@
       "generated_at": "2026-09-17T14:41:41.673Z"
     },
     "512455": {
-      "rank": 91,
+      "rank": 92,
       "name": "Lloyds Metals and Energy Limited",
       "ticker": "512455",
       "exchange": "BSE",
@@ -1349,12 +1349,12 @@
       "sector_detail": "Industrial Minerals",
       "is_psu": false,
       "pat_client_cr": 3680.85,
-      "pat_screener_cr": 3829,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3829,
+      "pat_cr": 3680.85,
       "pat_mismatch": false,
-      "pat_delta_pct": 4.02,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 181.21,
       "csr_obligation_cr": 22.13,
@@ -1412,7 +1412,7 @@
       "generated_at": "2026-09-17T14:05:07.075Z"
     },
     "513683": {
-      "rank": 92,
+      "rank": 93,
       "name": "NLC India Limited",
       "ticker": "513683",
       "exchange": "BSE",
@@ -1420,12 +1420,12 @@
       "sector_detail": "Power Generation",
       "is_psu": true,
       "pat_client_cr": 3522.2,
-      "pat_screener_cr": 3769,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3769,
-      "pat_mismatch": true,
-      "pat_delta_pct": 7.01,
+      "pat_cr": 3522.2,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 48.06,
       "csr_obligation_cr": 40.98,
@@ -1448,7 +1448,7 @@
       "generated_at": "2026-10-16T00:16:10.441Z"
     },
     "517334": {
-      "rank": 90,
+      "rank": 84,
       "name": "Samvardhana Motherson International Limited",
       "ticker": "517334",
       "exchange": "BSE",
@@ -1456,12 +1456,12 @@
       "sector_detail": "Auto Components & Equipments",
       "is_psu": false,
       "pat_client_cr": 3859.68,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 4086,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 3859.68,
-      "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_cr": 4086,
+      "pat_mismatch": true,
+      "pat_delta_pct": 5.86,
       "fy_used": "FY26",
       "csr_spent_cr": 16.27,
       "csr_obligation_cr": 22.21,
@@ -1694,7 +1694,7 @@
       "sector_detail": "Private Sector Bank"
     },
     "532343": {
-      "rank": 102,
+      "rank": 107,
       "name": "TVS Motor Company Limited",
       "ticker": "532343",
       "exchange": "BSE",
@@ -1702,12 +1702,12 @@
       "sector_detail": "2/3 Wheelers",
       "is_psu": false,
       "pat_client_cr": 3018.33,
-      "pat_screener_cr": 3186,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3186,
-      "pat_mismatch": true,
-      "pat_delta_pct": 5.56,
+      "pat_cr": 3018.33,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 56.37,
       "csr_obligation_cr": 55.99,
@@ -1807,12 +1807,12 @@
       "sector_detail": "Civil Construction",
       "is_psu": false,
       "pat_client_cr": 3449.55,
-      "pat_screener_cr": 3450,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3450,
+      "pat_cr": 3449.55,
       "pat_mismatch": false,
-      "pat_delta_pct": 0.01,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": null,
       "csr_obligation_cr": null,
@@ -1901,7 +1901,7 @@
       "generated_at": "2026-10-16T00:14:38.107Z"
     },
     "533148": {
-      "rank": 115,
+      "rank": 116,
       "name": "JSW Energy Limited",
       "ticker": "533148",
       "exchange": "BSE",
@@ -3849,7 +3849,7 @@
       "generated_at": "2026-09-17T14:12:34.484Z"
     },
     "LTM": {
-      "rank": 75,
+      "rank": 74,
       "name": "LTM Limited",
       "ticker": "LTM",
       "exchange": "NSEI",
@@ -3921,7 +3921,7 @@
       "generated_at": "2026-09-17T14:13:11.426Z"
     },
     "TATACAP": {
-      "rank": 76,
+      "rank": 75,
       "name": "Tata Capital Limited",
       "ticker": "TATACAP",
       "exchange": "NSEI",
@@ -3957,7 +3957,7 @@
       "generated_at": "2026-09-17T14:13:29.897Z"
     },
     "TECHM": {
-      "rank": 77,
+      "rank": 76,
       "name": "Tech Mahindra Limited",
       "ticker": "TECHM",
       "exchange": "NSEI",
@@ -3994,7 +3994,7 @@
       "generated_at": "2026-09-17T14:13:51.592Z"
     },
     "CENTRALBK": {
-      "rank": 79,
+      "rank": 78,
       "name": "Central Bank of India",
       "ticker": "CENTRALBK",
       "exchange": "NSEI",
@@ -4031,7 +4031,7 @@
       "generated_at": "2026-09-17T14:14:40.239Z"
     },
     "DLF": {
-      "rank": 81,
+      "rank": 80,
       "name": "DLF Limited",
       "ticker": "DLF",
       "exchange": "NSEI",
@@ -4067,7 +4067,7 @@
       "generated_at": "2026-09-17T14:15:01.844Z"
     },
     "FEDERALBNK": {
-      "rank": 80,
+      "rank": 79,
       "name": "The Federal Bank Limited",
       "ticker": "FEDERALBNK",
       "exchange": "NSEI",
@@ -4104,7 +4104,7 @@
       "generated_at": "2026-09-17T14:15:24.009Z"
     },
     "ASIANPAINT": {
-      "rank": 82,
+      "rank": 81,
       "name": "Asian Paints Limited",
       "ticker": "ASIANPAINT",
       "exchange": "NSEI",
@@ -4251,7 +4251,7 @@
       "generated_at": "2026-09-17T14:17:10.763Z"
     },
     "NHPC": {
-      "rank": 84,
+      "rank": 83,
       "name": "NHPC Limited",
       "ticker": "NHPC",
       "exchange": "NSEI",
@@ -4403,12 +4403,12 @@
       "sector_detail": "Pharmaceuticals",
       "is_psu": false,
       "pat_client_cr": 3504.75,
-      "pat_screener_cr": 3503,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 3503,
+      "pat_cr": 3504.75,
       "pat_mismatch": false,
-      "pat_delta_pct": -0.05,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 31.31,
       "csr_obligation_cr": 43.395,
@@ -4432,7 +4432,7 @@
       "generated_at": "2026-09-17T14:22:36.645Z"
     },
     "ASHOKLEY": {
-      "rank": 93,
+      "rank": 91,
       "name": "Ashok Leyland Limited",
       "ticker": "ASHOKLEY",
       "exchange": "NSEI",
@@ -4580,7 +4580,7 @@
       "generated_at": "2026-09-17T14:25:08.899Z"
     },
     "ICICIAMC": {
-      "rank": 118,
+      "rank": 102,
       "name": "ICICI Prudential Asset Management Company Limited",
       "ticker": "ICICIAMC",
       "exchange": "NSEI",
@@ -4588,12 +4588,12 @@
       "sector_detail": "Asset Management Company",
       "is_psu": false,
       "pat_client_cr": 3298.26,
-      "pat_screener_cr": 2651,
-      "pat_screener_fy": "FY25",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 2651,
-      "pat_mismatch": true,
-      "pat_delta_pct": -19.62,
+      "pat_cr": 3298.26,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 52.17,
       "csr_obligation_cr": 52.17,
@@ -4725,7 +4725,7 @@
       "generated_at": "2026-09-17T14:26:41.647Z"
     },
     "LTF": {
-      "rank": 107,
+      "rank": 108,
       "name": "L&T Finance Limited",
       "ticker": "LTF",
       "exchange": "NSEI",
@@ -4761,7 +4761,7 @@
       "generated_at": "2026-09-17T14:27:17.384Z"
     },
     "DMART": {
-      "rank": 108,
+      "rank": 109,
       "name": "Avenue Supermarts Limited",
       "ticker": "DMART",
       "exchange": "NSEI",
@@ -4769,12 +4769,12 @@
       "sector_detail": "Diversified Retail",
       "is_psu": false,
       "pat_client_cr": 2970.49,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 2970,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 2970.49,
+      "pat_cr": 2970,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": -0.02,
       "fy_used": "FY26",
       "csr_spent_cr": 53.63,
       "csr_obligation_cr": 72.33,
@@ -4797,7 +4797,7 @@
       "generated_at": "2026-09-17T14:27:34.175Z"
     },
     "HDFCAMC": {
-      "rank": 111,
+      "rank": 112,
       "name": "HDFC Asset Management Company Limited",
       "ticker": "HDFCAMC",
       "exchange": "NSEI",
@@ -4834,7 +4834,7 @@
       "generated_at": "2026-09-17T14:28:22.992Z"
     },
     "M&MFIN": {
-      "rank": 112,
+      "rank": 113,
       "name": "Mahindra & Mahindra Financial Services Limited",
       "ticker": "M&MFIN",
       "exchange": "NSEI",
@@ -4871,7 +4871,7 @@
       "generated_at": "2026-09-17T14:28:42.412Z"
     },
     "ICICIGI": {
-      "rank": 114,
+      "rank": 115,
       "name": "ICICI Lombard General Insurance Company Limited",
       "ticker": "ICICIGI",
       "exchange": "NSEI",
@@ -4945,7 +4945,7 @@
       "generated_at": "2026-09-17T14:29:41.627Z"
     },
     "POLYCAB": {
-      "rank": 117,
+      "rank": 118,
       "name": "Polycab India Limited",
       "ticker": "POLYCAB",
       "exchange": "NSEI",
@@ -6649,7 +6649,7 @@
       "generated_at": "2026-09-17T14:50:37.116Z"
     },
     "SIEMENS": {
-      "rank": 116,
+      "rank": 117,
       "name": "Siemens Limited",
       "ticker": "SIEMENS",
       "exchange": "NSEI",
