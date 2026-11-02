@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T01:27:57.628Z",
+  "updated_at": "2026-11-02T01:28:37.590Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -147,7 +147,7 @@
       "generated_at": "2026-09-17T14:26:23.219Z"
     },
     "500114": {
-      "rank": 75,
+      "rank": 74,
       "name": "Titan Company Limited",
       "ticker": "500114",
       "exchange": "BSE",
@@ -436,7 +436,7 @@
       "generated_at": "2026-09-17T14:47:56.874Z"
     },
     "500257": {
-      "rank": 71,
+      "rank": 70,
       "name": "Lupin Limited",
       "ticker": "500257",
       "exchange": "BSE",
@@ -505,7 +505,7 @@
       "generated_at": "2026-09-17T14:28:06.375Z"
     },
     "500400": {
-      "rank": 74,
+      "rank": 73,
       "name": "The Tata Power Company Limited",
       "ticker": "500400",
       "exchange": "BSE",
@@ -578,7 +578,7 @@
       "generated_at": "2026-09-17T14:37:39.885Z"
     },
     "500425": {
-      "rank": 64,
+      "rank": 78,
       "name": "Ambuja Cements Limited",
       "ticker": "500425",
       "exchange": "BSE",
@@ -586,12 +586,12 @@
       "sector_detail": "Cement & Cement Products",
       "is_psu": false,
       "pat_client_cr": 4728.18,
-      "pat_screener_cr": 5637,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 5637,
-      "pat_mismatch": true,
-      "pat_delta_pct": 19.22,
+      "pat_cr": 4728.18,
+      "pat_mismatch": false,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 54.93,
       "csr_obligation_cr": 53.89,
@@ -1124,7 +1124,7 @@
       "generated_at": "2026-09-17T14:46:23.332Z"
     },
     "505200": {
-      "rank": 67,
+      "rank": 66,
       "name": "Eicher Motors Limited",
       "ticker": "505200",
       "exchange": "BSE",
@@ -1271,7 +1271,7 @@
       "generated_at": "2026-09-17T14:03:45.749Z"
     },
     "511243": {
-      "rank": 72,
+      "rank": 71,
       "name": "Cholamandalam Investment and Finance Company Limited",
       "ticker": "511243",
       "exchange": "BSE",
@@ -1865,7 +1865,7 @@
       "generated_at": "2026-10-16T00:19:27.239Z"
     },
     "532967": {
-      "rank": 66,
+      "rank": 65,
       "name": "Kiri Industries Limited",
       "ticker": "532967",
       "exchange": "BSE",
@@ -3671,7 +3671,7 @@
       "generated_at": "2026-09-17T14:08:53.448Z"
     },
     "LICHSGFIN": {
-      "rank": 65,
+      "rank": 64,
       "name": "LIC Housing Finance Limited",
       "ticker": "LICHSGFIN",
       "exchange": "NSEI",
@@ -3708,7 +3708,7 @@
       "generated_at": "2026-09-17T14:09:32.057Z"
     },
     "HYUNDAI": {
-      "rank": 68,
+      "rank": 67,
       "name": "Hyundai Motor India Limited",
       "ticker": "HYUNDAI",
       "exchange": "NSEI",
@@ -3742,7 +3742,7 @@
       "generated_at": "2026-09-17T14:10:30.112Z"
     },
     "IOB": {
-      "rank": 69,
+      "rank": 68,
       "name": "Indian Overseas Bank",
       "ticker": "IOB",
       "exchange": "NSEI",
@@ -3777,7 +3777,7 @@
       "generated_at": "2026-09-17T14:10:54.297Z"
     },
     "RAYMOND": {
-      "rank": 70,
+      "rank": 69,
       "name": "Raymond Limited",
       "ticker": "RAYMOND",
       "exchange": "NSEI",
@@ -3812,7 +3812,7 @@
       "generated_at": "2026-09-17T14:11:10.633Z"
     },
     "ZYDUSLIFE": {
-      "rank": 73,
+      "rank": 72,
       "name": "Zydus Lifesciences Limited",
       "ticker": "ZYDUSLIFE",
       "exchange": "NSEI",
@@ -3849,7 +3849,7 @@
       "generated_at": "2026-09-17T14:12:34.484Z"
     },
     "LTM": {
-      "rank": 76,
+      "rank": 75,
       "name": "LTM Limited",
       "ticker": "LTM",
       "exchange": "NSEI",
@@ -3921,7 +3921,7 @@
       "generated_at": "2026-09-17T14:13:11.426Z"
     },
     "TATACAP": {
-      "rank": 77,
+      "rank": 76,
       "name": "Tata Capital Limited",
       "ticker": "TATACAP",
       "exchange": "NSEI",
@@ -3957,7 +3957,7 @@
       "generated_at": "2026-09-17T14:13:29.897Z"
     },
     "TECHM": {
-      "rank": 78,
+      "rank": 77,
       "name": "Tech Mahindra Limited",
       "ticker": "TECHM",
       "exchange": "NSEI",
@@ -4031,7 +4031,7 @@
       "generated_at": "2026-09-17T14:14:40.239Z"
     },
     "DLF": {
-      "rank": 80,
+      "rank": 81,
       "name": "DLF Limited",
       "ticker": "DLF",
       "exchange": "NSEI",
@@ -4067,7 +4067,7 @@
       "generated_at": "2026-09-17T14:15:01.844Z"
     },
     "FEDERALBNK": {
-      "rank": 82,
+      "rank": 80,
       "name": "The Federal Bank Limited",
       "ticker": "FEDERALBNK",
       "exchange": "NSEI",
@@ -4075,12 +4075,12 @@
       "sector_detail": "Private Sector Bank",
       "is_psu": false,
       "pat_client_cr": 4345.3,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 4491,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 4345.3,
+      "pat_cr": 4491,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 3.35,
       "fy_used": "FY26",
       "csr_spent_cr": 93.49,
       "csr_obligation_cr": 93.49,
@@ -4104,7 +4104,7 @@
       "generated_at": "2026-09-17T14:15:24.009Z"
     },
     "ASIANPAINT": {
-      "rank": 81,
+      "rank": 82,
       "name": "Asian Paints Limited",
       "ticker": "ASIANPAINT",
       "exchange": "NSEI",
@@ -4184,12 +4184,12 @@
       "sector_detail": "LPG/CNG/PNG/LNG Supplier",
       "is_psu": true,
       "pat_client_cr": 3912.53,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 3913,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 3912.53,
+      "pat_cr": 3913,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0.01,
       "fy_used": "FY26",
       "csr_spent_cr": 95.13,
       "csr_obligation_cr": 95.13,
@@ -4197,20 +4197,21 @@
       "csr_unspent_cr": 2,
       "health_or_education": true,
       "examples": [
-        "Installed a 128-slice CT Scan machine at Ernakulam Hospital, improving diagnostic capacity",
-        "Mobile Medical Units in Dahej, Kochi, Delhi providing free consultations and medicines",
+        "Installed a 128-slice CT Scan machine at Ernakulam Hospital",
+        "Mobile Medical Units providing free consultations and medicines in Dahej, Kochi, Delhi",
         "SMART Classroom & Tablet Distribution in nine schools in Dibrugarh benefiting ~2,700 students",
-        "Residential JEE coaching (Super 100 & Super 30) for meritorious students from underserved areas"
+        "Residential Coaching Programmes (Super 100 & Super 30) providing free JEE coaching to underserved students"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Annexure-I to Board's Report (Section 135 CSR Annual Report), FY 2025-26; Total Amount Spent (project + admin overhead + impact assessment) = INR 95.13 Cr matches 2% obligation; Amount Unspent (transferred to Unspent CSR A/c) = INR 2.00 Cr per section (e) table.\"",
+      "notes": "Annexure-I CSR report for FY2025-26; Total amount spent for FY = INR 95.13 Cr (Rs.90.48 Cr projects + Rs.4.53 Cr admin + Rs.0.12 Cr impact assessment); obligation (5e) = 95.13 Cr = 2% of avg net profit; Amount Unspent (transferred to Unspent CSR a/c) = Rs.2.00 Cr per table in 6(e), with additional Rs.72.94 Cr noted as provision for ongoing projects.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=800b4577-af9a-436e-b86d-911e6cea8ffe.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/800b4577-af9a-436e-b86d-911e6cea8ffe.pdf",
+        "report_year": 2026,
         "page": 124
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-09-17T14:16:50.216Z"
+      "generated_at": "2026-11-02T01:28:37.589Z"
     },
     "CIPLA": {
       "rank": 89,
