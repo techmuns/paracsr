@@ -2,7 +2,7 @@
   "jobs": {
     "500049": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:20.956Z",
+      "updated_at": "2026-11-16T01:46:30.075Z",
       "error": null
     },
     "500103": {
@@ -37,7 +37,7 @@
     },
     "500182": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:26.825Z",
+      "updated_at": "2026-11-16T01:46:36.061Z",
       "error": null
     },
     "500188": {
@@ -62,7 +62,7 @@
     },
     "500257": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:46.355Z",
+      "updated_at": "2026-11-16T01:46:56.474Z",
       "error": null
     },
     "500390": {
@@ -107,7 +107,7 @@
     },
     "500490": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:50.127Z",
+      "updated_at": "2026-11-16T01:45:59.112Z",
       "error": null
     },
     "500510": {
@@ -157,7 +157,7 @@
     },
     "505200": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:35.726Z",
+      "updated_at": "2026-11-16T01:46:45.148Z",
       "error": null
     },
     "506480": {
@@ -172,7 +172,7 @@
     },
     "511218": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:21.129Z",
+      "updated_at": "2026-11-16T01:45:50.600Z",
       "error": null
     },
     "511243": {
@@ -192,7 +192,7 @@
     },
     "512599": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:53.640Z",
+      "updated_at": "2026-11-16T01:46:02.437Z",
       "error": null
     },
     "513683": {
@@ -217,7 +217,7 @@
     },
     "526371": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:07.144Z",
+      "updated_at": "2026-11-16T01:46:16.179Z",
       "error": null
     },
     "531642": {
@@ -262,7 +262,7 @@
     },
     "532967": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:32.464Z",
+      "updated_at": "2026-11-16T01:46:42.051Z",
       "error": null
     },
     "533148": {
@@ -452,82 +452,82 @@
     },
     "BANKINDIA": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:17.876Z",
+      "updated_at": "2026-11-16T01:45:47.201Z",
       "error": null
     },
     "BAJAJFINSV": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:23.730Z",
+      "updated_at": "2026-11-16T01:45:53.263Z",
       "error": null
     },
     "GICRE": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:45.461Z",
+      "updated_at": "2026-11-16T01:45:55.965Z",
       "error": null
     },
     "IDBI": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:56.252Z",
+      "updated_at": "2026-11-16T01:46:05.073Z",
       "error": null
     },
     "HAL": {
       "status": "done",
-      "updated_at": "2026-11-02T01:26:58.868Z",
+      "updated_at": "2026-11-16T01:46:07.735Z",
       "error": null
     },
     "ULTRACEMCO": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:01.483Z",
+      "updated_at": "2026-11-16T01:46:10.412Z",
       "error": null
     },
     "GAIL": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:04.093Z",
+      "updated_at": "2026-11-16T01:46:12.843Z",
       "error": null
     },
     "INDUSTOWER": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:09.742Z",
+      "updated_at": "2026-11-16T01:46:18.830Z",
       "error": null
     },
     "MAHABANK": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:12.354Z",
+      "updated_at": "2026-11-16T01:46:21.260Z",
       "error": null
     },
     "IRFC": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:15.070Z",
+      "updated_at": "2026-11-16T01:46:24.020Z",
       "error": null
     },
     "OIL": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:17.673Z",
+      "updated_at": "2026-11-16T01:46:26.684Z",
       "error": null
     },
     "NATIONALUM": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:23.555Z",
+      "updated_at": "2026-11-16T01:46:32.723Z",
       "error": null
     },
     "LICHSGFIN": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:29.416Z",
+      "updated_at": "2026-11-16T01:46:38.686Z",
       "error": null
     },
     "HYUNDAI": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:38.322Z",
+      "updated_at": "2026-11-16T01:46:47.791Z",
       "error": null
     },
     "IOB": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:40.695Z",
+      "updated_at": "2026-11-16T01:46:50.449Z",
       "error": null
     },
     "RAYMOND": {
       "status": "done",
-      "updated_at": "2026-11-02T01:27:43.308Z",
+      "updated_at": "2026-11-16T01:46:53.122Z",
       "error": null
     },
     "ZYDUSLIFE": {
