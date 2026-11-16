@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:50:31.814Z",
+  "updated_at": "2026-11-16T01:51:30.835Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -5940,12 +5940,12 @@
       "sector_detail": "Fertilizers",
       "is_psu": false,
       "pat_client_cr": 1953.39,
-      "pat_screener_cr": 1953,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1953,
+      "pat_cr": 1953.39,
       "pat_mismatch": false,
-      "pat_delta_pct": -0.02,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 29.92,
       "csr_obligation_cr": 36.42,
@@ -6045,12 +6045,12 @@
       "sector_detail": "Life Insurance",
       "is_psu": false,
       "pat_client_cr": 1912.32,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 1912,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 1912.32,
+      "pat_cr": 1912,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": -0.02,
       "fy_used": "FY26",
       "csr_spent_cr": 11.67,
       "csr_obligation_cr": 11.67,
@@ -6074,7 +6074,7 @@
       "generated_at": "2026-09-17T14:42:21.150Z"
     },
     "DABUR": {
-      "rank": 159,
+      "rank": 157,
       "name": "Dabur India Limited",
       "ticker": "DABUR",
       "exchange": "NSEI",
@@ -6082,12 +6082,12 @@
       "sector_detail": "Personal Care",
       "is_psu": false,
       "pat_client_cr": 1895.03,
-      "pat_screener_cr": 1869,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1869,
+      "pat_cr": 1895.03,
       "pat_mismatch": false,
-      "pat_delta_pct": -1.37,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 36.89,
       "csr_obligation_cr": 34.65,
@@ -6111,7 +6111,7 @@
       "generated_at": "2026-09-17T14:42:43.629Z"
     },
     "IREDA": {
-      "rank": 157,
+      "rank": 158,
       "name": "Indian Renewable Energy Development Agency Limited",
       "ticker": "IREDA",
       "exchange": "NSEI",
@@ -6148,7 +6148,7 @@
       "generated_at": "2026-09-17T14:43:12.616Z"
     },
     "MOTILALOFS": {
-      "rank": 158,
+      "rank": 159,
       "name": "Motilal Oswal Financial Services Limited",
       "ticker": "MOTILALOFS",
       "exchange": "NSEI",
@@ -6320,7 +6320,7 @@
         "page": null
       },
       "model": null,
-      "generated_at": "2026-11-02T01:32:40.350Z"
+      "generated_at": "2026-11-16T01:51:30.835Z"
     },
     "PATANJALI": {
       "rank": 166,
