@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T01:34:20.765Z",
+  "updated_at": "2026-11-16T01:44:32.310Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -2524,12 +2524,12 @@
       "sector": "Oil & Gas",
       "is_psu": true,
       "pat_client_cr": 25843.45,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 25843,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 25843.45,
+      "pat_cr": 25843,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0,
       "fy_used": "FY26",
       "csr_spent_cr": 276.88,
       "csr_obligation_cr": 396.72,
@@ -2633,12 +2633,12 @@
       "sector_detail": "Public Sector Bank",
       "is_psu": true,
       "pat_client_cr": 19430.21,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 19430,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 19430.21,
+      "pat_cr": 19430,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 0,
       "fy_used": "FY26",
       "csr_spent_cr": 35.88,
       "csr_obligation_cr": 61.69,
@@ -2646,21 +2646,21 @@
       "csr_unspent_cr": 25.81,
       "health_or_education": true,
       "examples": [
-        "Scholarships of ₹2,000/year for girl children (5th-12th standard) in Govt./Govt.-aided rural schools, benefitting ~1718 girls (₹34.36 lakh disbursed)",
-        "Construction of toilets in Govt./Govt.-aided girls' schools across regions (₹171.28 lakh spent)",
-        "Healthcare and sanitation initiatives including medical camps and sanitation infrastructure",
-        "Education and skill development programs to enhance access to quality education"
+        "Scholarships of ₹2,000/year to ~1718 girl children studying in government schools until 12th standard (₹34.36 lakh disbursed)",
+        "Partnering with organizations to provide healthcare facilities and medical camps",
+        "Construction of toilets in Govt./Govt. aided girls' schools (₹171.28 lakh spent)",
+        "Supporting programs to enhance access to quality education and skill development"
       ],
       "found": true,
       "confidence": "high",
-      "notes": "Directors' Report Note 22 (CSR) & Social Capital section, FY2025-26; Bank is a Public Sector Bank, CSR via Union Bank Social Foundation Trust (UBSFT) voluntarily (up to 1% of prior year net profit, not mandatory Sec 135). Donations approved ₹61.69 cr for 147 projects; amount disbursed ₹35.88 cr. No formal 2%-of-average-profit Sec.135 obligation disclosed (bank uses 1% voluntary basis).",
+      "notes": "Union Bank is a PSU bank (not mandatory 2% Sec.135(5) obligation); voluntary CSR via UBSFT; donations approved ₹61.69 cr (treated as obligation), ₹35.88 cr disbursed (Amount Spent) for FY2025-26 per Directors' Report Note 22 and Social Capital section; unspent = 61.69-35.88=25.81 cr.",
       "source": {
-        "annual_report_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=893ae5a6-593c-4bbb-bd88-d74ed86e47b3.pdf",
+        "annual_report_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/893ae5a6-593c-4bbb-bd88-d74ed86e47b3.pdf",
         "report_year": 2026,
         "page": 414
       },
       "model": "anthropic.claude-sonnet-5",
-      "generated_at": "2026-10-02T01:30:38.850Z"
+      "generated_at": "2026-11-16T01:44:32.310Z"
     },
     "BAJFINANCE": {
       "rank": 24,

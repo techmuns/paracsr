@@ -47,7 +47,7 @@
     },
     "500228": {
       "status": "done",
-      "updated_at": "2026-11-02T01:25:00.713Z",
+      "updated_at": "2026-11-16T01:44:11.018Z",
       "error": null
     },
     "500247": {
@@ -122,7 +122,7 @@
     },
     "500570": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:19.757Z",
+      "updated_at": "2026-11-16T01:43:29.156Z",
       "error": null
     },
     "500620": {
@@ -232,7 +232,7 @@
     },
     "532215": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:52.477Z",
+      "updated_at": "2026-11-16T01:44:02.632Z",
       "error": null
     },
     "532343": {
@@ -242,7 +242,7 @@
     },
     "532454": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:49.410Z",
+      "updated_at": "2026-11-16T01:43:59.284Z",
       "error": null
     },
     "532466": {
@@ -287,17 +287,17 @@
     },
     "SBIN": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:16.227Z",
+      "updated_at": "2026-11-16T01:43:25.561Z",
       "error": null
     },
     "RELIANCE": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:22.369Z",
+      "updated_at": "2026-11-16T01:43:31.816Z",
       "error": null
     },
     "HDFCBANK": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:24.981Z",
+      "updated_at": "2026-11-16T01:43:34.483Z",
       "error": null
     },
     "LICI": {
@@ -307,57 +307,57 @@
     },
     "ICICIBANK": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:27.595Z",
+      "updated_at": "2026-11-16T01:43:37.151Z",
       "error": null
     },
     "TCS": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:30.207Z",
+      "updated_at": "2026-11-16T01:43:39.809Z",
       "error": null
     },
     "IOC": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:32.823Z",
+      "updated_at": "2026-11-16T01:43:42.451Z",
       "error": null
     },
     "ONGC": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:35.440Z",
+      "updated_at": "2026-11-16T01:43:45.096Z",
       "error": null
     },
     "IDEA": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:38.051Z",
+      "updated_at": "2026-11-16T01:43:47.741Z",
       "error": null
     },
     "COALINDIA": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:40.672Z",
+      "updated_at": "2026-11-16T01:43:50.389Z",
       "error": null
     },
     "INFY": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:43.291Z",
+      "updated_at": "2026-11-16T01:43:53.049Z",
       "error": null
     },
     "NTPC": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:45.905Z",
+      "updated_at": "2026-11-16T01:43:55.709Z",
       "error": null
     },
     "PFC": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:55.079Z",
+      "updated_at": "2026-11-16T01:44:05.264Z",
       "error": null
     },
     "BPCL": {
       "status": "done",
-      "updated_at": "2026-11-02T01:24:57.450Z",
+      "updated_at": "2026-11-16T01:44:07.907Z",
       "error": null
     },
     "ITC": {
       "status": "done",
-      "updated_at": "2026-11-02T01:25:03.304Z",
+      "updated_at": "2026-11-16T01:44:13.645Z",
       "error": null
     },
     "BANKBARODA": {
@@ -367,7 +367,7 @@
     },
     "UNIONBANK": {
       "status": "done",
-      "updated_at": "2026-11-02T01:25:05.667Z",
+      "updated_at": "2026-11-16T01:44:32.310Z",
       "error": null
     },
     "BAJFINANCE": {
