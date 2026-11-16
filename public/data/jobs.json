@@ -32,7 +32,7 @@
     },
     "500163": {
       "status": "done",
-      "updated_at": "2026-11-02T01:33:54.239Z",
+      "updated_at": "2026-11-16T01:52:46.917Z",
       "error": null
     },
     "500182": {
@@ -162,7 +162,7 @@
     },
     "506480": {
       "status": "done",
-      "updated_at": "2026-11-02T01:33:59.873Z",
+      "updated_at": "2026-11-16T01:52:52.792Z",
       "error": null
     },
     "507685": {
@@ -282,7 +282,7 @@
     },
     "543220": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:15.760Z",
+      "updated_at": "2026-11-16T01:53:09.543Z",
       "error": null
     },
     "SBIN": {
@@ -962,42 +962,42 @@
     },
     "JSWINFRA": {
       "status": "done",
-      "updated_at": "2026-11-02T01:33:56.614Z",
+      "updated_at": "2026-11-16T01:52:49.571Z",
       "error": null
     },
     "PREMIERENE": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:02.472Z",
+      "updated_at": "2026-11-16T01:52:55.482Z",
       "error": null
     },
     "PIRAMALFIN": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:05.092Z",
+      "updated_at": "2026-11-16T01:52:58.212Z",
       "error": null
     },
     "REDINGTON": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:07.473Z",
+      "updated_at": "2026-11-16T01:53:00.935Z",
       "error": null
     },
     "SOUTHBANK": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:10.076Z",
+      "updated_at": "2026-11-16T01:53:03.664Z",
       "error": null
     },
     "NAUKRI": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:12.687Z",
+      "updated_at": "2026-11-16T01:53:06.382Z",
       "error": null
     },
     "SUNTV": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:18.365Z",
+      "updated_at": "2026-11-16T01:53:12.187Z",
       "error": null
     },
     "DIXON": {
       "status": "done",
-      "updated_at": "2026-11-02T01:34:20.732Z",
+      "updated_at": "2026-11-16T01:53:14.851Z",
       "error": null
     }
   }

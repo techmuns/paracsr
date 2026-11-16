@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:52:42.441Z",
+  "updated_at": "2026-11-16T01:53:14.886Z",
   "count": 200,
   "companies": {
     "500049": {
@@ -38,7 +38,7 @@
       "generated_at": "2026-09-17T14:08:36.819Z"
     },
     "500103": {
-      "rank": 182,
+      "rank": 183,
       "name": "Bharat Heavy Electricals Limited",
       "ticker": "500103",
       "exchange": "BSE",
@@ -221,7 +221,7 @@
       "generated_at": "2026-09-17T14:16:03.811Z"
     },
     "500163": {
-      "rank": 190,
+      "rank": 192,
       "name": "Godfrey Phillips India Limited",
       "ticker": "500163",
       "exchange": "BSE",
@@ -229,12 +229,12 @@
       "sector_detail": "Cigarettes & Tobacco Products",
       "is_psu": false,
       "pat_client_cr": 1526.06,
-      "pat_screener_cr": 1526,
-      "pat_screener_fy": "FY26",
+      "pat_screener_cr": null,
+      "pat_screener_fy": null,
       "pat_basis": "consolidated",
-      "pat_cr": 1526,
+      "pat_cr": 1526.06,
       "pat_mismatch": false,
-      "pat_delta_pct": 0,
+      "pat_delta_pct": null,
       "fy_used": "FY26",
       "csr_spent_cr": 11.52,
       "csr_obligation_cr": 17.66,
@@ -724,7 +724,7 @@
       "generated_at": "2026-09-17T14:35:23.086Z"
     },
     "500488": {
-      "rank": 186,
+      "rank": 187,
       "name": "Abbott India Limited",
       "ticker": "500488",
       "exchange": "BSE",
@@ -1161,7 +1161,7 @@
       "generated_at": "2026-09-17T14:10:09.731Z"
     },
     "506480": {
-      "rank": 192,
+      "rank": 193,
       "name": "GOCL Corporation Limited",
       "ticker": "506480",
       "exchange": "BSE",
@@ -1628,7 +1628,7 @@
       "generated_at": "2026-09-17T14:47:04.928Z"
     },
     "532144": {
-      "rank": 179,
+      "rank": 180,
       "name": "Welspun Corp Limited",
       "ticker": "532144",
       "exchange": "BSE",
@@ -1974,7 +1974,7 @@
       "generated_at": "2026-10-16T00:20:31.410Z"
     },
     "539437": {
-      "rank": 180,
+      "rank": 181,
       "name": "IDFC First Bank Limited",
       "ticker": "539437",
       "exchange": "BSE",
@@ -6613,7 +6613,7 @@
       "generated_at": "2026-09-17T14:49:42.029Z"
     },
     "ICICIPRULI": {
-      "rank": 181,
+      "rank": 182,
       "name": "ICICI Prudential Life Insurance Company Limited",
       "ticker": "ICICIPRULI",
       "exchange": "NSEI",
@@ -6686,7 +6686,7 @@
       "generated_at": "2026-09-17T14:51:15.033Z"
     },
     "JIOFIN": {
-      "rank": 183,
+      "rank": 184,
       "name": "Jio Financial Services Limited",
       "ticker": "JIOFIN",
       "exchange": "NSEI",
@@ -6721,7 +6721,7 @@
       "generated_at": "2026-09-17T14:51:30.547Z"
     },
     "COFORGE": {
-      "rank": 184,
+      "rank": 185,
       "name": "Coforge Limited",
       "ticker": "COFORGE",
       "exchange": "NSEI",
@@ -6758,7 +6758,7 @@
       "generated_at": "2026-09-17T14:51:53.119Z"
     },
     "SPARC": {
-      "rank": 185,
+      "rank": 186,
       "name": "Sun Pharma Advanced Research Company Limited",
       "ticker": "SPARC",
       "exchange": "NSEI",
@@ -6790,7 +6790,7 @@
       "generated_at": "2026-09-17T14:52:07.534Z"
     },
     "IGL": {
-      "rank": 187,
+      "rank": 189,
       "name": "Indraprastha Gas Limited",
       "ticker": "IGL",
       "exchange": "NSEI",
@@ -6826,7 +6826,7 @@
       "generated_at": "2026-10-16T00:22:19.761Z"
     },
     "TATACONSUM": {
-      "rank": 188,
+      "rank": 190,
       "name": "Tata Consumer Products Limited",
       "ticker": "TATACONSUM",
       "exchange": "NSEI",
@@ -6863,7 +6863,7 @@
       "generated_at": "2026-09-17T14:53:01.452Z"
     },
     "CESC": {
-      "rank": 178,
+      "rank": 179,
       "name": "CESC Limited",
       "ticker": "CESC",
       "exchange": "NSEI",
@@ -6898,7 +6898,7 @@
       "generated_at": "2026-09-17T14:53:22.794Z"
     },
     "NAM-INDIA": {
-      "rank": 189,
+      "rank": 191,
       "name": "Nippon Life India Asset Management Limited",
       "ticker": "NAM-INDIA",
       "exchange": "NSEI",
@@ -6935,7 +6935,7 @@
       "generated_at": "2026-09-17T14:53:42.863Z"
     },
     "JSWINFRA": {
-      "rank": 191,
+      "rank": 188,
       "name": "JSW Infrastructure Limited",
       "ticker": "JSWINFRA",
       "exchange": "NSEI",
@@ -6943,12 +6943,12 @@
       "sector_detail": "Port & Port services",
       "is_psu": false,
       "pat_client_cr": 1523.31,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 1547,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 1523.31,
+      "pat_cr": 1547,
       "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_delta_pct": 1.56,
       "fy_used": "FY26",
       "csr_spent_cr": 4.92,
       "csr_obligation_cr": 4.92,
@@ -6971,7 +6971,7 @@
       "generated_at": "2026-09-17T14:54:21.961Z"
     },
     "PREMIERENE": {
-      "rank": 193,
+      "rank": 194,
       "name": "Premier Energies Limited",
       "ticker": "PREMIERENE",
       "exchange": "NSEI",
@@ -7006,7 +7006,7 @@
       "generated_at": "2026-10-02T01:38:43.783Z"
     },
     "PIRAMALFIN": {
-      "rank": 194,
+      "rank": 195,
       "name": "Piramal Finance Limited",
       "ticker": "PIRAMALFIN",
       "exchange": "NSEI",
@@ -7043,7 +7043,7 @@
       "generated_at": "2026-09-17T14:55:18.573Z"
     },
     "REDINGTON": {
-      "rank": 195,
+      "rank": 199,
       "name": "Redington Limited",
       "ticker": "REDINGTON",
       "exchange": "NSEI",
@@ -7051,12 +7051,12 @@
       "sector_detail": "Trading & Distributors",
       "is_psu": false,
       "pat_client_cr": 1490.22,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 1284,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 1490.22,
-      "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_cr": 1284,
+      "pat_mismatch": true,
+      "pat_delta_pct": -13.84,
       "fy_used": "FY26",
       "csr_spent_cr": 21.66,
       "csr_obligation_cr": 27.87,
@@ -7187,7 +7187,7 @@
       "generated_at": "2026-10-02T01:39:08.566Z"
     },
     "DIXON": {
-      "rank": 199,
+      "rank": 178,
       "name": "Dixon Technologies (India) Limited",
       "ticker": "DIXON",
       "exchange": "NSEI",
@@ -7195,12 +7195,12 @@
       "sector_detail": "Consumer Electronics",
       "is_psu": false,
       "pat_client_cr": 1438.64,
-      "pat_screener_cr": null,
-      "pat_screener_fy": null,
+      "pat_screener_cr": 1644,
+      "pat_screener_fy": "FY26",
       "pat_basis": "consolidated",
-      "pat_cr": 1438.64,
-      "pat_mismatch": false,
-      "pat_delta_pct": null,
+      "pat_cr": 1644,
+      "pat_mismatch": true,
+      "pat_delta_pct": 14.27,
       "fy_used": "FY26",
       "csr_spent_cr": 4.9,
       "csr_obligation_cr": 4.9,
